@@ -565,11 +565,12 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .button--xl {
-  font-size: var(--text-base);
+  font-size: 22px;
   padding-block-start: var(--spacing-4);
   padding-block-end: var(--spacing-4);
   padding-inline-start: var(--spacing-8);
   padding-inline-end: var(--spacing-8);
+  box-shadow: 0 4px 12px #0003;
 }
 
 .button--secondary {
