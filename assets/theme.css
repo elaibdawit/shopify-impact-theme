@@ -3622,7 +3622,6 @@ tfoot td {
   --swatch-size: var(--spacing-10);
   height: calc(var(--swatch-size) * .4);
   margin: 0;
-  margin: 0 8px 0.5rem 0 !important;
 }
 
 .color-swatch--rectangle:before {
