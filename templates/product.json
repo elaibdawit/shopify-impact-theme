@@ -97,6 +97,20 @@
           "settings": {
             "liquid": "<div style=\"display: flex; align-items: flex-start; gap: 12px; background-color: #f5f5f5; padding: 16px; border-radius: 8px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/unnamed-2_200x_4307f521-39e1-4b12-a5f4-39f154614c3a.gif?v=1745951154\" alt=\"30 Day Guarantee Icon\" style=\"width: 40px; height: 40px;\">\n  <div>\n    <div style=\"font-weight: bold; font-size: 16px;\">30-Day Guarantee</div>\n    <div style=\"font-size: 14px; color: #555;\">\n      We stand behind the quality of our products with free exchanges and hassle-free returns to ensure you love it.\n    </div>\n  </div>\n</div>"
           }
+        },
+        "collapsible_text_q37zHB": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Shipping",
+            "content": "<p>We are committed to getting your order to you as quickly as possible. Here's how our shipping works:</p><p></p><p><strong>Processing time</strong>: Due to high demand is 2-4 business days.</p><p><strong>Shipping time:</strong> Once shipped, orders typically arrive within 5-12 business days depending on your location. You will receive a tracking number as soon as your order is on its way.</p><p><strong>Thank you for your patience and understanding.</strong></p><p><em><strong>It's worth the wait!</strong></em></p>"
+          }
+        },
+        "collapsible_text_8LkTXF": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "30-Day Money Back Guarantee",
+            "content": "<p>We want you to love your purchase! That’s why we offer a<strong>30-day hassle-free return policy.Eligibility:</strong>Items must be returned within 30 days of delivery in their original condition and packaging.<br/><br/><strong>Process:</strong>Simply contact our customer support team, and we’ll guide you through the easy return process.<br/><strong>Refunds:</strong>Once your return is received and inspected, we’ll process your refund to your original payment method.<br/><br/><em><strong>Your satisfaction is our priority!</strong></em></p>"
+          }
         }
       },
       "block_order": [
@@ -113,7 +127,9 @@
         "liquid_kTMkHn",
         "buy_buttons",
         "liquid_UgVcGw",
-        "liquid_hN6KYt"
+        "liquid_hN6KYt",
+        "collapsible_text_q37zHB",
+        "collapsible_text_8LkTXF"
       ],
       "settings": {
         "full_width": true,
