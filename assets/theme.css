@@ -3584,6 +3584,7 @@ tfoot td {
   --swatch-offset: 3px;
   --swatch-size: var(--spacing-7);
   --swatch-margin: calc(var(--swatch-offset) * 2);
+  margin: 0 8px 0.5rem 0 !important;
   width: var(--swatch-size);
   height: var(--swatch-size);
   margin: var(--swatch-margin);
