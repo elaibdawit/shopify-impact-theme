@@ -3134,6 +3134,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
   .quick-buy-drawer .color-swatch {
     --swatch-size: 1.5rem;
+    margin: 0 8px 0.5rem 0 !important;
   }
 
   .quick-buy-drawer .color-swatch--rectangle {
