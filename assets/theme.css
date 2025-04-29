@@ -1400,6 +1400,11 @@ scroll-carousel {
 .badge--on-sale {
   --badge-background: var(--on-sale-badge-background);
   --badge-color: var(--on-sale-badge-text);
+    font-size: 12px !important;
+    font-weight: 700;
+    padding: 2px 8px;
+    position: relative;
+    top: 1px;
 }
 
 .badge--current {
