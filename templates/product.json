@@ -133,7 +133,7 @@
       ],
       "settings": {
         "full_width": true,
-        "show_fixed_add_to_cart": true,
+        "show_fixed_add_to_cart": false,
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -172,8 +172,8 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "",
-            "title": "Tiana F.",
+            "author": "Tiana F.",
+            "title": "",
             "content": "<p>\"This dress is so comfy and fits perfectly. The fabric feels nice, and it looks great for both casual and dressy occasions.\"</p>"
           }
         },
@@ -184,8 +184,8 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "",
-            "title": "Gaby R.",
+            "author": "Gaby R.",
+            "title": "",
             "content": "<p>\"Such a cute dress! The material is soft and breathable, and the fit is comfortable. It’s perfect for a warm day.\"</p>"
           }
         }
