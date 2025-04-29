@@ -46,7 +46,7 @@
     "currency_code_enabled": false,
     "show_page_transition": true,
     "heading_apparition": "split_fade",
-    "color_swatch_style": "rectangle",
+    "color_swatch_style": "round",
     "discount_mode": "percentage",
     "product_color_display": "variant",
     "product_image_aspect_ratio": "natural",
