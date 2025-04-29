@@ -9856,6 +9856,8 @@ split-lines {
 
 .line-through {
   text-decoration: line-through;
+  font-size: 22px !important;  /* Change to desired size */
+  color: #888888 !important; 
 }
 
 .break-all {
