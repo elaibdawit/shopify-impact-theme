@@ -8984,7 +8984,7 @@ split-lines {
 
 .text-on-sale {
   color: rgb(var(--on-sale-text));
-  font-size: 22px !important; /* You can adjust the size as needed */
+  font-size: 26px !important; /* You can adjust the size as needed */
 }
 
 
