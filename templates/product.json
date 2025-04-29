@@ -168,41 +168,31 @@
         "testimonial_rFKXQ7": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/download_1.jpg",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "",
+            "title": "Tiana F.",
+            "content": "<p>\"This dress is so comfy and fits perfectly. The fabric feels nice, and it looks great for both casual and dressy occasions.\"</p>"
           }
         },
         "testimonial_PYLJP9": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/download_2.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_KJBFff": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "",
+            "title": "Gaby R.",
+            "content": "<p>\"Such a cute dress! The material is soft and breathable, and the fit is comfortable. It’s perfect for a warm day.\"</p>"
           }
         }
       },
       "block_order": [
         "testimonial_rFKXQ7",
-        "testimonial_PYLJP9",
-        "testimonial_KJBFff"
+        "testimonial_PYLJP9"
       ],
       "custom_css": [],
       "name": "Testimonials",
@@ -214,12 +204,12 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "#f0f0f0",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "",
+        "testimonial_card_background": "#ffffff",
         "testimonial_card_text_color": ""
       }
     },
