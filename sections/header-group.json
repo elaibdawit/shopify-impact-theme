@@ -24,7 +24,7 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "FREE SHIPPING",
+            "text": "SPRING SALE LIVE",
             "url": ""
           }
         }
@@ -36,7 +36,7 @@
       "settings": {
         "enable_sticky": true,
         "text_size": "text-base",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
         "background_gradient": "",
