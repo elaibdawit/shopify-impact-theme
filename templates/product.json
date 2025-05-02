@@ -96,6 +96,7 @@
         },
         "liquid_UgVcGw": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div style=\"display: flex; justify-content: center; align-items: center; background-color: #f5f5f5; padding: 12px 16px; border-radius: 8px; font-weight: bold; font-size: 16px; text-align: center;\">\n  🌍 <span style=\"margin-left: 8px;\">| Free Shipping</span>\n</div>"
           }
