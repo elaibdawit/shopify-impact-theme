@@ -17,7 +17,7 @@
         "message_tzQ8QT": {
           "type": "message",
           "settings": {
-            "text": "END OF SALE: UP TO 70% OFF",
+            "text": "UP TO 70% OFF",
             "url": ""
           }
         },
@@ -36,7 +36,7 @@
       "settings": {
         "enable_sticky": true,
         "text_size": "text-base",
-        "navigation_mode": "arrows",
+        "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
         "background_gradient": "",
