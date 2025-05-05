@@ -2146,7 +2146,139 @@
         "order_updates_upcoming_step_prefix": "Étape à venir : ",
         "in_transit": "En route",
         "in_transit_title": "Votre commande est en route",
-        "in_transit_description": "Vous recevrez des mises à jour sur son avancement."
+        "in_transit_description": "Vous recevrez des mises à jour sur son avancement.",
+        "in_transit_description_days": "Vous devriez recevoir votre commande dans les %{number} prochains jours.",
+        "in_transit_description_today": "Vous devriez recevoir votre commande aujourd'hui.",
+        "in_transit_description_tomorrow": "Vous devriez recevoir votre commande dans la journée.",
+        "no_tracking_number": "Il n'y a pas de numéro de suivi pour cette commande.",
+        "out_for_delivery": "En livraison",
+        "out_for_delivery_title": "Votre commande est en cours de livraison",
+        "out_for_delivery_description_html": "Votre commande est en route et devrait arriver aujourd'hui. Si elle n'est pas livrée dans les 2 prochains jours, %{contact_us}.",
+        "out_for_delivery_local_title": "Votre commande est en cours de livraison",
+        "out_for_delivery_local_description_html": "Votre commande arrivera bientôt.",
+        "attempted_delivery": "Tentative de livraison",
+        "attempted_delivery_title": "Une tentative de livraison de votre commande a été effectuée",
+        "attempted_delivery_description_html": "Une tentative de livraison de votre commande a été effectuée mais elle a échoué. %{contact_us} pour organiser une nouvelle tentative de livraison.",
+        "attempted_delivery_local_title": "Livraison manquée",
+        "attempted_delivery_local_description_html": "Nous n'avons pas pu livrer votre commande. Pour programmer une nouvelle livraison, %{contact_us}.",
+        "delivered": "Livré",
+        "delivered_title": "Votre commande a été livrée",
+        "delivered_description_html": "Votre commande a été livrée à l'adresse que vous avez fournie. Si vous ne l'avez pas reçue, ou si vous avez d'autres problèmes, %{contact_us}.",
+        "delivered_local_title": "Votre commande a été livrée",
+        "delivered_local_description_html": "Vous n'avez pas reçu votre commande ? %{let_us_know}.",
+        "choose_payment_method_later": "Choisir le mode de paiement plus tard",
+        "picked_up_title": "Votre commande a été récupérée",
+        "picked_up_description_html": "Votre commande a été récupérée à %{location_name} le %{date}.",
+        "contact_us": "Contactez-nous",
+        "contact_us_lowercase": "Contactez-nous",
+        "contact_us_html": "Besoin d'aide? %{contact_us}",
+        "updated_time": "Mis à jour il y a %{time_ago}",
+        "failure": "Non livré",
+        "failed_title": "Votre commande n'a pas pu être livrée",
+        "failed_contact_merchant": "Contactez %{company} pour organiser la livraison.",
+        "failed_contact_merchant_no_company": "Contactez-nous pour organiser la livraison.",
+        "non_shippable_title": "Votre commande est terminée",
+        "let_us_know": "Faites-le nous savoir",
+        "login_title": "Connectez-vous pour voir tous les détails de la commande",
+        "login_description": "Vous pouvez trouver votre numéro de commande dans le reçu que vous avez reçu par e-mail.",
+        "login_description_phone": "Vous pouvez trouver votre numéro de commande dans le reçu que vous avez reçu par message texte.",
+        "login_not_customer_html": "Pas %{name} ? Vous pouvez %{link}",
+        "login_reorder_link_text": {
+          "one": "achetez aussi ce produit",
+          "other": "achetez aussi ces produits"
+        },
+        "customer_information_hidden_fields_message": "Connectez-vous pour voir toutes les informations client.",
+        "cancelled_title": "Votre commande a été annulée",
+        "cancelled_description": "Votre commande a été annulée le %{date}. Contactez-nous si vous avez des questions.",
+        "order_number_label": "Numéro de commande",
+        "customer_validation_error": "Entrez un e-mail ou un numéro de commande valide.",
+        "customer_validation_error_phone": "Entrez un numéro de téléphone ou de commande valide.",
+        "login": "Se connecter",
+        "unfulfilled_items_title": "Préparation pour l'expédition",
+        "unfulfilled_items_description": "Nous préparons actuellement ces articles pour l'expédition.",
+        "marker": {
+          "current": "Emplacement actuel de l'expédition",
+          "shipping": "Adresse de livraison"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Emplacement actuel de l'expédition",
+          "shipping": "Lieu de prise en charge"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Articles dans cet envoi",
+          "unfulfilled_table_title": "Articles en préparation pour l'expédition",
+          "product_image_label": "Image du produit",
+          "description_label": "Description",
+          "quantity_label": "Quantité"
+        },
+        "order_updates_description_missing": "Vous ne recevez pas de mises à jour sur la livraison.",
+        "order_updates_subscribe_to_email_notifications": "Recevez les mises à jour d'expédition par e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Recevez des mises à jour sur la livraison par e-mail ou SMS",
+        "order_updates_subscribe_to_phone_notifications": "Recevez des mises à jour d'expédition par SMS",
+        "order_updates_submit_subscription": "Soumettre",
+        "track_shipment": "Suivre l'expédition",
+        "other_options": "Autres options",
+        "delivery_information_label": "Informations de livraison :",
+        "gift_card_sent_confirmation": "Cartes cadeaux envoyées",
+        "qr_code": {
+          "send_link_to_phone": "Ou envoyez un lien sur votre téléphone",
+          "title": "Suivez sur votre téléphone"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scannez avec votre téléphone"
+          },
+          "sms": {
+            "title": "Ou envoyez un lien sur votre téléphone"
+          }
+        },
+        "view_business_customer_account": "Voir le compte",
+        "breadcrumbs_submitted": "Soumis",
+        "breadcrumbs_in_review": "En revue",
+        "breadcrumbs_confirmed": "Confirmé",
+        "missing_shipping_address_banner": {
+          "title": "La commande n'a pas d'adresse de livraison",
+          "text_html": "%{contact_us} pour ajouter votre adresse",
+          "contact_us": "Contactez-nous"
+        },
+        "first_payment_complete": "Premier paiement effectué",
+        "in_store_purchase": "Achat en magasin",
+        "location_title": "Emplacement",
+        "thank_you_ready_for_picked_up": "Votre commande a été récupérée à %{address}.",
+        "ready_for_delivery": "Prêt à être livré",
+        "order_updates_subscribe_to_email_notifications_failed": "Nous ne pouvons pas enregistrer cet e-mail pour les mises à jour. Veuillez réessayer ou utiliser un autre e-mail.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'adresse e-mail que vous avez saisie existe déjà.",
+        "subscriptions_management": {
+          "title": "Abonnement",
+          "description": "Continuez vers votre compte pour consulter et gérer vos abonnements.",
+          "button_label": "Gérez votre abonnement"
+        },
+        "manage_order_label": "Gérez votre commande",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Vous recevrez un SMS avec votre carte cadeau dans quelques minutes.",
+          "other": "Vous recevrez un SMS avec vos cartes-cadeaux dans quelques minutes."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Vous recevrez un e-mail avec votre carte cadeau dans quelques minutes.",
+          "other": "Vous recevrez un e-mail avec vos cartes-cadeaux dans quelques minutes."
+        },
+        "gift_card_email_title": {
+          "one": "La carte cadeau a été envoyée par e-mail",
+          "other": "Les cartes-cadeaux ont été envoyées par e-mail"
+        },
+        "gift_card_text_title": {
+          "one": "La carte cadeau a été envoyée par message texte",
+          "other": "Les cartes-cadeaux ont été envoyées par message texte"
+        },
+        "resend_gift_cards_by_email": "Renvoyer l'e-mail",
+        "resend_gift_cards_by_text": "Renvoyer le message texte",
+        "gift_card_resent_confirmation": {
+          "one": "La carte cadeau a été renvoyée.",
+          "other": "Les cartes-cadeaux ont été renvoyées."
+        },
+        "gift_card_resend_failure": {
+          "one": "Il y a eu un problème lors de la réexpédition de votre carte cadeau. Essayez à nouveau ou contactez-nous."
+        }
       }
     }
   }
