@@ -357,66 +357,66 @@
     "general": {
       "title": "Buscar",
       "terms": "Resultados de «{{ terms }}»",
-      "search_placeholder": "Buscar…",
+      "search_placeholder": "Buscar...",
       "products": "Productos",
       "suggestions": "Sugerencias",
       "collections": "Colecciones",
       "posts": "Entradas de blog",
       "pages": "Páginas",
-      "clear": "Borrar",
+      "clear": "Claro",
       "view_all": "Ver todo",
       "view_all_results": "Ver todos los resultados",
-      "no_results": "No se encontraron resultados."
+      "no_results": "No se pudieron encontrar resultados."
     },
     "results_count": {
-      "zero": "0 resultados para «{{ terms }}»",
-      "one": "1 resultado para «{{ terms }}»",
-      "other": "{{ count }} resultados para «{{ terms }}»"
+      "zero": "0 resultados para \"{{ terms }}\"",
+      "one": "1 resultado para \"{{ terms }}\"",
+      "other": "{{ count }} resultados para \"{{ terms }}\""
     }
   },
   "gift_card": {
     "general": {
-      "title": "Aquí tienes tu tarjeta de regalo",
+      "title": "Aquí está tu tarjeta de regalo",
       "copy": "Copiar",
       "print": "Imprimir",
       "scan": "o escanea este código QR",
-      "back_to_store": "Volver a la tienda"
+      "back_to_store": "De vuelta a la tienda"
     },
     "issued": {
-      "remaining_amount": "Importe disponible",
-      "out_of_html": "de {{ initial_value }}",
-      "redeem_instructions": "Usa este código para canjear la tarjeta de regalo al finalizar la compra:",
+      "remaining_amount": "Cantidad restante",
+      "out_of_html": "fuera de {{ initial_value }}",
+      "redeem_instructions": "Utiliza este código para canjear tu tarjeta de regalo en la caja:",
       "code": "Código de tarjeta de regalo",
       "expires_on": "Caduca el: {{ expires_on }}",
-      "expired": "Tu tarjeta de regalo ha caducado o se ha desactivado.",
-      "add_to_apple_wallet": "Añadir a Apple Wallet"
+      "expired": "Su tarjeta de regalo ha expirado o ha sido deshabilitada.",
+      "add_to_apple_wallet": "Agregar a Apple Wallet"
     },
     "recipient": {
-      "checkbox": "Quiero enviar esto como un regalo.",
-      "email_label": "Correo electrónico de la persona destinataria",
-      "name_label": "Nombre de la persona destinataria (opcional)",
+      "checkbox": "Quiero enviar esto como regalo",
+      "email_label": "Correo electrónico del destinatario",
+      "name_label": "Nombre del destinatario (opcional)",
       "message_label": "Mensaje (opcional)"
     }
   },
   "password": {
     "general": {
-      "follow_us": "Síguenos",
-      "powered_by": "Esta tienda se ha creado con",
-      "store_owner": "¿Eres el dueño?",
-      "login": "Iniciar sesión"
+      "follow_us": "Síganos",
+      "powered_by": "Esta tienda está impulsada por",
+      "store_owner": "¿Dueño de la tienda?",
+      "login": "Acceso"
     },
     "storefront_access": {
-      "enter_password": "Accede con tu contraseña",
+      "enter_password": "Ingresar usando contraseña",
       "store_access": "Acceso a la tienda",
-      "instructions": "Escribe la contraseña a continuación para acceder a la tienda",
+      "instructions": "Introduce la contraseña abajo para acceder a la tienda",
       "password": "Contraseña",
       "enter_store": "Entrar a la tienda"
     }
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "Este producto ha recibido {{ rating_value }} de {{ rating_max }} estrellas.",
-      "leave_review": "Dejar una reseña",
+      "review_info": "Este producto tiene una calificación de {{ rating_value }} de {{ rating_max }} estrellas.",
+      "leave_review": "Deja una reseña",
       "review_count": {
         "zero": "Este producto aún no tiene reseñas.",
         "one": "Ha recibido {{ count }} reseña.",
