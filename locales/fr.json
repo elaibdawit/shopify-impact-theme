@@ -2597,8 +2597,91 @@
         "violations_title": "{{violation}} est manquant ou invalide",
         "individual_violations_title": {
           "DeliveryViolations": "Adresse de livraison",
-          "PaymentViolations": "Adresse de facturation"
+          "PaymentViolations": "Adresse de facturation",
+          "OtherViolations": "Informations sur la commande",
+          "UnhandledViolations": "Informations sur la commande"
+        },
+        "all_violations_content": "Appelez-nous ou {{emailLink}} pour mettre à jour ces informations et finaliser votre commande :",
+        "all_violations_email_link": "e-mail",
+        "editable_shipping_address_violations_message_title": "Ajoutez ces informations pour compléter votre commande :",
+        "editable_shipping_address_violations_message_footer": "Pour mettre à jour définitivement l'adresse de cet emplacement, {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "Contactez-nous",
+        "shipping_address_incomplete_title": "L'adresse de livraison est incomplète",
+        "calculating_shipping": "La livraison est toujours en cours de calcul. Réessayez dans quelques secondes. Vous n'avez pas été facturé.",
+        "calculating_taxes": "Les taxes sont toujours en cours de calcul. Réessayez dans quelques secondes. Vous n'avez pas été facturé.",
+        "generic_processing_error": {
+          "title": "Il y a eu un problème lors du traitement de votre commande",
+          "body": "Vous n'avez pas été facturé. Essayez à nouveau ou utilisez un autre mode de paiement."
         }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Revoir",
+          "link_label": "{{partnerDisplayName}} Conditions générales"
+        }
+      },
+      "online_store_chat": {
+        "title": "Des questions ? Discutez avec nous"
+      },
+      "local_pickup": {
+        "location_address_search_label": "Adresse",
+        "location_information": {
+          "one": "Il y a %{count} magasin avec du stock proche de %{address}",
+          "other": "Il y a %{count} magasins avec un stock proche de %{address}"
+        },
+        "toggle_location": "Changer de lieu",
+        "or": "OU",
+        "cancel": "Annuler",
+        "your_location": "votre emplacement",
+        "search_button": "Trouver des magasins",
+        "no_stores_found": "Aucun magasin trouvé",
+        "all_stores_far_away": {
+          "title": "Les magasins les plus proches sont à plus de %{distance}",
+          "description": "Sélectionnez un magasin ou %{ship_to_address_link} à la place.",
+          "ship_to_address_link": "adresse de livraison"
+        },
+        "could_not_resolve_address": "Votre adresse n'a pas pu être localisée. Essayez de nouveau ou utilisez une adresse différente",
+        "paginator": {
+          "accessibility_label": "Pagination de retrait local",
+          "previous": "Page précédente",
+          "next": "Page suivante",
+          "label": {
+            "one": "%{first} - %{last} sur %{count} magasin",
+            "other": "%{first} - %{last} sur %{count} magasins"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Afficher %{count} emplacement(s) de plus",
+          "other": "Afficher %{count} emplacements supplémentaires"
+        }
+      },
+      "captcha": {
+        "title": "Complétez le CAPTCHA pour continuer",
+        "errors": {
+          "not_solved": "Complétez le CAPTCHA pour continuer"
+        }
+      },
+      "clipboard": {
+        "copied": "Copié",
+        "failed_to_copy": "Échec de la copie"
+      },
+      "discount_errors": {
+        "generic_error": "Votre commande n'a pas pu être traitée car votre code de réduction n'est plus disponible. Vérifiez le total de votre commande et réessayez."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Vous n'avez plus la permission de passer des commandes B2B. %{logout_url} pour passer une commande personnelle à la place.",
+        "log_out_link_text": "Se déconnecter",
+        "lost_permissions_subtitle": "Vous n'avez plus la permission de passer des commandes B2B, déconnectez-vous pour passer une commande personnelle.",
+        "lost_permissions_title": "Pas d'autorisations de localisation"
+      },
+      "shop_pay_external": {
+        "title": "Boutique Payer Caisse",
+        "errors": {
+          "problem_loading": "Il y a un problème lors du chargement de Shop Pay",
+          "try_again_later": "Vérifiez votre connexion ou fermez cette fenêtre et réessayez dans quelques instants.",
+          "checkout_has_expired": "Votre session de paiement a expiré. Fermez cette fenêtre et essayez de passer à la caisse à nouveau depuis {{shopName}}."
+        },
+        "return_to_store": "Retour à {{shopName}}"
       }
     }
   }
