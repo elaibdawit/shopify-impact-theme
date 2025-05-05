@@ -4043,7 +4043,81 @@
       "tuesdayAbbreviation": "Tu",
       "wednesdayAbbreviation": "Nosotros",
       "thursdayAbbreviation": "El",
-      "fridayAbbreviation": "Es"
+      "fridayAbbreviation": "Es",
+      "saturdayAbbreviation": "Sá",
+      "sundayAbbreviation": "Su",
+      "showNextMonth": "Mostrar el próximo mes, {{month}} {{year}}",
+      "showPreviousMonth": "Mostrar mes anterior, {{month}} {{year}}",
+      "rangeStart": "Inicio de rango",
+      "inRange": "Dentro del alcance",
+      "rangeEnd": "Fin del rango",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} artículo disponible",
+        "other": "{{count}} artículos disponibles"
+      },
+      "removeItem": "Eliminar {{label}}",
+      "removeTag": "Quitar etiqueta",
+      "month": {
+        "one": "mes",
+        "other": "meses"
+      },
+      "mapClusterTitle": {
+        "one": "Grupo de {{number}} marcador",
+        "other": "Grupo de {{number}} marcadores"
+      },
+      "expandSheet": "Expandir",
+      "qrCode": "Código QR",
+      "addFile": "Agregar archivo",
+      "dropzoneInvalidFileType": "Tipo de archivo no soportado",
+      "dropzoneDraggedOver": "Suelte el archivo para cargarlo"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Personalizar",
+      "hide_bar": "Ocultar barra",
+      "navigate_to_admin": "Ir a administración",
+      "close_preview": "Cerrar vista previa",
+      "previewing": "Estás previsualizando:",
+      "saved_at": "Guardado {{date}} a las {{time}}",
+      "viewing": "Estás viendo:",
+      "not_available": "Datos del perfil no disponibles",
+      "actions_button": "Comportamiento"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Selecciona la extensión llamada {{extensionName}}",
+        "unselect": "Deseleccione la extensión llamada {{extensionName}}",
+        "move_down": "Mover la extensión a la siguiente posición",
+        "move_up": "Mover la extensión a la posición anterior",
+        "remove": "Eliminar extensión",
+        "move_down_tooltip": "Mover a la siguiente posición",
+        "move_up_tooltip": "Mover a la posición anterior",
+        "remove_tooltip": "Eliminar"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Este enlace no se puede abrir dentro del editor. Se abrirá en una nueva ventana ({{resolved_to_link}}). Haga clic en Aceptar para continuar."
+    },
+    "settings": {
+      "title": "Ajustes",
+      "loading_accessibility_message": "Cargando página de configuración",
+      "log_out_everywhere": {
+        "title": "Cerrar sesión en todas partes",
+        "description": "Si has perdido un dispositivo o tienes preocupaciones de seguridad, cierra sesión en todas partes para garantizar la seguridad de tu cuenta.",
+        "button": "Cerrar sesión en todas partes",
+        "warning_message": "También se cerrará la sesión en este dispositivo."
+      }
+    },
+    "shop_ads": {
+      "title": "Ofertas exclusivas de Shop",
+      "subtitle": "Disponible por tiempo limitado",
+      "button": "Explorar en la tienda",
+      "previous_button": "Anterior",
+      "next_button": "Próximo"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Los clientes pueden solicitar y gestionar las devoluciones por sí mismos."
+      }
     }
   }
 }
