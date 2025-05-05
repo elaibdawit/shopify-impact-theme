@@ -2664,7 +2664,81 @@
       "contains_spaces": "comienza o termina con espacios.",
       "email_domain_invalid": "el proveedor no es compatible",
       "invalid_for_country": "no es válido para %{country}",
-      "invalid_for_country_and_province": "no es válido para %{province} y %{country}"
+      "invalid_for_country_and_province": "no es válido para %{province} y %{country}",
+      "invalid_province_in_country": "no es una provincia válida en %{country}",
+      "invalid_state_in_country": "no es un estado válido en %{country}",
+      "invalid_region_in_country": "no es una región válida en %{country}",
+      "less_than_or_equal_to": "debe ser menor o igual que %{count}",
+      "not_supported": "no es compatible",
+      "full_name_required": "Ingrese un nombre y un apellido",
+      "invalid_for_card_type": "no es válido",
+      "invalid_type": "lo siento, no aceptamos tarjetas de este tipo",
+      "invalid_format": "El formato no es válido",
+      "expired": "ha expirado",
+      "invalid_start_date_or_issue_number_for_debit": "se requiere una fecha de inicio válida o un número de emisión",
+      "invalid_expiry_year": "no es un año de expiración válido",
+      "reset_password_html": "Esta dirección de correo electrónico ya está asociada con una cuenta. Si esta cuenta es tuya, puedes <a href=\"/account/login#recover\">restablecer tu contraseña</a>",
+      "verify_email": "Hemos enviado un correo electrónico a %{customer_email}, por favor haga clic en el enlace incluido para verificar su dirección de correo electrónico.",
+      "product_not_available": "el producto no está publicado para este cliente.",
+      "shop_404": {
+        "title": "¡Crea un sitio web de comercio electrónico y vende en línea! Software de comercio electrónico de Shopify",
+        "heros": {
+          "store_unavailable": "Lo siento, esta tienda no está disponible actualmente.",
+          "store_not_exist": "Esta tienda no existe.",
+          "no_storefront": "Esta tienda aún no tiene un sitio web."
+        },
+        "links": {
+          "explore_other_stores": "Explorar otras tiendas",
+          "start_free_trial": "Comience una prueba gratuita"
+        },
+        "owner_ctas": {
+          "header": "¿Eres el dueño de la tienda?",
+          "fix_domain": "Termina de configurar tu nueva dirección web, ve a %{domain_settings_link}. Haz clic en “Conectar dominio” e ingresa: %{domain}.<br>Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
+          "fix_domain_link_text": "tus configuraciones de dominio",
+          "forgot_your_store_link_text": "Olvidé mi tienda",
+          "add_storefront": "Puedes configurar tu sitio web agregando el canal de Tienda Online en tu %{admin_link}. Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
+          "admin_link_text": "administración"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vender en persona",
+            "caption": "Obtén las funciones que necesitas para gestionar tu tienda minorista, ya sea que estés comenzando o expandiéndote.",
+            "link_text": "Comience una prueba gratuita"
+          },
+          "open_a_store": {
+            "header": "Abre una nueva tienda Shopify",
+            "caption": "Comienza una prueba gratuita de 3 días, luego continúa por $1/mes durante los próximos 3 meses.",
+            "link_text": "Regístrate ahora"
+          },
+          "editions": {
+            "header": "Consulta Shopify Editions",
+            "caption": "Con más de 100 actualizaciones de productos, puedes ser más productivo y creativo, y más poderoso en el comercio de lo que jamás imaginaste.",
+            "link_text": "Explorar las últimas Ediciones"
+          },
+          "store_owner": {
+            "header": "¿Eres el dueño de la tienda?",
+            "caption": "¿Tienes problemas para acceder a tu tienda? Prueba la función %{forgot_your_store_link}. Si deseas reactivar tu tienda, contacta con %{shopify_support_link}.",
+            "shopify_support_link_text": "Soporte de Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Error al restablecer la contraseña",
+        "subscribe_error": "Error de suscripción",
+        "unsubscribe_error": "Error al cancelar la suscripción",
+        "no_account_found": "No se encontró ninguna cuenta con ese correo electrónico.",
+        "invalid_credentials": "Correo electrónico o contraseña incorrectos.",
+        "denylisted_reset_password": "No se pudo acceder a su cuenta porque la contraseña actual no es segura. Recibirá un correo electrónico para actualizar su contraseña.",
+        "signup_disabled": "La creación de cuentas de cliente ha sido deshabilitada."
+      },
+      "address": {
+        "updated": "Dirección actualizada con éxito.",
+        "error_updating": "Error al actualizar la dirección",
+        "created": "Dirección creada con éxito",
+        "error_creating": "Error al crear la dirección."
+      }
     }
   }
 }
