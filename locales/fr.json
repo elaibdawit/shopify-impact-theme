@@ -3685,8 +3685,84 @@
           "pending_tab_accessibility_label": {
             "no_pending_orders": "Vous n'avez aucune commande en attente",
             "pending_orders": {
-              "one": "Vous avez {{count}} commande en attente"
+              "one": "Vous avez {{count}} commande en attente",
+              "other": "Vous avez {{count}} commandes en attente"
+            },
+            "more_than_pagination_length": "Vous avez plus de {{count}} commandes en attente"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}}+",
+          "pagination": {
+            "nav_accessibility_label": "Boutons de navigation des commandes en cours d'examen"
+          }
+        },
+        "order_list_column_headers_location": "Emplacement",
+        "order_list_column_headers_contact": "Contact",
+        "order_list_column_headers_status": "Statut",
+        "removed_company_contact_tooltip": "Retiré de l'entreprise"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmé {{date}} de la commande {{draftOrderName}}",
+        "loading": "Chargement des détails de la commande",
+        "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Votre paiement a {{count}} jour de retard",
+              "other": "Votre paiement a {{count}} jours de retard"
+            },
+            "banner_due": {
+              "one": "Votre paiement est dû dans {{count}} jour",
+              "other": "Votre paiement est dû dans {{count}} jours"
+            },
+            "banner_due_today": "Votre paiement est dû aujourd'hui",
+            "title": "Paiement dû",
+            "title_with_date": "Paiement dû {{date}}",
+            "title_due_on_receipt": "Paiement pas encore dû",
+            "title_due_on_fulfillment": "Paiement dû à l'exécution",
+            "description_overdue": "Votre paiement est en retard.",
+            "description_partially_paid": "Cette commande a été partiellement payée. Il vous reste un solde à régler.",
+            "description_authorized": "Votre méthode de paiement sera débitée à la date d'échéance, ou vous pouvez payer maintenant.",
+            "description_waiting_for_manual_payment": "Cette commande a un paiement en attente. Le solde sera mis à jour lorsque le paiement sera reçu.",
+            "description_due_on_receipt": "Vous recevrez une facture lorsque le paiement sera dû.",
+            "description_due_on_receipt_partially_paid": "Cette commande a été partiellement payée. Il vous reste un solde à régler. Vous recevrez une facture lorsque le paiement sera dû.",
+            "description_due_on_fulfillment": "Le paiement est dû une fois que tous les articles de cette commande sont exécutés.",
+            "description_due_on_fulfillment_partially_paid": "Cette commande a été partiellement payée. Il vous reste un solde à régler. Le paiement est dû une fois que tous les articles de cette commande sont livrés."
+          },
+          "draft": {
+            "description": "Les détails de paiement sont décidés lorsque la commande est confirmée.",
+            "title": "Paiement non encore dû",
+            "in_review": {
+              "description": "Les détails de paiement sont décidés lorsque la commande est confirmée.",
+              "title": "Paiement non encore dû"
+            },
+            "submitted": {
+              "description": "Soumettez le paiement pour confirmer cette commande.",
+              "title": "Payer pour confirmer",
+              "deposit": {
+                "title": "Le paiement est dû",
+                "due_later": "Le solde est selon les conditions de {{translatedName}} et est dû le {{dueDate}}.",
+                "due_on_fulfillment": "Le solde est dû une fois que tous les articles de cette commande sont exécutés.",
+                "due_on_receipt": "Vous recevrez une facture pour le solde restant.",
+                "due_on_date": "Le solde est dû le {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera selon les conditions {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera dû lorsque la commande sera exécutée.",
+              "due_on_receipt": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera dû plus tard.",
+              "due_on_date": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera dû le {{dueDate}}."
             }
+          },
+          "paid": {
+            "title": "Payé",
+            "title_with_date": "Payé {{date}}",
+            "description": "Votre commande est entièrement payée."
+          },
+          "refund": {
+            "title": "Remboursé",
+            "title_with_date": "Remboursé {{date}}",
+            "description_full_refund": "Vous avez reçu un remboursement complet pour cette commande.",
+            "description_single_refund": "Vous avez reçu un remboursement partiel pour cette commande."
           }
         }
       }
