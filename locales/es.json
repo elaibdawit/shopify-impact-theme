@@ -2606,7 +2606,65 @@
       "password": "contraseña",
       "password_confirmation": "La confirmación de la contraseña",
       "first_name": "nombre de pila",
-      "last_name": "apellido"
+      "last_name": "apellido",
+      "body": "cuerpo",
+      "signature": "DIRECCIÓN"
+    },
+    "addresses": {
+      "zip_code": "Código postal",
+      "postal_code": "Código Postal",
+      "postcode": "Código postal",
+      "pincode": "Código PIN",
+      "region": "Región",
+      "prefecture": "Prefectura",
+      "province": "Provincia",
+      "state": "Estado",
+      "state_and_territory": "Estado/territorio",
+      "county": "Condado",
+      "emirate": "Emirato",
+      "governorate": "Gobernación",
+      "confirm": "¿Está seguro de que desea eliminar esta dirección?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Presentado",
+        "best_selling": "Los más vendidos",
+        "az": "Alfabéticamente, A-Z",
+        "za": "Alfabéticamente, Z-A",
+        "price_ascending": "Precio, de menor a mayor",
+        "price_descending": "Precio, de mayor a menor",
+        "date_ascending": "Fecha, de antigua a nueva",
+        "date_descending": "Fecha, de nueva a antigua"
+      }
+    },
+    "errors": {
+      "blank": "no puede estar en blanco",
+      "blocked_address": "Esta ubicación no está soportada",
+      "credit_card_session_expired": "La autorización de la tarjeta de crédito ha expirado, por favor ingrese su información de pago nuevamente. Su tarjeta no ha sido cargada.",
+      "empty": "no puede estar vacío",
+      "invalid_email": "debe ser una dirección de correo electrónico válida",
+      "discount_disabled": "Este descuento ha sido deshabilitado",
+      "discount_expired": "Este descuento ya no es válido",
+      "discount_limit_reached": "Este descuento ha alcanzado su límite de uso",
+      "discount_not_found": "No se pudo encontrar un descuento válido que coincida con el código ingresado",
+      "customer_already_used_once_per_customer_discount_notice": "Este descuento ha alcanzado su límite de uso",
+      "gift_card_already_applied": "El código ya ha sido aplicado a tu pago",
+      "gift_card_code_invalid": "El código no es válido",
+      "gift_card_currency_mismatch": "Su tarjeta de regalo está en %{gift_card_currency}. Contáctenos para que se la reemitan en %{checkout_currency}.",
+      "gift_card_depleted": "No quedan fondos en esta tarjeta de regalo",
+      "gift_card_disabled": "La tarjeta de regalo está deshabilitada",
+      "gift_card_expired": "La tarjeta de regalo ha expirado",
+      "invalid": "no es válido",
+      "bad_domain": "contiene un nombre de dominio no válido",
+      "taken": "ya ha sido tomado",
+      "contains_html_tags": "no puede contener etiquetas HTML",
+      "too_short": "es demasiado corto (el mínimo es %{count} caracteres)",
+      "too_long": "es demasiado largo (el máximo es %{count} caracteres)",
+      "password_mismatch": "debe coincidir con la contraseña proporcionada",
+      "contains_spaces": "comienza o termina con espacios.",
+      "email_domain_invalid": "el proveedor no es compatible",
+      "invalid_for_country": "no es válido para %{country}",
+      "invalid_for_country_and_province": "no es válido para %{province} y %{country}"
     }
   }
 }
