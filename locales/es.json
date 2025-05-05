@@ -3501,7 +3501,69 @@
         "order_completed_with": "Pedido completado con",
         "learn_more": "Más información"
       },
-      "taxes": "Impuestos"
+      "taxes": "Impuestos",
+      "taxes_included": "Incluyendo {{amount}} en impuestos",
+      "duties_and_taxes_included": "El total incluye aranceles e impuestos. No hay cargos adicionales en la entrega.",
+      "duties": "Deberes",
+      "ok_duties_tooltip": "Este pedido se está enviando desde otro país, por lo que se han añadido aranceles al total de su pedido.",
+      "error_duties_tooltip": "Este pedido se está enviando desde otro país, por lo que es posible que se cobren aranceles e impuestos al momento de la entrega.",
+      "zero_duties_tooltip": "Este pedido se está enviando desde otro país. No se cobran aranceles en pedidos de este valor.",
+      "tip": "Consejo",
+      "title": "Orden {{name}}",
+      "total": "Total",
+      "unit_price": "{{price}}/cada uno",
+      "pagination": {
+        "load_more": "Cargar más",
+        "load_more_accessibility_label": "Cargar más artículos",
+        "loading_accessibility_label": "Cargando artículos"
+      },
+      "login_to_view_all_order_details": "Inicia sesión para ver todos los detalles del pedido.",
+      "log_in": "Acceso",
+      "logged_in_account_no_permission_to_order": "Has iniciado sesión como {{email}}. Esta cuenta no tiene permiso para gestionar este pedido.",
+      "log_in_to_a_different_account": "Iniciar sesión en una cuenta diferente",
+      "fees": {
+        "restocking_fee": "Tarifa de reposición",
+        "return_shipping_fee": "Envío de devolución"
+      },
+      "vat_invoices": {
+        "title": "facturas de IVA"
+      },
+      "link_sent": "Enlace enviado",
+      "cash_rounding": "Redondeo de efectivo",
+      "adjusted_payment": "Pago ajustado",
+      "adjusted_total": "Total ajustado"
+    },
+    "addresses": {
+      "add_button": "Agregar dirección",
+      "add_button_text": "Agregar",
+      "add_button_accessibility_label": "Agregar dirección",
+      "back_button": "Atrás",
+      "back_button_accessibility_label": "Volver a editar la dirección {{address}}",
+      "add_address_banner": "Agregar direcciones para usar en la compra",
+      "no_addresses_banner": "No hay direcciones añadidas",
+      "address_deleted_notification": "Dirección eliminada",
+      "cancel_adding_address_accessibility_label": "Cancelar agregar dirección",
+      "cancel_deletion_button": "Cancelar",
+      "cancel_deletion_button_accessibility_label": "Cancelar la eliminación {{address}}",
+      "default_address": {
+        "title": "Dirección predeterminada",
+        "title_accessibility_label": "Dirección predeterminada: {{address}}"
+      },
+      "delete_button": "Borrar",
+      "delete_button_accessibility_label": "Borrar {{address}}",
+      "delete_confirmation_button": "Eliminar dirección",
+      "delete_confirmation_button_accessibility_label": "Borrar {{address}}",
+      "delete_confirmation_message": "¿Eliminar dirección? Los pedidos existentes no se verán afectados.",
+      "delete_confirmation_title": "¿Borrar dirección?",
+      "delete_confirmation_description": "Los pedidos existentes no se ven afectados.",
+      "edit_button": "Editar",
+      "edit_button_accessibility_label": "Editar {{address}}",
+      "edit_section_accessibility_label": "Editar {{address}}",
+      "edit_modal_title": {
+        "default": "Editar dirección",
+        "billing": "Editar dirección de facturación",
+        "shipping": "Editar dirección de envío"
+      }
     }
   }
 }
