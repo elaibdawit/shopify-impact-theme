@@ -723,9 +723,131 @@
             "may": "Peut",
             "june": "Juin",
             "july": "Juillet",
-            "august": "Août"
+            "august": "Août",
+            "september": "Septembre",
+            "october": "Octobre",
+            "november": "Novembre",
+            "december": "Décembre"
           }
+        },
+        "datepicker": {
+          "show_previous_month": "Afficher le mois précédent, {{month}} {{year}}",
+          "show_next_month": "Afficher le mois prochain, {{month}} {{year}}",
+          "range_start": "Début de la plage",
+          "in_range": "À portée",
+          "range_end": "Fin de gamme"
+        },
+        "list_formatter": {
+          "and": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, et {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} et {{secondWord}}"
+          },
+          "or": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, ou {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} ou {{secondWord}}"
+          },
+          "narrow": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, {{lastWord}}",
+            "twoWordConnector": "{{firstWord}}, {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Groupe de {{number}} marqueurs",
+            "other": "Groupe de {{number}} marqueurs"
+          }
+        },
+        "sheet": {
+          "expand": "Développer"
+        },
+        "dropzone": {
+          "add_file": "Ajouter un fichier",
+          "invalid_file_type": "Type de fichier non pris en charge",
+          "dragged_over": "Déposez le fichier à télécharger"
         }
+      },
+      "contact": {
+        "title": "Information",
+        "address_title": "Adresse",
+        "shipping_used_as_billing_notice": "Cela sera également utilisé comme votre adresse de facturation pour cette commande.",
+        "delivery_option_title": "Mode de livraison",
+        "contact_method_title": "Contact",
+        "email_label": "E-mail",
+        "email_placeholder": "E-mail",
+        "email_or_phone_label": "Adresse e-mail ou numéro de téléphone mobile",
+        "email_or_phone_placeholder": "Adresse e-mail ou numéro de téléphone mobile",
+        "stored_addresses_label": "Adresses enregistrées",
+        "available_addresses_label": "Adresses disponibles",
+        "new_address_label": "Utiliser une nouvelle adresse",
+        "first_name_label": "Prénom",
+        "optional_first_name_label": "Prénom (optionnel)",
+        "last_name_label": "Nom de famille",
+        "company_label": "Entreprise",
+        "company_attention_label": "Entreprise/Attention",
+        "optional_company_attention_label": "Entreprise/À l'attention de (optionnel)",
+        "optional_company_label": "Entreprise (facultatif)",
+        "address1_label": "Adresse",
+        "address2_label": "Appartement, suite, etc.",
+        "optional_address2_label": "Appartement, suite, etc. (facultatif)",
+        "city_label": "Ville",
+        "country_label": "Pays/Région",
+        "country_code": "Code pays/région",
+        "province_label": "Province",
+        "province_placeholder": "Province",
+        "county_label": "Comté",
+        "county_placeholder": "Comté",
+        "state_label": "État",
+        "state_placeholder": "État",
+        "region_label": "Région",
+        "region_placeholder": "Région",
+        "region_none": "Aucun sélectionné",
+        "prefecture_label": "Préfecture",
+        "prefecture_placeholder": "Préfecture",
+        "governorate_label": "Gouvernorat",
+        "governorate_placeholder": "Gouvernorat",
+        "emirate_label": "Émirat",
+        "emirate_placeholder": "Émirat",
+        "state_and_territory_label": "État/territoire",
+        "state_and_territory_placeholder": "État/territoire",
+        "phone_label": "Téléphone",
+        "optional_phone_label": "Téléphone (facultatif)",
+        "phone_placeholder": "Téléphone",
+        "phone_tooltip": "Au cas où nous aurions besoin de vous contacter au sujet de votre commande",
+        "zip_code_label": "Code postal",
+        "optional_zip_code_label": "Code postal (facultatif)",
+        "zip_code_placeholder": "Code postal",
+        "postal_code_label": "Code Postal",
+        "optional_postal_code_label": "Code postal (optionnel)",
+        "postal_code_placeholder": "Code Postal",
+        "postcode_label": "Code postal",
+        "optional_postcode_label": "Code postal (facultatif)",
+        "postcode_placeholder": "Code postal",
+        "pincode_label": "code PIN",
+        "optional_pincode_label": "Code PIN (facultatif)",
+        "pincode_placeholder": "code PIN",
+        "civic_number_warning": "Ajoutez un numéro de maison si vous en avez un",
+        "optional_last_name_label": "Nom de famille (optionnel)",
+        "company_contact_info": "{{companyName}} · {{contact}}",
+        "different_shipping_address_label": "Livrer à une adresse différente",
+        "different_shipping_address_text": "Utilisez une adresse unique pour cette commande",
+        "change_company_location_link_label": "Changer l'emplacement de l'entreprise",
+        "change_location_link_label": "Changer de lieu",
+        "ship_to_company": "Envoyez à {{companyName}}"
+      },
+      "delivery_options": {
+        "free_total_label": "Gratuit",
+        "ship": "Bateau",
+        "ship_to_address": "Adresse de livraison",
+        "shipping_address": "Adresse de livraison",
+        "pick_up": "Ramasser",
+        "pick_up_from_store": "Retrait en magasin",
+        "pick_up_locations": "Emplacements des magasins",
+        "pick_up_in_one_hour": "Habituellement prêt en 1 heure",
+        "pick_up_in_two_hours": "Habituellement prêt en 2 heures",
+        "pick_up_in_four_hours": "Généralement prêt en 4 heures"
       }
     }
   }
