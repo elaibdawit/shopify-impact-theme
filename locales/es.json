@@ -3438,8 +3438,70 @@
       "login_card": {
         "login_or_resend_link": "{{loginAction}} o {{resendLinkAction}}",
         "log_in": "Acceso",
-        "resend_link_with_login": "enviar nuevo enlace"
-      }
+        "resend_link_with_login": "enviar nuevo enlace",
+        "resend_link_without_login": "Enviar nuevo enlace",
+        "link_expired": "Enlace expirado"
+      },
+      "remaining_amount": "Restante",
+      "marketing_section_title": "Noticias y ofertas",
+      "marketing_description": "Recibirás correos electrónicos de marketing. Puedes darte de baja en cualquier momento.",
+      "marketing_checkbox_label": "Envíame un correo electrónico con noticias y ofertas",
+      "marketing_checkmark_label": "Estás suscrito para recibir noticias y ofertas por correo electrónico",
+      "returns": {
+        "expand_events_label": "Mostrar detalles",
+        "hide_events_label": "Ocultar detalles",
+        "ineligible_return_message": "No hay artículos en este pedido que sean elegibles para devolución.",
+        "ineligible_return_message_when_returned": "No hay artículos adicionales en este pedido que sean elegibles para devolución.",
+        "print_shipping_label": "Imprimir etiqueta de envío",
+        "return_and_refund_modal_header": "Política de reembolso",
+        "tracking_number": "El número de rastreo:"
+      },
+      "shipping": {
+        "address": "Dirección de envío",
+        "address_map_marker": "Dirección de envío",
+        "method": "Método de envío",
+        "summary": "Envío",
+        "free": "Gratis",
+        "free_shipping_discount": "Envío gratis",
+        "one_time": "Envío único",
+        "subscription": "Envío por suscripción"
+      },
+      "pickup": {
+        "pickup": "Levantar",
+        "pickup_location": "Lugar de recogida",
+        "pickup_point": "Punto de recogida"
+      },
+      "show_items": "Mostrar artículos",
+      "show_order_summary": "Mostrar resumen del pedido",
+      "hide_order_summary": "Ocultar resumen del pedido",
+      "subtitle": "Confirmado {{date}}",
+      "subtotal": "Total parcial",
+      "summary_list_title_accessibility_label": "Pedir artículos",
+      "summary_title": "Resumen del pedido",
+      "summary_totals_title_accessibility_label": "Totales de pedidos",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Descargar Shop para rastrear el paquete",
+        "track_order_with_shop": "Rastrear pedido con Shop",
+        "title_header": "Escanea con tu teléfono",
+        "real_time_delivery_updates": "La tienda te enviará actualizaciones en tiempo real sobre la entrega una vez que tu pedido haya sido enviado."
+      },
+      "edit_summary": {
+        "added": "Agregado",
+        "added_with_quantity": "Agregado {{quantity}}",
+        "removed": "Remoto",
+        "removed_with_quantity": "Remoto {{quantity}}",
+        "updated_at": "Su pedido fue actualizado el {{date}}",
+        "returned": "Devuelto",
+        "returned_with_quantities": "Devuelto {{delta}} de {{total}}",
+        "removed_with_quantities": "Eliminado {{delta}} de {{total}}",
+        "return_line_item_removed": "Eliminado de la devolución",
+        "return_line_item_removed_with_quantities": "Eliminado {{delta}} de la devolución"
+      },
+      "shop_pay": {
+        "order_completed_with": "Pedido completado con",
+        "learn_more": "Más información"
+      },
+      "taxes": "Impuestos"
     }
   }
 }
