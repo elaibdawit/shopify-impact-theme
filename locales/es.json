@@ -1275,8 +1275,72 @@
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} por entrega",
           "prepaid_shipping_price_label": "%{shipping_price} por entrega x %{delivery_interval_count}",
           "initial_order_discounted": "Primero el costo de envío %{discounted_shipping_cost}, luego %{frequency_description}",
-          "prepaid_initial_order_discounted": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency}"
-        }
+          "prepaid_initial_order_discounted": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency}, luego %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), luego %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Incluido",
+          "recurring_order_shipping_price": "seguido por %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Primera orden incluida, seguida de %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} por entrega), seguido de %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Primer pedido gratis",
+            "other": "Primeros %{count} pedidos gratis"
+          },
+          "free_for_first_n_order": {
+            "one": "Para el primer pedido",
+            "other": "Para los primeros %{count} pedidos"
+          }
+        },
+        "one_time_purchase_shipping": "Envío único",
+        "duties_and_taxes_title": "Derechos e impuestos",
+        "shipping_information_required_notice": "Se requiere información de envío. {{link}}.",
+        "shipping_information_redirect_link": "Ingrese su información aquí",
+        "loading_progressive_rates": "Buscando más tarifas…",
+        "no_other_methods_available": "No hay otros métodos disponibles",
+        "duties_and_taxes_options": {
+          "ddu_title": "Pagar contra entrega",
+          "ddu_caption": "Pueden aplicarse cargos adicionales",
+          "ddp_title": "Pagar ahora",
+          "ddp_caption": "Sin cargos adicionales en la entrega"
+        },
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}",
+          "with_separator": "%{rest}, %{current},",
+          "combination": "%{rest} y %{current}"
+        },
+        "shipping_used_as_billing_notice": "Esto también se utilizará como su dirección de facturación para este pedido.",
+        "address_update": "Actualizar dirección",
+        "shipping_address_title": "Envie a",
+        "add_address": "Usar una dirección diferente",
+        "add_delivery_instructions": "Agregar instrucciones de entrega",
+        "edit": "Editar",
+        "delete": "Borrar",
+        "address_more": "Más acciones para esta dirección",
+        "address_edit": "Editar dirección",
+        "address_delete": "Eliminar dirección",
+        "address_confirm": "¿Estás seguro de que deseas eliminar esta dirección de tu cuenta?",
+        "address_default": "Establecer como predeterminado",
+        "address_form": {
+          "add_address": "Agregar dirección",
+          "save": "Ahorrar",
+          "cancel": "Cancelar",
+          "generic_error": "Hubo un problema al guardar su dirección. Por favor, inténtelo de nuevo.",
+          "one_time_address_subtitle": "Usa una dirección de un solo uso para este pedido"
+        },
+        "different_shipping_method_summary": "Introduce una dirección de envío diferente para ver los métodos de envío disponibles",
+        "invalid_shipping_method_summary": "Introduce una dirección de envío válida para ver los métodos de envío disponibles",
+        "method_summary": {
+          "incomplete_address_entered": "Ingrese una dirección de envío completa para ver los métodos de envío disponibles",
+          "incomplete_address_selected": "Seleccione una dirección de envío completa para ver los métodos de envío disponibles"
+        },
+        "local_pickup": {
+          "search_address": "Buscar dirección",
+          "rollup_title": "Ubicación de la tienda"
+        },
+        "missing_shipping_address": "Falta la dirección de envío",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} elementos",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} más"
       }
     }
   }
