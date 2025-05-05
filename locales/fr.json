@@ -2343,8 +2343,82 @@
             "description_html": "En vous inscrivant par SMS, vous acceptez de recevoir des messages marketing automatisés récurrents, y compris des rappels de panier, au numéro de téléphone fourni. Le consentement n'est pas une condition d'achat. Répondez STOP pour vous désabonner. Répondez HELP pour obtenir de l'aide. La fréquence des messages varie. Des frais de message et de données peuvent s'appliquer. Consultez notre %{privacy_policy_link} et %{terms_of_service_link}.",
             "description_transactional_html": "Vous pouvez recevoir des messages texte liés à la confirmation de commande et aux mises à jour d'expédition. Répondez STOP pour vous désabonner. Répondez HELP pour obtenir de l'aide. La fréquence des messages varie. Des frais de message et de données peuvent s'appliquer. Consultez notre %{privacy_policy_modal_link} et %{terms_of_service_modal_link}."
           },
-          "mobile_phone_number": "Numéro de téléphone portable"
-        }
+          "mobile_phone_number": "Numéro de téléphone portable",
+          "get_offers_by_text": "Recevez des offres par SMS"
+        },
+        "unsubscribe": {
+          "title": "Vous vous êtes désabonné",
+          "description": "Vous ne recevrez plus de rappels de panier de notre part."
+        },
+        "accept_shop_pay_marketing_checkbox_label": "Inscrivez-moi pour recevoir des nouvelles et des offres de ce magasin"
+      },
+      "shop_policies": {
+        "refund_policy": "Politique de remboursement",
+        "privacy_policy": "Politique de confidentialité",
+        "terms_of_service": "Conditions d'utilisation",
+        "legal_notice": "Mentions légales",
+        "shipping_policy": "Politique d'expédition",
+        "terms_of_sale": "Conditions de vente",
+        "subscription_policy": "Politique d'annulation",
+        "purchase_options_policy": "Politique des options d'achat",
+        "contact_information": "Coordonnées",
+        "purchase_options_cancellation_policy": "Politique d'annulation",
+        "cookie_preferences": "Préférences en matière de cookies"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Conditions générales du commerçant enregistré",
+        "privacy_policy": "Politique de confidentialité du commerçant enregistré"
+      },
+      "markets": {
+        "invalid_market_manager_error": "Vérifiez vos informations de contact avant de finaliser le paiement"
+      },
+      "notifications": {
+        "title": "Notifications"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Montant à payer pour la commande %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Ajouté",
+            "other": "Ajouté %{count}"
+          },
+          "removed": "Supprimé",
+          "subtracted": "Supprimé %{count}",
+          "returned": "De retour %{count}",
+          "return_line_item_removed": "Retiré %{count} du retour"
+        },
+        "additional_payment_requested": "Le paiement de %{total_outstanding} est nécessaire",
+        "checkout_review_and_pay": "Votre commande %{order_name} a été mise à jour. Vérifiez ces modifications, puis payez pour confirmer votre commande.",
+        "order_updated_on": "Votre commande a été mise à jour le %{last_edited_at}.",
+        "order_review_and_pay": "Votre commande a été mise à jour. Vérifiez et payez pour confirmer votre commande.",
+        "pay_now": "Payer maintenant"
+      },
+      "change_currency": {
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "credit_card_will_be_charged_html": "Votre carte de crédit sera débitée %{amount}",
+        "payment_total_label": "Total du paiement",
+        "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
+        "change_currency_link": "Changer pour %{currency_name}",
+        "card_provider_fx_charges_warning": "Votre fournisseur de carte peut facturer des frais sur les transactions en %{currency_code}.",
+        "currency_not_supported_by_shop": "La devise que vous avez sélectionnée n'est plus disponible. Tous les prix sont désormais en %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Votre panier a été mis à jour en fonction de votre pays de livraison.",
+        "cart_and_currency_updated_based_on_country": "Votre panier et votre devise ont été mis à jour en fonction de votre pays de livraison."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Votre pays/région a été mis à jour. Entrez votre adresse de livraison pour continuer le paiement."
+      },
+      "tips": {
+        "title": "Ajouter un pourboire",
+        "description": "Montrez votre soutien à l'équipe à %{shop_name}",
+        "presets_description": "Sélectionnez un pourcentage de pourboire",
+        "custom_label": "Conseil personnalisé",
+        "add_tip": "Ajouter un pourboire",
+        "update_tip": "Conseil de mise à jour",
+        "message": "Merci, nous l'apprécions.",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Aucun"
       }
     }
   }
