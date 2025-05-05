@@ -2737,7 +2737,73 @@
         "updated": "Dirección actualizada con éxito.",
         "error_updating": "Error al actualizar la dirección",
         "created": "Dirección creada con éxito",
-        "error_creating": "Error al crear la dirección."
+        "error_creating": "Error al crear la dirección.",
+        "deleted": "Dirección eliminada con éxito",
+        "error_deleting": "Error al eliminar la dirección."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Agregado %{delta}",
+          "increment_item": "Agregado %{delta}",
+          "decrement_item": "Eliminado %{delta} de %{total}",
+          "decrement_fulfilled_line_item": "Devuelto %{delta} de %{total}",
+          "decrement_return_line_item": "Eliminado %{delta} de la devolución"
+        }
+      },
+      "order": {
+        "not_available": "Este pedido no está disponible",
+        "financial_status": {
+          "authorized": "Autorizado",
+          "pending": "Pendiente",
+          "paid": "Pagado",
+          "unpaid": "No pagado",
+          "voided": "Anulado",
+          "partially_paid": "Parcialmente pagado",
+          "partially_refunded": "Reembolso parcial",
+          "refunded": "Reintegrado",
+          "expired": "Venció"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Cumplido",
+          "complete": "Completo",
+          "partial": "Parcial",
+          "unfulfilled": "Incumplido",
+          "restocked": "Reabastecido"
+        },
+        "transaction_status": {
+          "success": "Éxito",
+          "pending": "Pendiente",
+          "failure": "Falla",
+          "error": "Error"
+        },
+        "cancel_reason": {
+          "declined": "Pago rechazado",
+          "inventory": "Artículos no disponibles",
+          "fraud": "Orden fraudulenta",
+          "customer": "Cliente cambió/canceló el pedido",
+          "staff": "Error del personal",
+          "other": "Otro"
+        },
+        "cash_on_delivery": "Pago contra reembolso (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Solo puedes añadir %{count} %{name} al carrito.",
+        "too_many_items_in_cart": "No puedes añadir más %{name} al carrito.",
+        "only_one_added_to_cart": "Solo se añadió 1 artículo a tu carrito debido a la disponibilidad.",
+        "only_n_added_to_cart": "Solo se añadieron %{quantity} artículos a su carrito debido a la disponibilidad.",
+        "maximum_available_quantity_reached": "La cantidad máxima de este artículo ya está en tu carrito.",
+        "less_than_minimum": "Este artículo tiene un mínimo de %{min}.",
+        "more_than_maximum": "Este artículo tiene un máximo de %{max}.",
+        "not_respect_step": "Solo puedes agregar este artículo en incrementos de %{step}.",
+        "all_items_in_cart": "Todos los %{count} %{name} están en tu carrito.",
+        "empty_update": "no se puede actualizar el carrito vacío",
+        "missing_parameters": "parámetro id o línea no válido",
+        "generic_error": "Error del carrito",
+        "invalid_input": "%{parameter} el parámetro no es válido.",
+        "product_not_available": "Producto no disponible",
+        "too_many_line_items_error": "Tu carrito no puede contener más de %{max} artículos.",
+        "link_expired": "Enlace expirado",
+        "link_no_longer_exists": "El enlace ya no existe."
       }
     }
   }
