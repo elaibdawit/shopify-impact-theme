@@ -1646,7 +1646,73 @@
         "order_edit_banner_multiple_items_removed": "Remoto {{amount}}",
         "order_edit_banner_single_item_returned": "Devuelto",
         "order_edit_banner_multiple_items_returned": "Devuelto {{amount}}",
-        "order_edit_banner_single_item_return_line_item_removed": "Eliminado de la devolución"
+        "order_edit_banner_single_item_return_line_item_removed": "Eliminado de la devolución",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Se eliminaron {{amount}} de la devolución",
+        "order_edit_banner_updated_order_label": "Orden actualizada",
+        "gift_card_wrapper": {
+          "heading": "Tarjeta de regalo",
+          "apply_gift_card_label": "Solicitar una tarjeta de regalo",
+          "apply_another_gift_card_label": "Aplicar otra tarjeta de regalo",
+          "gift_card_label": "Tarjeta de regalo %{identifier}",
+          "payment_tag": "Tarjeta de regalo",
+          "add_label": "Añadir una tarjeta de regalo",
+          "manage_label": "Administrar tarjetas de regalo"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Agregar una tarjeta de regalo o crédito en tienda",
+          "manage_label": "Gestionar tarjetas de regalo o crédito en tienda"
+        },
+        "gift_card_checkbox_label": "Solicitar tarjeta de regalo",
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmación personalizada de pago en el sitio"
+        },
+        "markets_pro_disclaimer_label": "Al hacer clic abajo y completar su pedido, usted acepta comprar su(s) artículo(s) a Global-e como comerciante registrado para esta transacción, bajo los %{markets_pro_terms} y la %{privacy_policy} de Global-e. Global-e es un proveedor internacional de servicios de cumplimiento para %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Términos y Condiciones",
+        "markets_pro_disclaimer_privacy_policy": "política de privacidad",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Términos y Condiciones del Comerciante Registrado",
+        "markets_pro_disclaimer_privacy_policy_title": "Política de Privacidad del Comerciante Registrado",
+        "purchase_order_number": {
+          "title": "Número de orden de compra",
+          "label": "Número de orden de compra (opcional)"
+        },
+        "alternative_payment_currency_total_notice": "Nota: se le cobrará %{amount_due}.",
+        "alternative_payment_currency_total_manual_payment_notice": "Nota: el total convertido es %{amount_due}.",
+        "waiting_on_taxes_message": "Si tus impuestos no se calculan en los próximos segundos, actualiza la página.",
+        "waiting_on_taxes_notice": "Cálculo de impuestos",
+        "payment_method": "Método de pago",
+        "expired_payment_method": "El método de pago seleccionado ha expirado",
+        "payment_method_update_failed": "Actualización del método de pago fallida.",
+        "payment_method_incompatible_with_payment_terms": "El método de pago es incompatible con los términos de pago.",
+        "proposed_gateway_unavailable": "La pasarela de pago propuesta no está disponible",
+        "pay_in_installments_split_pay_short": "4 pagos de %{amount}",
+        "gift_cards_unavailable": "Tu tarjeta de regalo ya no se puede aplicar a este pedido y ha sido eliminada",
+        "payment_flexibility_terms_id_mismatch": "Incompatibilidad de ID en los términos de flexibilidad de pago"
+      },
+      "billing": {
+        "billing_address_title": "Cobrar a",
+        "same_as_shipping": "Igual que la dirección de envío",
+        "add_address": "Usar una dirección diferente",
+        "edit": "Editar",
+        "delete": "Borrar",
+        "address_more": "Más acciones para esta dirección",
+        "address_edit": "Editar dirección",
+        "address_delete": "Eliminar dirección",
+        "address_confirm": "¿Estás seguro de que deseas eliminar esta dirección de tu cuenta?",
+        "address_form": {
+          "add_address": "Agregar dirección",
+          "save": "Ahorrar",
+          "cancel": "Cancelar"
+        }
+      },
+      "company_location": {
+        "location_title": "Ubicación"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Saldo actual %{amount}",
+        "credit_card_expires_on_notice": "Caduca el %{month}/%{year}",
+        "express_payment_gateway_label": "Expresar",
+        "manual_payment_gateway_label": "Manual",
+        "billing_address_title": "Dirección de Envio"
       }
     }
   }
