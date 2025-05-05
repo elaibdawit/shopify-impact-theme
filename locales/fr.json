@@ -3234,7 +3234,73 @@
           "other": "Il y a eu un problème lors de la réexpédition de vos cartes cadeaux. Essayez à nouveau ou contactez-nous."
         },
         "confirmed_gift_card_additional_description": {
-          "one": "La carte cadeau sera envoyée dans un e-mail séparé."
+          "one": "La carte cadeau sera envoyée dans un e-mail séparé.",
+          "other": "Chaque carte cadeau sera envoyée dans un e-mail séparé."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "La carte cadeau sera envoyée dans un texte séparé.",
+          "other": "Chaque carte cadeau sera envoyée dans un message séparé."
+        },
+        "status_timestamp": "Mis à jour {{date}}",
+        "estimated_delivery": "Attendu {{date}}",
+        "delivered": "Arrivé {{date}}",
+        "buy_with_prime_logo_accessibility_label": "Logo Amazon Buy with Prime",
+        "in_review_description": "Nous vous informerons si nous avons besoin de plus d'informations ou lorsque votre commande sera confirmée.",
+        "in_review_label": "En revue",
+        "in_review_title": "Votre commande est en cours d'examen",
+        "last_updated": "Dernière mise à jour {{date}}",
+        "multiple_shipments_label": "Expéditions multiples",
+        "multiple_statuses_label": "Plusieurs statuts de commande",
+        "no_tracking_number": "Il n'y a pas de numéro de suivi pour cet envoi.",
+        "tracking_number": {
+          "one": "Numéro de suivi",
+          "other": "Numéros de suivi"
+        },
+        "on_its_way_label": "En route",
+        "on_its_way_title": "Votre envoi est en route",
+        "out_for_delivery_label": "En livraison",
+        "out_for_delivery_title": "Votre colis est en cours de livraison",
+        "resume_tracking": "Suivi des CV",
+        "submitted_label": "Soumis",
+        "submitted_description": "Vérifiez les détails de la commande et du paiement.",
+        "there_was_a_problem_label": "Il y avait un problème",
+        "track_shipment": "Suivre l'expédition",
+        "request_return": "Demande de retour",
+        "view_order_for_details": "Voir la commande pour les détails",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Gérer sur Amazon"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Gérer avec Amazon",
+            "new_window_disclaimer": "(ouvre une nouvelle fenêtre)"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Livraison garantie par",
+            "external_promise_brand_label": "Livraison par",
+            "not_delivered_by_label": "Livré après {{date}}",
+            "delivery_guarantee_expired_label": "Garantie de livraison expirée",
+            "modal_accessibility_button_label": "Détails de la promesse de livraison",
+            "download_shop_app_button_label": "Télécharger Shop pour suivre",
+            "track_with_shop_button_label": "Suivre avec la boutique",
+            "claim_shop_cash_button_label": "Réclamer l'argent de la boutique"
+          },
+          "details_modal": {
+            "title": "Garantie de livraison",
+            "active_delivery_guarantee_label": "Livraison par {{date}}",
+            "expired_delivery_guarantee_description": "La garantie Shop Promise de 30 jours pour cette commande a expiré.",
+            "expired_badge_label": "Expiré",
+            "order_includes_guarantees_label": "Votre commande comprend {{deliveryAgreementsCount}} garanties",
+            "order_includes_guarantees_description": "Shop Promise garantit une livraison rapide et fiable. Réclamez Shop Cash si votre commande arrive après {{date}}.",
+            "delivered_after_label": "Livré après {{date}}",
+            "delivered_after_description": "Parce que votre commande est arrivée en retard, vous êtes éligible pour réclamer {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Parce que cette commande est arrivée en retard, vous avez réclamé {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Parce que votre commande est arrivée en retard, vous êtes éligible pour réclamer {{amount}} Shop Cash.",
+            "learn_more_button_label": "Apprendre encore plus",
+            "claim_shop_cash_button_label": "Réclamer l'argent de la boutique"
+          }
         }
       }
     }
