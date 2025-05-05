@@ -4023,7 +4023,77 @@
       "mondayAbbreviation": "Moi",
       "tuesdayAbbreviation": "Tu",
       "wednesdayAbbreviation": "Nous",
-      "thursdayAbbreviation": "Ème"
+      "thursdayAbbreviation": "Ème",
+      "fridayAbbreviation": "Fr",
+      "saturdayAbbreviation": "Sa",
+      "sundayAbbreviation": "Su",
+      "showNextMonth": "Afficher le mois prochain, {{month}} {{year}}",
+      "showPreviousMonth": "Afficher le mois précédent, {{month}} {{year}}",
+      "rangeStart": "Début de la plage",
+      "inRange": "À portée",
+      "rangeEnd": "Fin de gamme",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} article disponible",
+        "other": "{{count}} articles disponibles"
+      },
+      "removeItem": "Retirer {{label}}",
+      "removeTag": "Supprimer l'étiquette",
+      "month": {
+        "one": "mois",
+        "other": "mois"
+      },
+      "mapClusterTitle": {
+        "one": "Groupe de {{number}} marqueurs",
+        "other": "Groupe de {{number}} marqueurs"
+      },
+      "expandSheet": "Développer",
+      "qrCode": "code QR",
+      "addFile": "Ajouter un fichier",
+      "dropzoneInvalidFileType": "Type de fichier non pris en charge",
+      "dropzoneDraggedOver": "Déposez le fichier à télécharger"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Personnaliser",
+      "hide_bar": "Masquer la barre",
+      "navigate_to_admin": "Accéder à l'administration",
+      "close_preview": "Fermer l'aperçu",
+      "previewing": "Vous prévisualisez :",
+      "saved_at": "Enregistré le {{date}} à {{time}}",
+      "viewing": "Vous regardez :",
+      "not_available": "Données de profil non disponibles",
+      "actions_button": "Actes"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Sélectionnez l'extension nommée {{extensionName}}",
+        "unselect": "Désélectionnez l'extension nommée {{extensionName}}",
+        "move_down": "Déplacer l'extension à la position suivante",
+        "move_up": "Déplacer l'extension à la position précédente",
+        "remove": "Supprimer l'extension",
+        "move_down_tooltip": "Passer à la position suivante",
+        "move_up_tooltip": "Revenir à la position précédente",
+        "remove_tooltip": "Retirer"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Ce lien ne peut pas être ouvert dans l'éditeur. Il sera ouvert dans une nouvelle fenêtre ({{resolved_to_link}}). Cliquez sur OK pour continuer."
+    },
+    "settings": {
+      "title": "Paramètres",
+      "loading_accessibility_message": "Chargement de la page des paramètres",
+      "log_out_everywhere": {
+        "title": "Déconnectez-vous partout",
+        "description": "Si vous avez perdu un appareil ou avez des préoccupations de sécurité, déconnectez-vous partout pour assurer la sécurité de votre compte.",
+        "button": "Déconnectez-vous partout",
+        "warning_message": "Vous serez également déconnecté de cet appareil."
+      }
+    },
+    "shop_ads": {
+      "title": "Offres exclusives de Shop",
+      "subtitle": "Disponible pour une durée limitée",
+      "button": "Explorer sur Shop",
+      "previous_button": "Précédent",
+      "next_button": "Suivant"
     }
   }
 }
