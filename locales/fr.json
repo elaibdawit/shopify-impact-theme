@@ -2747,10 +2747,142 @@
             "address2": "Entrez un appartement, une suite, etc.",
             "billing_address2": "Entrez un appartement, une suite, etc. pour l'adresse de facturation.",
             "city": "Entrez une ville",
-            "billing_city": "Entrez une ville d'adresse de facturation"
+            "billing_city": "Entrez une ville d'adresse de facturation",
+            "province": "Sélectionnez un état / une province",
+            "billing_province": "Sélectionnez un état / une province pour l'adresse de facturation",
+            "country": "Sélectionnez un pays/région",
+            "zip": "Entrez un code postal / ZIP",
+            "billing_zip": "Entrez un code postal / ZIP de l'adresse de facturation",
+            "phone": "Entrez un numéro de téléphone"
+          },
+          "formatting": {
+            "name_contains_emojis": "Supprimer l'emoji de votre nom",
+            "postal_code_contains_emoji": "Supprimez l'emoji de votre code postal",
+            "first_name_too_long": "Le prénom contient trop de lettres",
+            "last_name_too_long": "Le nom de famille contient trop de lettres"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Votre adresse de livraison est invalide. Sélectionnez une autre adresse ou utilisez-en une nouvelle."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "Continuez votre achat dans la fenêtre {{walletName}}",
+          "and_return_to_checkout": "et revenir à la caisse",
+          "cancel": "Annuler"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Réduisez la taille de la note à 5000 caractères ou moins."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Le prix de la carte cadeau doit être supérieur à 0.",
+            "gift_card_price_must_not_exceed_limit": "Le prix de la carte cadeau ne doit pas dépasser %{gift_card_limit}.",
+            "subtotal_limit_reached": "La valeur maximale des articles de ligne a été atteinte."
           }
         }
+      },
+      "units": {
+        "milligram": "mg",
+        "gram": "g",
+        "kilogram": "kg",
+        "milliliter": "ml",
+        "centiliter": "cl",
+        "liter": "L",
+        "cubic_meter": "m³",
+        "millimeter": "mm",
+        "centimeter": "cm",
+        "meter": "m",
+        "square_meter": "m²",
+        "ounce": "once",
+        "pound": "kg",
+        "fluid_ounce": "fl oz",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "fille",
+        "inch": "dans",
+        "foot": "pieds",
+        "yard": "verges",
+        "square_foot": "pi²",
+        "item": "article"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "L'adresse n'est pas prise en charge pour l'adhésion actuelle."
       }
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "links": {
+      "powered_by_shopify": "Propulsé par Shopify",
+      "learn_more": "Apprendre encore plus"
+    },
+    "feed": {
+      "more": "Plus"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password": "mot de passe",
+      "password_confirmation": "La confirmation du mot de passe",
+      "first_name": "prénom",
+      "last_name": "nom de famille",
+      "body": "corps",
+      "signature": "Adresse"
+    },
+    "addresses": {
+      "zip_code": "Code postal",
+      "postal_code": "Code Postal",
+      "postcode": "Code postal",
+      "pincode": "Code PIN",
+      "region": "Région",
+      "prefecture": "Préfecture",
+      "province": "Province",
+      "state": "État",
+      "state_and_territory": "État/territoire",
+      "county": "Comté",
+      "emirate": "Émirat",
+      "governorate": "Gouvernorat",
+      "confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "En vedette",
+        "best_selling": "Meilleures ventes",
+        "az": "Par ordre alphabétique, de A à Z",
+        "za": "Par ordre alphabétique, Z-A",
+        "price_ascending": "Prix, du plus bas au plus élevé",
+        "price_descending": "Prix, du plus élevé au plus bas",
+        "date_ascending": "Date, de l'ancien au nouveau",
+        "date_descending": "Date, du nouveau à l'ancien"
+      }
+    },
+    "errors": {
+      "blank": "ne peut pas être vide",
+      "blocked_address": "Cet emplacement n'est pas pris en charge",
+      "credit_card_session_expired": "L'autorisation de la carte de crédit a expiré, veuillez saisir à nouveau vos informations de paiement. Votre carte n'a pas été débitée.",
+      "empty": "ne peut pas être vide",
+      "invalid_email": "doit être une adresse e-mail valide",
+      "discount_disabled": "Cette remise a été désactivée",
+      "discount_expired": "Cette remise n'est plus valable",
+      "discount_limit_reached": "Cette remise a atteint sa limite d'utilisation",
+      "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
+      "customer_already_used_once_per_customer_discount_notice": "Cette remise a atteint sa limite d'utilisation",
+      "gift_card_already_applied": "Le code a déjà été appliqué à votre paiement",
+      "gift_card_code_invalid": "Le code n'est pas valide",
+      "gift_card_currency_mismatch": "Votre carte cadeau est en %{gift_card_currency}. Contactez-nous pour la faire réémettre en %{checkout_currency}.",
+      "gift_card_depleted": "Il n'y a plus de fonds sur cette carte cadeau",
+      "gift_card_disabled": "La carte cadeau est désactivée",
+      "gift_card_expired": "La carte cadeau est expirée",
+      "invalid": "est invalide",
+      "bad_domain": "contient un nom de domaine invalide",
+      "taken": "a déjà été pris",
+      "contains_html_tags": "ne peut pas contenir de balises HTML",
+      "too_short": "est trop court (le minimum est de %{count} caractères)",
+      "too_long": "est trop long (le maximum est de %{count} caractères)",
+      "password_mismatch": "doit correspondre au mot de passe fourni",
+      "contains_spaces": "commence ou se termine par des espaces.",
+      "email_domain_invalid": "le fournisseur n'est pas pris en charge",
+      "invalid_for_country": "n'est pas valable pour %{country}"
     }
   }
 }
