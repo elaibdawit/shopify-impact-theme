@@ -3684,7 +3684,83 @@
             "pending_orders": {
               "one": "Tienes {{count}} pedido pendiente",
               "other": "Tienes {{count}} pedidos pendientes"
+            },
+            "more_than_pagination_length": "Tienes más de {{count}} pedidos pendientes"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}}+",
+          "pagination": {
+            "nav_accessibility_label": "Botones de navegación de pedidos en revisión"
+          }
+        },
+        "order_list_column_headers_location": "Ubicación",
+        "order_list_column_headers_contact": "Contacto",
+        "order_list_column_headers_status": "Estado",
+        "removed_company_contact_tooltip": "Eliminado de la empresa"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmado {{date}} del pedido {{draftOrderName}}",
+        "loading": "Cargando detalles del pedido",
+        "loading_finished_accessibility_message": "Los detalles del pedido han sido cargados",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Su pago tiene un retraso de {{count}} día",
+              "other": "Su pago tiene un retraso de {{count}} días"
+            },
+            "banner_due": {
+              "one": "Su pago vence en {{count}} día",
+              "other": "Su pago vence en {{count}} días"
+            },
+            "banner_due_today": "Su pago vence hoy",
+            "title": "Pago vencido",
+            "title_with_date": "Pago vencido {{date}}",
+            "title_due_on_receipt": "Pago aún no vencido",
+            "title_due_on_fulfillment": "Pago debido al cumplimiento",
+            "description_overdue": "Su pago está atrasado.",
+            "description_partially_paid": "Este pedido fue pagado parcialmente. Tiene un saldo pendiente.",
+            "description_authorized": "Su método de pago será cargado en la fecha de vencimiento, o puede pagar ahora.",
+            "description_waiting_for_manual_payment": "Este pedido tiene un pago pendiente. El saldo se actualizará cuando se reciba el pago.",
+            "description_due_on_receipt": "Recibirá una factura cuando el pago sea debido.",
+            "description_due_on_receipt_partially_paid": "Este pedido fue pagado parcialmente. Tiene un saldo pendiente. Recibirá una factura cuando el pago sea debido.",
+            "description_due_on_fulfillment": "El pago se debe realizar una vez que todos los artículos de este pedido estén cumplidos.",
+            "description_due_on_fulfillment_partially_paid": "Este pedido fue pagado parcialmente. Tiene un saldo pendiente. El pago se debe realizar una vez que todos los artículos de este pedido estén cumplidos."
+          },
+          "draft": {
+            "description": "Los detalles de pago se deciden cuando se confirma el pedido.",
+            "title": "Pago aún no vencido",
+            "in_review": {
+              "description": "Los detalles de pago se deciden cuando se confirma el pedido.",
+              "title": "Pago aún no vencido"
+            },
+            "submitted": {
+              "description": "Enviar el pago para confirmar este pedido.",
+              "title": "Pagar para confirmar",
+              "deposit": {
+                "title": "El pago está pendiente",
+                "due_later": "El saldo está en términos de {{translatedName}} y vence el {{dueDate}}.",
+                "due_on_fulfillment": "El saldo se debe una vez que todos los artículos de este pedido estén cumplidos.",
+                "due_on_receipt": "Recibirá una factura por el saldo restante.",
+                "due_on_date": "El saldo vence el {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo estará en los términos de {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo se deberá cuando se cumpla el pedido.",
+              "due_on_receipt": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo se deberá más tarde.",
+              "due_on_date": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo se deberá en {{dueDate}}."
             }
+          },
+          "paid": {
+            "title": "Pagado",
+            "title_with_date": "Pagado {{date}}",
+            "description": "Su pedido está completamente pagado."
+          },
+          "refund": {
+            "title": "Reintegrado",
+            "title_with_date": "Reintegrado {{date}}",
+            "description_full_refund": "Has recibido un reembolso completo por este pedido.",
+            "description_single_refund": "Has recibido un reembolso parcial por este pedido.",
+            "description_multiple_refunds": "Recibiste reembolsos parciales por este pedido."
           }
         }
       }
