@@ -290,7 +290,7 @@
       "delete_confirm": "Supprimer cette adresse ? Une fois confirmé, cette action est irréversible.",
       "fill_form": "Veuillez remplir les informations ci-dessous :",
       "first_name": "Prénom",
-      "last_name": "Nom",
+      "last_name": "Nom de famille",
       "company": "Entreprise",
       "phone": "Numéro de téléphone",
       "address1": "Adresse 1",
@@ -298,7 +298,7 @@
       "city": "Ville",
       "zip": "Code postal",
       "country": "Pays",
-      "province": "Région",
+      "province": "Province",
       "set_default": "Définir comme adresse par défaut"
     }
   },
@@ -306,20 +306,20 @@
     "general": {
       "title": "Panier",
       "empty": "Votre panier est vide",
-      "continue_shopping": "Explorer nos produits",
+      "continue_shopping": "Continuer vos achats",
       "weight": "Poids",
-      "subtotal": "Sous-total",
+      "subtotal": "Total",
       "total": "Total",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\" class=\"link\">frais d'expédition</a> calculés lors du paiement",
-      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés lors du paiement",
-      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\" class=\"link\">Frais d'expédition</a> calculés à l'étape de paiement.",
-      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés lors du paiement",
-      "add_order_note": "Ajouter une note",
-      "edit_order_note": "Modifier la note",
-      "order_note": "Note de commande",
-      "save_note": "Enregistrer",
-      "view_cart": "Panier",
-      "checkout": "Passer la commande",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\" class=\"link\">frais de livraison</a> calculés lors du paiement",
+      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de port calculés lors du paiement",
+      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"{{ link }}\" class=\"link\">Expédition</a> calculée lors du paiement.",
+      "taxes_and_shipping_at_checkout": "Taxes et frais de livraison calculés lors du paiement",
+      "add_order_note": "Ajouter une note de commande",
+      "edit_order_note": "Modifier la note de commande",
+      "order_note": "Bon de commande",
+      "save_note": "Sauvegarder",
+      "view_cart": "Voir le panier",
+      "checkout": "Vérifier",
       "we_accept": "Nous acceptons"
     },
     "order": {
@@ -329,28 +329,28 @@
       "change_quantity": "Changer la quantité",
       "increase_quantity": "Augmenter la quantité",
       "decrease_quantity": "Diminuer la quantité",
-      "remove": "Supprimer"
+      "remove": "Retirer"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus pour bénéficier des frais de livraison offerts.",
-      "limit_reached_html": "Frais de livraison offerts !"
+      "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus et bénéficiez de la livraison gratuite !",
+      "limit_reached_html": "Vous êtes éligible à la livraison gratuite."
     },
     "shipping_estimator": {
       "estimate_shipping": "Estimer les frais de livraison",
       "country": "Pays",
-      "province": "Région",
+      "province": "Province",
       "zip": "Code postal",
-      "estimate": "Estimer",
-      "no_results": "Nous ne livrons pas à votre adresse.",
-      "one_result": "Il y a un résultat pour votre adresse :",
-      "multiple_results": "Il y a plusieurs résultats pour votre adresse :",
-      "error": "Impossible d'estimer les frais de livraison :"
+      "estimate": "Estimation",
+      "no_results": "Désolé, nous ne livrons pas à votre adresse.",
+      "one_result": "Il y a un seul tarif d'expédition pour votre adresse :",
+      "multiple_results": "Il existe plusieurs tarifs d'expédition pour votre adresse :",
+      "error": "Une ou plusieurs erreurs se sont produites lors de la récupération des tarifs d'expédition :"
     }
   },
   "404": {
     "general": {
       "title": "Page non trouvée",
-      "continue_shopping": "Explorer nos produits"
+      "continue_shopping": "Continuer vos achats"
     }
   },
   "search": {
