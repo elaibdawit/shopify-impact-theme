@@ -1814,7 +1814,67 @@
         "physical_gift_card_duplicate_code": "El artículo de línea de la tarjeta de regalo física contiene un código duplicado.",
         "physical_gift_card_invalid_code": "El código de la tarjeta de regalo física no es válido.",
         "email_blank": "Introduzca un correo electrónico",
-        "phone_blank": "Introduzca un número de teléfono"
+        "phone_blank": "Introduzca un número de teléfono",
+        "address_country_invalid": "Seleccione un país/región de la lista",
+        "address_zip_invalid": "Introduzca un código postal / ZIP válido",
+        "gift_card_invalid": "La tarjeta de regalo \"••••%{last_four_characters}\" ya no es válida",
+        "vaulting_agreement_blank": "Tu tarjeta debe guardarse porque el pago del saldo de este pedido se debe realizar más tarde.",
+        "sms_marketing_phone_invalid": "Ingrese un número de teléfono válido",
+        "address_suggestion_did_you_mean_html": "Querías decir %{html}?",
+        "split_cart_international_shipping_not_supported": "Todos los artículos deben usar el mismo método de entrega al enviar internacionalmente. Actualice el método de entrega o cree múltiples pedidos.",
+        "invalid_delivery_address_reference_handle": "No se pudo asociar el identificador de referencia de la dirección de entrega con ninguna dirección de entrega disponible."
+      },
+      "store_credit_errors": {
+        "generic_error": "Hubo un problema con el crédito de tu tienda. Intenta de nuevo o recarga la página."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "La tarjeta de regalo ya ha sido aplicada a su pedido",
+          "insufficient_funds": "Esta tarjeta de regalo no tiene fondos disponibles",
+          "expired": "Esta tarjeta de regalo ha expirado",
+          "not_available": "Esta tarjeta de regalo ya no está disponible",
+          "invalid": "Introduce una tarjeta de regalo válida",
+          "currency_mismatch": "Solo se aceptan tarjetas de regalo en %{shop_currency}",
+          "generic": "No se pudo añadir la tarjeta de regalo al pago",
+          "throttle_limit_exceeded": "Has superado el número máximo de intentos. Intenta de nuevo más tarde.",
+          "no_longer_available": "Esta tarjeta de regalo ya no se puede usar con este pago"
+        }
+      },
+      "merchant_instruction_errors": {
+        "empty_stable_id": "La instrucción de mercancía %{position} %{name} contiene un ID estable vacío.",
+        "invalid_stable_id_target": "La instrucción de mercancía %{position} %{name} hace referencia al ID estable %{stable_id}, pero ese ID estable no está en las líneas de mercancía.",
+        "duplicate_variant_id": "La instrucción de mercancía %{position} %{name} contiene un ID de variante duplicado %{variant_id}.",
+        "invalid_variant_id_target": "La instrucción de mercancía %{name} hace referencia al ID de variante %{variant_id}, pero esa variante no está en las líneas de mercancía."
+      },
+      "payment_errors": {
+        "amount_too_small": "El monto mínimo de pago debe ser superior a $0.50 USD. Por favor, inténtelo de nuevo con una cantidad mayor.",
+        "method_not_available": "El método de pago solicitado no está disponible. Elija otro método de pago y vuelva a intentarlo.",
+        "available_methods_updated": "Los métodos de pago disponibles han sido actualizados.",
+        "generic_error": "Hubo un problema al procesar su pago. Inténtelo de nuevo o use un método de pago diferente.",
+        "rejected_transaction": "Su pago fue rechazado. Inténtelo de nuevo o use un método de pago diferente.",
+        "credit_card_processing": "No se puede procesar su pago por razones técnicas. Inténtelo de nuevo en unos minutos o utilice un método de pago diferente.",
+        "checkout_amount_changed": "No se pudo procesar su pago porque el monto a pagar en la caja ha cambiado. Por favor, revise su pedido y vuelva a intentarlo.",
+        "deferred_payment_not_allowed": "No se permiten pagos diferidos. Por favor, revise su pedido y vuelva a intentarlo.",
+        "deferred_payment_required": "Este pedido requiere un pago diferido. Por favor, revise su pedido y vuelva a intentarlo.",
+        "deferred_amount_changed": "No se pudo procesar su pago porque el monto del pago diferido ha cambiado. Por favor, revise su pedido y vuelva a intentarlo.",
+        "deferred_date_changed": "No se pudo procesar su pago porque la fecha de pago diferido ha cambiado. Por favor, revise su pedido y vuelva a intentarlo.",
+        "order_total_changed": "El total de su pedido ha cambiado. Revíselo y vuelva a intentarlo.",
+        "payment_processing": "No se puede procesar su pago por razones técnicas. Inténtelo de nuevo o utilice un método de pago diferente.",
+        "payment_processing_no_retry": "No se puede procesar su pago por razones técnicas. Por favor, intente con un método de pago diferente.",
+        "paypal_zero_amount": "No puedes usar PayPal para pedidos de %{amount}. Confirma que tu pedido es correcto y realiza el pago sin PayPal.",
+        "paypal_invalid_token": "PayPal no estaba disponible. Inténtalo de nuevo o usa una opción de pago diferente.",
+        "pay_later_failed": "Hubo un error al procesar su pago con Pay later. Elija otro método de pago y vuelva a intentarlo.",
+        "three_d_secure_failed": "No se pudo verificar su pago. Inténtelo de nuevo o use un método de pago diferente.",
+        "three_d_secure_failed_duplicate": "La autenticación 3D Secure de la tarjeta de crédito falló porque ya hay otra en curso.",
+        "three_d_secure_failed_payment_method": "No se pudo verificar su tarjeta. Inténtelo de nuevo o agregue una tarjeta diferente.",
+        "three_d_secure_throttled": "Demasiados intentos; por favor espera antes de intentarlo de nuevo",
+        "subscription_agreement_blank": "Para comprar una suscripción, es necesario guardar los detalles de pago. Para continuar, confirma que estás de acuerdo o elimina los artículos de suscripción de tu pedido.",
+        "insufficient_funds": "Su pago fue rechazado debido a fondos insuficientes. Intente de nuevo o use un método de pago diferente.",
+        "multiple_deferred_payment_not_allowed": "Solo se permite un pago diferido por solicitud. Por favor, revise su solicitud y vuelva a intentarlo.",
+        "shipping_must_match_billing": "La dirección de facturación debe coincidir con la dirección de envío. Por favor, utilice un método de pago diferente.",
+        "decision_rule_block": "Hubo un problema al procesar su pago. Por favor, contacte al propietario de la tienda.",
+        "pick_up_card": "Su tarjeta fue rechazada. Intente de nuevo o use un método de pago diferente.",
+        "cannot_verify": "No se pudieron verificar los detalles de su pago. Verifique los datos de su tarjeta y vuelva a intentarlo."
       }
     }
   }
