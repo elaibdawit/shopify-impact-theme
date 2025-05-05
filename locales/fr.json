@@ -1183,7 +1183,72 @@
         "error_duties_tooltip": "Cette commande est expédiée depuis un autre pays, des droits et taxes peuvent donc être facturés à la livraison.",
         "may_be_charged_on_delivery": "Peut être facturé à la livraison",
         "total_updated_label_with_price": "Prix total mis à jour : %{totalPrice}",
-        "updated_shipping_method": "Méthode d'expédition mise à jour : %{shipping_method}"
+        "updated_shipping_method": "Méthode d'expédition mise à jour : %{shipping_method}",
+        "recurring_payments": "Paiements récurrents",
+        "recurring_total_multiple_label": "Cette commande comporte une charge récurrente pour plusieurs articles.",
+        "deferred_total_due_date_label": "Total dû {{date}}",
+        "full_price": "Plein tarif : %{price}",
+        "custom_discount": "Remise personnalisée",
+        "expand_component_information": {
+          "one": "Afficher %{count} article",
+          "other": "Afficher %{count} articles"
+        },
+        "collapse_component_information": {
+          "one": "Masquer %{count} article",
+          "other": "Masquer %{count} articles"
+        },
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "discount_discovery": {
+          "add_code": "Ajouter une remise",
+          "merchandise_quantity_label": {
+            "one": "%{count} article",
+            "other": "%{count} articles"
+          }
+        },
+        "alternative_payment_currency_total": "Accusé comme %{amount_due}"
+      },
+      "shipping": {
+        "title": "Expédition",
+        "delivery_title": "Livraison",
+        "shipping_method_title": "Méthode d'expédition",
+        "shipping_method_one_time_purchase_group_title": "Achat unique",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Première expédition",
+          "other": "Premières expéditions"
+        },
+        "shipping_method_subscription_group_title": "Abonnement",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Expédition récurrente",
+          "other": "Expéditions récurrentes"
+        },
+        "subscription_shipping": "Expédition par abonnement",
+        "subscription_local_delivery": "Livraison locale par abonnement",
+        "subscription_pickup": "Retrait de l'abonnement",
+        "waiting_on_rate_notice": "Obtention des tarifs d'expédition disponibles…",
+        "waiting_on_pickup_location_notice": "Récupération des points de retrait disponibles…",
+        "no_rates_for_cart_or_destination_notice": "Il n'y a pas de méthodes d'expédition disponibles pour votre panier ou votre adresse",
+        "no_pickup_location_notice": "Au moins un de vos produits n'est pas disponible pour le retrait",
+        "no_rates_for_country_notice": "Aucun tarif d'expédition trouvé pour cette adresse.",
+        "no_rates_contact_notice": "Contactez-nous pour plus d'informations",
+        "free_rate_label": "Gratuit",
+        "cheapest_rate_label": "Le moins cher",
+        "please_enter_your_shipping_information_notice": "Veuillez saisir vos informations de livraison.",
+        "estimated_delivery_date": {
+          "one": "%{count} jour ouvrable",
+          "other": "%{count} jours ouvrables"
+        },
+        "estimated_delivery_date_range": "%{minimum} à %{maximum} jours ouvrables",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "estimated_delivery_time": "Livraison estimée %{time}",
+        "estimated_delivery_time_range": "Livraison estimée %{min_time}–%{max_time}",
+        "delivery_today": "Livraison le jour même %{time}",
+        "delivery_tomorrow": "Livraison le lendemain %{time}",
+        "two_day_delivery": "Livraison en 2 jours %{time}",
+        "delivery": "Livraison %{time}",
+        "arrives_time": "Arrive %{time}",
+        "arrives_time_range": "Arrive entre %{min_time} et %{max_time}",
+        "estimated_time": "Estimé %{time}",
+        "estimated_time_range": "Estimé %{min_time}–%{max_time}"
       }
     }
   }
