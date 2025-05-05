@@ -661,7 +661,133 @@
             "job_already_queued": "La validación de Captcha ya ha sido puesta en cola para este token de captcha.",
             "token_expired": "El token de captcha proporcionado ha expirado. Complete un nuevo captcha para continuar con el pago."
           }
+        },
+        "dates": {
+          "months": {
+            "september": "Septiembre",
+            "october": "Octubre",
+            "november": "Noviembre",
+            "december": "Diciembre"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Mostrar mes anterior, {{month}} {{year}}",
+          "show_next_month": "Mostrar el próximo mes, {{month}} {{year}}",
+          "range_start": "Inicio de rango",
+          "in_range": "Dentro del alcance",
+          "range_end": "Fin del rango"
+        },
+        "list_formatter": {
+          "and": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, y {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} y {{secondWord}}"
+          },
+          "or": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, o {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} o {{secondWord}}"
+          },
+          "narrow": {
+            "wordConnector": "{{previousWords}}, {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}}, {{lastWord}}",
+            "twoWordConnector": "{{firstWord}}, {{secondWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Grupo de {{number}} marcador",
+            "other": "Grupo de {{number}} marcadores"
+          }
+        },
+        "sheet": {
+          "expand": "Expandir"
+        },
+        "dropzone": {
+          "add_file": "Agregar archivo",
+          "invalid_file_type": "Tipo de archivo no soportado",
+          "dragged_over": "Suelte el archivo para cargarlo"
         }
+      },
+      "contact": {
+        "title": "Información",
+        "address_title": "DIRECCIÓN",
+        "shipping_used_as_billing_notice": "Esto también se utilizará como su dirección de facturación para este pedido.",
+        "delivery_option_title": "Método de entrega",
+        "contact_method_title": "Contacto",
+        "email_label": "Correo electrónico",
+        "email_placeholder": "Correo electrónico",
+        "email_or_phone_label": "Correo electrónico o número de teléfono móvil",
+        "email_or_phone_placeholder": "Correo electrónico o número de teléfono móvil",
+        "stored_addresses_label": "Direcciones guardadas",
+        "available_addresses_label": "Direcciones disponibles",
+        "new_address_label": "Utilice una nueva dirección",
+        "first_name_label": "Nombre de pila",
+        "optional_first_name_label": "Nombre (opcional)",
+        "last_name_label": "Apellido",
+        "company_label": "Compañía",
+        "company_attention_label": "Compañía/Atención",
+        "optional_company_attention_label": "Empresa/Atención (opcional)",
+        "optional_company_label": "Empresa (opcional)",
+        "address1_label": "DIRECCIÓN",
+        "address2_label": "Apartamento, suite, etc.",
+        "optional_address2_label": "Apartamento, suite, etc. (opcional)",
+        "city_label": "Ciudad",
+        "country_label": "País/Región",
+        "country_code": "Código de país/región",
+        "province_label": "Provincia",
+        "province_placeholder": "Provincia",
+        "county_label": "Condado",
+        "county_placeholder": "Condado",
+        "state_label": "Estado",
+        "state_placeholder": "Estado",
+        "region_label": "Región",
+        "region_placeholder": "Región",
+        "region_none": "Ninguno seleccionado",
+        "prefecture_label": "Prefectura",
+        "prefecture_placeholder": "Prefectura",
+        "governorate_label": "Gobernación",
+        "governorate_placeholder": "Gobernación",
+        "emirate_label": "Emirato",
+        "emirate_placeholder": "Emirato",
+        "state_and_territory_label": "Estado/territorio",
+        "state_and_territory_placeholder": "Estado/territorio",
+        "phone_label": "Teléfono",
+        "optional_phone_label": "Teléfono (opcional)",
+        "phone_placeholder": "Teléfono",
+        "phone_tooltip": "En caso de que necesitemos contactarte sobre tu pedido",
+        "zip_code_label": "Código postal",
+        "optional_zip_code_label": "Código postal (opcional)",
+        "zip_code_placeholder": "Código postal",
+        "postal_code_label": "Código Postal",
+        "optional_postal_code_label": "Código postal (opcional)",
+        "postal_code_placeholder": "Código Postal",
+        "postcode_label": "Código postal",
+        "optional_postcode_label": "Código postal (opcional)",
+        "postcode_placeholder": "Código postal",
+        "pincode_label": "Código PIN",
+        "optional_pincode_label": "Código PIN (opcional)",
+        "pincode_placeholder": "Código PIN",
+        "civic_number_warning": "Agrega un número de casa si tienes uno",
+        "optional_last_name_label": "Apellido (opcional)",
+        "company_contact_info": "{{companyName}} · {{contact}}",
+        "different_shipping_address_label": "Enviar a una dirección diferente",
+        "different_shipping_address_text": "Usa una dirección de un solo uso para este pedido",
+        "change_company_location_link_label": "Cambiar ubicación de la empresa",
+        "change_location_link_label": "Cambiar ubicación",
+        "ship_to_company": "Envie a {{companyName}}"
+      },
+      "delivery_options": {
+        "free_total_label": "Gratis",
+        "ship": "Barco",
+        "ship_to_address": "Enviar a dirección",
+        "shipping_address": "Dirección de envío",
+        "pick_up": "Levantar",
+        "pick_up_from_store": "Recogida en tienda",
+        "pick_up_locations": "Ubicaciones de las tiendas",
+        "pick_up_in_one_hour": "Normalmente listo en 1 hora",
+        "pick_up_in_two_hours": "Normalmente listo en 2 horas",
+        "pick_up_in_four_hours": "Normalmente listo en 4 horas"
       }
     }
   }
