@@ -1574,7 +1574,79 @@
           }
         },
         "simulated_checkout": "Vista previa próximamente",
-        "simulated_express_checkout": "Las carteras no están disponibles en la vista previa del editor debido a tu región o navegador"
+        "simulated_express_checkout": "Las carteras no están disponibles en la vista previa del editor debido a tu región o navegador",
+        "vaulting_agreement_label": "Guarda mi información de pago con %{company} para un pago más rápido.",
+        "business_customer_vaulting_payment_label": "Guarde esta tarjeta al pagar y autorice a %{company} a cargarla para compras futuras en esta ubicación. Todos los contactos asignados a esta ubicación pueden usar la tarjeta.",
+        "purchase_options_and_vaulting_agreement_label": "Uno o más artículos en su carrito son una compra diferida o por suscripción. Al continuar con su pago, usted acepta que su método de pago será cargado automáticamente al precio y frecuencia indicados en esta página hasta que finalice o usted cancele. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "política de cancelación",
+        "use_different_credit_card_label": "Usar una tarjeta diferente",
+        "saved_credit_card": "Tu tarjeta de crédito guardada",
+        "saved_credit_card_info": "Últimos cuatro dígitos",
+        "saved_credit_card_cvv_verification": "Para fines de verificación, por favor ingrese el código de seguridad de su tarjeta.",
+        "saved_credit_card_actions": {
+          "edit": "Editar",
+          "delete": "Borrar"
+        },
+        "saved_credit_cards_modal": {
+          "view_all_label": "Ver todas las tarjetas guardadas",
+          "done": "Hecho",
+          "cancel": "Cancelar"
+        },
+        "add_credit_card_modal": {
+          "title": "Añadir tarjeta",
+          "save": "Ahorrar",
+          "cancel": "Cancelar"
+        },
+        "delete_credit_card_modal": {
+          "title": "Eliminar tarjeta",
+          "confirmation": "¿Está seguro de que desea eliminar el {{brandName}} que termina en {{lastDigits}}?",
+          "cancel": "Cancelar",
+          "delete": "Borrar"
+        },
+        "edit_credit_card_modal": {
+          "title": "Editar tarjeta",
+          "done": "Hecho",
+          "cancel": "Cancelar",
+          "description": "Solo puedes modificar la dirección de facturación de tu tarjeta.",
+          "fields": {
+            "default": "Establecer como predeterminado",
+            "card_number": "Número de tarjeta",
+            "expiry": "Fecha de expiración",
+            "security_code": "Código de seguridad",
+            "name": "Nombre en la tarjeta",
+            "billing": "Cobrar a"
+          }
+        },
+        "expired_cards_info": {
+          "one": "Hay %{count} tarjeta expirada, que puedes ver y editar en tu cuenta.",
+          "other": "Hay %{count} tarjetas vencidas, que puedes ver y editar en tu cuenta."
+        },
+        "local_payment_method_receiver_notice": "Después de realizar su pedido, recibirá los detalles de pago. Realice el pago en un cajero automático o en línea dentro de {{dueDays}} días.",
+        "order_edit_banner_title": "Se necesita el pago de {{amount_owed}}",
+        "order_edit_banner_subtitle": "Su pedido {{order_number}} fue actualizado. Revise estos cambios y luego pague para confirmar su pedido.",
+        "order_edit_banner_items_added": {
+          "one": "Agregado",
+          "other": "Agregado %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Remoto",
+          "with_quantities": "Eliminado {{delta}} de {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Devuelto {{quantity}}",
+          "with_quantities": "Devuelto {{delta}} de {{quantity}}"
+        },
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Eliminado de la devolución",
+          "with_quantities": "Se eliminaron {{delta}} de la devolución"
+        },
+        "order_edit_banner_single_item_added": "Agregado",
+        "order_edit_banner_multiple_items_added": "Agregado {{amount}}",
+        "order_edit_banner_single_item_removed": "Remoto",
+        "order_edit_banner_multiple_items_removed": "Remoto {{amount}}",
+        "order_edit_banner_single_item_returned": "Devuelto",
+        "order_edit_banner_multiple_items_returned": "Devuelto {{amount}}",
+        "order_edit_banner_single_item_return_line_item_removed": "Eliminado de la devolución"
       }
     }
   }
