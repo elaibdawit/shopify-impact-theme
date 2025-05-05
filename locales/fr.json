@@ -3368,7 +3368,142 @@
       },
       "discount": "Rabais",
       "hide_items": "Masquer les éléments",
-      "loading": "Chargement des détails de la commande"
+      "loading": "Chargement des détails de la commande",
+      "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
+      "location": "Emplacement",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} quantité {{quantity}}",
+        "next": "Afficher les éléments suivants",
+        "previous": "Afficher les éléments précédents",
+        "load_more_items": {
+          "one": "Charger {{count}} articles de plus",
+          "other": "Charger {{count}} articles de plus"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Afficher le résumé de la commande",
+        "closed": "Masquer le résumé de la commande"
+      },
+      "no_data": "Aucun",
+      "no_data_provided_accessibility_label": "{{fieldName}} est vide",
+      "not_applicable": "N / A",
+      "paid_amount": "Payé",
+      "partially_refunded_label": "PARTIELLEMENT REMBOURSÉ",
+      "payment": {
+        "status_in_review": "Paiement dû après examen",
+        "status_unpaid": "Paiement dû le {{date}}",
+        "title": "Paiement",
+        "card_payment_short_details": "{{paymentTypeLabel}} •••• {{lastDigits}}",
+        "payment_type": {
+          "gift_card": "Carte cadeau",
+          "store_credit": "Crédit en magasin",
+          "money_order": "Mandat postal",
+          "cash_on_delivery": "Paiement à la livraison (COD)",
+          "bank_deposit": "Dépôt bancaire",
+          "manual": "Manuel"
+        },
+        "card_payment_details": "se terminant par {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "se terminant par {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Crédit magasin - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Payé avec des versements Shop Pay",
+          "view_schedule": "Voir le calendrier"
+        },
+        "manual_payment_methods": {
+          "money_order": "Mandat postal - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Paiement à la livraison (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Dépôt bancaire - {{formattedTransactionAmount}}",
+          "manual": "Manuel - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "Tout afficher",
+          "show_less": "Afficher moins",
+          "details": "Détails",
+          "payment_details": "Détails de paiement"
+        },
+        "emv_details": {
+          "auth": "AUTH:",
+          "aid": "AIDE:",
+          "source": "SOURCE:"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Payé avec les versements Shop Pay",
+        "description": "Restez à jour avec votre calendrier de paiement grâce aux rappels dans l'application Shop.",
+        "payment_reminders_button": "Recevez des rappels de paiement",
+        "desktop_qr_code_content": {
+          "title": "Rechercher des rappels",
+          "description": "Recevez des rappels de vos versements avec Shop."
+        }
+      },
+      "refunded_amount": "Remboursé",
+      "request_return_failed": "Un problème est survenu lors du traitement de votre demande. Veuillez réessayer.",
+      "login_card": {
+        "login_or_resend_link": "{{loginAction}} ou {{resendLinkAction}}",
+        "log_in": "Se connecter",
+        "resend_link_with_login": "envoyer un nouveau lien",
+        "resend_link_without_login": "Envoyer un nouveau lien",
+        "link_expired": "Lien expiré"
+      },
+      "remaining_amount": "Restant",
+      "marketing_section_title": "Actualités et offres",
+      "marketing_description": "Vous recevrez des e-mails marketing. Vous pouvez vous désabonner à tout moment.",
+      "marketing_checkbox_label": "Envoyez-moi des e-mails avec des nouvelles et des offres",
+      "marketing_checkmark_label": "Vous êtes abonné pour recevoir des actualités et des offres par e-mail",
+      "returns": {
+        "expand_events_label": "Afficher les détails",
+        "hide_events_label": "Masquer les détails",
+        "ineligible_return_message": "Aucun article de cette commande n'est éligible au retour.",
+        "ineligible_return_message_when_returned": "Aucun article supplémentaire dans cette commande n'est éligible au retour.",
+        "print_shipping_label": "Imprimer l'étiquette d'expédition",
+        "return_and_refund_modal_header": "Politique de remboursement",
+        "tracking_number": "Numéro de suivi :"
+      },
+      "shipping": {
+        "address": "Adresse de livraison",
+        "address_map_marker": "Adresse de livraison",
+        "method": "Méthode d'expédition",
+        "summary": "Expédition",
+        "free": "Gratuit",
+        "free_shipping_discount": "Livraison gratuite",
+        "one_time": "Expédition unique",
+        "subscription": "Expédition par abonnement"
+      },
+      "pickup": {
+        "pickup": "Ramasser",
+        "pickup_location": "Lieu de prise en charge",
+        "pickup_point": "Point de retrait"
+      },
+      "show_items": "Afficher les éléments",
+      "show_order_summary": "Afficher le résumé de la commande",
+      "hide_order_summary": "Masquer le résumé de la commande",
+      "subtitle": "Confirmé {{date}}",
+      "subtotal": "Total",
+      "summary_list_title_accessibility_label": "Commander des articles",
+      "summary_title": "Résumé de la commande",
+      "summary_totals_title_accessibility_label": "Totaux de commande",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Télécharger Shop pour suivre le colis",
+        "track_order_with_shop": "Suivre la commande avec Shop",
+        "title_header": "Scannez avec votre téléphone",
+        "real_time_delivery_updates": "La boutique vous enverra des mises à jour de livraison en temps réel une fois que votre commande sera expédiée."
+      },
+      "edit_summary": {
+        "added": "Ajouté",
+        "added_with_quantity": "Ajouté {{quantity}}",
+        "removed": "Supprimé",
+        "removed_with_quantity": "Supprimé {{quantity}}",
+        "updated_at": "Votre commande a été mise à jour le {{date}}",
+        "returned": "De retour",
+        "returned_with_quantities": "Rendu {{delta}} sur {{total}}",
+        "removed_with_quantities": "Supprimé {{delta}} de {{total}}",
+        "return_line_item_removed": "Retiré du retour",
+        "return_line_item_removed_with_quantities": "Retiré {{delta}} du retour"
+      },
+      "shop_pay": {
+        "order_completed_with": "Commande terminée avec",
+        "learn_more": "Apprendre encore plus"
+      }
     }
   }
 }
