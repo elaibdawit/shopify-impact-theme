@@ -3297,10 +3297,76 @@
             "eligible_to_claim_shop_cash_description": "Debido a que su pedido llegó tarde, usted es elegible para reclamar {{amount}} Shop Cash.",
             "learn_more_button_label": "Más información",
             "claim_shop_cash_button_label": "Reclamar efectivo de la tienda",
-            "view_balance_in_shop_button_label": "Ver saldo en Shop"
+            "view_balance_in_shop_button_label": "Ver saldo en Shop",
+            "scan_to_claim_shop_cash_label": "Escanee para reclamar {{amount}} Dinero de la Tienda"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Entrega respaldada por",
+            "mixed_brands_label": "Entrega garantizada",
+            "not_delivered_by_label": "No entregado por {{date}}",
+            "modal_accessibility_button_label": "Detalles de la promesa de entrega"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Reclama tu Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}} para reclamar Shop Cash",
+            "download_shop_app_label": "Descargar Tienda"
+          },
+          "details_modal": {
+            "title": "Entrega respaldada por",
+            "modal_accessiblity_label": "Detalles de la promesa de entrega",
+            "delivery_guarantee_label": "Garantía de entrega",
+            "delivery_by_label": "Entrega por {{date}}",
+            "delivery_guaranteed_by_label": "Entrega garantizada por {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garantiza una entrega rápida y confiable. Reclama Shop Cash si tu pedido llega tarde.",
+              "may_be_eligible_not_authorized_label": "Es posible que seas elegible para reclamar Shop Cash porque este pedido llegó tarde. Inicia sesión para ver los detalles.",
+              "redeemed_label": "Ya has reclamado Shop Cash porque este pedido llegó tarde.",
+              "expired_label": "Este pedido no es elegible para una reclamación por entrega tardía porque la garantía de 30 días ha expirado.",
+              "no_shop_cash_label": "Este pedido no es elegible para una reclamación por entrega tardía porque no se pagó con Shop Pay.",
+              "no_longer_guaranteed_label": "Estos artículos ya no cuentan con una garantía de entrega.",
+              "claim_shop_cash_title": "Escanea para reclamar {{amount}} en Shop Cash",
+              "claim_shop_cash_description": "Puedes usar tu Shop Cash en futuras compras en la aplicación Shop."
+            }
           }
         }
-      }
+      },
+      "status_mark_as_delivered": "Marcar como entregado",
+      "fulfillment_status_title": "Estado de cumplimiento: {{status}}",
+      "buy_again": "Comprar de nuevo",
+      "buy_again_accessibility_label": "Comprar de nuevo para realizar el pedido {{orderId}}",
+      "manage": "Administrar",
+      "manage_accessiblity_label": "Gestionar pedido {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Mostrar detalles",
+        "expand_events_accessibility_label": "Mostrar detalles del envío del pedido",
+        "hide_events_label": "Ocultar detalles",
+        "hide_events_accessibility_label": "Ocultar detalles del envío del pedido"
+      },
+      "addresses_section_title": "Facturación y envío",
+      "order_details": "Detalles del pedido",
+      "order_details_skeleton_accessibility_label": "Inicia sesión para ver todos los detalles del pedido.",
+      "billing_address": "Dirección de Envio",
+      "card_ending_with": "terminando con {{lastDigits}}",
+      "contact": "Contacto",
+      "contact_information": "Información del contacto",
+      "company": "Compañía",
+      "fully_refunded_label": "REINTEGRADO",
+      "group_title_label": "Parte de: {{groupTitle}}",
+      "grouped_view_components": {
+        "expand_line_items": "Mostrar {{count}} artículos",
+        "collapse_line_items": "Ocultar {{count}} elementos",
+        "line_item_summary": "{{refundableQuantity}} incógnita {{productTitle}}",
+        "line_item_summary_accessibility_label": "{{productTitle}}, Cantidad: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Artículos en el paquete de {{productTitle}}"
+      },
+      "discount": "Descuento",
+      "hide_items": "Ocultar elementos",
+      "loading": "Cargando detalles del pedido",
+      "loading_finished_accessibility_message": "Los detalles del pedido han sido cargados"
     }
   }
 }
