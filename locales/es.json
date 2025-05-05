@@ -3918,8 +3918,76 @@
         "card_expiry_placeholder": "Fecha de expiración (MM / AA)",
         "card_verification_value_label": "Código de seguridad",
         "card_verification_value_placeholder": "Código de seguridad",
-        "card_start_label": "Fecha de emisión (MM / AA)"
+        "card_start_label": "Fecha de emisión (MM / AA)",
+        "card_start_placeholder": "Fecha de emisión (MM / AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Más información",
+          "card_verification_value_explanation_amex": "Código de seguridad de 4 dígitos en el frente de su tarjeta",
+          "card_verification_value_explanation_other": "Código de seguridad de 3 dígitos en el reverso de su tarjeta",
+          "card_verification_value_explanation": "Código de seguridad de 3 dígitos que generalmente se encuentra en la parte posterior de su tarjeta. Las tarjetas American Express tienen un código de 4 dígitos ubicado en la parte frontal.",
+          "card_security_notice": "Todas las transacciones son seguras y están encriptadas."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Ingrese su nombre exactamente como está escrito en su tarjeta",
+          "credit_card_number_invalid": "Ingrese un número de tarjeta válido",
+          "credit_card_expiry_invalid": "Introduce una fecha de caducidad de tarjeta válida",
+          "credit_card_verification_value_blank": "Introduce el CVV o código de seguridad de tu tarjeta"
+        }
+      },
+      "payment_delete": {
+        "title": "Eliminar método de pago",
+        "description_without_replacement": "Este método de pago ya no estará disponible para compras futuras.",
+        "description_with_replacement": "Eliminar este método de pago afectará los pagos preautorizados. Opcionalmente, puedes reemplazarlo con otro método de pago para continuar recibiendo los próximos pedidos.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Eliminar este método de pago afectará los pagos preautorizados. A menos que seleccione un método de pago alternativo, este método de pago seguirá siendo cobrado por cualquier saldo pendiente en pedidos existentes. Seleccionar un método de pago alternativo le permitirá recibir los próximos pedidos de suscripción sin interrupciones.",
+          "with_pending_orders": "Eliminar este método de pago lo quitará de su cuenta y ya no estará disponible para futuras compras. A menos que seleccione un método de pago alternativo, aún se le cobrará por cualquier saldo pendiente en pedidos existentes.",
+          "with_subscriptions": "Eliminar este método de pago afectará los pagos preautorizados. Reemplázalo con un método de pago alternativo para continuar recibiendo los próximos pedidos."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Eliminar este método de pago afectará los pagos preautorizados. Este método de pago seguirá siendo cobrado por cualquier saldo pendiente en pedidos existentes, pero no recibirás los próximos pedidos de suscripción. Añade un método de pago alternativo para continuar recibiendo pedidos de suscripción.",
+          "with_pending_orders": "Eliminar este método de pago lo quitará de su cuenta y ya no estará disponible para futuras compras. Sin embargo, se seguirá cobrando por cualquier saldo pendiente en pedidos existentes.",
+          "with_subscriptions": "Eliminar este método de pago afectará los pagos preautorizados. Agrega un método de pago alternativo para continuar recibiendo los próximos pedidos."
+        },
+        "payment_method_selector_placeholder": "Seleccione un método de pago de reemplazo (opcional)",
+        "payment_method_selector_no_alternative_payment": "No hay método de reemplazo",
+        "replace_method_with_new_method_description": "Tu {{currentPaymentMethodName}} será eliminado y reemplazado por tu {{newPaymentMethodName}}.",
+        "error_when_deleting": "Lamentamos las molestias, pero algo salió mal y no pudimos eliminar este método de pago. Por favor, inténtelo de nuevo más tarde o actualice la página.",
+        "delete_and_replace_button": "Eliminar y reemplazar",
+        "delete_and_replace_button_accessibility_label": "Eliminar {{currentPaymentMethodName}} y reemplazar con {{newPaymentMethodName}}.",
+        "deleted_successfully": "Método de pago eliminado con éxito.",
+        "loading_available_payment_methods_accessibility_label": "Cargando métodos de pago disponibles"
+      },
+      "add_payment_method": {
+        "title": "Añadir método de pago",
+        "payment_method_added_confirmation": "Método de pago añadido",
+        "billing_address": {
+          "title": "Dirección de Envio",
+          "add_billing_address_button": "Añadir nuevo",
+          "add_billing_address_button_accessibility_label": "Agregar nueva dirección de facturación",
+          "choose_billing_address_from_list_button": "Elija de la lista",
+          "choose_billing_address_from_list_button_accessibility_label": "Elige una dirección de facturación de la lista",
+          "missing_billing_address_error_message": "Por favor, especifique una dirección de facturación",
+          "default_checkbox": "Establecer como método de pago predeterminado"
+        }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
+    },
+    "payment_method_brands": {
+      "visa": "Visa",
+      "mastercard": "Tarjeta MasterCard",
+      "americanexpress": "tarjeta American Express",
+      "discover": "Descubrir",
+      "dinersclub": "Diners Club",
+      "jcb": "JCB",
+      "elo": "Elo",
+      "visaelectron": "Visa Electron",
+      "maestro": "Maestro",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "dankort": "Dankort",
+      "hipercard": "Hipercard",
+      "unionpay": "UnionPay"
     }
   }
 }
