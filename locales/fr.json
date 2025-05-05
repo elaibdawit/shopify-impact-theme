@@ -1335,8 +1335,128 @@
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} par livraison",
           "prepaid_shipping_price_label": "%{shipping_price} par livraison x %{delivery_interval_count}",
           "initial_order_discounted": "Coût d'expédition initial %{discounted_shipping_cost}, puis %{frequency_description}",
-          "prepaid_initial_order_discounted": "Premiers frais d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}"
+          "prepaid_initial_order_discounted": "Premiers frais d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Premiers frais d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}, puis %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), puis %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Compris",
+          "recurring_order_shipping_price": "suivi de %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Première commande incluse, suivie de %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} par livraison), suivi de %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Première commande gratuite",
+            "other": "Premières %{count} commandes gratuites"
+          },
+          "free_for_first_n_order": {
+            "one": "Pour la première commande",
+            "other": "Pour les %{count} premières commandes"
+          }
+        },
+        "one_time_purchase_shipping": "Expédition unique",
+        "duties_and_taxes_title": "Droits et taxes",
+        "shipping_information_required_notice": "Les informations d'expédition sont requises. {{link}}.",
+        "shipping_information_redirect_link": "Entrez vos informations ici",
+        "loading_progressive_rates": "Recherche de plus de tarifs…",
+        "no_other_methods_available": "Aucune autre méthode disponible",
+        "duties_and_taxes_options": {
+          "ddu_title": "Payer à la livraison",
+          "ddu_caption": "Des frais supplémentaires peuvent s'appliquer",
+          "ddp_title": "Payer maintenant",
+          "ddp_caption": "Pas de frais supplémentaires à la livraison"
+        },
+        "shipping_method_combinations": {
+          "without_separator": "%{firstMethod}, %{secondMethod}",
+          "with_separator": "%{rest}, %{current},",
+          "combination": "%{rest} et %{current}"
+        },
+        "shipping_used_as_billing_notice": "Cela sera également utilisé comme votre adresse de facturation pour cette commande.",
+        "address_update": "Mettre à jour l'adresse",
+        "shipping_address_title": "Envoyez à",
+        "add_address": "Utiliser une adresse différente",
+        "add_delivery_instructions": "Ajouter des instructions de livraison",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "address_more": "Plus d'actions pour cette adresse",
+        "address_edit": "Modifier l'adresse",
+        "address_delete": "Supprimer l'adresse",
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte ?",
+        "address_default": "Définir par défaut",
+        "address_form": {
+          "add_address": "Ajouter une adresse",
+          "save": "Sauvegarder",
+          "cancel": "Annuler",
+          "generic_error": "Il y a eu un problème lors de l'enregistrement de votre adresse. Veuillez réessayer.",
+          "one_time_address_subtitle": "Utilisez une adresse unique pour cette commande"
+        },
+        "different_shipping_method_summary": "Entrez une adresse de livraison différente pour voir les méthodes d'expédition disponibles",
+        "invalid_shipping_method_summary": "Entrez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
+        "method_summary": {
+          "incomplete_address_entered": "Entrez une adresse de livraison complète pour voir les méthodes d'expédition disponibles",
+          "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour voir les méthodes d'expédition disponibles"
+        },
+        "local_pickup": {
+          "search_address": "Rechercher une adresse",
+          "rollup_title": "Emplacement du magasin"
+        },
+        "missing_shipping_address": "L'adresse de livraison est manquante",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} articles",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} de plus",
+        "split_shipping_merchandise_shipment_number": "Expédition %{number} sur %{total}",
+        "pre_order_ships_now": "Expédié maintenant",
+        "pre_order_ships_later": "Expédié plus tard",
+        "pre_order_ships_date": "navires %{date}",
+        "split_shipping_shipped_by_shop": "Expédié par %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Expéditions multiples",
+        "split_shipping_shipping_label": "Méthode",
+        "split_shipping_shipment_notice": "Votre commande arrivera dans %{quantity_shipments}",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} expéditions",
+        "split_shipping_multiple_shipment_notice": "Votre commande arrivera en plusieurs livraisons",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Votre commande arrivera en %{quantity} livraisons",
+        "split_shipping_more_shipping_options": "Plus d'options d'expédition",
+        "split_shipping_shipment_number": "Expédition %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Quantité: %{quantity}",
+        "split_shipping_merchandise_quantity_label_inline": "%{merchandise_title} ×%{quantity}",
+        "split_shipping_option_free": "Livraison gratuite",
+        "split_shipping_option_lowest_price": "Prix le plus bas",
+        "split_shipping_option_fastest": "Le plus rapide",
+        "split_shipping_option_recommended": "Recommandé",
+        "split_shipping_option_custom": "Coutume"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Informations supplémentaires"
         }
+      },
+      "payment": {
+        "network_card_payment_options": "Choisissez un réseau de carte",
+        "network_card_persistence_description": "Le réseau sélectionné sera enregistré avec votre méthode de paiement pour les transactions futures.",
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Vous serez invité à vous connecter avec Amazon.",
+        "amazon_payments_logout": "Se déconnecter d'Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "La méthode de paiement sélectionnée n'a pas pu être utilisée. Sélectionnez une autre méthode ou contactez votre banque ou l'émetteur de votre carte.",
+        "amazon_payments_abandoned_mfa_challenge": "Votre paiement n'a pas pu être effectué. Essayez un autre mode de paiement ou contactez votre banque ou l'émetteur de votre carte.",
+        "amazon_payments_could_not_enqueue_authorize": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer ou utiliser un autre mode de paiement.",
+        "title": "Paiement",
+        "amount_left_to_pay_label": "Paiement dû :",
+        "discount_button_action_label": "Appliquer le code de réduction",
+        "gift_card_code_label": "Code de carte cadeau",
+        "apply_gift_card_button_label": "Appliquer",
+        "gift_card_balance_label": "Équilibre:",
+        "supported_card_brands_more_label": "et plus encore…",
+        "detected_card_brand": "Marque de carte détectée : {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Enregistrez votre carte de crédit",
+        "credit_card_vaulting_sign_in_banner_info": "Connectez-vous ou créez un compte pour enregistrer votre carte de crédit pour de futurs achats.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Se connecter",
+        "ftd_vault_credit_card_label": "Enregistrer cette carte de crédit sur mon compte pour un paiement plus rapide",
+        "card_number_label": "Numéro de carte",
+        "card_number_placeholder": "Numéro de carte",
+        "card_pay_with": "Payer avec :",
+        "card_security_notice": "Toutes les transactions sont sécurisées et cryptées.",
+        "card_security_vault_notice": "Nous avons besoin de vos coordonnées pour les paiements futurs. Toutes les transactions sont sécurisées et cryptées.",
+        "card_information_notice": "Toutes les transactions sont sécurisées et cryptées. Les informations de carte de crédit ne sont jamais stockées.",
+        "name_on_card_label": "Nom sur la carte",
+        "name_on_card_placeholder": "Nom sur la carte",
+        "card_nickname_label": "Surnom (facultatif)"
       }
     }
   }
