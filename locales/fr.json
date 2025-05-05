@@ -2516,7 +2516,89 @@
         "email_us_button_label": "Envoyez-nous un e-mail"
       },
       "order_errors": {
-        "creation_failure": "Il y a eu un problème lors de la création de votre commande. Essayez à nouveau, ou contactez-nous pour plus de détails."
+        "creation_failure": "Il y a eu un problème lors de la création de votre commande. Essayez à nouveau, ou contactez-nous pour plus de détails.",
+        "network_failure": "Votre commande n'a pas pu être soumise en raison d'une erreur réseau. Vérifiez votre connexion et réessayez.",
+        "inventory_reservation_failure": "Certains articles ne sont plus disponibles."
+      },
+      "session_errors": {
+        "session_not_unique": "Il y a eu un problème lors du traitement de votre commande. Actualisez cette page pour revenir au magasin.",
+        "session_already_finished": "Cette commande a déjà été soumise. Vous pouvez retourner au magasin pour commencer une nouvelle commande."
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Il y a eu un problème lors du traitement de votre commande. Veuillez réessayer dans quelques minutes."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Fermé",
+        "business_hours": "Horaires d'ouverture",
+        "no_business_hours": "Aucun horaire d'ouverture disponible",
+        "open_twenty_four_hours": "Ouvert 24h/24 et 7j/7",
+        "title": "Point de retrait",
+        "or": "ou",
+        "search_button": "Recherche",
+        "address_label": "Adresse",
+        "selector_tabs": "Sélecteur de point de retrait",
+        "selector_tab_map": "Carte",
+        "selector_tab_list": "Liste",
+        "could_not_resolve_address": "Votre adresse n'a pas pu être localisée. Essayez de nouveau ou utilisez une adresse différente",
+        "no_pickup_points_near_you": "Aucun point de retrait trouvé près de l'adresse sélectionnée",
+        "no_pickup_points_near_location": "Aucun point de retrait trouvé près de votre emplacement",
+        "pickup_unavailable_banner_title": {
+          "one": "Votre article n'est pas disponible aux points de retrait",
+          "other": "Vos articles ne sont pas disponibles aux points de retrait"
+        },
+        "no_pickup_points_found": "Aucun point de retrait trouvé",
+        "paginator": {
+          "next_accessibility_label": "Page suivante",
+          "previous_accessibility_label": "Page précédente",
+          "header": {
+            "one": "Affichage de %{first} - %{last} sur %{count} point",
+            "other": "Affichage de %{first} - %{last} sur %{count} points"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} sur %{count} point",
+            "other": "%{pickup_point_index} sur %{count} points"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} sur %{count} point",
+            "other": "%{first} - %{last} sur %{count} points"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} point de retrait près de votre emplacement",
+          "other": "%{count} points de retrait près de votre emplacement"
+        },
+        "change": "Changer de lieu",
+        "waiting_on_pickup_point_location_notice": "Recherche des points de retrait...",
+        "geolocation": {
+          "shared_location_button": "Utiliser ma position",
+          "errors": {
+            "unsuported_by_browser": "La géolocalisation n'est pas prise en charge par votre navigateur. Essayez à nouveau ou utilisez un autre navigateur.",
+            "permission_not_allowed": "Autoriser le partage de votre position.",
+            "permission_denied": "Impossible d'obtenir votre position. Veuillez réessayer."
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Il y a eu un problème avec notre paiement",
+          "message": "Actualisez cette page ou réessayez dans quelques minutes",
+          "action": {
+            "cta": "Actualiser la page"
+          },
+          "request_id": "ID de la demande : {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Retour au panier",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} mettre à jour les quantités",
+        "subscription_changed": "Un de vos abonnements a changé.",
+        "company_location_changed": "Votre panier a été mis à jour. Vérifiez votre commande avant de la soumettre.",
+        "company_location_changed_product_removed": "Votre panier a été mis à jour car certains produits ne sont pas disponibles à cet endroit. Veuillez vérifier votre commande avant de la soumettre.",
+        "violations_title": "{{violation}} est manquant ou invalide",
+        "individual_violations_title": {
+          "DeliveryViolations": "Adresse de livraison",
+          "PaymentViolations": "Adresse de facturation"
+        }
       }
     }
   }
