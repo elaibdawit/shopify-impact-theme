@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Página {{ page }}",
@@ -84,7 +93,7 @@
       "view_in_space": "Ver en tu espacio",
       "taxes_included": "Impuestos incluidos.",
       "taxes_excluded": "Impuestos excluidos.",
-      "shipping_policy_html": "Los <a href=\"{{ link }}\" class=\"link\">gastos de envío<\/a> se calculan al finalizar la compra",
+      "shipping_policy_html": "Los <a href=\"{{ link }}\" class=\"link\">gastos de envío</a> se calculan al finalizar la compra",
       "size_chart": "Guía de tallas",
       "available_colors_count": {
         "one": "{{ count }} color disponible",
@@ -412,6 +421,73 @@
         "zero": "Este producto aún no tiene reseñas.",
         "one": "Ha recibido {{ count }} reseña.",
         "other": "Ha recibido {{ count }} reseñas."
+      }
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " y ",
+      "last_word_connector": ", y "
+    },
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "¿Estás seguro de que quieres eliminar la dirección? {{address}}?"
+      },
+      "general": {
+        "page_title": "Verificar",
+        "error_page_title": "Error",
+        "skip_to_content": "Saltar al contenido",
+        "breadcrumb": "Migaja de pan",
+        "continue_button_label": "Continuar",
+        "complete_purchase_button_label": "Completar pedido",
+        "pay_now_button_label": "Pagar ahora",
+        "authenticate_purchase_button_label": "Autenticar pago",
+        "edit_link_label": "Editar",
+        "all_rights_reserved": "Reservados todos los derechos %{shop_name}",
+        "print_policies_link_label": "Imprimir",
+        "cart": "Carro",
+        "close_modal_label": "Cerca",
+        "close_notice_label": "Cerca",
+        "expand_notice_label": "Ver más",
+        "continue_to_shipping_method": "Continuar con el envío",
+        "continue_to_payment_method": "Continuar con el pago",
+        "continue_to_review": "Orden de revisión",
+        "back_to_cart": "Volver al carrito",
+        "back_to_contact_information": "Volver a la información",
+        "back_to_shipping_method": "Volver a envíos",
+        "back_to_payment_method": "Volver al pago",
+        "choose_shipping_method": "Elige un método de envío",
+        "choose_payment_method": "Elige un método de pago",
+        "choose_billing_address": "Elige una dirección de facturación",
+        "contact_us_html": "Contáctanos para más información",
+        "autocomplete_title": "Sugerencias",
+        "autocomplete_single_item": "1 artículo disponible",
+        "autocomplete_multi_item": "{{number}} artículos disponibles",
+        "autocomplete_selection": "{{number}} de {{total}}",
+        "autocomplete_close": "Cerrar sugerencias",
+        "forwarding_indicator": {
+          "new_window": "Se abre en una nueva ventana.",
+          "external": "Abre un sitio web externo.",
+          "external_and_new_window": "Abre un sitio web externo en una nueva ventana."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Verificar"
+        },
+        "tooltip_accessibility_label": "Más información",
+        "qr_code": "Código QR",
+        "errors": {
+          "only_empty_terms_accepted": "Esta política solo acepta términos vacíos.",
+          "session_identifier_not_unique_error": "Algo salió mal con su pedido, por favor intente realizar la compra nuevamente.",
+          "line_item_limit_reached": "Se ha alcanzado el número máximo de artículos en la línea.",
+          "session_is_already_finished": "Esta sesión de pago ya ha sido finalizada.",
+          "merchandise": {
+            "only_value_constraint": "Solo se permiten valores exactos en la entrada de mercancía.",
+            "merchandise_not_found": "Producto no encontrado.",
+            "merchandise_variant_not_found": "Variante de producto no encontrada.",
+            "merchandise_not_applicable": "No se puede comprar la variante del producto.",
+            "mixed_currencies": "El carrito contiene artículos con diferentes monedas."
+          }
+        }
       }
     }
   }
