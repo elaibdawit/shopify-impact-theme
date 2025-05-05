@@ -1935,8 +1935,78 @@
         "components": {
           "close": "Cerca",
           "expand": "Ver más",
-          "processing": "Tratamiento…"
+          "processing": "Tratamiento…",
+          "submit": "Entregar"
         }
+      },
+      "processing": {
+        "redirecting_page_title": "Redirigiendo…",
+        "redirecting_title": "Redirigiendo…",
+        "redirecting_notice": "Espere mientras lo redirigimos.",
+        "redirecting_to_bank": "Redireccionando a {{bank}}",
+        "complete_your_purchase_title": "Completa tu compra",
+        "continue_to_payment_gateway_notice": "Continúa con el pago para agregar tu información de pago.",
+        "continue_to_payment_gateway_button_label": "Continuar con el pago",
+        "complete_your_purchase_title_error": "Corrige tu información de pago",
+        "continue_to_payment_gateway_notice_error": "No se pudo verificar su información de pago.",
+        "continue_to_payment_gateway_button_label_error": "Actualizar la información de pago",
+        "page_title": "Orden de procesamiento",
+        "title": "Orden de procesamiento",
+        "your_order_has_been_received_title": "Gracias por su pedido",
+        "you_will_receive_confirmation": "Estamos recibiendo muchos pedidos en este momento. Deberías recibir la confirmación por correo electrónico o mensaje de texto pronto. Si no la recibes en la próxima hora, avísanos.",
+        "you_will_not_be_charged": "Aún no se le cobrará",
+        "wait": {
+          "short": "Tu pedido está siendo procesado.",
+          "medium": {
+            "one": "Su pedido está siendo procesado. El tiempo estimado de espera es de %{count} minuto.",
+            "other": "Su pedido está siendo procesado. El tiempo de espera estimado es de %{count} minutos."
+          },
+          "long": "Recibirás un correo electrónico tan pronto como se procese tu pedido. Actualmente hay un alto volumen de pedidos.",
+          "no_auto_refresh_html": "Si no eres redirigido automáticamente, %{link}.",
+          "refresh_this_page": "Actualizar esta página"
+        },
+        "action_required": "Acción requerida",
+        "modal_notice": "Estamos contactando {{paymentMethod}}"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Completa tu compra usando tu código {{paymentMethod}}",
+        "timer_message": "Tienes {{timeLeft}} para pagar",
+        "copy_text": "Copiar código {{paymentMethod}}",
+        "open_app_text": "Abrir la aplicación {{paymentMethod}}",
+        "header": "Pagar con {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Completa tu compra usando tu código {{paymentMethod}}"
+        },
+        "external": {
+          "instructions": "Confirma el pago en tu aplicación para completar esta compra"
+        },
+        "close": "Cierra el reto"
+      },
+      "failed_payment": {
+        "page_title": "No se pudo procesar el pago",
+        "title": "No se pudo procesar el pago",
+        "payment_not_processed_title": "No se pudo procesar su pago",
+        "payment_not_processed_text": "No se te ha cobrado. Vuelve a tu carrito para completar tu compra.",
+        "return_to_cart_button_label": "Volver al carrito"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Tarjeta de crédito",
+        "bank_deposit_label": "Depósito bancario",
+        "cash_on_delivery_label": "Pago contra reembolso (COD)",
+        "money_order_label": "Giro postal",
+        "debit_card_label": "Tarjeta de débito",
+        "deferred_payment_label": "Elegir método de pago más tarde",
+        "fixed_payment_label": "Su pago vencerá el {{dueDate}}.",
+        "generic_payment_terms": "Estás en términos de {{translatedName}}. Tu pago vencerá el {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} a una cuenta con acceso a esta ubicación para agregar o usar métodos de pago guardados.",
+            "link": "Acceso"
+          }
+        },
+        "direct_payment_terms": "Estás en términos de {{translatedName}}. Tu tarjeta será cargada el {{dueDate}}.",
+        "fixed_direct_payment_terms": "Tu tarjeta será cargada el {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Su pago será debido una vez que su pedido sea cumplido."
       }
     }
   }
