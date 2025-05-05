@@ -1123,7 +1123,72 @@
         "error_duties_tooltip": "Este pedido se está enviando desde otro país, por lo que es posible que se cobren aranceles e impuestos al momento de la entrega.",
         "may_be_charged_on_delivery": "Puede cobrarse en la entrega",
         "total_updated_label_with_price": "Precio total actualizado: %{totalPrice}",
-        "updated_shipping_method": "Método de envío actualizado: %{shipping_method}"
+        "updated_shipping_method": "Método de envío actualizado: %{shipping_method}",
+        "recurring_payments": "Pagos recurrentes",
+        "recurring_total_multiple_label": "Este pedido tiene un cargo recurrente por múltiples artículos.",
+        "deferred_total_due_date_label": "Total adeudado {{date}}",
+        "full_price": "Precio completo: %{price}",
+        "custom_discount": "Descuento personalizado",
+        "expand_component_information": {
+          "one": "Mostrar %{count} artículo",
+          "other": "Mostrar %{count} artículos"
+        },
+        "collapse_component_information": {
+          "one": "Ocultar %{count} artículo",
+          "other": "Ocultar %{count} artículos"
+        },
+        "component_quantity_title": "%{quantity} × %{product_title}",
+        "discount_discovery": {
+          "add_code": "Añadir descuento",
+          "merchandise_quantity_label": {
+            "one": "%{count} artículo",
+            "other": "%{count} elementos"
+          }
+        },
+        "alternative_payment_currency_total": "Acusado como %{amount_due}"
+      },
+      "shipping": {
+        "title": "Envío",
+        "delivery_title": "Entrega",
+        "shipping_method_title": "Método de envío",
+        "shipping_method_one_time_purchase_group_title": "Compra única",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Primer envío",
+          "other": "Primeros envíos"
+        },
+        "shipping_method_subscription_group_title": "Suscripción",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Envío recurrente",
+          "other": "Envíos recurrentes"
+        },
+        "subscription_shipping": "Envío por suscripción",
+        "subscription_local_delivery": "Entrega local de suscripción",
+        "subscription_pickup": "Recogida de suscripciones",
+        "waiting_on_rate_notice": "Obteniendo tarifas de envío disponibles…",
+        "waiting_on_pickup_location_notice": "Obteniendo ubicaciones disponibles para recoger…",
+        "no_rates_for_cart_or_destination_notice": "No hay métodos de envío disponibles para su carrito o dirección",
+        "no_pickup_location_notice": "Al menos uno de tus productos no está disponible para recoger",
+        "no_rates_for_country_notice": "No se encontraron tarifas de envío para esta dirección.",
+        "no_rates_contact_notice": "Contáctanos para más información",
+        "free_rate_label": "Gratis",
+        "cheapest_rate_label": "El más barato",
+        "please_enter_your_shipping_information_notice": "Por favor, introduzca su información de envío.",
+        "estimated_delivery_date": {
+          "one": "%{count} día hábil",
+          "other": "%{count} días hábiles"
+        },
+        "estimated_delivery_date_range": "%{minimum} a %{maximum} días hábiles",
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "estimated_delivery_time": "Entrega estimada %{time}",
+        "estimated_delivery_time_range": "Entrega estimada %{min_time}–%{max_time}",
+        "delivery_today": "Entrega el mismo día %{time}",
+        "delivery_tomorrow": "Entrega al día siguiente %{time}",
+        "two_day_delivery": "Entrega en 2 días %{time}",
+        "delivery": "Entrega %{time}",
+        "arrives_time": "Llega %{time}",
+        "arrives_time_range": "Llega entre %{min_time} y %{max_time}",
+        "estimated_time": "Estimado %{time}",
+        "estimated_time_range": "Estimado %{min_time}–%{max_time}"
       }
     }
   }
