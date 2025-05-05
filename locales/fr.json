@@ -3299,10 +3299,76 @@
             "claimed_shop_cash_description": "Parce que cette commande est arrivée en retard, vous avez réclamé {{amount}} Shop Cash.",
             "eligible_to_claim_shop_cash_description": "Parce que votre commande est arrivée en retard, vous êtes éligible pour réclamer {{amount}} Shop Cash.",
             "learn_more_button_label": "Apprendre encore plus",
-            "claim_shop_cash_button_label": "Réclamer l'argent de la boutique"
+            "claim_shop_cash_button_label": "Réclamer l'argent de la boutique",
+            "view_balance_in_shop_button_label": "Voir le solde dans la boutique",
+            "scan_to_claim_shop_cash_label": "Scannez pour réclamer {{amount}} Shop Cash"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Livraison assurée par",
+            "mixed_brands_label": "Livraison garantie",
+            "not_delivered_by_label": "Non livré par {{date}}",
+            "modal_accessibility_button_label": "Détails de la promesse de livraison"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Réclamez votre Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}} pour réclamer du Shop Cash",
+            "download_shop_app_label": "Téléchargez la boutique"
+          },
+          "details_modal": {
+            "title": "Livraison assurée par",
+            "modal_accessiblity_label": "Détails de la promesse de livraison",
+            "delivery_guarantee_label": "Garantie de livraison",
+            "delivery_by_label": "Livraison par {{date}}",
+            "delivery_guaranteed_by_label": "Livraison garantie par {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garantit une livraison rapide et fiable. Réclamez Shop Cash si votre commande arrive en retard.",
+              "may_be_eligible_not_authorized_label": "Vous pouvez être éligible pour réclamer Shop Cash car cette commande est arrivée en retard. Connectez-vous pour voir les détails.",
+              "redeemed_label": "Vous avez déjà réclamé Shop Cash car cette commande est arrivée en retard.",
+              "expired_label": "Cette commande n'est pas éligible à une réclamation pour livraison tardive car la garantie de 30 jours a expiré.",
+              "no_shop_cash_label": "Cette commande n'est pas éligible à une réclamation pour livraison tardive car elle n'a pas été payée avec Shop Pay.",
+              "no_longer_guaranteed_label": "Ces articles ne sont plus couverts par une garantie de livraison.",
+              "claim_shop_cash_title": "Scannez pour réclamer {{amount}} en Shop Cash",
+              "claim_shop_cash_description": "Vous pouvez utiliser votre Shop Cash pour des achats futurs dans l'application Shop."
+            }
           }
         }
-      }
+      },
+      "status_mark_as_delivered": "Marquer comme livré",
+      "fulfillment_status_title": "Statut d'exécution : {{status}}",
+      "buy_again": "Acheter à nouveau",
+      "buy_again_accessibility_label": "Achetez à nouveau pour commander {{orderId}}",
+      "manage": "Gérer",
+      "manage_accessiblity_label": "Gérer la commande {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Afficher les détails",
+        "expand_events_accessibility_label": "Afficher les détails de l'expédition de la commande",
+        "hide_events_label": "Masquer les détails",
+        "hide_events_accessibility_label": "Masquer les détails de l'expédition de la commande"
+      },
+      "addresses_section_title": "Facturation et livraison",
+      "order_details": "Détails de la commande",
+      "order_details_skeleton_accessibility_label": "Connectez-vous pour voir tous les détails de la commande.",
+      "billing_address": "Adresse de facturation",
+      "card_ending_with": "se terminant par {{lastDigits}}",
+      "contact": "Contact",
+      "contact_information": "Coordonnées",
+      "company": "Entreprise",
+      "fully_refunded_label": "REMBOURSÉ",
+      "group_title_label": "Une partie de: {{groupTitle}}",
+      "grouped_view_components": {
+        "expand_line_items": "Afficher {{count}} éléments",
+        "collapse_line_items": "Masquer {{count}} éléments",
+        "line_item_summary": "{{refundableQuantity}} x {{productTitle}}",
+        "line_item_summary_accessibility_label": "{{productTitle}}, Quantité: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Articles dans le pack {{productTitle}}"
+      },
+      "discount": "Rabais",
+      "hide_items": "Masquer les éléments",
+      "loading": "Chargement des détails de la commande"
     }
   }
 }
