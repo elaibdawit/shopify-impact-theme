@@ -1634,7 +1634,125 @@
           }
         },
         "simulated_checkout": "Aperçu à venir",
-        "simulated_express_checkout": "Les portefeuilles ne sont pas disponibles dans l'aperçu de l'éditeur en raison de votre région ou de votre navigateur"
+        "simulated_express_checkout": "Les portefeuilles ne sont pas disponibles dans l'aperçu de l'éditeur en raison de votre région ou de votre navigateur",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Retiré {{amount}} du retour",
+        "order_edit_banner_updated_order_label": "Commande mise à jour",
+        "gift_card_wrapper": {
+          "heading": "Carte cadeau",
+          "apply_gift_card_label": "Appliquer une carte cadeau",
+          "apply_another_gift_card_label": "Appliquer une autre carte cadeau",
+          "gift_card_label": "Carte cadeau %{identifier}",
+          "payment_tag": "Carte cadeau",
+          "add_label": "Ajouter une carte cadeau",
+          "manage_label": "Gérer les cartes-cadeaux"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Ajouter une carte cadeau ou un crédit en magasin",
+          "manage_label": "Gérer les cartes-cadeaux ou le crédit en magasin"
+        },
+        "gift_card_checkbox_label": "Appliquer la carte-cadeau",
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmation de paiement sur site personnalisée"
+        },
+        "markets_pro_disclaimer_label": "En cliquant ci-dessous et en complétant votre commande, vous acceptez d'acheter votre/vos article(s) auprès de Global-e en tant que commerçant officiel pour cette transaction, selon les %{markets_pro_terms} et la %{privacy_policy} de Global-e. Global-e est un prestataire international de services de traitement des commandes pour %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Conditions générales",
+        "markets_pro_disclaimer_privacy_policy": "politique de confidentialité",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Conditions générales du commerçant enregistré",
+        "markets_pro_disclaimer_privacy_policy_title": "Politique de confidentialité du commerçant enregistré",
+        "purchase_order_number": {
+          "title": "Numéro de bon de commande",
+          "label": "Numéro de bon de commande (optionnel)"
+        },
+        "alternative_payment_currency_total_notice": "Note : vous serez facturé %{amount_due}.",
+        "alternative_payment_currency_total_manual_payment_notice": "Note : le total converti est %{amount_due}.",
+        "waiting_on_taxes_message": "Si vos taxes ne sont pas calculées dans les prochaines secondes, actualisez la page.",
+        "waiting_on_taxes_notice": "Calcul des impôts",
+        "payment_method": "Mode de paiement",
+        "expired_payment_method": "La méthode de paiement sélectionnée a expiré",
+        "payment_method_update_failed": "La mise à jour du mode de paiement a échoué.",
+        "payment_method_incompatible_with_payment_terms": "Le mode de paiement est incompatible avec les conditions de paiement.",
+        "proposed_gateway_unavailable": "La passerelle de paiement proposée est indisponible",
+        "pay_in_installments_split_pay_short": "4 versements de %{amount}",
+        "gift_cards_unavailable": "Votre carte cadeau ne peut plus être appliquée à cette commande et a été retirée",
+        "payment_flexibility_terms_id_mismatch": "Incompatibilité de l'ID des conditions de flexibilité de paiement"
+      },
+      "billing": {
+        "billing_address_title": "Facturer à",
+        "same_as_shipping": "Identique à l'adresse de livraison",
+        "add_address": "Utiliser une adresse différente",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "address_more": "Plus d'actions pour cette adresse",
+        "address_edit": "Modifier l'adresse",
+        "address_delete": "Supprimer l'adresse",
+        "address_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse de votre compte ?",
+        "address_form": {
+          "add_address": "Ajouter une adresse",
+          "save": "Sauvegarder",
+          "cancel": "Annuler"
+        }
+      },
+      "company_location": {
+        "location_title": "Emplacement"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Solde actuel %{amount}",
+        "credit_card_expires_on_notice": "Expire le %{month}/%{year}",
+        "express_payment_gateway_label": "Exprimer",
+        "manual_payment_gateway_label": "Manuel",
+        "billing_address_title": "Adresse de facturation",
+        "free_label": "Gratuit"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Entrez un numéro de téléphone valide",
+        "handle_email_invalid": "Entrez une adresse e-mail valide",
+        "email_invalid": "Entrez une adresse e-mail valide",
+        "email_or_phone_blank": "Entrez un e-mail ou un numéro de téléphone",
+        "email_or_phone_invalid": "Entrez un e-mail valide ou un numéro de téléphone mobile",
+        "address_first_name_blank": "Entrez un prénom",
+        "address_first_name_too_long": "Le prénom est trop long (le maximum est de 255 caractères)",
+        "address_first_name_contains_emojis": "Le prénom ne peut pas contenir d'émojis",
+        "address_first_name_contains_html_tags": "Le prénom ne peut pas contenir de balises HTML.",
+        "address_first_name_contains_url": "Le prénom ne peut pas contenir une URL",
+        "address_first_name_contains_mathematical_symbols": "Le prénom ne peut pas contenir de symboles mathématiques",
+        "address_last_name_blank": "Entrez un nom de famille",
+        "address_last_name_too_long": "Le nom de famille est trop long (le maximum est de 255 caractères)",
+        "address_last_name_contains_emojis": "Le nom de famille ne peut pas contenir d'émojis",
+        "address_last_name_contains_html_tags": "Le nom de famille ne peut pas contenir de balises HTML.",
+        "address_last_name_contains_url": "Le nom de famille ne peut pas contenir une URL",
+        "address_last_name_contains_mathematical_symbols": "Le nom de famille ne peut pas contenir de symboles mathématiques",
+        "address_address1_blank": "Entrez une adresse",
+        "address_address1_too_long": "La première ligne d'adresse est trop longue (le maximum est de 255 caractères)",
+        "address_address1_contains_emojis": "Address1 ne peut pas contenir d'émojis",
+        "address_address1_contains_html_tags": "Address1 ne peut pas contenir de balises HTML.",
+        "address_address1_contains_mathematical_symbols": "La première ligne d'adresse ne peut pas contenir de symboles mathématiques",
+        "address_address2_blank": "Entrez un appartement, une suite, etc.",
+        "address_address2_too_long": "La deuxième ligne d'adresse est trop longue (le maximum est de 255 caractères)",
+        "address_address2_contains_emojis": "Address2 ne peut pas contenir d'émojis",
+        "address_address2_contains_html_tags": "Address2 ne peut pas contenir de balises HTML.",
+        "address_address2_contains_mathematical_symbols": "La deuxième ligne d'adresse ne peut pas contenir de symboles mathématiques",
+        "address_city_blank": "Entrez une ville",
+        "address_city_too_long": "La ville est trop longue (le maximum est de 255 caractères)",
+        "address_city_contains_emojis": "La ville ne peut pas contenir d'émojis",
+        "address_city_contains_html_tags": "La ville ne peut pas contenir de balises HTML.",
+        "address_city_contains_mathematical_symbols": "La ville ne peut pas contenir de symboles mathématiques",
+        "address_country_blank": "Sélectionnez un pays/région",
+        "address_country_not_supported": "Nous ne livrons pas dans ce pays ou cette région. Veuillez saisir une nouvelle adresse de livraison et réessayer.",
+        "address_province_blank": "Sélectionnez un état / une province",
+        "address_province_invalid": "Sélectionnez un état / une province valide",
+        "address_company_blank": "Entrez un nom d'entreprise",
+        "address_company_too_long": "Le nom de l'entreprise est trop long (le maximum est de 255 caractères)",
+        "address_company_contains_emojis": "La société ne peut pas contenir d'émojis",
+        "address_company_contains_html_tags": "La société ne peut pas contenir de balises HTML.",
+        "address_company_contains_mathematical_symbols": "La société ne peut pas contenir de symboles mathématiques",
+        "address_phone_blank": "Entrez un numéro de téléphone valide",
+        "address_phone_contains_emojis": "Le numéro de téléphone ne peut pas contenir d'émojis",
+        "address_phone_invalid": "Entrez un numéro de téléphone valide",
+        "address_zip_blank": "Entrez un code postal / ZIP",
+        "address_zip_blocked_address": "Cet emplacement n'est pas pris en charge",
+        "address_zip_too_long": "Le code postal est trop long (le maximum est de 255 caractères)",
+        "address_zip_not_supported": "Cet emplacement n'est pas pris en charge",
+        "address_zip_invalid_for_country": "Entrez un code postal / ZIP valide pour %{country}"
       }
     }
   }
