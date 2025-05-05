@@ -157,37 +157,37 @@
       "clear_filters": "Borrar todo",
       "apply_filters": "Aplicar",
       "sort_by": "Ordenar por",
-      "remove_filter": "Quitar filtro «{{ name }}»",
-      "no_results": "No hay productos que coincidan con los filtros.",
+      "remove_filter": "Quitar filtro \"{{ name }}\"",
+      "no_results": "No hay productos que coincidan con esos filtros.",
       "price_range_to": "a",
-      "price_filter_from": "Precio mínimo",
-      "price_filter_to": "Precio máximo",
-      "price_filter": "{{ min_price }}-{{ max_price }}",
-      "availability_label": "Solo mostrar disponibles"
+      "price_filter_from": "Desde el precio",
+      "price_filter_to": "Poner precio",
+      "price_filter": "{{ min_price }} - {{ max_price }}",
+      "availability_label": "Solo en stock"
     }
   },
   "blog": {
     "general": {
       "empty_blog": "Este blog está vacío",
-      "back_to_home": "Volver a inicio",
-      "view": "Ver",
-      "all_posts": "Todas las entradas"
+      "back_to_home": "De vuelta a casa",
+      "view": "Vista",
+      "all_posts": "Todas las publicaciones"
     },
     "post": {
-      "written_by": "De {{ author }}",
+      "written_by": "Por {{ author }}",
       "share": "Compartir",
       "tags": "Etiquetas",
-      "continue_reading": "Puede que te interese"
+      "continue_reading": "Leyendo a continuación"
     },
     "comments": {
-      "leave_comment": "Dejar un comentario",
-      "moderated": "Todos los comentarios se revisan antes de su publicación.",
+      "leave_comment": "Deja un comentario",
+      "moderated": "Todos los comentarios son moderados antes de ser publicados.",
       "name": "Nombre",
       "email": "Correo electrónico",
       "message": "Mensaje",
-      "submit": "Enviar",
-      "comment_sent": "Se ha enviado tu comentario. Lo publicaremos después de revisarlo.",
-      "comment_published": "Se ha publicado tu comentario.",
+      "submit": "Entregar",
+      "comment_sent": "Tu comentario ha sido enviado. Lo publicaremos en un momento, ya que nuestro blog está moderado.",
+      "comment_published": "Tu comentario ha sido publicado.",
       "count": {
         "zero": "{{ count }} comentarios",
         "one": "{{ count }} comentario",
@@ -201,47 +201,47 @@
       "email": "Correo electrónico",
       "message": "Mensaje",
       "submit": "Enviar mensaje",
-      "success_message": "Se ha enviado tu mensaje."
+      "success_message": "Tu mensaje ha sido enviado."
     }
   },
   "customer": {
     "account": {
-      "welcome": "Hola, {{first_name}}",
-      "tagline": "Aquí puedes ver todos tus pedidos y gestionar la información de la cuenta.",
+      "welcome": "Bienvenido, {{first_name}}",
+      "tagline": "Ver todos tus pedidos y administrar la información de tu cuenta.",
       "orders": "Pedidos",
       "addresses": "Direcciones",
       "logout": "Cerrar sesión",
-      "no_orders": "Aún no has hecho ningún pedido.",
+      "no_orders": "Aún no has realizado ningún pedido.",
       "continue_shopping": "Seguir comprando"
     },
     "login": {
-      "title": "Iniciar sesión",
+      "title": "Acceso",
       "email": "Correo electrónico",
       "password": "Contraseña",
-      "submit": "Iniciar sesión",
-      "forgot_password": "¿Olvidaste la contraseña?",
-      "sign_up": "Registro"
+      "submit": "Acceso",
+      "forgot_password": "¿Olvidaste tu contraseña?",
+      "sign_up": "Inscribirse"
     },
     "recover_password": {
       "title": "Recuperar contraseña",
       "email": "Correo electrónico",
       "submit": "Recuperar",
-      "back_to_login": "Volver a inicio de sesión",
-      "success_message": "Te hemos enviado un correo electrónico con instrucciones para restablecer la contraseña."
+      "back_to_login": "Volver al inicio de sesión",
+      "success_message": "Se ha enviado un correo electrónico a su dirección con instrucciones para restablecer su contraseña."
     },
     "register": {
-      "title": "Registro",
-      "first_name": "Nombre",
-      "last_name": "Apellidos",
+      "title": "Inscribirse",
+      "first_name": "Nombre de pila",
+      "last_name": "Apellido",
       "email": "Correo electrónico",
       "password": "Contraseña",
-      "accepts_marketing": "Suscríbete a nuestro boletín",
-      "submit": "Crear cuenta",
-      "login": "Iniciar sesión"
+      "accepts_marketing": "Regístrate en nuestro boletín",
+      "submit": "Crear una cuenta",
+      "login": "Acceso"
     },
     "activate_account": {
       "title": "Activar cuenta",
-      "instructions": "Escribe una contraseña para crear tu cuenta:",
+      "instructions": "Introduce una contraseña para crear tu cuenta:",
       "password": "Contraseña",
       "password_confirmation": "Confirmación de contraseña",
       "submit": "Activar",
@@ -251,44 +251,44 @@
       "title": "Restablecer contraseña",
       "password": "Contraseña",
       "password_confirmation": "Confirmación de contraseña",
-      "submit": "Restablecer"
+      "submit": "Reiniciar"
     },
     "order": {
-      "order": "Pedido",
-      "order_name": "Pedido {{name}}",
+      "order": "Orden",
+      "order_name": "Orden {{name}}",
       "view_details": "Ver detalles del pedido",
-      "back": "Volver",
+      "back": "Atrás",
       "date": "Fecha",
       "payment_status": "Estado del pago",
-      "fulfillment_status": "Estado de preparación",
+      "fulfillment_status": "Estado de cumplimiento",
       "cancelled_on": "Cancelado el {{date}}. Motivo: {{reason}}",
       "product": "Producto",
       "quantity": "Cantidad",
-      "fulfillment_with_number": "Tu pedido se envió el {{date}}. Haz un seguimiento del envío con el número {{tracking_number}}.",
-      "fulfillment": "Tu pedido se envió el {{date}}.",
+      "fulfillment_with_number": "Su pedido ha sido enviado el {{date}}. Rastree el envío con el número {{tracking_number}}.",
+      "fulfillment": "Su pedido ha sido enviado el {{date}}.",
       "track_shipment": "Seguimiento del envío",
-      "subtotal": "Subtotal",
+      "subtotal": "Total parcial",
       "discount": "Descuento",
-      "shipping": "Gastos de envío",
+      "shipping": "Envío",
       "taxes_included": "Impuestos incluidos",
       "taxes_excluded": "Impuestos excluidos",
-      "total_duties": "Tasas de aduanas",
+      "total_duties": "Deberes",
       "refunded_amount": "Importe reembolsado",
       "total": "Total",
       "shipping_address": "Dirección de envío",
-      "billing_address": "Dirección de facturación"
+      "billing_address": "Dirección de Envio"
     },
     "addresses": {
       "no_addresses": "Aún no has guardado ninguna dirección.",
-      "add_address": "Añadir dirección",
+      "add_address": "Agregar dirección",
       "edit_address": "Editar dirección",
       "save_address": "Guardar dirección",
       "edit": "Editar",
-      "delete": "Eliminar",
+      "delete": "Borrar",
       "default_address": "Dirección predeterminada",
-      "address_title": "Dirección {{ position }}",
-      "delete_confirm": "¿Seguro que quieres eliminar esta dirección? Una vez eliminada, no podrás recuperarla.",
-      "fill_form": "Completa los datos siguientes:",
+      "address_title": "DIRECCIÓN {{ position }}",
+      "delete_confirm": "¿Eliminar esta dirección? Una vez confirmado, esta acción no se puede deshacer.",
+      "fill_form": "Por favor, complete la información a continuación:",
       "first_name": "Nombre",
       "last_name": "Apellidos",
       "company": "Empresa",
