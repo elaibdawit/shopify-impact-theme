@@ -1005,7 +1005,63 @@
           "one": "Subtotal · %{count} artículo",
           "other": "Subtotal · %{count} artículos"
         },
-        "shipping_label": "Envío"
+        "shipping_label": "Envío",
+        "pickup_label": "Recogida en tienda",
+        "no_pickup_location": "No hay ubicaciones de recogida disponibles.",
+        "pickup_unavailable_banner_title": {
+          "one": "Tu artículo no está disponible para recogida en tienda",
+          "other": "Tus artículos no están disponibles para recogida en tienda"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Enviar a dirección",
+          "ship_to_address_instead_html": "%{link} en cambio"
+        },
+        "tip_label": "Consejo",
+        "calculating_shipping": "Calculador…",
+        "calculating": "Calculador…",
+        "shipping_default_value": "Calculado en el siguiente paso",
+        "shipping_discount_title": "Descuento de envío",
+        "shipping_pending_value": "—",
+        "shipping_pending_message": "Aún no disponible",
+        "shipping_policy_link": "Gastos de envío",
+        "taxes_label": "Impuestos",
+        "estimated_taxes_label": "Impuestos estimados",
+        "information_estimated_taxes_label": "Impuestos (estimados)",
+        "estimated_taxes_finalization_tooltip_content": "El impuesto final y el total serán confirmados por correo electrónico o mensaje de texto después de que realice su pedido.",
+        "order_total_label": "Total del pedido",
+        "price_before_discount_aria_text": "Precio original",
+        "price_after_discount_aria_text": "Precio con descuento",
+        "discount_code_aria_text": "Código de descuento",
+        "total_savings": "Ahorro total",
+        "total_label": "Total",
+        "total_outstanding_label": "Cantidad a pagar",
+        "deposit_label": "Depósito",
+        "total_due_today_label": "Total a pagar hoy",
+        "total_due_later_label": "Total a pagar más tarde",
+        "partial_total_label": "Total",
+        "free_total_label": "Gratis",
+        "free_shipping_total_label": "Gratis",
+        "paid_label": "Pagado",
+        "payment_due_label": "Pago vencido",
+        "vat_label_html": "Incluyendo %{amount} en impuestos",
+        "duties_included_label": "El total incluye impuestos y aranceles. No hay cargos adicionales en la entrega.",
+        "discount_and_gift_card_savings_notice": "Después de %{discount_amount} en descuentos y %{gift_card_amount} en tarjetas de regalo",
+        "discount_savings_notice": "Después de %{discount_amount} en descuentos",
+        "gift_card_savings_notice": "Después de %{gift_card_amount} en tarjetas de regalo",
+        "cost_table_title": "Resumen de costos",
+        "cost_table_item_column_header": "Artículo",
+        "cost_table_value_column_header": "Valor",
+        "description_label": "Descripción",
+        "price_label": "Precio",
+        "price_per_item": {
+          "accessibility_label": "%{price} por artículo",
+          "label": "%{price}/cada uno"
+        },
+        "quantity_label": "Cantidad",
+        "product_change_label": "Cambiar",
+        "product_image_label": "Imagen del producto",
+        "product_image_quantity_label": "Cantidad",
+        "scroll_order_summary": "Desplázate para ver más artículos"
       }
     }
   }
