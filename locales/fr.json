@@ -158,38 +158,38 @@
       "apply_filters": "Appliquer",
       "sort_by": "Trier par",
       "remove_filter": "Supprimer le filtre \"{{ name }}\"",
-      "no_results": "Aucun produit ne correspond à ces critères",
+      "no_results": "Aucun produit ne correspond à ces filtres.",
       "price_range_to": "à",
-      "price_filter_from": "De",
-      "price_filter_to": "A",
+      "price_filter_from": "À partir du prix",
+      "price_filter_to": "Évaluer le prix",
       "price_filter": "{{ min_price }} - {{ max_price }}",
-      "availability_label": "En stock uniquement"
+      "availability_label": "En stock seulement"
     }
   },
   "blog": {
     "general": {
       "empty_blog": "Ce blog est vide",
-      "back_to_home": "Retour à la boutique",
+      "back_to_home": "Retour à la maison",
       "view": "Voir",
       "all_posts": "Tous les articles"
     },
     "post": {
       "written_by": "Par {{ author }}",
       "share": "Partager",
-      "tags": "Tags",
-      "continue_reading": "En lire plus"
+      "tags": "Mots clés",
+      "continue_reading": "À lire ensuite"
     },
     "comments": {
-      "leave_comment": "Laisser un commentaire",
+      "leave_comment": "Laissez un commentaire",
       "moderated": "Tous les commentaires sont modérés avant d'être publiés.",
       "name": "Nom",
       "email": "E-mail",
       "message": "Message",
-      "submit": "Envoyer",
-      "comment_sent": "Votre commentaire a été envoyé. Notre blog étant modéré, celui-ci ne sera pas visible immédiatement.",
+      "submit": "Soumettre",
+      "comment_sent": "Votre commentaire a été envoyé. Nous le publierons dans un instant, car notre blog est modéré.",
       "comment_published": "Votre commentaire a été publié.",
       "count": {
-        "zero": "{{ count }} commentaire",
+        "zero": "{{ count }} commentaires",
         "one": "{{ count }} commentaire",
         "other": "{{ count }} commentaires"
       }
@@ -198,96 +198,96 @@
   "contact": {
     "form": {
       "name": "Nom",
-      "email": "Email",
+      "email": "E-mail",
       "message": "Message",
-      "submit": "Envoyer",
-      "success_message": "Votre message a été envoyé"
+      "submit": "Envoyer un message",
+      "success_message": "Votre message a été envoyé."
     }
   },
   "customer": {
     "account": {
-      "welcome": "Bienvenue, {{first_name}}",
-      "tagline": "Accédez à vos commandes et configurez votre compte.",
-      "orders": "Commandes",
-      "addresses": "Addresses",
+      "welcome": "Accueillir, {{first_name}}",
+      "tagline": "Consultez toutes vos commandes et gérez les informations de votre compte.",
+      "orders": "Ordres",
+      "addresses": "Adresses",
       "logout": "Déconnexion",
-      "no_orders": "Vous n'avez effectué aucune commande.",
-      "continue_shopping": "Explorer nos produits"
+      "no_orders": "Vous n'avez encore passé aucune commande.",
+      "continue_shopping": "Continuer vos achats"
     },
     "login": {
-      "title": "Connexion",
-      "email": "Email",
+      "title": "Se connecter",
+      "email": "E-mail",
       "password": "Mot de passe",
       "submit": "Se connecter",
       "forgot_password": "Mot de passe oublié ?",
       "sign_up": "S'inscrire"
     },
     "recover_password": {
-      "title": "Récupération du mot de passe",
+      "title": "Récupérer le mot de passe",
       "email": "E-mail",
       "submit": "Récupérer",
-      "back_to_login": "Se connecter",
-      "success_message": "Un e-mail a été envoyé à votre adresse avec les instructions pour ré-initialiser votre mot de passe."
+      "back_to_login": "Retour à la connexion",
+      "success_message": "Un e-mail a été envoyé à votre adresse avec des instructions pour réinitialiser votre mot de passe."
     },
     "register": {
-      "title": "Inscription",
+      "title": "S'inscrire",
       "first_name": "Prénom",
-      "last_name": "Nom",
-      "email": "Email",
+      "last_name": "Nom de famille",
+      "email": "E-mail",
       "password": "Mot de passe",
-      "accepts_marketing": "S'inscrire à notre newsletter",
-      "submit": "Créer le compte",
+      "accepts_marketing": "Inscrivez-vous à notre newsletter",
+      "submit": "Créer un compte",
       "login": "Se connecter"
     },
     "activate_account": {
-      "title": "Activation",
+      "title": "Activer le compte",
       "instructions": "Entrez un mot de passe pour créer votre compte :",
       "password": "Mot de passe",
-      "password_confirmation": "Mot de passe (confirmation)",
+      "password_confirmation": "Confirmation du mot de passe",
       "submit": "Activer",
       "cancel": "Annuler"
     },
     "reset_password": {
-      "title": "Ré-initialisation",
+      "title": "Réinitialiser le mot de passe",
       "password": "Mot de passe",
-      "password_confirmation": "Mot de passe (confirmation)",
-      "submit": "Re-initialiser"
+      "password_confirmation": "Confirmation du mot de passe",
+      "submit": "Réinitialiser"
     },
     "order": {
       "order": "Commande",
       "order_name": "Commande {{name}}",
-      "view_details": "Voir le détail",
-      "back": "Retour",
+      "view_details": "Afficher les détails de la commande",
+      "back": "Dos",
       "date": "Date",
-      "payment_status": "Statut paiement",
-      "fulfillment_status": "Statut envoi",
-      "cancelled_on": "Annulée le {{date}}. Raison : {{reason}}",
+      "payment_status": "Statut de paiement",
+      "fulfillment_status": "Statut d'exécution",
+      "cancelled_on": "Annulé le {{date}}. Raison : {{reason}}",
       "product": "Produit",
       "quantity": "Quantité",
-      "fulfillment_with_number": "Votre commande a été expédiée le {{date}}. Suivez la commande avec le numéro {{tracking_number}}.",
-      "fulfillment": "Votre commande a été expédiée {{date}}.",
-      "track_shipment": "Suivre",
-      "subtotal": "Sous-total",
-      "discount": "Remise",
-      "shipping": "Frais d'envoi",
-      "taxes_included": "Taxes inclues",
+      "fulfillment_with_number": "Votre commande a été envoyée le {{date}}. Suivez l'expédition avec le numéro {{tracking_number}}.",
+      "fulfillment": "Votre commande a été envoyée le {{date}}.",
+      "track_shipment": "Suivre l'expédition",
+      "subtotal": "Total",
+      "discount": "Rabais",
+      "shipping": "Expédition",
+      "taxes_included": "Taxes incluses",
       "taxes_excluded": "Taxes exclues",
-      "total_duties": "Douanes",
+      "total_duties": "Devoirs",
       "refunded_amount": "Montant remboursé",
       "total": "Total",
-      "shipping_address": "Adresse d'envoi",
+      "shipping_address": "Adresse de livraison",
       "billing_address": "Adresse de facturation"
     },
     "addresses": {
-      "no_addresses": "Vous n'avez aucune adresse enregistrée.",
+      "no_addresses": "Vous n'avez encore enregistré aucune adresse.",
       "add_address": "Ajouter une adresse",
-      "edit_address": "Modifier une adresse",
-      "save_address": "Enregistrer une adresse",
+      "edit_address": "Modifier l'adresse",
+      "save_address": "Enregistrer l'adresse",
       "edit": "Modifier",
       "delete": "Supprimer",
       "default_address": "Adresse par défaut",
       "address_title": "Adresse {{ position }}",
-      "delete_confirm": "Supprimer cette adresse ? Une fois supprimée, l'adresse ne peut pas être récupérée.",
+      "delete_confirm": "Supprimer cette adresse ? Une fois confirmé, cette action est irréversible.",
       "fill_form": "Veuillez remplir les informations ci-dessous :",
       "first_name": "Prénom",
       "last_name": "Nom",
