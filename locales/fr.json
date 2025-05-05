@@ -2681,7 +2681,75 @@
           "try_again_later": "Vérifiez votre connexion ou fermez cette fenêtre et réessayez dans quelques instants.",
           "checkout_has_expired": "Votre session de paiement a expiré. Fermez cette fenêtre et essayez de passer à la caisse à nouveau depuis {{shopName}}."
         },
-        "return_to_store": "Retour à {{shopName}}"
+        "return_to_store": "Retour à {{shopName}}",
+        "return_to_store_simple": "Retourner au magasin"
+      },
+      "wallets": {
+        "return_to_store": "Retourner au magasin",
+        "return_to_checkout": "Retour à la caisse",
+        "redirect_hint": "Vous serez invité à vous connecter avec {{walletName}}.",
+        "logged_in": "Connecté à {{email}}",
+        "shipping_line_label": "Expédition",
+        "connect_shipping_methods": "{{method1}} et {{method2}}",
+        "payment_in_progress_title": "Paiement en cours",
+        "payment_in_progress_body": "Votre paiement est en cours de traitement. Votre commande sera bientôt terminée.",
+        "call_to_action": "Payer avec {{walletName}}",
+        "redirection_notice": "Après avoir cliqué sur \"{{buttonLabel}}\", vous serez redirigé vers {{walletName}} pour finaliser votre achat en toute sécurité.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} pas disponible",
+            "description": "{{walletName}} n'était pas disponible. Utilisez un autre mode de paiement ou réessayez plus tard.",
+            "instructions": "Il y a eu un problème avec {{walletName}}. Retournez au magasin pour réessayer ou choisissez un autre mode de paiement.",
+            "unavailable_for_country": "{{walletName}} n'est pas disponible en {{countryName}}. Sélectionnez un autre mode de paiement pour finaliser votre achat"
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} n'est actuellement pas disponible pour votre commande. Pour continuer votre achat, choisissez une autre méthode de paiement."
+          },
+          "generic": "Il y a eu un problème avec {{walletName}}. Essayez de nouveau ou utilisez un autre mode de paiement.",
+          "discount_code": "Impossible d'appliquer ce code de réduction. Veuillez vérifier votre code et réessayer.",
+          "terminal": "Il y a eu un problème avec {{walletName}}. Veuillez utiliser un autre mode de paiement.",
+          "detour": {
+            "stock_problems": "Certains articles ne sont plus disponibles. Fermez {{walletName}} et réessayez.",
+            "price_change": "Certains prix des articles ont changé. Fermez {{walletName}} pour revoir votre commande et réessayer.",
+            "queue": "Vous avez été placé dans une file d'attente pour le paiement. Fermez {{walletName}} pour continuer.",
+            "currency_change": "Vous ne pouvez pas utiliser une adresse différente avec {{walletName}}. Utilisez l'adresse d'origine, ou essayez un autre mode de paiement."
+          },
+          "unsupported": {
+            "address": "Le commerçant ne peut pas livrer à cette adresse",
+            "wallet_is_unavailable": "{{walletName}} ne peut pas être utilisé avec cette adresse. Sélectionnez une adresse différente ou fermez {{walletName}} pour compléter votre achat",
+            "postal_code": "Cet emplacement n'est pas pris en charge"
+          },
+          "outdated": {
+            "shipping_method": "Les options de livraison ont changé pour votre commande. Veuillez revoir votre sélection.",
+            "payment_terms": "Les conditions de paiement ont changé. Veuillez vérifier votre commande"
+          },
+          "invalid": {
+            "shipping_address": "Entrez une adresse de livraison valide",
+            "billing_address": "Entrez une adresse de facturation valide",
+            "shipping_option": "Choisissez une option de livraison valide",
+            "email": "Entrez une adresse e-mail valide",
+            "zone": "Entrez un état / une province valide",
+            "billing_zone": "Entrez un état / une province de facturation valide",
+            "emirate": "Entrez un émirat valide",
+            "postal_code": "Entrez un code postal / ZIP valide",
+            "phone": "Entrez un numéro de téléphone valide",
+            "billing_phone": "Entrez un numéro de téléphone d'adresse de facturation valide",
+            "reduction_code": "Entrez un code de réduction ou une carte cadeau valide",
+            "billing_must_match_shipping": "Doit correspondre à l'adresse de livraison",
+            "billing_zip": "Entrez un code postal / ZIP valide pour l'adresse de facturation"
+          },
+          "missing": {
+            "first_name": "Entrez un prénom",
+            "billing_first_name": "Entrez un prénom pour l'adresse de facturation",
+            "last_name": "Entrez un nom de famille",
+            "address1": "Entrez une adresse",
+            "billing_address1": "Entrez une adresse de facturation",
+            "address2": "Entrez un appartement, une suite, etc.",
+            "billing_address2": "Entrez un appartement, une suite, etc. pour l'adresse de facturation.",
+            "city": "Entrez une ville",
+            "billing_city": "Entrez une ville d'adresse de facturation"
+          }
+        }
       }
     }
   }
