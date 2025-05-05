@@ -2803,7 +2803,89 @@
         "product_not_available": "Producto no disponible",
         "too_many_line_items_error": "Tu carrito no puede contener más de %{max} artículos.",
         "link_expired": "Enlace expirado",
-        "link_no_longer_exists": "El enlace ya no existe."
+        "link_no_longer_exists": "El enlace ya no existe.",
+        "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos proporcionado un <a href='%{link}'>carrito actualizado</a>.",
+        "changed": "El carrito cambió",
+        "items_changed": "Uno o más elementos han cambiado.",
+        "product_sold_out": "El producto '%{name}' ya está agotado.",
+        "variant_not_found": "No se puede encontrar la variante",
+        "variant_requires_selling_plan": "La variante solo se puede comprar con un plan de venta.",
+        "selling_plan_not_available_for_company_locations": "Solo está disponible la compra única para pedidos B2B",
+        "digital_product_not_available_for_company_locations": "Este artículo no se puede añadir a un pedido B2B",
+        "buyer_cannot_purchase_for_company_locations": "No puedes comprar para esta ubicación",
+        "selling_plan_not_applicable": "No se puede aplicar el plan de venta a la variante",
+        "shipping_address_not_required": "Este carrito no requiere envío",
+        "shipping_address_invalid": "Hubo un problema al calcular las tarifas de envío. Continúa al pago para elegir una tarifa de envío antes de completar tu pedido.",
+        "bundle_requires_components": "El producto combinado '%{name}' no se puede añadir al carrito.",
+        "gift_card_with_components_not_supported": "El producto combinado '%{name}' no se puede añadir al carrito.",
+        "gift_card_price_must_be_greater_than_zero": "El producto combinado '%{name}' no se puede añadir al carrito.",
+        "gift_card_recipient_validation_error": "El destinatario especificado de la tarjeta de regalo no es válido",
+        "view_lines_limit_reached": "Las líneas deben tener menos de %{limit}",
+        "cart_too_large": "El carrito es demasiado grande.",
+        "cart_attributes_error": "Los atributos del carrito contienen datos no válidos.",
+        "merchandise_line_transformers": {
+          "run_error": "Se produjo un error en su carrito."
+        }
+      },
+      "storefront": {
+        "invalid_password": "Contraseña incorrecta, por favor intente de nuevo."
+      },
+      "tags": {
+        "add_articles": "Restringir la búsqueda a artículos que también tengan la etiqueta %{tag}",
+        "add_products": "Restringir la selección a productos que coincidan con la etiqueta %{tag}",
+        "remove_articles": "Ampliar la búsqueda a artículos que no están etiquetados %{tag}",
+        "remove_products": "Quitar etiqueta %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Gracias por suscribirte a nuestra lista de correo.",
+        "disclaimer": "Puedes darte de baja en cualquier momento.",
+        "unsubscribe": "Darse de baja"
+      },
+      "unsubscribed": {
+        "confirmation": "Te has dado de baja de nuestra lista de correo.",
+        "disclaimer": "No recibirás más actualizaciones de marketing de nuestra parte. Puedes suscribirte de nuevo en cualquier momento.",
+        "preview": "Estás previsualizando lo que los clientes verán cuando se den de baja."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Has optado por el seguimiento de apertura de correos electrónicos.</b>",
+          "visibility": "Las tasas de apertura de correos electrónicos se informarán de forma anónima. Solo veremos si has abierto un correo electrónico como parte de una tasa de apertura de correos electrónicos agregada.",
+          "opt_out_html": "Puedes <a style='text-decoration:underline;' href='%{link}'>optar por no participar</a> en el seguimiento de apertura de correos electrónicos si no deseas compartir esta información.",
+          "preview_bar": "Estás previsualizando lo que los clientes verán cuando opten por el seguimiento de apertura de correos electrónicos."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Has optado por no participar en el seguimiento de apertura de correos electrónicos.</b>",
+          "visibility": "No sabremos si has abierto nuestros correos electrónicos.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Optar por</a> el seguimiento de apertura de correos electrónicos.",
+          "preview_bar": "Estás previsualizando lo que los clientes verán cuando opten por no participar en el seguimiento de apertura de correos electrónicos."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ya no rastreamos ninguna apertura de correo electrónico.</b>",
+          "privacy_policy": "Después de que se envió este correo electrónico, actualizamos nuestra política de privacidad y ya no rastreamos las aperturas."
+        },
+        "track": {
+          "status_html": "<b>Se informa el seguimiento de apertura de correos electrónicos.</b>",
+          "visibility": "Solo veremos si has abierto el correo electrónico, como parte de la tasa total de apertura de correos electrónicos."
+        },
+        "updated_policy": {
+          "status_html": "<b>Se informa el seguimiento de apertura de correos electrónicos.</b>",
+          "visibility": "Hemos actualizado nuestra política y ahora rastreamos las aperturas de correos electrónicos. Las tasas de apertura de correos electrónicos se reportarán de forma anónima. Solo veremos si has abierto un correo electrónico como parte de la tasa total de apertura de correos.",
+          "opt_out_html": "Si no desea compartir esta información, puede <a style='text-decoration:underline;' href='%{link}'>darse de baja.</a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "En stock",
+          "out_of_stock": "Agotado"
+        }
+      },
+      "boolean": {
+        "true_label": "Sí",
+        "false_label": "No"
       }
     }
   }
