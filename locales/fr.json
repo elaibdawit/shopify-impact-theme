@@ -3089,7 +3089,153 @@
         },
         "list_view": "Afficher la vue liste",
         "no_filtered_results_description": "Supprimez ou ajustez les filtres pour voir vos commandes",
-        "no_filtered_results_title": "Aucun résultat filtré"
+        "no_filtered_results_title": "Aucun résultat filtré",
+        "order_link": "Voir la commande {{name}}",
+        "order_number": "Commande {{name}}",
+        "orders_title": "Confirmé",
+        "pagination": {
+          "nav_accessibility_label": "Boutons de navigation des commandes",
+          "next": "Suivant",
+          "next_accessibility_label": "Prochaines commandes",
+          "previous": "Précédent",
+          "previous_accessibility_label": "Commandes précédentes",
+          "load_more": "Charger plus",
+          "load_more_accessibility_label": "Charger plus de commandes"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Voir la commande pour les détails",
+            "estimated_delivery": "Attendu {{date}}",
+            "last_updated": "Dernière mise à jour {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Livraison estimée {{date}}",
+            "last_updated": "{{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Paiement en retard",
+            "due": "Paiement dû {{date}}",
+            "due_today": "Paiement dû aujourd'hui",
+            "due_without_date": "Paiement dû",
+            "due_on_fulfillment": "Paiement dû à l'exécution",
+            "pay_to_confirm": "Payer pour confirmer",
+            "payment_not_due": "Paiement non encore dû"
+          },
+          "table_view": {
+            "overdue": "En retard",
+            "due": "Exigible {{date}}",
+            "due_today": "À rendre aujourd'hui",
+            "paid": "Payé",
+            "due_without_date": "Exigible",
+            "due_on_fulfillment": "Dû à l'exécution",
+            "pay_to_confirm": "Payer pour confirmer",
+            "payment_not_due": "Pas encore dû"
+          }
+        },
+        "sort_by": "Trier par: {{option}}",
+        "sort_hide_options_accessibility_label": "Masquer les options de tri pour les commandes confirmées.",
+        "sort_show_options_accessibility_label": "Afficher les options de tri pour les commandes confirmées.",
+        "sort_currently_sorted_by_accessibility_label": "Actuellement trié par : {{option}}",
+        "sort_title": "Trier",
+        "sort": {
+          "date": {
+            "newest": "Du plus récent au plus ancien",
+            "oldest": "Du plus ancien au plus récent"
+          },
+          "location": {
+            "ascending": "Localisation (A-Z)",
+            "descending": "Localisation (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Numéro de commande (du plus bas au plus élevé)",
+            "descending": "Numéro de commande (du plus élevé au plus bas)"
+          },
+          "order_total": {
+            "ascending": "Total de la commande (du plus bas au plus élevé)",
+            "descending": "Total de la commande (du plus élevé au plus bas)"
+          }
+        },
+        "filter_title": "Filtre",
+        "filter": {
+          "clear_section": "Section claire",
+          "clear_all": "Tout effacer",
+          "apply": "Appliquer",
+          "date": {
+            "start_date": "Date de début",
+            "end_date": "Date de fin",
+            "title": "Date de commande",
+            "today": "Aujourd'hui",
+            "last_7_days": "Les 7 derniers jours",
+            "last_30_days": "Les 30 derniers jours",
+            "last_90_days": "Les 90 derniers jours",
+            "last_365_days": "Les 12 derniers mois",
+            "custom": "Coutume"
+          }
+        },
+        "table_view": "Afficher la vue du tableau",
+        "show_order_actions_accessibility_label": "Afficher les actions de commande pour la commande {{name}}"
+      },
+      "order_status": {
+        "attempted_delivery_label": "Tentative de livraison",
+        "attempted_delivery_description": "La tentative de livraison a échoué.",
+        "attempted_to_deliver_label": "Tentative de livraison",
+        "confirmed_description": "Nous avons reçu votre commande.",
+        "on_its_way_description": "Cette expédition est en route.",
+        "out_for_delivery_description": "Cette livraison est en cours de distribution.",
+        "preparing_for_shipping_label": "Préparation pour l'expédition",
+        "preparing_for_shipping_description": "Ces articles sont en cours de préparation pour l'expédition.",
+        "ready_for_pickup_label": "Prêt à être récupéré",
+        "ready_for_pickup_description": "Ces articles sont prêts à être récupérés. Veuillez apporter votre confirmation de commande lorsque vous venez chercher votre commande.",
+        "ready_for_pickup_location": "Votre commande est prête à être récupérée sur place",
+        "picked_up_label": "Ramassé",
+        "picked_up_description": "Ces articles ont été récupérés.",
+        "canceled_description": "Votre commande a été annulée le {{date}}.",
+        "canceled_label": "Annulé",
+        "canceled_title": "Votre commande a été annulée",
+        "come_back": "Revenez sur cette page pour des mises à jour sur le statut de votre expédition.",
+        "company_tracking_number": "{{company}} numéro de suivi:",
+        "confirmed_label": "Confirmé",
+        "confirmed_title": "Votre commande est confirmée",
+        "confirmed_description_pickup": "Vous recevrez un e-mail lorsque votre commande sera prête à être récupérée.",
+        "confirmed_description_digital": "Vous recevrez un e-mail lorsque votre commande sera prête.",
+        "confirmed_description_gift_card_text": "Vous recevrez un SMS lorsque votre commande sera prête.",
+        "delivered_description": "Cette livraison a été effectuée.",
+        "complete_label": "Complet",
+        "delivered_label": "Livré",
+        "delivered_title": "Votre envoi a été livré",
+        "delivered_description_digital": {
+          "one": "Cet article est complet.",
+          "other": "Ces articles sont complets."
+        },
+        "delivered_description_gift_card": {
+          "one": "La carte cadeau a été envoyée par e-mail.",
+          "other": "Les cartes-cadeaux ont été envoyées par e-mail."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "La carte cadeau a été envoyée par SMS.",
+          "other": "Les cartes-cadeaux ont été envoyées par SMS."
+        },
+        "gift_card_label": {
+          "one": "Carte cadeau",
+          "other": "Cartes-cadeaux"
+        },
+        "gift_card_resend_button": {
+          "one": "Renvoyer la carte-cadeau",
+          "other": "Renvoyer des cartes-cadeaux"
+        },
+        "gift_resend_success": {
+          "one": "Carte cadeau renvoyée",
+          "other": "Cartes-cadeaux renvoyées"
+        },
+        "gift_resend_failure": {
+          "one": "Il y a eu un problème lors de la réexpédition de votre carte cadeau. Essayez à nouveau ou contactez-nous.",
+          "other": "Il y a eu un problème lors de la réexpédition de vos cartes cadeaux. Essayez à nouveau ou contactez-nous."
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "La carte cadeau sera envoyée dans un e-mail séparé."
+        }
       }
     }
   }
