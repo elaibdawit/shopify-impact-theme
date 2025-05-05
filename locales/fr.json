@@ -1562,7 +1562,79 @@
         "purchase_options_agreement_label": "Un ou plusieurs articles dans votre panier sont des achats différés ou récurrents. En poursuivant votre paiement, vous acceptez que votre méthode de paiement soit automatiquement débitée au prix et à la fréquence indiqués sur cette page jusqu'à ce que cela prenne fin ou que vous annuliez. Toutes les annulations sont soumises à la  %{cancellation_policy_label}.",
         "purchase_options_agreement_label_html": "Je comprends qu'un ou plusieurs articles dans mon panier sont des achats différés ou récurrents. En continuant, j'accepte les\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politique d'annulation</a>\net vous autorise à débiter mon mode de paiement aux prix, fréquences et dates indiqués sur cette page jusqu'à ce que mon\nla commande est exécutée ou j'annule, si autorisé.\n",
         "purchase_options_agreement_label_wallets": "En poursuivant votre paiement, vous acceptez les frais futurs indiqués sur cette page ainsi que la politique d'annulation.",
-        "change_currency_section_description": "Sélectionnez une option de devise"
+        "change_currency_section_description": "Sélectionnez une option de devise",
+        "no_real_orders_dev_store": "Ce magasin ne peut pas accepter de vraies commandes ni de vrais paiements.",
+        "waiting_on_payment_methods": "Obtention des méthodes de paiement disponibles...",
+        "apple_pay_payment_error": "Votre paiement n'a pas pu être effectué. Essayez de nouveau ou utilisez un autre mode de paiement.",
+        "taxes_not_included": "Taxes non incluses",
+        "no_taxes_banner_content": "Les taxes ne seront pas facturées sur cette commande. Une fois que vous avez collecté le paiement, les taxes ne peuvent plus être ajoutées.",
+        "paypal": {
+          "connect": "Cliquez pour connecter votre compte PayPal"
+        },
+        "apple": {
+          "connect": "Cliquez pour connecter votre compte Apple Pay",
+          "not_available": "Apple Pay n'est pas disponible dans ce navigateur. Pour connecter votre compte Apple Pay, vous devez utiliser Safari sur un appareil Apple."
+        },
+        "google": {
+          "connect": "Cliquez pour vous connecter avec votre compte Google Pay",
+          "error_authorizing": "Erreur d'autorisation du paiement"
+        },
+        "account_connected": "Compte connecté.",
+        "mor_disclaimer_html": "En cliquant ci-dessous et en complétant votre commande, vous acceptez d'acheter votre ou vos article(s) auprès de Global-e en tant que commerçant enregistré\npour cette transaction, sur les <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Conditions Générales</a> de Global-e\net <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politique de confidentialité</a>. Global-e est une entreprise internationale\nprestataire de services d'exécution à %{shop_name}\n",
+        "pending_payment": {
+          "due_notice": "Votre paiement de %{amount_due} est dû le %{due_date}.",
+          "multibanco": {
+            "buyer_action_info": "Votre paiement de %{amount_due} est dû.",
+            "instruction_html": "Effectuez votre paiement au Multibanco ou en ligne en utilisant les informations ci-dessous. Pour toute question ou pour mettre à jour les détails de paiement, %{contact_us}.",
+            "entity": "Entité",
+            "reference": "Référence",
+            "amount": "Montant",
+            "find_nearest_atm": "Trouver le distributeur automatique le plus proche"
+          }
+        },
+        "update_payment_method": "Mettre à jour le mode de paiement",
+        "order_covered_by_store_credit_notice": "Votre commande est couverte par votre crédit en magasin.",
+        "order_covered_by_redeemables_notice": "Votre commande est couverte.",
+        "store_credit": {
+          "label": "Crédit en magasin",
+          "apply_label": "Appliquer un crédit en magasin",
+          "add_label": "Ajouter un crédit en magasin",
+          "manage_label": "Gérer le crédit du magasin",
+          "buying_gift_card": "Vous ne pouvez pas utiliser le crédit en magasin pour acheter une carte cadeau",
+          "no_fixed_selling_plans": "Vous ne pouvez pas utiliser le crédit en magasin avec les options d'achat différé"
+        },
+        "clear": "Clair",
+        "billing_must_match_shipping_notice": "L'adresse de facturation de votre méthode de paiement doit correspondre à l'adresse de livraison.",
+        "same_billing_address_checkbox_label": "Utiliser l'adresse de livraison comme adresse de facturation",
+        "location_billing_address_label": "Adresse de facturation de l'emplacement",
+        "fact_billing_address_label": "Adresse de facturation",
+        "location_shipping_address_label": "Adresse de livraison du lieu",
+        "use_order_billing_address_label": "Utiliser l'adresse de facturation de la commande",
+        "use_location_billing_address_label": "Utiliser l'adresse de facturation du lieu",
+        "use_location_shipping_address_label": "Utiliser l'adresse de livraison du lieu",
+        "no_working_method_error": "Ce magasin ne peut pas accepter les paiements pour le moment. Actualisez cette page ou revenez plus tard.",
+        "brand_not_available": "Ce magasin n'accepte pas {{brand}}. Veuillez utiliser une autre carte pour payer.",
+        "shipping_rate_updated": "Les méthodes d'expédition disponibles ont été mises à jour. Confirmez votre choix avant de passer à la caisse.",
+        "billing_address_invalid_phone": "Mettez à jour le numéro de téléphone dans votre adresse de facturation pour {{label}} {{last_digits}} pour continuer.",
+        "billing_address_invalid_phone_no_card": "Mettez à jour le numéro de téléphone dans votre adresse de facturation pour continuer.",
+        "preview_not_available": {
+          "title": "Aperçu non disponible",
+          "content": "Ne vous inquiétez pas, ce paiement express fonctionne pour vos clients.",
+          "button": "D'accord"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Entrez une date d'émission valide",
+              "issue_number": "Entrez un numéro de problème valide"
+            },
+            "invalid": {
+              "verification_value": "Entrez un CVV ou un code de sécurité valide"
+            }
+          }
+        },
+        "simulated_checkout": "Aperçu à venir",
+        "simulated_express_checkout": "Les portefeuilles ne sont pas disponibles dans l'aperçu de l'éditeur en raison de votre région ou de votre navigateur"
       }
     }
   }
