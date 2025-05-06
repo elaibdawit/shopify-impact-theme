@@ -2877,6 +2877,9 @@
         "message": "Gracias, lo apreciamos.",
         "preset_label": "%{tip_percent}%",
         "no_tip_label": "Ninguno"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "La dirección no es compatible con la membresía actual."
       }
     },
     "pagination": {
