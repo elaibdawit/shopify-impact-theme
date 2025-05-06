@@ -2414,7 +2414,7 @@
             "privacy_policy": "política de privacidad",
             "terms_of_service": "Condiciones de servicio",
             "description_html": "Al registrarte por mensaje de texto, aceptas recibir mensajes automatizados de marketing recurrentes, incluidos recordatorios de carrito, al número de teléfono proporcionado. El consentimiento no es una condición para la compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas por mensajes y datos. Consulta nuestra %{privacy_policy_link} y %{terms_of_service_link}.",
-            "description_transactional_html": "Puede recibir mensajes de texto relacionados con la confirmación del pedido y actualizaciones de envío. Responda STOP para darse de baja. Responda HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas por mensajes y datos. Vea nuestra %{privacy_policy_modal_link} y %{terms_of_service_modal_link}."
+            "description_transactional_html": "Puede recibir mensajes de texto relacionados con la confirmación del pedido y actualizaciones de envío. Responda STOP para darse de baja. Responda HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas por mensajes y datos. Consulte nuestra %{privacy_policy_modal_link} y %{terms_of_service_modal_link}."
           },
           "mobile_phone_number": "Número de teléfono móvil"
         }
