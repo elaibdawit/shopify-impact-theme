@@ -3590,7 +3590,7 @@
             "learn_more_button_label": "Más información",
             "claim_shop_cash_button_label": "Reclamar efectivo de la tienda",
             "view_balance_in_shop_button_label": "Ver saldo en Shop",
-            "scan_to_claim_shop_cash_label": "Escanee para reclamar {{amount}} Dinero de la Tienda"
+            "scan_to_claim_shop_cash_label": "Escanea para reclamar {{amount}} Dinero de la Tienda"
           }
         },
         "delivery_promise": {
