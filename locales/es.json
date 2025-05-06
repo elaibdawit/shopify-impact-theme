@@ -3584,7 +3584,7 @@
             "order_includes_guarantees_label": "Su pedido incluye {{deliveryAgreementsCount}} garantías",
             "order_includes_guarantees_description": "Shop Promise garantiza una entrega rápida y confiable. Reclama Shop Cash si tu pedido llega después de {{date}}.",
             "delivered_after_label": "Entregado después de {{date}}",
-            "delivered_after_description": "Debido a que su pedido llegó tarde, es elegible para reclamar {{amount}} Shop Cash.",
+            "delivered_after_description": "Debido a que su pedido llegó tarde, usted es elegible para reclamar {{amount}} Shop Cash.",
             "claimed_shop_cash_description": "Debido a que este pedido llegó tarde, reclamaste {{amount}} Shop Cash.",
             "eligible_to_claim_shop_cash_description": "Debido a que su pedido llegó tarde, usted es elegible para reclamar {{amount}} Shop Cash.",
             "learn_more_button_label": "Más información",
