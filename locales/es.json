@@ -4173,7 +4173,9 @@
             "order_payment": "Pago de pedidos",
             "order_refund": "Reembolso del pedido",
             "payment_failure": "Fallo de pago",
-            "payment_returned": "Pago devuelto"
+            "payment_returned": "Pago devuelto",
+            "order_cancellation": "Cancelación de pedido",
+            "tax_finalization": "Finalización de impuestos"
           }
         },
         "label": "Crédito de la tienda",
