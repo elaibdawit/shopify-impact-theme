@@ -556,7 +556,7 @@
             "custom_discount_not_honoured": "El descuento personalizado proporcionado no fue respetado.",
             "unsupported_expectation": "La línea de descuento proporcionada contenía una expectativa que la política no pudo interpretar.",
             "additional_requested_discount_code_discarded": "Se descartó el descuento adicional solicitado por código.",
-            "allocations_mismatch": "La asignación de descuento esperada no coincide con la asignación de descuento real.",
+            "allocations_mismatch": "Tu código de descuento ha cambiado. Revisa tu carrito y vuelve a intentarlo.",
             "discount_code_not_honoured": "<strong style=\"text-transform:uppercase\">%{discount_rejection_message}</strong>",
             "discount_title_too_long": "El título del descuento no puede tener más de 255 caracteres."
           },
