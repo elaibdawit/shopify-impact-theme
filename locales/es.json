@@ -3787,7 +3787,7 @@
         "returned_with_quantities": "Devuelto {{delta}} de {{total}}",
         "removed_with_quantities": "Eliminado {{delta}} de {{total}}",
         "return_line_item_removed": "Eliminado de la devolución",
-        "return_line_item_removed_with_quantities": "Eliminado {{delta}} de la devolución"
+        "return_line_item_removed_with_quantities": "Se eliminaron {{delta}} de la devolución"
       },
       "shop_pay": {
         "order_completed_with": "Pedido completado con",
