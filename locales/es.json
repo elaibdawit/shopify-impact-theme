@@ -2988,7 +2988,7 @@
           "fix_domain": "Termina de configurar tu nueva dirección web, ve a %{domain_settings_link}. Haz clic en “Conectar dominio” e ingresa: %{domain}.<br>Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
           "fix_domain_link_text": "tus configuraciones de dominio",
           "forgot_your_store_link_text": "Olvidé mi tienda",
-          "add_storefront": "Puedes configurar tu sitio web agregando el canal de Tienda Online en tu %{admin_link}. Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
+          "add_storefront": "Puedes configurar tu sitio web agregando el canal de Tienda en Línea en tu %{admin_link}. Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
           "admin_link_text": "administración"
         },
         "ctas": {
