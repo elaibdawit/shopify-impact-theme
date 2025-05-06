@@ -2121,7 +2121,8 @@
         "thank_you_confirmed_order_with_phone": "Recibirá un mensaje de texto de confirmación con su número de pedido en breve.",
         "thank_you_confirmed_order_with_email_and_phone": "Recibirá un correo electrónico de confirmación con su número de pedido en breve.",
         "pick_up_in_store_marker": {
-          "shipping": "Lugar de recogida"
+          "shipping": "Lugar de recogida",
+          "current": "Ubicación actual del envío"
         },
         "fulfillment": {
           "fulfilled_table_title": "Artículos en este envío",
