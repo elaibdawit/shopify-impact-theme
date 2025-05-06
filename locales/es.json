@@ -1271,7 +1271,7 @@
             "other": "Envío gratis para %{count} entregas más"
           },
           "free_shipping_cycles_delivery_not_included": {
-            "one": "Envío gratis para %{count} entregas",
+            "one": "Envío gratis para %{count} entrega",
             "other": "Envío gratis para %{count} entregas"
           },
           "first_n_order_free_with_cycle": {
@@ -1304,7 +1304,7 @@
           },
           "prepaid_order_no_cycle": {
             "one": "%{shipping_price} por %{count} entregas más, seguido de %{recurring_order_shipping_price}",
-            "other": "%{shipping_price} por %{count} entregas más (%{per_delivery_cost}), seguido por %{recurring_order_shipping_price}"
+            "other": "%{shipping_price} por %{count} entregas más (%{per_delivery_cost}), seguido de %{recurring_order_shipping_price}"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
             "one": "%{shipping_price} por %{count} entrega, seguido de %{recurring_order_shipping_price}",
