@@ -2078,7 +2078,7 @@
         "draft_order_payment_due_later_no_terms_payment_selected": "Tu tarjeta será cargada una vez que tu pedido sea confirmado.",
         "draft_order_payment_due_later_terms": "Estarás en términos de {{translatedName}} una vez que tu pedido sea confirmado.",
         "draft_order_payment_due_on_fulfillment": "Su pago será debido una vez que su pedido haya sido confirmado y cumplido.",
-        "draft_order_deposit_due_later": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo estará en los términos de {{translatedName}}.",
+        "draft_order_deposit_due_later": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo estará en términos de {{translatedName}}.",
         "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} se deberá cuando su pedido sea confirmado. El saldo será una vez que su pedido sea cumplido."
       },
       "thank_you": {
