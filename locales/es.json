@@ -659,7 +659,15 @@
             "token_missing": "Se debe proporcionar un token captcha para completar esta compra.",
             "job_enqueue_failed": "El trabajo de validación del captcha no pudo ser encolado.",
             "job_already_queued": "La validación de Captcha ya ha sido puesta en cola para este token de captcha.",
-            "token_expired": "El token de captcha proporcionado ha expirado. Complete un nuevo captcha para continuar con el pago."
+            "token_expired": "El token de captcha proporcionado ha expirado. Complete un nuevo captcha para continuar con el pago.",
+            "token_invalid": "El token de captcha proporcionado no es válido. Complete un nuevo captcha para continuar con el pago.",
+            "token_not_valid_for_session": "El captcha proporcionado no se puede usar con este proceso de pago."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "El monto recibido debe estar en la moneda de la tienda."
+          },
+          "checkout_source": {
+            "revoked": "Este método de pago ya no está disponible."
           }
         },
         "dates": {
@@ -667,7 +675,33 @@
             "september": "Septiembre",
             "october": "Octubre",
             "november": "Noviembre",
-            "december": "Diciembre"
+            "december": "Diciembre",
+            "january": "Enero",
+            "february": "Febrero",
+            "march": "Marzo",
+            "april": "Abril",
+            "may": "Puede",
+            "june": "Junio",
+            "july": "Julio",
+            "august": "Agosto"
+          },
+          "weekdays": {
+            "monday": "Lunes",
+            "tuesday": "Martes",
+            "wednesday": "Miércoles",
+            "thursday": "Jueves",
+            "friday": "Viernes",
+            "saturday": "Sábado",
+            "sunday": "Domingo"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Mes",
+            "tuesday": "Tu",
+            "wednesday": "Nosotros",
+            "thursday": "El",
+            "friday": "Es",
+            "saturday": "Sá",
+            "sunday": "Su"
           }
         },
         "datepicker": {
@@ -707,7 +741,33 @@
           "add_file": "Agregar archivo",
           "invalid_file_type": "Tipo de archivo no soportado",
           "dragged_over": "Suelte el archivo para cargarlo"
-        }
+        },
+        "full_price": "Precio completo:",
+        "title": "Verificar - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Verificar",
+        "loading": "Cargando…",
+        "loading_title": "Verificar - {{shopName}}",
+        "display_name": "{{firstName}} {{lastName}}",
+        "google_map_title": "Mapa de Google",
+        "confirm_order_button_label": "Confirmar pedido",
+        "submit_order_button_label": "Enviar pedido",
+        "submit_for_review_button_label": "Enviar para revisión",
+        "submit_for_review_notice_label": "El pago no será exigible hasta que su pedido sea revisado",
+        "continue_to_payment_plans_button_label": "Continuar con los planes de pago",
+        "back_button_label": "Devolver",
+        "choose_delivery_strategy": "Elige un método de entrega",
+        "autocomplete_zero_item": "No hay artículos disponibles",
+        "autocomplete_powered_by_google": "Desarrollado por {{brandName}}",
+        "submit": "Entregar",
+        "processing": "Tratamiento…",
+        "stepper": {
+          "increase": "Aumentar {{type}}",
+          "decrease": "Disminuir {{type}}",
+          "minimum_reached": "Mínimo de {{value}} alcanzado",
+          "maximum_reached": "Máximo de {{value}} alcanzado"
+        },
+        "remove_item": "Eliminar %{label}",
+        "remove_tag": "Quitar etiqueta"
       },
       "contact": {
         "title": "Información",
