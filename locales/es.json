@@ -4146,7 +4146,8 @@
       },
       "load_extension_error": {
         "title": "Error",
-        "description": "Actualiza esta página o inténtalo de nuevo en unos minutos."
+        "description": "Actualiza esta página o inténtalo de nuevo en unos minutos.",
+        "refresh_button": "Actualizar página"
       }
     },
     "payment_methods": {
@@ -4160,8 +4161,25 @@
           "pagination": {
             "load_more_label": "Cargar más",
             "load_more_accessibility_label": "Cargar más cantidades expirables"
+          },
+          "title": "Crédito de tienda con fecha de caducidad",
+          "balance_label": "Balance",
+          "expiration_date_label": "Fecha de expiración",
+          "amount_label": "Cantidad",
+          "date_label": "Fecha",
+          "event_label": "Evento",
+          "events": {
+            "adjustment": "Ajuste",
+            "order_payment": "Pago de pedidos",
+            "order_refund": "Reembolso del pedido",
+            "payment_failure": "Fallo de pago",
+            "payment_returned": "Pago devuelto"
           }
-        }
+        },
+        "label": "Crédito de la tienda",
+        "accesibility_label": "Crédito de la tienda - {{formattedBalance}}",
+        "expirable_amounts_button": "Ver cantidades que expiran",
+        "expirable_amounts_label": "Montos vencidos"
       },
       "payment_details": {
         "title": "Detalles del método de pago",
@@ -4264,6 +4282,46 @@
       },
       "three_d_secure": {
         "title": "3D Secure"
+      },
+      "title": "Métodos de pago",
+      "add_payment_method_button": "Añadir método de pago",
+      "add_payment_method_banner": "Agregar método de pago para un pago más rápido o servicios preautorizados",
+      "no_payment_methods_banner": "No se han añadido métodos de pago",
+      "edit_payment_method_button_accessibility_label": "Editar {{paymentMethodName}} que termina en {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Editar {{paymentMethodName}}",
+      "delete_payment_method_button": "Borrar",
+      "delete_payment_method_button_accessibility_label": "Borrar {{paymentMethodName}}",
+      "back_button": "Atrás",
+      "back_button_accessibility_label": "Volver a {{paymentMethodStepTitle}}",
+      "default": "Por defecto",
+      "generic_card": "Tarjeta",
+      "expiration_warning_button_accessibility_label": "Mostrar advertencia de expiración para {{paymentMethodName}} que termina en {{lastDigits}}",
+      "expires_soon": "Esta tarjeta está a punto de expirar",
+      "expired": "Esta tarjeta ha expirado",
+      "card_update_consent": "Este método de pago se guardará para futuras compras.",
+      "card_update_consent_subscriptions": "Este método de pago se guardará para futuras compras y podrá ser utilizado para cualquier compra recurrente o diferida.",
+      "digital_wallet_title": "Billetera digital",
+      "credit_or_debit_card_title": "Tarjeta de crédito o débito",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Agregar método de pago Google Pay",
+        "loading_accessibility_message": "Cargando Google Pay",
+        "loading": "Cargando Google Pay",
+        "errors": {
+          "generic": "Hubo un problema con Google Pay. Intenta de nuevo o usa un método de pago diferente.",
+          "missing_billing_address": "Google Pay requiere una dirección de facturación. Por favor, añade una a tu cuenta."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Agregar método de pago PayPal",
+        "loading_accessibility_message": "Cargando PayPal"
+      },
+      "apple_pay": {
+        "loading": "Cargando Apple Pay",
+        "errors": {
+          "generic": "Hubo un problema con Apple Pay. Intenta de nuevo o utiliza un método de pago diferente.",
+          "not_available": "Apple Pay no está disponible en este dispositivo.",
+          "missing_billing_address": "Apple Pay requiere una dirección de facturación. Por favor, añade una a tu cuenta."
+        }
       }
     },
     "payment_method_brands": {
@@ -4410,6 +4468,12 @@
       "self_serve_returns": {
         "enabled": "Los clientes pueden solicitar y gestionar las devoluciones por sí mismos.",
         "disabled": "Los clientes deben contactar al comerciante para solicitar una devolución."
+      }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Demasiados intentos",
+        "description": "Por favor, inténtelo de nuevo en unos minutos"
       }
     }
   }
