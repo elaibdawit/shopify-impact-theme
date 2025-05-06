@@ -3904,7 +3904,7 @@
         "contact_phone_number": "Número de teléfono",
         "location_picker_label": "Nombre de la ubicación",
         "location_picker_accessibility_label": "Nombre de la ubicación: {{locationName}}",
-        "net_payment_terms_description": "{{name}}: pagos vencidos en {{numberOfDays}} días",
+        "net_payment_terms_description": "{{name}}: pagos vencidos dentro de {{numberOfDays}} días",
         "deposit_percentage": "{{percentage}} depósito",
         "own_role_contact_name": "Tú",
         "pagination": {
