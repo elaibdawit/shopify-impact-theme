@@ -4262,7 +4262,7 @@
         },
         "payment_method_selector_placeholder": "Seleccione un método de pago de reemplazo (opcional)",
         "payment_method_selector_no_alternative_payment": "No hay método de reemplazo",
-        "replace_method_with_new_method_description": "Tu {{currentPaymentMethodName}} será eliminado y reemplazado por tu {{newPaymentMethodName}}.",
+        "replace_method_with_new_method_description": "Tu {{currentPaymentMethodName}} será eliminada y reemplazada por tu {{newPaymentMethodName}}.",
         "error_when_deleting": "Lamentamos las molestias, pero algo salió mal y no pudimos eliminar este método de pago. Por favor, inténtelo de nuevo más tarde o actualice la página.",
         "delete_and_replace_button": "Eliminar y reemplazar",
         "delete_and_replace_button_accessibility_label": "Eliminar {{currentPaymentMethodName}} y reemplazar con {{newPaymentMethodName}}.",
