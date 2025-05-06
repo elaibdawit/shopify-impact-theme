@@ -356,7 +356,7 @@
   "search": {
     "general": {
       "title": "Buscar",
-      "terms": "Resultados de «{{ terms }}»",
+      "terms": "Resultados para \"{{ terms }}\"",
       "search_placeholder": "Buscar...",
       "products": "Productos",
       "suggestions": "Sugerencias",
