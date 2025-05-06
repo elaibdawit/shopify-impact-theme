@@ -2462,7 +2462,7 @@
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": ", luego %{count} pago en %{total_price}",
+            "one": ", luego %{count} pago de %{total_price}",
             "other": ", luego %{count} pagos de %{total_price} cada uno"
           }
         }
@@ -2875,7 +2875,8 @@
         "add_tip": "Añadir propina",
         "update_tip": "Consejo de actualización",
         "message": "Gracias, lo apreciamos.",
-        "preset_label": "%{tip_percent}%"
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Ninguno"
       }
     },
     "pagination": {
