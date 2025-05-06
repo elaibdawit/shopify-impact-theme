@@ -1637,7 +1637,7 @@
         "simulated_checkout": "Vista previa próximamente",
         "simulated_express_checkout": "Las carteras no están disponibles en la vista previa del editor debido a tu región o navegador",
         "vaulting_agreement_label": "Guarda mi información de pago con %{company} para un pago más rápido.",
-        "business_customer_vaulting_payment_label": "Guarde esta tarjeta al pagar y autorice a %{company} a cargarla para compras futuras en esta ubicación. Todos los contactos asignados a esta ubicación pueden usar la tarjeta.",
+        "business_customer_vaulting_payment_label": "Guarde esta tarjeta al finalizar la compra y autorice a %{company} a cargarla para compras futuras en esta ubicación. Todos los contactos asignados a esta ubicación pueden usar la tarjeta.",
         "purchase_options_and_vaulting_agreement_label": "Uno o más artículos en su carrito son una compra diferida o por suscripción. Al continuar con su pago, usted acepta que su método de pago será cargado automáticamente al precio y frecuencia indicados en esta página hasta que finalice o usted cancele. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
         "purchase_options_cancellation_policy_label": "política de cancelación",
         "use_different_credit_card_label": "Usar una tarjeta diferente",
@@ -1684,7 +1684,7 @@
         },
         "local_payment_method_receiver_notice": "Después de realizar su pedido, recibirá los detalles de pago. Realice el pago en un cajero automático o en línea dentro de {{dueDays}} días.",
         "order_edit_banner_title": "Se necesita el pago de {{amount_owed}}",
-        "order_edit_banner_subtitle": "Su pedido {{order_number}} fue actualizado. Revise estos cambios y luego pague para confirmar su pedido.",
+        "order_edit_banner_subtitle": "Su pedido {{order_number}} fue actualizado. Revise estos cambios, luego pague para confirmar su pedido.",
         "order_edit_banner_items_added": {
           "one": "Agregado",
           "other": "Agregado %{count}"
