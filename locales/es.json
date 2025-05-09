@@ -1905,7 +1905,8 @@
         "empty_stable_id": "La instrucción de mercancía %{position} %{name} contiene un ID estable vacío.",
         "invalid_stable_id_target": "La instrucción de mercancía %{position} %{name} hace referencia al ID estable %{stable_id}, pero ese ID estable no está en las líneas de mercancía.",
         "duplicate_variant_id": "La instrucción de mercancía %{position} %{name} contiene un ID de variante duplicado %{variant_id}.",
-        "invalid_variant_id_target": "La instrucción de mercancía %{name} hace referencia al ID de variante %{variant_id}, pero esa variante no está en las líneas de mercancía."
+        "invalid_variant_id_target": "La instrucción de mercancía %{name} hace referencia al ID de variante %{variant_id}, pero esa variante no está en las líneas de mercancía.",
+        "invalid_price_override_target": "La instrucción de anulación de precio para el artículo de línea %{stable_id} no es válida ya que es un componente de paquete."
       },
       "payment_errors": {
         "amount_too_small": "El monto mínimo de pago debe ser superior a $0.50 USD. Por favor, inténtelo de nuevo con una cantidad mayor.",
