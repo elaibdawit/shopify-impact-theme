@@ -10,39 +10,39 @@
 {
   "general": {
     "page": "Page {{ page }}",
-    "home": "Accueil",
+    "home": "Maison",
     "accessibility": {
       "skip_to_content": "Passer au contenu",
-      "pagination": "Pagination",
+      "pagination": "Navigation de pagination",
       "go_to_page": "Aller à la page {{ index }}",
-      "go_to_item": "Aller à l'élément {{ index }}",
-      "item_nth_of_count": "Elément {{ index }} de {{ count }}",
-      "drag": "Tirer",
+      "go_to_item": "Accéder à l'article {{ index }}",
+      "item_nth_of_count": "Article {{ index }} sur {{ count }}",
+      "drag": "Traîner",
       "close": "Fermer",
       "next": "Suivant",
       "previous": "Précédent",
-      "play_video": "Lancer la video",
+      "play_video": "Lire la vidéo",
       "read_more": "En savoir plus"
     },
     "label": {
-      "color": "Couleur",
+      "color": "Couleur, Couleur",
       "white": "Blanc",
       "size": "Taille"
     },
     "social": {
-      "follow_on": "Nous suivre sur {{ social_media }}",
+      "follow_on": "Suivez-nous {{ social_media }}",
       "share": "Partager",
       "share_on": "Partager sur {{ social_media }}",
-      "share_email": "Partager par email"
+      "share_email": "Partager par e-mail"
     },
     "rating": {
       "info": "{{ rating_value }} sur {{ rating_max }} étoiles"
     },
     "newsletter": {
       "email": "E-mail",
-      "subscribe": "S'inscrire",
-      "notify_me": "Me notifier",
-      "subscribed_successfully": "Vous êtes maintenant inscrit à notre newsletter."
+      "subscribe": "S'abonner",
+      "notify_me": "Prévenez-moi",
+      "subscribed_successfully": "Vous avez été abonné à notre newsletter."
     },
     "localization": {
       "country": "Pays",
@@ -50,28 +50,28 @@
     },
     "privacy_bar": {
       "accept": "Accepter",
-      "decline": "Refuser"
+      "decline": "Déclin"
     },
     "form": {
-      "max_characters": "{{ max_chars }} caractères au maximum"
+      "max_characters": "{{ max_chars }} caractères max"
     },
     "on_boarding": {
       "blog_post_category": "Catégorie",
       "blog_post_title": "Article",
-      "blog_post_excerpt": "Ecrivez quelque chose à propos de votre article de blog.",
-      "product_vendor": "Marque",
+      "blog_post_excerpt": "Écrivez un texte sur votre article de blog.",
+      "product_vendor": "Fournisseur",
       "product_title": "Produit",
-      "product_description": "Ecrivez quelque choes à propos de votre produit.",
+      "product_description": "Écrivez un texte sur votre produit.",
       "collection_title": "Collection"
     }
   },
   "header": {
     "general": {
-      "account": "Mon compte",
-      "open_menu": "Ouvrir la navigation",
+      "account": "Compte",
+      "open_menu": "Ouvrir le menu de navigation",
       "open_search": "Ouvrir la recherche",
-      "open_account": "Ouvrir le compte utilisation",
-      "open_cart": "Voir le panier"
+      "open_account": "Ouvrir la page de compte",
+      "open_cart": "Ouvrir le panier"
     }
   },
   "product": {
@@ -4482,6 +4482,12 @@
       "view_details": "Voir les détails",
       "company_location": "Localisation de l'entreprise",
       "search": "Recherche"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Les clients peuvent demander et gérer eux-mêmes les retours.",
+        "disabled": "Les clients doivent contacter le commerçant pour demander un retour."
+      }
     }
   }
 }
