@@ -1267,7 +1267,7 @@
         "local_delivery": "Livraison locale",
         "subscription_delivery_description": {
           "free_shipping_cycles": {
-            "one": "Livraison gratuite pour %{count} de plus",
+            "one": "Livraison gratuite pour %{count} de livraison supplémentaire",
             "other": "Livraison gratuite pour %{count} livraisons supplémentaires"
           },
           "free_shipping_cycles_delivery_not_included": {
@@ -1275,7 +1275,7 @@
             "other": "Livraison gratuite pour %{count} livraisons"
           },
           "first_n_order_free_with_cycle": {
-            "one": "Livraison gratuite pour %{count} livraisons supplémentaires, puis %{recurring_order_shipping_price}",
+            "one": "Livraison gratuite pour %{count} de livraison supplémentaire, puis %{recurring_order_shipping_price}",
             "other": "Livraison gratuite pour %{count} livraisons supplémentaires, puis %{recurring_order_shipping_price}"
           },
           "first_n_order_free_with_cycle_delivery_not_included": {
@@ -1291,7 +1291,7 @@
             "other": "%{count} livraisons supplémentaires pour %{shipping_price} chacune"
           },
           "prepaid_free_shipping_with_cycles": {
-            "one": "Livraison gratuite pour les %{cycle} premiers, suivie de %{recurring_order_shipping_price}",
+            "one": "Livraison gratuite pour le premier %{cycle}, suivie de %{recurring_order_shipping_price}",
             "other": "Livraison gratuite pour le premier %{cycle}, suivie de %{recurring_order_shipping_price}"
           },
           "prepaid_order_one_cycle": {
@@ -1307,7 +1307,7 @@
             "other": "%{shipping_price} pour %{count} livraisons supplémentaires (%{per_delivery_cost}), suivi de %{recurring_order_shipping_price}"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
-            "one": "%{shipping_price} pour %{count} livraison, suivi de %{recurring_order_shipping_price}",
+            "one": "%{shipping_price} pour %{count} livraison, suivie de %{recurring_order_shipping_price}",
             "other": "%{shipping_price} pour %{count} livraisons (%{per_delivery_cost}), suivi de %{recurring_order_shipping_price}"
           },
           "subscription_free_with_frequency_label": "Livraison gratuite %{delivery_frequency}",
