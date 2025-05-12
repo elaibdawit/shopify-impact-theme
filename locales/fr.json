@@ -1976,7 +1976,7 @@
         "empty_state": "Entrez votre adresse de livraison pour voir les méthodes d'expédition disponibles.",
         "title": "Expédition non disponible",
         "invalid_selected_address": "L'adresse de livraison sélectionnée n'est pas valide",
-        "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée n'est pas valide. %{update_address_link} ou sélectionnez une autre adresse",
+        "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée n'est pas valide. %{update_address_link} ou sélectionnez une adresse différente",
         "unavailable_selected_address": "Livraison non disponible pour l'adresse sélectionnée",
         "unavailable_selected_address_for_region": "La livraison n'est pas disponible pour {{region}}. Sélectionnez une autre adresse pour continuer"
       },
