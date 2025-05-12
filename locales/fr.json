@@ -2725,7 +2725,7 @@
           }
         },
         "reveal_more_label": {
-          "one": "Afficher %{count} emplacement(s) de plus",
+          "one": "Afficher %{count} emplacement de plus",
           "other": "Afficher %{count} emplacements supplémentaires"
         }
       },
