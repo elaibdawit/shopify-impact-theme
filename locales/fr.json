@@ -867,7 +867,7 @@
         "sign_out_link_label": "Se déconnecter",
         "save_my_information_label": "Enregistrez ces informations pour la prochaine fois",
         "invalid_address": "L'adresse sélectionnée est invalide. %{update_address_link} ou sélectionnez une autre adresse.",
-        "incomplete_address": "L'adresse sélectionnée est incomplète. %{update_address_link} ou sélectionnez une autre adresse.",
+        "incomplete_address": "L'adresse sélectionnée est incomplète. %{update_address_link} ou sélectionnez une adresse différente.",
         "rollup_label": "Compte",
         "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
         "saved_address_option_description": {
