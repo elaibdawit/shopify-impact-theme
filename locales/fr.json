@@ -77,11 +77,11 @@
   "product": {
     "general": {
       "description": "Description",
-      "view_product": "Voir produit",
-      "quick_add": "+ Ajouter",
+      "view_product": "Voir le produit",
+      "quick_add": "+ Ajout rapide",
       "add_to_cart_short": "+ Ajouter",
       "add_to_cart_button": "Ajouter au panier",
-      "pre_order_button": "Pré-commander",
+      "pre_order_button": "Précommande",
       "sold_out_button": "Épuisé",
       "unavailable_button": "Indisponible",
       "added_to_cart": "Ajouté à votre panier !",
@@ -125,7 +125,7 @@
       "oversell_stock": "Réapprovisionnement bientôt",
       "incoming_stock": "Réapprovisionnement sur {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
-        "one": "Il ne reste plus qu'une seule unité {{count}}",
+        "one": "Il ne reste plus qu'une seule {{count}} unité",
         "other": "Il ne reste que {{count}} unités"
       }
     },
