@@ -3100,7 +3100,78 @@
         "invalid_input": "%{parameter} le paramètre est invalide.",
         "product_not_available": "Produit non disponible",
         "too_many_line_items_error": "Votre panier ne peut pas contenir plus de %{max} articles.",
-        "link_expired": "Lien expiré"
+        "link_expired": "Lien expiré",
+        "link_no_longer_exists": "Le lien n'existe plus.",
+        "stock_problems_html": "Un ou plusieurs articles ne sont plus disponibles. Nous avons fourni un <a href='%{link}'>panier mis à jour</a>.",
+        "changed": "Panier modifié",
+        "items_changed": "Un ou plusieurs éléments ont changé.",
+        "product_sold_out": "Le produit '%{name}' est déjà en rupture de stock.",
+        "variant_not_found": "Impossible de trouver la variante",
+        "variant_requires_selling_plan": "La variante ne peut être achetée qu'avec un plan de vente.",
+        "selling_plan_not_available_for_company_locations": "Seul l'achat unique est disponible pour les commandes B2B",
+        "digital_product_not_available_for_company_locations": "Cet article ne peut pas être ajouté à une commande B2B",
+        "buyer_cannot_purchase_for_company_locations": "Vous ne pouvez pas acheter pour cet emplacement",
+        "selling_plan_not_applicable": "Impossible d'appliquer le plan de vente à la variante",
+        "shipping_address_not_required": "Ce panier ne nécessite pas de livraison",
+        "shipping_address_invalid": "Il y a eu un problème lors du calcul de vos frais de livraison. Continuez vers la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
+        "bundle_requires_components": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_with_components_not_supported": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_price_must_be_greater_than_zero": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_recipient_validation_error": "Le destinataire de la carte cadeau spécifié est invalide",
+        "view_lines_limit_reached": "Les lignes doivent être inférieures à %{limit}",
+        "cart_too_large": "Le panier est trop grand.",
+        "cart_attributes_error": "Les attributs du panier contiennent des données invalides.",
+        "merchandise_line_transformers": {
+          "run_error": "Une erreur s'est produite dans votre panier."
+        }
+      },
+      "storefront": {
+        "invalid_password": "Mot de passe incorrect, veuillez réessayer."
+      },
+      "tags": {
+        "add_articles": "Restreindre la recherche aux articles ayant également le tag %{tag}",
+        "add_products": "Restreindre la sélection aux produits correspondant à l'étiquette %{tag}",
+        "remove_articles": "Élargir la recherche aux articles non étiquetés %{tag}",
+        "remove_products": "Supprimer l'étiquette %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Merci de vous être abonné à notre liste de diffusion.",
+        "disclaimer": "Vous pouvez vous désabonner à tout moment.",
+        "unsubscribe": "Se désabonner"
+      },
+      "unsubscribed": {
+        "confirmation": "Vous vous êtes désabonné de notre liste de diffusion.",
+        "disclaimer": "Vous ne recevrez plus de mises à jour marketing de notre part. Vous pouvez vous réabonner à tout moment.",
+        "preview": "Vous prévisualisez ce que les clients verront lorsqu'ils se désabonneront."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Vous avez choisi de suivre l'ouverture des e-mails.</b>",
+          "visibility": "Les taux d'ouverture des e-mails seront rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre d'un taux d'ouverture agrégé.",
+          "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi d'ouverture des e-mails si vous ne souhaitez pas partager cette information.",
+          "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils accepteront le suivi d'ouverture des e-mails."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Vous avez choisi de ne pas activer le suivi d'ouverture des e-mails.</b>",
+          "visibility": "Nous ne saurons pas si vous avez ouvert nos e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Accepter</a> le suivi d'ouverture des e-mails.",
+          "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils choisiront de ne pas activer le suivi d'ouverture des e-mails."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nous ne suivons plus aucune ouverture d'e-mail.</b>",
+          "privacy_policy": "Après l'envoi de cet e-mail, nous avons mis à jour notre politique de confidentialité et nous ne suivons plus les ouvertures."
+        },
+        "track": {
+          "status_html": "<b>Le suivi d'ouverture des e-mails est signalé.</b>",
+          "visibility": "Nous verrons uniquement si vous avez ouvert l'email, dans le cadre du taux d'ouverture total des emails."
+        },
+        "updated_policy": {
+          "status_html": "<b>Le suivi d'ouverture des e-mails est signalé.</b>",
+          "visibility": "Nous avons mis à jour notre politique et suivons désormais l'ouverture des e-mails. Les taux d'ouverture des e-mails seront rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre du taux total d'ouverture des e-mails.",
+          "opt_out_html": "Si vous ne souhaitez pas partager ces informations, vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désabonner.</a>"
+        }
       }
     }
   },
