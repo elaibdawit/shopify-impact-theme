@@ -4048,7 +4048,8 @@
     "errors": {
       "load_extension_error": {
         "description": "Actualisez cette page ou réessayez dans quelques minutes.",
-        "refresh_button": "Actualiser la page"
+        "refresh_button": "Actualiser la page",
+        "title": "Erreur"
       },
       "address_deletion_error": {
         "description": "Il y a eu un problème lors de la suppression de cette adresse. Essayez à nouveau ou actualisez la page."
@@ -4091,7 +4092,11 @@
       "profile_update_error": {
         "description": "Il y a eu un problème lors de la mise à jour de votre profil. Essayez de rafraîchir cette page ou vérifiez votre connexion internet."
       },
-      "retry_action_label": "Réessayer"
+      "retry_action_label": "Réessayer",
+      "resend_link": {
+        "too_many_requests": "Trop de requêtes. Réessayez plus tard.",
+        "generic": "Demande échouée"
+      }
     },
     "throttle": {
       "too_many_attempts": {
