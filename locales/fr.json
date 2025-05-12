@@ -356,20 +356,20 @@
   "search": {
     "general": {
       "title": "Recherche",
-      "terms": "Résultats pour \"{{terms}}\"",
-      "search_placeholder": "Recherche...",
+      "terms": "Résultats pour \"{{ terms }}\"",
+      "search_placeholder": "Rechercher...",
       "products": "Produits",
       "suggestions": "Suggestions",
       "collections": "Collections",
-      "posts": "Blog posts",
+      "posts": "Articles de blog",
       "pages": "Pages",
-      "clear": "Effacer",
-      "view_all": "Voir tout",
-      "view_all_results": "Voir les résultats",
-      "no_results": "Aucun résultat ne correspond à votre recherche."
+      "clear": "Clair",
+      "view_all": "Tout voir",
+      "view_all_results": "Voir tous les résultats",
+      "no_results": "Aucun résultat n'a pu être trouvé."
     },
     "results_count": {
-      "zero": "0 résultat pour \"{{ terms }}\"",
+      "zero": "0 résultats pour \"{{ terms }}\"",
       "one": "1 résultat pour \"{{ terms }}\"",
       "other": "{{ count }} résultats pour \"{{ terms }}\""
     }
@@ -377,48 +377,48 @@
   "gift_card": {
     "general": {
       "title": "Voici votre carte cadeau",
-      "copy": "Copier",
+      "copy": "Copie",
       "print": "Imprimer",
-      "scan": "ou scanner ce QR code",
-      "back_to_store": "Retour à la boutique"
+      "scan": "ou scannez ce code QR",
+      "back_to_store": "Retour au magasin"
     },
     "issued": {
       "remaining_amount": "Montant restant",
-      "out_of_html": "sur {{ initial_value }}",
-      "redeem_instructions": "Rentrez code code à la caisse pour utiliser votre carte cadeau :",
-      "code": "Code de la carte cadeau",
-      "expires_on": "Expires on: {{ expires_on }}",
-      "expired": "Votre carte cadeau a expiré ou a été désactivé.",
+      "out_of_html": "de {{ initial_value }}",
+      "redeem_instructions": "Utilisez ce code pour échanger votre carte cadeau lors du paiement :",
+      "code": "Code de carte cadeau",
+      "expires_on": "Expire le : {{ expires_on }}",
+      "expired": "Votre carte cadeau a expiré ou a été désactivée.",
       "add_to_apple_wallet": "Ajouter à Apple Wallet"
     },
     "recipient": {
-      "checkbox": "Je veux envoyer ce produit comme cadeau",
-      "email_label": "E‑mail du destinataire",
-      "name_label": "Nom du destinataire (facultatif)",
+      "checkbox": "Je veux envoyer ceci comme cadeau",
+      "email_label": "E-mail du destinataire",
+      "name_label": "Nom du destinataire (optionnel)",
       "message_label": "Message (facultatif)"
     }
   },
   "password": {
     "general": {
-      "follow_us": "Nous suivre",
+      "follow_us": "Suivez-nous",
       "powered_by": "Cette boutique est propulsée par",
-      "store_owner": "Gérant de la boutique ?",
+      "store_owner": "Propriétaire du magasin ?",
       "login": "Se connecter"
     },
     "storefront_access": {
-      "enter_password": "Accéder avec le mot de passe",
-      "store_access": "Accès à la boutique",
-      "instructions": "Entrez le mot de passe pour accéder à la boutique",
+      "enter_password": "Entrer avec mot de passe",
+      "store_access": "Accès au magasin",
+      "instructions": "Entrez le mot de passe ci-dessous pour accéder au magasin",
       "password": "Mot de passe",
-      "enter_store": "Valider"
+      "enter_store": "Entrez dans le magasin"
     }
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "Ce produit est noté {{ rating_value }} sur {{ rating_max }} étoiles.",
+      "review_info": "Ce produit est évalué {{ rating_value }} sur {{ rating_max }} étoiles.",
       "leave_review": "Laisser un avis",
       "review_count": {
-        "zero": "Ce produit n'a reçu aucun avis.",
+        "zero": "Ce produit n'a pas encore d'avis.",
         "one": "Il a reçu {{ count }} avis.",
         "other": "Il a reçu {{ count }} avis."
       }
