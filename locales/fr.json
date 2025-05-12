@@ -2779,12 +2779,12 @@
           "unavailable_terminal": {
             "instructions": "{{walletName}} n'est actuellement pas disponible pour votre commande. Pour continuer votre achat, choisissez une autre méthode de paiement."
           },
-          "generic": "Il y a eu un problème avec {{walletName}}. Essayez de nouveau ou utilisez un autre mode de paiement.",
+          "generic": "Il y a eu un problème avec {{walletName}}. Réessayez ou utilisez un autre mode de paiement.",
           "discount_code": "Impossible d'appliquer ce code de réduction. Veuillez vérifier votre code et réessayer.",
           "terminal": "Il y a eu un problème avec {{walletName}}. Veuillez utiliser un autre mode de paiement.",
           "detour": {
             "stock_problems": "Certains articles ne sont plus disponibles. Fermez {{walletName}} et réessayez.",
-            "price_change": "Certains prix des articles ont changé. Fermez {{walletName}} pour revoir votre commande et réessayer.",
+            "price_change": "Certains prix des articles ont changé. Fermez {{walletName}} pour revoir votre commande et réessayez.",
             "queue": "Vous avez été placé dans une file d'attente pour le paiement. Fermez {{walletName}} pour continuer.",
             "currency_change": "Vous ne pouvez pas utiliser une adresse différente avec {{walletName}}. Utilisez l'adresse d'origine, ou essayez un autre mode de paiement."
           },
