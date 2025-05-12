@@ -3269,7 +3269,10 @@
         "first_name": "Prénom",
         "last_name": "Nom de famille",
         "no_name_provided_accessibility_label": "Aucun nom ajouté",
-        "phone_number_help_text": "Le numéro de téléphone utilisé pour la connexion ne peut pas être modifié"
+        "phone_number_help_text": "Le numéro de téléphone utilisé pour la connexion ne peut pas être modifié",
+        "save": "Sauvegarder",
+        "save_accessibility_label": "Enregistrer le profil",
+        "title": "Profil"
       }
     },
     "orders": {
@@ -3306,7 +3309,7 @@
         "plus_more": "+{{numberOfAdditionalProducts}}",
         "plus_more_products": "+{{numberOfAdditionalProducts}} produits",
         "carousel": {
-          "one_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}",
+          "one_products_accessibility_label": "La commande inclut {{lineItemName1}} quantité {{lineItemQuantity1}}",
           "two_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}",
           "three_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}, {{lineItemName3}} quantité {{lineItemQuantity3}}",
           "four_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}, {{lineItemName3}} quantité {{lineItemQuantity3}}, {{lineItemName4}} quantité {{lineItemQuantity4}}",
