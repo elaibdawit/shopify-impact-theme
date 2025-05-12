@@ -1205,7 +1205,8 @@
             "other": "%{count} articles"
           }
         },
-        "alternative_payment_currency_total": "Accusé comme %{amount_due}"
+        "alternative_payment_currency_total": "Accusé comme %{amount_due}",
+        "discount_code_allocations_mismatch": "Ton <strong style=\"text-transform:uppercase\">%{code}</strong> Le code de réduction a changé. Vérifiez votre panier et réessayez."
       },
       "shipping": {
         "title": "Expédition",
