@@ -3999,16 +3999,99 @@
             "title": "Remboursé",
             "title_with_date": "Remboursé {{date}}",
             "description_full_refund": "Vous avez reçu un remboursement complet pour cette commande.",
-            "description_single_refund": "Vous avez reçu un remboursement partiel pour cette commande."
-          }
+            "description_single_refund": "Vous avez reçu un remboursement partiel pour cette commande.",
+            "description_multiple_refunds": "Vous avez reçu des remboursements partiels pour cette commande."
+          },
+          "canceled": {
+            "title": "Paiement annulé",
+            "description": "Vous n'avez pas été facturé."
+          },
+          "pay_now": "Payer maintenant",
+          "pay_now_accessibility_label": "Payer maintenant pour la commande {{orderName}}",
+          "title": "Statut de paiement"
+        },
+        "order_timeline": {
+          "expand_events_label": "Afficher les détails",
+          "expand_events_accessibility_label": "Afficher les détails de la commande provisoire",
+          "hide_events_label": "Masquer les détails",
+          "hide_events_accessibility_label": "Masquer les détails de la commande provisoire"
+        },
+        "subtitle": "Soumis {{date}}",
+        "title": "Commande {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Cette méthode de paiement ne sera plus disponible pour les achats futurs à cet endroit.",
+          "description_with_replacement": "La suppression de ce mode de paiement affectera les paiements préautorisés pour ce lieu. Remplacez-le par un autre mode de paiement pour continuer à recevoir les commandes à venir."
+        },
+        "payment_details": {
+          "order_label": "Commande {{name}}",
+          "draft_label": "Projet d'ordonnance {{name}}"
         }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Ajouter un numéro de bon de commande",
+        "add_modal_title": "Ajouter un numéro de bon de commande",
+        "cancel": "Annuler",
+        "close_modal_accessibility_label": "Fermer la fenêtre modale du numéro de PO",
+        "discard": "Jeter",
+        "discard_changes_modal_title": "Annuler les modifications ?",
+        "edit_accessibility_label": "Modifier le numéro de bon de commande",
+        "edit_modal_title": "Modifier le numéro de bon de commande",
+        "empty_state": "Pas de numéro de commande",
+        "modal_po_number_input_label": "Numéro de bon de commande",
+        "modal_po_number_input_max_length_error": "Les numéros de bon de commande ont un maximum de {{maxLength}} caractères.",
+        "save": "Sauvegarder",
+        "title": "Numéro de bon de commande{{poNumber}}"
       }
     },
     "errors": {
       "load_extension_error": {
         "description": "Actualisez cette page ou réessayez dans quelques minutes.",
         "refresh_button": "Actualiser la page"
-      }
+      },
+      "address_deletion_error": {
+        "description": "Il y a eu un problème lors de la suppression de cette adresse. Essayez à nouveau ou actualisez la page."
+      },
+      "addresses_loading_issue": {
+        "description": "Erreur de connexion. Vérifiez votre connexion internet et réessayez."
+      },
+      "banner_title": {
+        "one": "Il y a {{count}} erreur",
+        "other": "Il y a {{count}} erreurs"
+      },
+      "failed_address_creation": {
+        "description": "Il y a eu un problème lors de la création de votre adresse. Essayez de rafraîchir cette page ou vérifiez votre connexion internet."
+      },
+      "failed_address_update": {
+        "description": "Il y a eu un problème lors de la mise à jour de votre adresse. Essayez de rafraîchir cette page ou vérifiez votre connexion internet."
+      },
+      "load_orders_error": {
+        "title": "Impossible de charger les commandes",
+        "description": "Réessayez ou revenez plus tard.",
+        "retry_button": "Réessayer"
+      },
+      "load_paypal_error": {
+        "description": "Il y a un problème lors du chargement de PayPal. Veuillez réessayer."
+      },
+      "logout_everywhere": {
+        "description": "Une erreur s'est produite lors de la déconnexion. Veuillez réessayer."
+      },
+      "no_access_to_locations": {
+        "description": "Vous n'avez accès à aucun emplacement"
+      },
+      "not_found": {
+        "description": "Vérifiez l'URL ou réessayez dans quelques minutes.",
+        "title": "Il y a un problème lors du chargement de cette page"
+      },
+      "order_not_found": {
+        "description": "Cette commande n'existe pas ou vous n'avez pas la permission de la consulter.",
+        "title": "Commande non trouvée"
+      },
+      "profile_update_error": {
+        "description": "Il y a eu un problème lors de la mise à jour de votre profil. Essayez de rafraîchir cette page ou vérifiez votre connexion internet."
+      },
+      "retry_action_label": "Réessayer"
     },
     "throttle": {
       "too_many_attempts": {
