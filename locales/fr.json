@@ -1746,7 +1746,8 @@
         "order_edit_banner_single_item_removed": "Supprimé",
         "order_edit_banner_multiple_items_removed": "Supprimé {{amount}}",
         "order_edit_banner_single_item_returned": "De retour",
-        "order_edit_banner_multiple_items_returned": "De retour {{amount}}"
+        "order_edit_banner_multiple_items_returned": "De retour {{amount}}",
+        "order_edit_banner_single_item_return_line_item_removed": "Retiré du retour"
       },
       "billing": {
         "billing_address_title": "Facturer à",
