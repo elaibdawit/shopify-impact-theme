@@ -3597,8 +3597,8 @@
       "fully_refunded_label": "REMBOURSÉ",
       "group_title_label": "Une partie de: {{groupTitle}}",
       "grouped_view_components": {
-        "expand_line_items": "Afficher {{count}} éléments",
-        "collapse_line_items": "Masquer {{count}} éléments",
+        "expand_line_items": "Afficher {{count}} articles",
+        "collapse_line_items": "Masquer {{count}} articles",
         "line_item_summary": "{{refundableQuantity}} x {{productTitle}}",
         "line_item_summary_accessibility_label": "{{productTitle}}, Quantité: {{refundableQuantity}}",
         "line_item_summary_list_accessibility_label": "Articles dans le pack {{productTitle}}"
