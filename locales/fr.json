@@ -2071,13 +2071,13 @@
         "order_due_on_fulfillment_choose_later": "Votre paiement sera dû une fois que votre commande sera exécutée.",
         "order_due_on_fulfillment_payment": "Votre carte sera débitée une fois votre commande exécutée.",
         "order_due_on_receipt_choose_later": "Votre paiement sera dû à réception.",
-        "order_deposit_due_now": "{{depositAmount}} est dû aujourd'hui. Le solde est aux conditions {{translatedName}} et est dû le {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} est dû aujourd'hui. Le solde est selon les conditions {{translatedName}} et est dû le {{dueDate}}.",
         "order_deposit_due_on_fulfillment": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû une fois votre commande exécutée.",
         "order_deposit_due_on_receipt": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû plus tard.",
         "order_deposit_due_on_fixed_date": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû le {{dueDate}}.",
         "draft_order_payment_due_later_no_terms": "Votre paiement sera dû une fois votre commande confirmée.",
         "draft_order_payment_due_later_no_terms_payment_selected": "Votre carte sera débitée une fois votre commande confirmée.",
-        "draft_order_payment_due_later_terms": "Vous serez en termes de {{translatedName}} une fois votre commande confirmée.",
+        "draft_order_payment_due_later_terms": "Vous serez sur des termes {{translatedName}} une fois votre commande confirmée.",
         "draft_order_payment_due_on_fulfillment": "Votre paiement sera dû une fois que votre commande aura été confirmée et exécutée.",
         "draft_order_deposit_due_later": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera selon les conditions {{translatedName}}.",
         "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera dû une fois que votre commande sera exécutée."
@@ -2617,8 +2617,8 @@
         "no_pickup_points_near_you": "Aucun point de retrait trouvé près de l'adresse sélectionnée",
         "no_pickup_points_near_location": "Aucun point de retrait trouvé près de votre emplacement",
         "pickup_unavailable_banner_title": {
-          "one": "Votre article n'est pas disponible aux points de retrait",
-          "other": "Vos articles ne sont pas disponibles aux points de retrait"
+          "one": "Aucun point de retrait disponible pour votre article",
+          "other": "Aucun point de retrait disponible pour vos articles"
         },
         "no_pickup_points_found": "Aucun point de retrait trouvé",
         "paginator": {
