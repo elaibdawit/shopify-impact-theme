@@ -4238,6 +4238,11 @@
           "credit_card_number_invalid": "Entrez un numéro de carte valide",
           "credit_card_expiry_invalid": "Entrez une date d'expiration de carte valide",
           "credit_card_verification_value_blank": "Entrez le CVV ou le code de sécurité de votre carte"
+        },
+        "unavailable": {
+          "text": "Les paiements par carte de crédit et de débit ne sont pas disponibles pour le moment.",
+          "link_text": "Actualiser cette page",
+          "suffix": "ou réessayez plus tard."
         }
       },
       "payment_delete": {
