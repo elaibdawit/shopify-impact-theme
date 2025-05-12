@@ -1069,8 +1069,8 @@
         "pickup_label": "Retrait en magasin",
         "no_pickup_location": "Il n'y a aucun point de retrait disponible.",
         "pickup_unavailable_banner_title": {
-          "one": "Votre article n'est pas disponible pour le retrait en magasin",
-          "other": "Vos articles ne sont pas disponibles pour le retrait en magasin"
+          "one": "Aucun magasin disponible avec votre article",
+          "other": "Aucun magasin disponible avec vos articles"
         },
         "pickup_unavailable_banner_body": {
           "ship_to_address": "Adresse de livraison",
