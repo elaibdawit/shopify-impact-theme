@@ -3680,7 +3680,8 @@
         "log_in": "Se connecter",
         "resend_link_with_login": "envoyer un nouveau lien",
         "resend_link_without_login": "Envoyer un nouveau lien",
-        "link_expired": "Lien expiré"
+        "link_expired": "Lien expiré",
+        "resend_link_only": "Pour voir les détails de votre commande, envoyez un nouveau lien à l'adresse e-mail ou au numéro de téléphone utilisé lors du paiement."
       },
       "remaining_amount": "Restant",
       "marketing_section_title": "Actualités et offres",
