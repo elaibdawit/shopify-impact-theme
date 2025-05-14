@@ -3044,7 +3044,7 @@
           "add_variant": "Ajouté %{delta}",
           "increment_item": "Ajouté %{delta}",
           "decrement_item": "Supprimé %{delta} de %{total}",
-          "decrement_fulfilled_line_item": "Rendu %{delta} de %{total}",
+          "decrement_fulfilled_line_item": "Rendu %{delta} sur %{total}",
           "decrement_return_line_item": "Retiré %{delta} du retour"
         }
       },
