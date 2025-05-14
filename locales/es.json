@@ -2948,7 +2948,7 @@
       "customer_already_used_once_per_customer_discount_notice": "Este descuento ha alcanzado su límite de uso",
       "gift_card_already_applied": "El código ya ha sido aplicado a tu pago",
       "gift_card_code_invalid": "El código no es válido",
-      "gift_card_currency_mismatch": "Su tarjeta de regalo está en %{gift_card_currency}. Contáctenos para que se la reemitan en %{checkout_currency}.",
+      "gift_card_currency_mismatch": "Tu tarjeta de regalo está en %{gift_card_currency}. Contáctanos para que sea reemitida en %{checkout_currency}.",
       "gift_card_depleted": "No quedan fondos en esta tarjeta de regalo",
       "gift_card_disabled": "La tarjeta de regalo está deshabilitada",
       "gift_card_expired": "La tarjeta de regalo ha expirado",
@@ -2994,7 +2994,7 @@
           "fix_domain": "Termina de configurar tu nueva dirección web, ve a %{domain_settings_link}. Haz clic en “Conectar dominio” e ingresa: %{domain}.<br>Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
           "fix_domain_link_text": "tus configuraciones de dominio",
           "forgot_your_store_link_text": "Olvidé mi tienda",
-          "add_storefront": "Puedes configurar tu sitio web agregando el canal de Tienda en Línea en tu %{admin_link}. Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
+          "add_storefront": "Puedes configurar tu sitio web agregando el canal de Tienda Online en tu %{admin_link}. Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
           "admin_link_text": "administración"
         },
         "ctas": {
