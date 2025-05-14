@@ -2847,7 +2847,7 @@
           "return_line_item_removed": "Eliminado %{count} de la devolución"
         },
         "additional_payment_requested": "Se necesita el pago de %{total_outstanding}",
-        "checkout_review_and_pay": "Su pedido %{order_name} fue actualizado. Revise estos cambios y luego pague para confirmar su pedido.",
+        "checkout_review_and_pay": "Su pedido %{order_name} fue actualizado. Revise estos cambios, luego pague para confirmar su pedido.",
         "order_updated_on": "Su pedido fue actualizado el %{last_edited_at}.",
         "order_review_and_pay": "Su pedido fue actualizado. Revíselo y pague para confirmar su pedido.",
         "pay_now": "Pagar ahora"
