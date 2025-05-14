@@ -4043,14 +4043,14 @@
               "title": "Pagar para confirmar",
               "deposit": {
                 "title": "El pago está pendiente",
-                "due_later": "El saldo está en términos de {{translatedName}} y vence el {{dueDate}}.",
+                "due_later": "El saldo está en los términos de {{translatedName}} y vence el {{dueDate}}.",
                 "due_on_fulfillment": "El saldo se debe una vez que todos los artículos de este pedido estén cumplidos.",
                 "due_on_receipt": "Recibirá una factura por el saldo restante.",
                 "due_on_date": "El saldo vence el {{dueDate}}."
               }
             },
             "deposit": {
-              "due_later": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo estará en los términos de {{translatedName}}.",
+              "due_later": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo estará en términos de {{translatedName}}.",
               "due_on_fulfillment": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo se deberá cuando se cumpla el pedido.",
               "due_on_receipt": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo se deberá más tarde.",
               "due_on_date": "{{depositAmount}} se deberá cuando se confirme su pedido. El saldo se deberá en {{dueDate}}."
