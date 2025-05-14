@@ -4434,7 +4434,7 @@
       },
       "mapClusterTitle": {
         "one": "Grupo de {{number}} marcador",
-        "other": "Grupo de {{number}} marcadores"
+        "other": "Conjunto de {{number}} marcadores"
       },
       "expandSheet": "Expandir",
       "qrCode": "Código QR",
