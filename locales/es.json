@@ -4258,6 +4258,11 @@
           "credit_card_number_invalid": "Ingrese un número de tarjeta válido",
           "credit_card_expiry_invalid": "Introduce una fecha de caducidad de tarjeta válida",
           "credit_card_verification_value_blank": "Introduce el CVV o código de seguridad de tu tarjeta"
+        },
+        "unavailable": {
+          "text": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.",
+          "link_text": "Actualizar esta página",
+          "suffix": "o inténtelo de nuevo más tarde."
         }
       },
       "payment_delete": {
