@@ -3741,7 +3741,7 @@
         "updated_at": "Votre commande a été mise à jour le {{date}}",
         "returned": "De retour",
         "returned_with_quantities": "Rendu {{delta}} sur {{total}}",
-        "removed_with_quantities": "Supprimé {{delta}} de {{total}}",
+        "removed_with_quantities": "Supprimé {{delta}} sur {{total}}",
         "return_line_item_removed": "Retiré du retour",
         "return_line_item_removed_with_quantities": "Retiré {{delta}} du retour"
       },
