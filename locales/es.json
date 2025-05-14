@@ -3241,8 +3241,8 @@
       }
     },
     "subscriptions": {
-      "buyer_consent_product": "Este artículo es una compra recurrente o diferida. Al continuar, acepto la %{cancellationPolicyLink} y le autorizo a cargar mi método de pago con los precios, frecuencia y fechas indicados en esta página hasta que mi pedido se complete o cancele, si está permitido.",
-      "buyer_consent_cart": "Uno o más de los artículos en su carrito son compras recurrentes o diferidas. Al continuar, acepto la %{cancellationPolicyLink} y le autorizo a cargar mi método de pago con los precios, frecuencia y fechas indicados en esta página hasta que mi pedido sea completado o cancele, si está permitido.",
+      "buyer_consent_product": "Este artículo es una compra recurrente o diferida. Al continuar, acepto la %{cancellationPolicyLink} y autorizo que se cargue mi método de pago a los precios, frecuencia y fechas indicadas en esta página hasta que mi pedido se complete o cancele, si está permitido.",
+      "buyer_consent_cart": "Uno o más de los artículos en su carrito son compras recurrentes o diferidas. Al continuar, acepto la %{cancellationPolicyLink} y le autorizo a cargar mi método de pago con los precios, frecuencia y fechas indicados en esta página hasta que mi pedido sea completado o lo cancele, si está permitido.",
       "cancellation_policy": "política de cancelación"
     }
   },
