@@ -1304,11 +1304,11 @@
           },
           "prepaid_order_no_cycle": {
             "one": "%{shipping_price} por %{count} entregas más, seguido de %{recurring_order_shipping_price}",
-            "other": "%{shipping_price} por %{count} entregas más (%{per_delivery_cost}), seguido de %{recurring_order_shipping_price}"
+            "other": "%{shipping_price} por %{count} entregas más (%{per_delivery_cost}), seguido por %{recurring_order_shipping_price}"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
             "one": "%{shipping_price} por %{count} entrega, seguido de %{recurring_order_shipping_price}",
-            "other": "%{shipping_price} por %{count} entregas (%{per_delivery_cost}), seguido de %{recurring_order_shipping_price}"
+            "other": "%{shipping_price} por %{count} entregas (%{per_delivery_cost}), seguido por %{recurring_order_shipping_price}"
           },
           "subscription_free_with_frequency_label": "Envío gratis %{delivery_frequency}",
           "prepaid_delivery_frequency": {
