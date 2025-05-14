@@ -1195,7 +1195,7 @@
         },
         "collapse_component_information": {
           "one": "Ocultar %{count} artículo",
-          "other": "Ocultar %{count} artículos"
+          "other": "Ocultar %{count} elementos"
         },
         "component_quantity_title": "%{quantity} × %{product_title}",
         "discount_discovery": {
