@@ -1976,7 +1976,7 @@
         "empty_state": "Entrez votre adresse de livraison pour voir les méthodes d'expédition disponibles.",
         "title": "Expédition non disponible",
         "invalid_selected_address": "L'adresse de livraison sélectionnée n'est pas valide",
-        "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée n'est pas valide. %{update_address_link} ou sélectionnez une adresse différente",
+        "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée n'est pas valide. %{update_address_link} ou sélectionnez une autre adresse",
         "unavailable_selected_address": "Livraison non disponible pour l'adresse sélectionnée",
         "unavailable_selected_address_for_region": "La livraison n'est pas disponible pour {{region}}. Sélectionnez une autre adresse pour continuer"
       },
@@ -2077,7 +2077,7 @@
         "order_deposit_due_on_fixed_date": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû le {{dueDate}}.",
         "draft_order_payment_due_later_no_terms": "Votre paiement sera dû une fois votre commande confirmée.",
         "draft_order_payment_due_later_no_terms_payment_selected": "Votre carte sera débitée une fois votre commande confirmée.",
-        "draft_order_payment_due_later_terms": "Vous serez sur des termes {{translatedName}} une fois votre commande confirmée.",
+        "draft_order_payment_due_later_terms": "Vous serez en termes de {{translatedName}} une fois votre commande confirmée.",
         "draft_order_payment_due_on_fulfillment": "Votre paiement sera dû une fois que votre commande aura été confirmée et exécutée.",
         "draft_order_deposit_due_later": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera selon les conditions {{translatedName}}.",
         "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera dû une fois que votre commande sera exécutée."
