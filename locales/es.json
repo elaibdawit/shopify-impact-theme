@@ -1069,8 +1069,8 @@
         "pickup_label": "Recogida en tienda",
         "no_pickup_location": "No hay ubicaciones de recogida disponibles.",
         "pickup_unavailable_banner_title": {
-          "one": "Tu artículo no está disponible para recogida en tienda",
-          "other": "Tus artículos no están disponibles para recogida en tienda"
+          "one": "No hay tiendas disponibles con tu artículo",
+          "other": "No hay tiendas disponibles con tus artículos"
         },
         "pickup_unavailable_banner_body": {
           "ship_to_address": "Enviar a dirección",
