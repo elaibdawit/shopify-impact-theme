@@ -1902,11 +1902,11 @@
         }
       },
       "merchant_instruction_errors": {
-        "empty_stable_id": "L'instruction de marchandisage %{position} %{name} contient un ID stable vide.",
+        "empty_stable_id": "L'instruction de marchandises %{position} %{name} contient un ID stable vide.",
         "invalid_stable_id_target": "L'instruction de marchandisage %{position} %{name} fait référence à l'ID stable %{stable_id}, mais cet ID stable ne figure pas dans les lignes de marchandisage.",
         "duplicate_variant_id": "L'instruction de marchandisage %{position} %{name} contient un ID de variante en double %{variant_id}.",
         "invalid_variant_id_target": "L'instruction de marchandises %{name} fait référence à l'ID de variante %{variant_id}, mais cette variante ne figure pas dans les lignes de marchandises.",
-        "invalid_price_override_target": "L'instruction de remplacement de prix pour l'article %{stable_id} est invalide car il s'agit d'un composant de lot."
+        "invalid_price_override_target": "L'instruction de remplacement de prix pour l'article de ligne %{stable_id} est invalide car il s'agit d'un composant de lot."
       },
       "payment_errors": {
         "amount_too_small": "Le montant minimum du paiement doit être supérieur à 0,50 $ USD. Veuillez réessayer avec un montant plus élevé.",
