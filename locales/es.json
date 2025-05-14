@@ -1158,12 +1158,12 @@
           "title": "El pago de %{amount_due} vence el %{due_at}",
           "description_html": "Para preguntas sobre su pedido, %{contact_us}.",
           "paid_today": "Total pagado hoy",
-          "due_on_fulfillment_title": "El pago de %{amount_due} vence al cumplimiento",
+          "due_on_fulfillment_title": "El pago de %{amount_due} vence al cumplirse",
           "due_on_receipt_title": "El pago de %{amount_due} se debe al recibir"
         },
         "deferred_balance_info": {
           "title": "El saldo de {{amount_due}} vence el {{due_at}}",
-          "due_on_fulfillment_title": "El saldo de {{amount_due}} vence al cumplirse"
+          "due_on_fulfillment_title": "El saldo de {{amount_due}} vence al cumplimiento"
         },
         "payment_terms_totals": {
           "due_today": "Total a pagar hoy",
