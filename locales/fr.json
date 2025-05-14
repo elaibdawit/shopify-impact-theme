@@ -3537,7 +3537,7 @@
             "order_includes_guarantees_label": "Votre commande comprend {{deliveryAgreementsCount}} garanties",
             "order_includes_guarantees_description": "Shop Promise garantit une livraison rapide et fiable. Réclamez Shop Cash si votre commande arrive après {{date}}.",
             "delivered_after_label": "Livré après {{date}}",
-            "delivered_after_description": "Parce que votre commande est arrivée en retard, vous êtes éligible pour réclamer {{amount}} Shop Cash.",
+            "delivered_after_description": "Parce que votre commande est arrivée en retard, vous êtes éligible pour réclamer {{amount}} de Shop Cash.",
             "claimed_shop_cash_description": "Parce que cette commande est arrivée en retard, vous avez réclamé {{amount}} Shop Cash.",
             "eligible_to_claim_shop_cash_description": "Parce que votre commande est arrivée en retard, vous êtes éligible pour réclamer {{amount}} Shop Cash.",
             "learn_more_button_label": "Apprendre encore plus",
@@ -3603,7 +3603,7 @@
       "group_title_label": "Une partie de: {{groupTitle}}",
       "grouped_view_components": {
         "expand_line_items": "Afficher {{count}} articles",
-        "collapse_line_items": "Masquer {{count}} articles",
+        "collapse_line_items": "Masquer {{count}} éléments",
         "line_item_summary": "{{refundableQuantity}} x {{productTitle}}",
         "line_item_summary_accessibility_label": "{{productTitle}}, Quantité: {{refundableQuantity}}",
         "line_item_summary_list_accessibility_label": "Articles dans le pack {{productTitle}}"
