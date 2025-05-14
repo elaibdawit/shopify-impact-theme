@@ -3953,7 +3953,7 @@
         "list_loading_finished_accessibility_message": "Lista de ubicaciones cargada",
         "loading_store_accessibility_message": "Ir a la tienda",
         "no_location_title": "Pedidos personales solamente",
-        "no_location_description": "Ya no tienes permiso para realizar pedidos para {{company}}. Aún puedes hacer pedidos personales.",
+        "no_location_description": "Ya no tienes permiso para realizar pedidos para {{company}}. Aún puedes realizar pedidos personales.",
         "no_locations_found": "No se encontraron ubicaciones",
         "search": "Buscar una ubicación",
         "search_location_title": "Seleccione una ubicación",
