@@ -1267,7 +1267,7 @@
         "local_delivery": "Livraison locale",
         "subscription_delivery_description": {
           "free_shipping_cycles": {
-            "one": "Livraison gratuite pour %{count} de livraison supplémentaire",
+            "one": "Livraison gratuite pour %{count} livraisons supplémentaires",
             "other": "Livraison gratuite pour %{count} livraisons supplémentaires"
           },
           "free_shipping_cycles_delivery_not_included": {
@@ -1275,11 +1275,11 @@
             "other": "Livraison gratuite pour %{count} livraisons"
           },
           "first_n_order_free_with_cycle": {
-            "one": "Livraison gratuite pour %{count} de livraison supplémentaire, puis %{recurring_order_shipping_price}",
+            "one": "Livraison gratuite pour %{count} livraisons supplémentaires, puis %{recurring_order_shipping_price}",
             "other": "Livraison gratuite pour %{count} livraisons supplémentaires, puis %{recurring_order_shipping_price}"
           },
           "first_n_order_free_with_cycle_delivery_not_included": {
-            "one": "Livraison gratuite pour %{count} livraisons, puis %{recurring_order_shipping_price}",
+            "one": "Livraison gratuite pour %{count} livraison, puis %{recurring_order_shipping_price}",
             "other": "Livraison gratuite pour %{count} livraisons, puis %{recurring_order_shipping_price}"
           },
           "max_cycles_base_shipping": {
