@@ -2881,6 +2881,11 @@
       },
       "memberships": {
         "delivery_promise_unfulfillable": "La dirección no es compatible con la membresía actual."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navegar a la Tienda en Línea"
+        }
       }
     },
     "pagination": {
