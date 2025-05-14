@@ -3743,7 +3743,10 @@
         "log_in": "Acceso",
         "resend_link_with_login": "enviar nuevo enlace",
         "resend_link_without_login": "Enviar nuevo enlace",
-        "link_expired": "Enlace expirado"
+        "link_expired": "Enlace expirado",
+        "resend_link_and_login": "Para ver los detalles de su pedido, inicie sesión o envíe un nuevo enlace al correo electrónico o número de teléfono utilizado en la compra.",
+        "resend_link_only": "Para ver los detalles de su pedido, envíe un nuevo enlace al correo electrónico o número de teléfono utilizado en la compra.",
+        "resend_link": "Enviar nuevo enlace"
       },
       "remaining_amount": "Restante",
       "marketing_section_title": "Noticias y ofertas",
