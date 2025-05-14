@@ -2773,13 +2773,13 @@
           "unavailable": {
             "title": "{{walletName}} pas disponible",
             "description": "{{walletName}} n'était pas disponible. Utilisez un autre mode de paiement ou réessayez plus tard.",
-            "instructions": "Il y a eu un problème avec {{walletName}}. Retournez au magasin pour réessayer ou choisissez un autre mode de paiement.",
-            "unavailable_for_country": "{{walletName}} n'est pas disponible en {{countryName}}. Sélectionnez un autre mode de paiement pour finaliser votre achat"
+            "instructions": "Il y a eu un problème avec {{walletName}}. Retournez au magasin pour réessayer ou choisissez une autre méthode de paiement.",
+            "unavailable_for_country": "{{walletName}} n'est pas disponible en {{countryName}}. Sélectionnez un autre mode de paiement pour compléter votre achat"
           },
           "unavailable_terminal": {
             "instructions": "{{walletName}} n'est actuellement pas disponible pour votre commande. Pour continuer votre achat, choisissez une autre méthode de paiement."
           },
-          "generic": "Il y a eu un problème avec {{walletName}}. Réessayez ou utilisez un autre mode de paiement.",
+          "generic": "Il y a eu un problème avec {{walletName}}. Essayez de nouveau ou utilisez un autre mode de paiement.",
           "discount_code": "Impossible d'appliquer ce code de réduction. Veuillez vérifier votre code et réessayer.",
           "terminal": "Il y a eu un problème avec {{walletName}}. Veuillez utiliser un autre mode de paiement.",
           "detour": {
