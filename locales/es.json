@@ -2463,7 +2463,7 @@
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": ", luego %{count} pago de %{total_price}",
+            "one": ", luego %{count} pago a %{total_price}",
             "other": ", luego %{count} pagos de %{total_price} cada uno"
           }
         }
