@@ -125,7 +125,7 @@
       "oversell_stock": "Réapprovisionnement bientôt",
       "incoming_stock": "Réapprovisionnement sur {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
-        "one": "Il ne reste plus qu'une seule {{count}} unité",
+        "one": "Il ne reste plus qu'une seule unité {{count}}",
         "other": "Il ne reste que {{count}} unités"
       }
     },
