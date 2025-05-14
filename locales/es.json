@@ -2549,8 +2549,8 @@
         "no_pickup_points_near_you": "No se encontraron puntos de recogida cerca de la dirección seleccionada",
         "no_pickup_points_near_location": "No se encontraron puntos de recogida cerca de su ubicación",
         "pickup_unavailable_banner_title": {
-          "one": "Tu artículo no está disponible en los puntos de recogida",
-          "other": "Tus artículos no están disponibles en los puntos de recogida"
+          "one": "No hay puntos de recogida disponibles para su artículo",
+          "other": "No hay puntos de recogida disponibles para sus artículos"
         },
         "no_pickup_points_found": "No se encontraron puntos de recogida",
         "paginator": {
