@@ -731,7 +731,7 @@
         "map": {
           "cluster_title": {
             "one": "Grupo de {{number}} marcador",
-            "other": "Grupo de {{number}} marcadores"
+            "other": "Conjunto de {{number}} marcadores"
           }
         },
         "sheet": {
