@@ -2525,7 +2525,7 @@
         "recurring_totals_with_policies": {
           "first_cycles": {
             "one": "Premier versement %{total_price}",
-            "other": "Premiers %{count} paiements %{total_price} chacun"
+            "other": "Premiers %{count} paiements de %{total_price} chacun"
           },
           "following_cycles": ", puis %{total_price} tous les %{interval}"
         },
