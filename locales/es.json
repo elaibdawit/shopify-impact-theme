@@ -3470,7 +3470,12 @@
           }
         },
         "table_view": "Mostrar vista de tabla",
-        "show_order_actions_accessibility_label": "Mostrar acciones de pedido para el pedido {{name}}"
+        "show_order_actions_accessibility_label": "Mostrar acciones de pedido para el pedido {{name}}",
+        "location_filter_picker": {
+          "all_location": "Todas las ubicaciones",
+          "current_location": "Ubicación actual",
+          "switch_view": "Cambiar vista"
+        }
       },
       "order_status": {
         "attempted_delivery_label": "Intento de entrega",
