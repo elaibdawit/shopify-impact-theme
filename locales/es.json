@@ -1014,7 +1014,7 @@
         "more_items_modal": {
           "search_item": "Buscar",
           "clear_search": "Borrar búsqueda",
-          "empty_results": "No se encontraron resultados para \"%{searchText}\". Verifique la ortografía o use una palabra o frase diferente.",
+          "empty_results": "No se encontraron resultados para \"%{searchText}\". Verifica la ortografía o usa una palabra o frase diferente.",
           "number_items_shown": "%{shownNumber} de %{totalNumber} artículos"
         },
         "order_name_label": "Orden %{name}",
