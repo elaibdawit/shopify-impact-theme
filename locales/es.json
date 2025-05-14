@@ -1585,7 +1585,7 @@
         "pending_payment": {
           "due_notice": "Su pago de %{amount_due} vence el %{due_date}.",
           "multibanco": {
-            "buyer_action_info": "Su pago de %{amount_due} está pendiente.",
+            "buyer_action_info": "Su pago de %{amount_due} está vencido.",
             "instruction_html": "Realice su pago en Multibanco o en línea utilizando los detalles a continuación. Para preguntas o para actualizar los detalles de pago, %{contact_us}.",
             "entity": "Entidad",
             "reference": "Referencia",
