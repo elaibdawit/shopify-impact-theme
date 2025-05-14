@@ -3592,7 +3592,7 @@
             "active_delivery_guarantee_label": "Entrega por {{date}}",
             "expired_delivery_guarantee_description": "La garantía de 30 días de la Promesa de Compra de este pedido ha expirado.",
             "expired_badge_label": "Venció",
-            "order_includes_guarantees_label": "Su pedido incluye {{deliveryAgreementsCount}} garantías",
+            "order_includes_guarantees_label": "Tu pedido incluye {{deliveryAgreementsCount}} garantías",
             "order_includes_guarantees_description": "Shop Promise garantiza una entrega rápida y confiable. Reclama Shop Cash si tu pedido llega después de {{date}}.",
             "delivered_after_label": "Entregado después de {{date}}",
             "delivered_after_description": "Debido a que su pedido llegó tarde, usted es elegible para reclamar {{amount}} Shop Cash.",
