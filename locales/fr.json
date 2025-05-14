@@ -3309,7 +3309,7 @@
         "plus_more": "+{{numberOfAdditionalProducts}}",
         "plus_more_products": "+{{numberOfAdditionalProducts}} produits",
         "carousel": {
-          "one_products_accessibility_label": "La commande inclut {{lineItemName1}} quantité {{lineItemQuantity1}}",
+          "one_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}",
           "two_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}",
           "three_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}, {{lineItemName3}} quantité {{lineItemQuantity3}}",
           "four_products_accessibility_label": "La commande comprend {{lineItemName1}} quantité {{lineItemQuantity1}}, {{lineItemName2}} quantité {{lineItemQuantity2}}, {{lineItemName3}} quantité {{lineItemQuantity3}}, {{lineItemName4}} quantité {{lineItemQuantity4}}",
@@ -3412,7 +3412,12 @@
           }
         },
         "table_view": "Afficher la vue du tableau",
-        "show_order_actions_accessibility_label": "Afficher les actions de commande pour la commande {{name}}"
+        "show_order_actions_accessibility_label": "Afficher les actions de commande pour la commande {{name}}",
+        "location_filter_picker": {
+          "all_location": "Tous les emplacements",
+          "current_location": "Emplacement actuel",
+          "switch_view": "Changer de vue"
+        }
       },
       "order_status": {
         "attempted_delivery_label": "Tentative de livraison",
