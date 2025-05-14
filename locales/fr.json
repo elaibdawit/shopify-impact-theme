@@ -3619,7 +3619,7 @@
         "previous": "Afficher les éléments précédents",
         "load_more_items": {
           "one": "Charger {{count}} articles de plus",
-          "other": "Charger {{count}} articles de plus"
+          "other": "Charger {{count}} éléments de plus"
         }
       },
       "mobile_summary_toggle_button": {
@@ -3686,7 +3686,9 @@
         "resend_link_with_login": "envoyer un nouveau lien",
         "resend_link_without_login": "Envoyer un nouveau lien",
         "link_expired": "Lien expiré",
-        "resend_link_only": "Pour voir les détails de votre commande, envoyez un nouveau lien à l'adresse e-mail ou au numéro de téléphone utilisé lors du paiement."
+        "resend_link_only": "Pour voir les détails de votre commande, envoyez un nouveau lien à l'adresse e-mail ou au numéro de téléphone utilisé lors du paiement.",
+        "resend_link_and_login": "Pour voir les détails de votre commande, connectez-vous ou envoyez un nouveau lien à l'adresse e-mail ou au numéro de téléphone utilisé lors du paiement.",
+        "resend_link": "Envoyer un nouveau lien"
       },
       "remaining_amount": "Restant",
       "marketing_section_title": "Actualités et offres",
