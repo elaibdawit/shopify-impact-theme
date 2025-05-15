@@ -48,9 +48,9 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/Aven-Vogue.png",
+        "logo": "shopify://shop_images/Crevola.png",
         "logo_max_width": 110,
-        "logo_mobile_max_width": 75,
+        "logo_mobile_max_width": 135,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
