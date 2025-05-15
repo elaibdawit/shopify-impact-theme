@@ -70,13 +70,6 @@
           "disabled": true,
           "settings": {}
         },
-        "pumper_bundles_quantity_breaks_app_block_bundle_9Rafax": {
-          "type": "shopify://apps/pumper-bundles-quantity-breaks/blocks/app-block-bundle/0856870d-2aca-4b1e-a662-cf1797f61270",
-          "settings": {
-            "selected_product": "{{product}}",
-            "using_page_builder": true
-          }
-        },
         "liquid_kTMkHn": {
           "type": "liquid",
           "settings": {
@@ -133,7 +126,6 @@
         "description",
         "variant_picker",
         "quantity_selector",
-        "pumper_bundles_quantity_breaks_app_block_bundle_9Rafax",
         "liquid_kTMkHn",
         "buy_buttons",
         "liquid_UgVcGw",
