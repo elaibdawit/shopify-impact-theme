@@ -1958,7 +1958,8 @@
         "payment_above_threshold": "El monto del pago supera el límite monetario para esta región. Reduzca el total y vuelva a intentarlo",
         "risky": "Hubo un problema al procesar su pago. Inténtelo de nuevo o use un método de pago diferente.",
         "expired_buyer_action": "El método de pago ha expirado. Por favor, inténtelo de nuevo.",
-        "name_mismatch": "Por favor, verifique los detalles de su tarjeta. El nombre en su tarjeta y la dirección de facturación no coinciden."
+        "name_mismatch": "Por favor, verifique los detalles de su tarjeta. El nombre en su tarjeta y la dirección de facturación no coinciden.",
+        "payment_method_not_applicable": "Este método de pago no es aplicable. Utilice un método de pago diferente."
       },
       "shipping_errors": {
         "shipping_method": "Las opciones de envío han cambiado para su pedido. Revise su selección y vuelva a intentarlo.",
