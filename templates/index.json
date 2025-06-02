@@ -138,6 +138,18 @@
     "multiple_images_with_text_DQrtdt": {
       "type": "multiple-images-with-text",
       "blocks": {
+        "item_N8TtFY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.jpg",
+            "image_rotation_degrees": 2,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
         "item_GVmyQc": {
           "type": "item",
           "settings": {
@@ -161,24 +173,12 @@
             "button_url": "",
             "button_text": ""
           }
-        },
-        "item_N8TtFY": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.jpg",
-            "image_rotation_degrees": 2,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
         }
       },
       "block_order": [
+        "item_N8TtFY",
         "item_GVmyQc",
-        "item_pC8WYy",
-        "item_N8TtFY"
+        "item_pC8WYy"
       ],
       "name": "Multiple images with text",
       "settings": {
