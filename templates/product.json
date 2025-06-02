@@ -40,6 +40,12 @@
             "show_empty": false
           }
         },
+        "liquid_kTMkHn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .product__inventory {\n    padding-top: 0px;\n    padding-bottom: 0px;\n    color: #FFA500;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 17px;\n    font-weight: bold;\n  }\n\n  .product__inventory svg {\n    width: 24px;\n    height: 24px;\n  }\n\n  .product__inventory .pulse-bg {\n    fill: rgba(255, 165, 0, 0.3);\n    animation: pulse 1.5s infinite;\n  }\n\n  .product__inventory .pulse-dot {\n    fill: #FFA500;\n    stroke: #ffffff;\n  }\n\n  @keyframes pulse {\n    0% {\n      r: 7;\n      opacity: 1;\n    }\n    50% {\n      r: 10;\n      opacity: 0.5;\n    }\n    100% {\n      r: 7;\n      opacity: 1;\n    }\n  }\n</style>\n\n<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\">\n  <svg aria-hidden=\"true\">\n    <circle class=\"pulse-bg\" cx=\"12\" cy=\"12\" r=\"7\"></circle>\n    <circle class=\"pulse-dot\" cx=\"12\" cy=\"12\" r=\"5\" stroke-width=\"1\"></circle>\n  </svg>\n  VIRAL PRODUCT! LOW STOCK!\n</p>"
+          }
+        },
         "liquid_jURKde": {
           "type": "liquid",
           "settings": {
@@ -76,12 +82,6 @@
           "type": "quantity_selector",
           "disabled": true,
           "settings": {}
-        },
-        "liquid_kTMkHn": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .product__inventory {\n    padding-top: 0px;\n    padding-bottom: 0px;\n    color: #FFA500;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 17px;\n    font-weight: bold;\n  }\n\n  .product__inventory svg {\n    width: 24px;\n    height: 24px;\n  }\n\n  .product__inventory .pulse-bg {\n    fill: rgba(255, 165, 0, 0.3);\n    animation: pulse 1.5s infinite;\n  }\n\n  .product__inventory .pulse-dot {\n    fill: #FFA500;\n    stroke: #ffffff;\n  }\n\n  @keyframes pulse {\n    0% {\n      r: 7;\n      opacity: 1;\n    }\n    50% {\n      r: 10;\n      opacity: 0.5;\n    }\n    100% {\n      r: 7;\n      opacity: 1;\n    }\n  }\n</style>\n\n<p class=\"product__inventory no-js-hidden\" id=\"Inventory-template--22213608309023__main\" role=\"status\">\n  <svg aria-hidden=\"true\">\n    <circle class=\"pulse-bg\" cx=\"12\" cy=\"12\" r=\"7\"></circle>\n    <circle class=\"pulse-dot\" cx=\"12\" cy=\"12\" r=\"5\" stroke-width=\"1\"></circle>\n  </svg>\n  VIRAL PRODUCT! LOW STOCK!\n</p>"
-          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -134,13 +134,13 @@
         "badges",
         "price",
         "rating",
+        "liquid_kTMkHn",
         "liquid_jURKde",
         "payment_terms",
         "separator",
         "description",
         "variant_picker",
         "quantity_selector",
-        "liquid_kTMkHn",
         "buy_buttons",
         "liquid_UgVcGw",
         "liquid_hN6KYt",
