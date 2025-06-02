@@ -259,7 +259,7 @@
         "recommendations_count": 6,
         "products": [],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
