@@ -63,30 +63,73 @@
         "text_color": ""
       }
     },
-    "featured_collection_JmCiNf": {
-      "type": "featured-collection",
-      "name": "Featured collection",
+    "collection_list_xryyte": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_fQyEkG": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_EEGU7B": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_jfT44m": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_fQyEkG",
+        "collection_EEGU7B",
+        "collection_jfT44m"
+      ],
+      "name": "Collection list",
       "settings": {
-        "collection": "frontpage",
-        "products": [],
         "full_width": true,
-        "stack_products": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
         "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 5,
         "subheading": "",
-        "title": "Featured collection",
+        "title": "Shop By Category",
         "content": "",
-        "link_url": "",
+        "link_url": "shopify://collections",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "heading_gradient": ""
       }
     },
     "image-link-blocks": {
@@ -898,7 +941,7 @@
   "order": [
     "slideshow",
     "custom_liquid_FUnKja",
-    "featured_collection_JmCiNf",
+    "collection_list_xryyte",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
