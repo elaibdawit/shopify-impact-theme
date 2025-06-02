@@ -189,11 +189,50 @@
             "title": "",
             "content": "<p>“Shipping was super fast and the product was exactly as described. I’ve already recommended it to a few friends. Love it!”</p>"
           }
+        },
+        "testimonial_rjgg3e": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/download_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gaby R.",
+            "title": "",
+            "content": "<p>“Shipping was super fast and the product was exactly as described. I’ve already recommended it to a few friends. Love it!”</p>"
+          }
+        },
+        "testimonial_bkcY8W": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/download_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gaby R.",
+            "title": "",
+            "content": "<p>“Shipping was super fast and the product was exactly as described. I’ve already recommended it to a few friends. Love it!”</p>"
+          }
+        },
+        "testimonial_gDmNmM": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/download_2.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gaby R.",
+            "title": "",
+            "content": "<p>“Shipping was super fast and the product was exactly as described. I’ve already recommended it to a few friends. Love it!”</p>"
+          }
         }
       },
       "block_order": [
         "testimonial_rFKXQ7",
-        "testimonial_PYLJP9"
+        "testimonial_PYLJP9",
+        "testimonial_rjgg3e",
+        "testimonial_bkcY8W",
+        "testimonial_gDmNmM"
       ],
       "custom_css": [],
       "name": "Testimonials",
