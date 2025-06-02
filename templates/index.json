@@ -99,7 +99,8 @@
         "collection_jfT44m": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "set",
+            "image": "shopify://shop_images/943F0EDD-7B05-4797-8417-095F6F2B678E.jpg",
             "subheading": "",
             "title": "",
             "url": "",
