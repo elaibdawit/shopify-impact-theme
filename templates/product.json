@@ -181,7 +181,7 @@
         "testimonial_PYLJP9": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/download_2.jpg",
+            "image": "shopify://shop_images/images_3.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
@@ -197,33 +197,33 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Gaby R.",
+            "author": "Emily D.",
             "title": "",
-            "content": "<p>“Shipping was super fast and the product was exactly as described. I’ve already recommended it to a few friends. Love it!”</p>"
+            "content": "<p>\"Honestly, I didn’t expect the quality to be this good. Super comfortable, stylish, and it arrived earlier than I thought. I’ll definitely be buying more!\"</p>"
           }
         },
         "testimonial_bkcY8W": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/download_2.jpg",
+            "image": "shopify://shop_images/images_1.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Gaby R.",
+            "author": "Sophia M.",
             "title": "",
-            "content": "<p>“Shipping was super fast and the product was exactly as described. I’ve already recommended it to a few friends. Love it!”</p>"
+            "content": "<p>\"So glad I found this store. Everything I’ve ordered so far has looked just like the photos and feels amazing. Love the attention to detail!\"</p>"
           }
         },
         "testimonial_gDmNmM": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/download_2.jpg",
+            "image": "shopify://shop_images/profi_5.jpg",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Gaby R.",
+            "author": "Chloe S.",
             "title": "",
-            "content": "<p>“Shipping was super fast and the product was exactly as described. I’ve already recommended it to a few friends. Love it!”</p>"
+            "content": "<p>\"Such a clean and modern look — I’ve gotten so many compliments. Definitely feels like a premium brand without the crazy price tag.\"</p>"
           }
         }
       },
