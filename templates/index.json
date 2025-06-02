@@ -70,6 +70,7 @@
           "type": "collection",
           "settings": {
             "collection": "dresses",
+            "image": "shopify://shop_images/maliyah-maxi-dress-plum-brown-dress-babyboo-fashion-1122207132_400x_6f6a4fbf-e43a-4ade-a4b8-9197a9bc633f.jpg",
             "subheading": "",
             "title": "",
             "url": "",
@@ -83,7 +84,8 @@
         "collection_EEGU7B": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "tops",
+            "image": "shopify://shop_images/174677569293e6bea9bc3e3477028e8c454eda4563_thumbnail_720x_d0a4a2ae-4d05-41f8-ba4e-085e76d4893b.jpg",
             "subheading": "",
             "title": "",
             "url": "",
