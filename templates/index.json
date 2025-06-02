@@ -195,7 +195,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "deals-of-the-week",
         "products": [
           "disney-icon-dress",
           "floral-fortune-mini-dress",
@@ -209,7 +209,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Featured collection",
+        "title": "DEALS OF THE WEEK",
         "content": "",
         "link_url": "",
         "link_text": "View all",
