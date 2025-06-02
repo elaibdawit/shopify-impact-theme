@@ -99,6 +99,13 @@
             "liquid": "<div style=\"display: flex; align-items: flex-start; gap: 12px; background-color: #f5f5f5; padding: 16px; border-radius: 8px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/unnamed-2_200x_4307f521-39e1-4b12-a5f4-39f154614c3a.gif?v=1745951154\" alt=\"30 Day Guarantee Icon\" style=\"width: 40px; height: 40px;\">\n  <div>\n    <div style=\"font-weight: bold; font-size: 16px;\">30-DAY GUARANTEE</div>\n    <div style=\"font-size: 14px; color: #555;\">\n      We guarantee the quality of our products with free exchanges and hassle-free returns to ensure you love them.\n    </div>\n  </div>\n</div>"
           }
         },
+        "collapsible_text_k9f9j3": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Description",
+            "content": "<p>Step into the magic with our Disney Icon Dress — a playful yet stylish tribute to the characters and moments we all grew up loving. This lightweight, soft-touch dress features beautifully illustrated icons like Mickey, the castle, Tinkerbell, and beloved princesses, bringing the enchantment of Disney to your everyday look.</p><p>The wrap-style skirt and flattering fit make it perfect for theme park adventures, casual outings, or simply channeling your inner child wherever you go. Pair it with sneakers or sandals, and you're ready for a magical day.</p>"
+          }
+        },
         "collapsible_text_q37zHB": {
           "type": "collapsible_text",
           "settings": {
@@ -129,6 +136,7 @@
         "buy_buttons",
         "liquid_UgVcGw",
         "liquid_hN6KYt",
+        "collapsible_text_k9f9j3",
         "collapsible_text_q37zHB",
         "collapsible_text_8LkTXF"
       ],
