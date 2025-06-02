@@ -142,7 +142,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.jpg",
-            "image_rotation_degrees": 15,
+            "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
             "content": "",
@@ -154,7 +154,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.jpg",
-            "image_rotation_degrees": 15,
+            "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
             "content": "",
@@ -166,7 +166,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.jpg",
-            "image_rotation_degrees": 15,
+            "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Body Positivity",
             "content": "<p><strong>Body positivity </strong>is not just about loving your reflection—it's about embracing your body as it is, at every size, shape, and stage of life. It's a movement rooted in self-respect, dignity, and the belief that everyone deserves to feel confident and valued, regardless of how they look.</p>",
