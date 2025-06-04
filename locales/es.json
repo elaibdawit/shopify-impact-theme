@@ -2687,17 +2687,17 @@
         "lost_permissions_title": "Sin permisos de ubicación"
       },
       "shop_pay_external": {
-        "title": "Tienda Pagar Caja",
+        "title": "Pago en la tienda con Shop Pay",
         "errors": {
           "problem_loading": "Hay un problema al cargar Shop Pay",
           "try_again_later": "Verifica tu conexión o cierra esta ventana y vuelve a intentarlo en unos momentos.",
-          "checkout_has_expired": "Tu sesión de pago ha expirado. Cierra esta ventana y vuelve a intentar realizar el pago desde {{shopName}}."
+          "checkout_has_expired": "Tu sesión de pago ha expirado. Cierra esta ventana y vuelve a intentar realizar el pago en {{shopName}}."
         },
-        "return_to_store": "Regresar a {{shopName}}",
-        "return_to_store_simple": "Devolver a la tienda"
+        "return_to_store": "Volver a {{shopName}}",
+        "return_to_store_simple": "Volver a la tienda"
       },
       "wallets": {
-        "return_to_store": "Devolver a la tienda",
+        "return_to_store": "Volver a la tienda",
         "return_to_checkout": "Volver a la caja",
         "redirect_hint": "Se le pedirá que inicie sesión con {{walletName}}.",
         "logged_in": "Conectado a {{email}}",
@@ -2709,8 +2709,8 @@
         "redirection_notice": "Después de hacer clic en \"{{buttonLabel}}\", serás redirigido a {{walletName}} para completar tu compra de forma segura.",
         "errors": {
           "unavailable": {
-            "title": "{{walletName}} No disponible",
-            "description": "{{walletName}} no estaba disponible. Utilice un método de pago diferente o inténtelo de nuevo más tarde.",
+            "title": "{{walletName}} no disponible",
+            "description": "{{walletName}} no estaba disponible. Usa un método de pago diferente o inténtalo de nuevo más tarde.",
             "instructions": "Hubo un problema con {{walletName}}. Vuelve a la tienda para intentarlo de nuevo o elige otra forma de pago.",
             "unavailable_for_country": "{{walletName}} no está disponible en {{countryName}}. Seleccione un método de pago diferente para completar su compra"
           },
@@ -2719,15 +2719,15 @@
           },
           "generic": "Hubo un problema con {{walletName}}. Inténtalo de nuevo o usa un método de pago diferente.",
           "discount_code": "No se puede aplicar este código de descuento. Por favor, revise su código y vuelva a intentarlo.",
-          "terminal": "Hubo un problema con {{walletName}}. Por favor, use un método de pago diferente.",
+          "terminal": "Hubo un problema con {{walletName}}. Por favor, utilice un método de pago diferente.",
           "detour": {
             "stock_problems": "Algunos artículos ya no están disponibles. Cierra {{walletName}} y vuelve a intentarlo.",
-            "price_change": "Algunos precios de artículos han cambiado. Cierra {{walletName}} para revisar tu pedido y vuelve a intentarlo.",
+            "price_change": "Algunos precios de los artículos han cambiado. Cierra {{walletName}} para revisar tu pedido y vuelve a intentarlo.",
             "queue": "Has sido colocado en una cola para pagar. Cierra {{walletName}} para continuar.",
             "currency_change": "No puedes usar una dirección diferente con {{walletName}}. Usa la dirección original o intenta con un método de pago diferente."
           },
           "unsupported": {
-            "address": "El comerciante no puede entregar en esta dirección",
+            "address": "El comerciante no puede entregar a esta dirección",
             "wallet_is_unavailable": "{{walletName}} no se puede usar con esta dirección. Seleccione una dirección diferente o cierre {{walletName}} para completar su compra",
             "postal_code": "Esta ubicación no está soportada"
           },
@@ -2739,11 +2739,11 @@
             "shipping_address": "Ingrese una dirección de envío válida",
             "billing_address": "Ingrese una dirección de facturación válida",
             "shipping_option": "Elige una opción de envío válida",
-            "email": "Introduzca un correo electrónico válido",
+            "email": "Introduce un correo electrónico válido",
             "zone": "Ingrese un estado / provincia válido",
             "billing_zone": "Ingrese un estado / provincia de dirección de facturación válido",
             "emirate": "Ingrese un emirato válido",
-            "postal_code": "Introduzca un código postal / ZIP válido",
+            "postal_code": "Ingrese un código postal / ZIP válido",
             "phone": "Ingrese un número de teléfono válido",
             "billing_phone": "Ingrese un número de teléfono válido para la dirección de facturación",
             "reduction_code": "Introduce un código de descuento o tarjeta de regalo válido",
@@ -2752,7 +2752,7 @@
           },
           "missing": {
             "first_name": "Introduzca un nombre",
-            "billing_first_name": "Ingrese un nombre para la dirección de facturación",
+            "billing_first_name": "Ingrese un nombre de pila para la dirección de facturación",
             "last_name": "Introduzca un apellido",
             "address1": "Introduzca una dirección",
             "billing_address1": "Introduzca una dirección de facturación",
