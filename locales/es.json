@@ -3033,7 +3033,7 @@
       "customer": {
         "password_reset_error": "Error al restablecer la contraseña",
         "subscribe_error": "Error de suscripción",
-        "unsubscribe_error": "Error al cancelar la suscripción",
+        "unsubscribe_error": "Error al darse de baja",
         "no_account_found": "No se encontró ninguna cuenta con ese correo electrónico.",
         "invalid_credentials": "Correo electrónico o contraseña incorrectos.",
         "denylisted_reset_password": "No se pudo acceder a su cuenta porque la contraseña actual no es segura. Recibirá un correo electrónico para actualizar su contraseña.",
@@ -3049,8 +3049,8 @@
       },
       "line_item": {
         "item_status": {
-          "add_variant": "Agregado %{delta}",
-          "increment_item": "Agregado %{delta}",
+          "add_variant": "Añadido %{delta}",
+          "increment_item": "Añadido %{delta}",
           "decrement_item": "Eliminado %{delta} de %{total}",
           "decrement_fulfilled_line_item": "Devuelto %{delta} de %{total}",
           "decrement_return_line_item": "Eliminado %{delta} de la devolución"
@@ -3065,27 +3065,27 @@
           "unpaid": "No pagado",
           "voided": "Anulado",
           "partially_paid": "Parcialmente pagado",
-          "partially_refunded": "Reembolso parcial",
-          "refunded": "Reintegrado",
-          "expired": "Venció"
+          "partially_refunded": "Parcialmente reembolsado",
+          "refunded": "Reembolsado",
+          "expired": "Caducado"
         },
         "fulfillment_status": {
           "fulfilled": "Cumplido",
           "complete": "Completo",
           "partial": "Parcial",
-          "unfulfilled": "Incumplido",
+          "unfulfilled": "No cumplido",
           "restocked": "Reabastecido"
         },
         "transaction_status": {
           "success": "Éxito",
           "pending": "Pendiente",
-          "failure": "Falla",
+          "failure": "Fallo",
           "error": "Error"
         },
         "cancel_reason": {
           "declined": "Pago rechazado",
           "inventory": "Artículos no disponibles",
-          "fraud": "Orden fraudulenta",
+          "fraud": "Pedido fraudulento",
           "customer": "Cliente cambió/canceló el pedido",
           "staff": "Error del personal",
           "other": "Otro"
@@ -3096,22 +3096,22 @@
         "only_n_items_available": "Solo puedes añadir %{count} %{name} al carrito.",
         "too_many_items_in_cart": "No puedes añadir más %{name} al carrito.",
         "only_one_added_to_cart": "Solo se añadió 1 artículo a tu carrito debido a la disponibilidad.",
-        "only_n_added_to_cart": "Solo se añadieron %{quantity} artículos a su carrito debido a la disponibilidad.",
+        "only_n_added_to_cart": "Solo %{quantity} artículos fueron añadidos a tu carrito debido a la disponibilidad.",
         "maximum_available_quantity_reached": "La cantidad máxima de este artículo ya está en tu carrito.",
         "less_than_minimum": "Este artículo tiene un mínimo de %{min}.",
         "more_than_maximum": "Este artículo tiene un máximo de %{max}.",
-        "not_respect_step": "Solo puedes agregar este artículo en incrementos de %{step}.",
+        "not_respect_step": "Solo puedes añadir este artículo en incrementos de %{step}.",
         "all_items_in_cart": "Todos los %{count} %{name} están en tu carrito.",
         "empty_update": "no se puede actualizar el carrito vacío",
-        "missing_parameters": "parámetro id o línea no válido",
-        "generic_error": "Error del carrito",
-        "invalid_input": "%{parameter} el parámetro no es válido.",
+        "missing_parameters": "no hay un parámetro de id o línea válido",
+        "generic_error": "Error de carrito",
+        "invalid_input": "El parámetro %{parameter} no es válido.",
         "product_not_available": "Producto no disponible",
         "too_many_line_items_error": "Tu carrito no puede contener más de %{max} artículos.",
-        "link_expired": "Enlace expirado",
+        "link_expired": "Enlace caducado",
         "link_no_longer_exists": "El enlace ya no existe.",
         "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos proporcionado un <a href='%{link}'>carrito actualizado</a>.",
-        "changed": "El carrito cambió",
+        "changed": "Carrito cambiado",
         "items_changed": "Uno o más elementos han cambiado.",
         "product_sold_out": "El producto '%{name}' ya está agotado.",
         "variant_not_found": "No se puede encontrar la variante",
@@ -3121,16 +3121,16 @@
         "buyer_cannot_purchase_for_company_locations": "No puedes comprar para esta ubicación",
         "selling_plan_not_applicable": "No se puede aplicar el plan de venta a la variante",
         "shipping_address_not_required": "Este carrito no requiere envío",
-        "shipping_address_invalid": "Hubo un problema al calcular las tarifas de envío. Continúa al pago para elegir una tarifa de envío antes de completar tu pedido.",
+        "shipping_address_invalid": "Hubo un problema al calcular sus tarifas de envío. Continúe al pago para elegir una tarifa de envío antes de completar su pedido.",
         "bundle_requires_components": "El producto combinado '%{name}' no se puede añadir al carrito.",
         "gift_card_with_components_not_supported": "El producto combinado '%{name}' no se puede añadir al carrito.",
         "gift_card_price_must_be_greater_than_zero": "El producto combinado '%{name}' no se puede añadir al carrito.",
-        "gift_card_recipient_validation_error": "El destinatario especificado de la tarjeta de regalo no es válido",
+        "gift_card_recipient_validation_error": "El destinatario de la tarjeta de regalo especificado no es válido",
         "view_lines_limit_reached": "Las líneas deben tener menos de %{limit}",
         "cart_too_large": "El carrito es demasiado grande.",
         "cart_attributes_error": "Los atributos del carrito contienen datos no válidos.",
         "merchandise_line_transformers": {
-          "run_error": "Se produjo un error en su carrito."
+          "run_error": "Ocurrió un error en tu carrito."
         }
       },
       "storefront": {
@@ -3139,8 +3139,8 @@
       "tags": {
         "add_articles": "Restringir la búsqueda a artículos que también tengan la etiqueta %{tag}",
         "add_products": "Restringir la selección a productos que coincidan con la etiqueta %{tag}",
-        "remove_articles": "Ampliar la búsqueda a artículos que no están etiquetados %{tag}",
-        "remove_products": "Quitar etiqueta %{tag}"
+        "remove_articles": "Ampliar la búsqueda a artículos que no estén etiquetados con %{tag}",
+        "remove_products": "Eliminar etiqueta %{tag}"
       }
     },
     "email_marketing": {
@@ -3157,15 +3157,15 @@
       "open_tracking": {
         "opt_in": {
           "opted_in_html": "<b>Has optado por el seguimiento de apertura de correos electrónicos.</b>",
-          "visibility": "Las tasas de apertura de correos electrónicos se informarán de forma anónima. Solo veremos si has abierto un correo electrónico como parte de una tasa de apertura de correos electrónicos agregada.",
-          "opt_out_html": "Puedes <a style='text-decoration:underline;' href='%{link}'>optar por no participar</a> en el seguimiento de apertura de correos electrónicos si no deseas compartir esta información.",
-          "preview_bar": "Estás previsualizando lo que los clientes verán cuando opten por el seguimiento de apertura de correos electrónicos."
+          "visibility": "Las tasas de apertura de correos electrónicos se reportarán de forma anónima. Solo veremos si has abierto un correo electrónico como parte de una tasa de apertura de correos electrónicos agregada.",
+          "opt_out_html": "Puedes <a style='text-decoration:underline;' href='%{link}'>darte de baja</a> del seguimiento de apertura de correos electrónicos si no deseas compartir esta información.",
+          "preview_bar": "Estás viendo una vista previa de lo que los clientes verán cuando opten por el seguimiento de apertura de correos electrónicos."
         },
         "opt_out": {
           "opted_out_html": "<b>Has optado por no participar en el seguimiento de apertura de correos electrónicos.</b>",
-          "visibility": "No sabremos si has abierto nuestros correos electrónicos.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Optar por</a> el seguimiento de apertura de correos electrónicos.",
-          "preview_bar": "Estás previsualizando lo que los clientes verán cuando opten por no participar en el seguimiento de apertura de correos electrónicos."
+          "visibility": "No veremos si has abierto nuestros correos electrónicos.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Aceptar</a> el seguimiento de apertura de correos electrónicos.",
+          "preview_bar": "Estás viendo una vista previa de lo que los clientes verán cuando opten por no participar en el seguimiento de apertura de correos electrónicos."
         },
         "no_longer_track": {
           "status_html": "<b>Ya no rastreamos ninguna apertura de correo electrónico.</b>",
