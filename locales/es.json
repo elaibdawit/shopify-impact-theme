@@ -3460,21 +3460,21 @@
             "descending": "Total del pedido (de mayor a menor)"
           }
         },
-        "filter_title": "Filtrar",
+        "filter_title": "Filtro",
         "filter": {
-          "clear_section": "Sección clara",
+          "clear_section": "Borrar sección",
           "clear_all": "Borrar todo",
           "apply": "Aplicar",
           "date": {
             "start_date": "Fecha de inicio",
             "end_date": "Fecha de finalización",
-            "title": "Fecha del pedido",
+            "title": "Fecha de pedido",
             "today": "Hoy",
             "last_7_days": "Últimos 7 días",
             "last_30_days": "Últimos 30 días",
             "last_90_days": "Últimos 90 días",
             "last_365_days": "Últimos 12 meses",
-            "custom": "Costumbre"
+            "custom": "Personalizado"
           }
         },
         "table_view": "Mostrar vista de tabla",
@@ -3487,9 +3487,9 @@
         "empty_state_with_location_title": "No hay pedidos para {{locationName}}"
       },
       "order_status": {
-        "attempted_delivery_label": "Intento de entrega",
+        "attempted_delivery_label": "Entrega intentada",
         "attempted_delivery_description": "El intento de entrega fue infructuoso.",
-        "attempted_to_deliver_label": "Intento de entrega",
+        "attempted_to_deliver_label": "Intentó entregar",
         "confirmed_description": "Hemos recibido su pedido.",
         "on_its_way_description": "Este envío está en camino.",
         "out_for_delivery_description": "Este envío está en camino para la entrega.",
@@ -3504,9 +3504,9 @@
         "canceled_label": "Cancelado",
         "canceled_title": "Su pedido ha sido cancelado",
         "come_back": "Vuelve a esta página para actualizaciones sobre el estado de tu envío.",
-        "company_tracking_number": "{{company}} el número de rastreo:",
+        "company_tracking_number": "Número de seguimiento de {{company}}:",
         "confirmed_label": "Confirmado",
-        "confirmed_title": "Tu pedido está confirmado",
+        "confirmed_title": "Su pedido está confirmado",
         "confirmed_description_pickup": "Recibirás un correo electrónico cuando tu pedido esté listo para recoger.",
         "confirmed_description_digital": "Recibirás un correo electrónico cuando tu pedido esté listo.",
         "confirmed_description_gift_card_text": "Recibirás un mensaje de texto cuando tu pedido esté listo.",
@@ -3540,49 +3540,49 @@
         },
         "gift_resend_failure": {
           "one": "Hubo un problema al reenviar su tarjeta de regalo. Inténtelo de nuevo o contáctenos.",
-          "other": "Hubo un problema al reenviar tus tarjetas de regalo. Inténtalo de nuevo o contáctanos."
+          "other": "Hubo un problema al reenviar tus tarjetas de regalo. Intenta de nuevo o contáctanos."
         },
         "confirmed_gift_card_additional_description": {
           "one": "La tarjeta de regalo será enviada en un correo electrónico separado.",
           "other": "Cada tarjeta de regalo será enviada en un correo electrónico separado."
         },
         "confirmed_gift_card_additional_description_text": {
-          "one": "La tarjeta de regalo se enviará en un texto separado.",
-          "other": "Cada tarjeta de regalo será enviada en un texto separado."
+          "one": "La tarjeta de regalo se enviará en un mensaje de texto separado.",
+          "other": "Cada tarjeta de regalo se enviará en un texto separado."
         },
         "status_timestamp": "Actualizado {{date}}",
         "estimated_delivery": "Esperado {{date}}",
-        "delivered": "Llegó {{date}}",
-        "buy_with_prime_logo_accessibility_label": "Logo de Amazon Buy with Prime",
+        "delivered": "Llegado {{date}}",
+        "buy_with_prime_logo_accessibility_label": "Logo de Amazon Comprar con Prime",
         "in_review_description": "Le informaremos si necesitamos más información o cuando su pedido esté confirmado.",
         "in_review_label": "En revisión",
         "in_review_title": "Su pedido está siendo revisado",
         "last_updated": "Última actualización {{date}}",
-        "multiple_shipments_label": "Envíos múltiples",
+        "multiple_shipments_label": "Múltiples envíos",
         "multiple_statuses_label": "Múltiples estados de pedido",
         "no_tracking_number": "No hay número de seguimiento para este envío.",
         "tracking_number": {
-          "one": "El número de rastreo",
+          "one": "Número de seguimiento",
           "other": "Números de seguimiento"
         },
         "on_its_way_label": "En camino",
         "on_its_way_title": "Su envío está en camino",
-        "out_for_delivery_label": "En salida para entrega",
+        "out_for_delivery_label": "En camino para entrega",
         "out_for_delivery_title": "Su envío está en camino para la entrega",
-        "resume_tracking": "Seguimiento de currículum",
+        "resume_tracking": "Reanudar seguimiento",
         "submitted_label": "Enviado",
-        "submitted_description": "Revisar los detalles del pedido y el pago.",
+        "submitted_description": "Revisar detalles del pedido y pago.",
         "there_was_a_problem_label": "Hubo un problema",
-        "track_shipment": "Seguimiento del envío",
+        "track_shipment": "Rastrear envío",
         "request_return": "Solicitar devolución",
         "view_order_for_details": "Ver pedido para detalles",
         "external_promise_manage_button_label": {
-          "buy_with_prime": "Administrar en Amazon"
+          "buy_with_prime": "Gestionar en Amazon"
         },
         "amazon_buy_with_prime": {
           "order_tracking_link": {
-            "text": "Administrar con Amazon",
-            "new_window_disclaimer": "(se abre en una nueva ventana)"
+            "text": "Gestionar con Amazon",
+            "new_window_disclaimer": "(abre una nueva ventana)"
           }
         },
         "delivery_promise_v2": {
@@ -3593,7 +3593,7 @@
             "delivery_guarantee_expired_label": "Garantía de entrega expirada",
             "modal_accessibility_button_label": "Detalles de la promesa de entrega",
             "download_shop_app_button_label": "Descargar Shop para rastrear",
-            "track_with_shop_button_label": "Pista con tienda",
+            "track_with_shop_button_label": "Rastrear con Shop",
             "claim_shop_cash_button_label": "Reclamar efectivo de la tienda"
           },
           "details_modal": {
