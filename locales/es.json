@@ -3322,11 +3322,11 @@
         "edit": "Editar",
         "edit_accessibility_label": "Editar perfil",
         "email_help_text": "El correo electrónico utilizado para iniciar sesión no se puede cambiar",
-        "first_name": "Nombre de pila",
+        "first_name": "Nombre",
         "last_name": "Apellido",
-        "no_name_provided_accessibility_label": "No se añadió ningún nombre",
-        "phone_number_help_text": "El número de teléfono utilizado para el inicio de sesión no se puede cambiar",
-        "save": "Ahorrar",
+        "no_name_provided_accessibility_label": "No se añadió nombre",
+        "phone_number_help_text": "El número de teléfono utilizado para iniciar sesión no se puede cambiar",
+        "save": "Guardar",
         "save_accessibility_label": "Guardar perfil",
         "title": "Perfil"
       },
@@ -3352,26 +3352,26 @@
       "order_list": {
         "column_headers": {
           "order": "Orden",
-          "items": "Elementos",
+          "items": "Artículos",
           "total": "Total",
-          "actions_accessibility_label": "Comportamiento",
+          "actions_accessibility_label": "Acciones",
           "products_accessibility_label": "Productos"
         },
         "order_status_and_message": "{{orderStatus}} - {{message}}",
         "delivered": "Entregado {{date}}",
         "empty_state_order_source_description": "Solo los pedidos realizados por {{email}} se mostrarán aquí.",
         "empty_state_subtitle": "Ve a la tienda para hacer un pedido.",
-        "empty_state_title": "No hay pedidos todavía",
+        "empty_state_title": "Aún no hay pedidos",
         "empty_state_title_for_pending_orders": "No hay pedidos pendientes",
-        "no_order_banner": "Para probar tu extensión en la página de estado del pedido, crea un pedido.",
+        "no_order_banner": "Para probar su extensión en la página de estado del pedido, cree un pedido.",
         "estimated_shortform": "Est. {{date}}",
         "estimated_delivery": "Esperado {{date}}",
         "one_images_accessibility_label": "El pedido incluye {{lineItemName1}}",
         "two_images_accessibility_label": "El pedido incluye {{lineItemName1}}, {{lineItemName2}}",
         "three_images_accessibility_label": "El pedido incluye {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
         "four_images_accessibility_label": "El pedido incluye {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
-        "more_than_three_products_accessibility_label": "El pedido incluye {{lineItemName1}}, {{lineItemName2}}, y {{numberOfAdditionalProducts}} productos más",
-        "more_than_four_products_accessibility_label": "El pedido incluye {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, y {{numberOfAdditionalProducts}} productos más",
+        "more_than_three_products_accessibility_label": "El pedido incluye {{lineItemName1}}, {{lineItemName2}} y {{numberOfAdditionalProducts}} productos más",
+        "more_than_four_products_accessibility_label": "El pedido incluye {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} y {{numberOfAdditionalProducts}} productos más",
         "plus_more": "+{{numberOfAdditionalProducts}}",
         "plus_more_products": "+{{numberOfAdditionalProducts}} productos",
         "carousel": {
@@ -3384,11 +3384,11 @@
           "six_and_more_products_accessibility_label": "El pedido incluye {{lineItemName1}} cantidad {{lineItemQuantity1}}, {{lineItemName2}} cantidad {{lineItemQuantity2}}, {{lineItemName3}} cantidad {{lineItemQuantity3}}, {{lineItemName4}} cantidad {{lineItemQuantity4}}, {{lineItemName5}} cantidad {{lineItemQuantity5}}, {{lineItemName6}} cantidad {{lineItemQuantity6}} y más",
           "view_order_details": "Ver detalles del pedido",
           "previous": "Anterior",
-          "next": "Próximo"
+          "next": "Siguiente"
         },
         "items": {
           "one": "{{count}} artículo",
-          "other": "{{count}} elementos"
+          "other": "{{count}} artículos"
         },
         "list_view": "Mostrar vista de lista",
         "no_filtered_results_description": "Elimina o ajusta los filtros para ver tus pedidos",
@@ -3398,7 +3398,7 @@
         "orders_title": "Confirmado",
         "pagination": {
           "nav_accessibility_label": "Botones de navegación de pedidos",
-          "next": "Próximo",
+          "next": "Siguiente",
           "next_accessibility_label": "Próximos pedidos",
           "previous": "Anterior",
           "previous_accessibility_label": "Pedidos anteriores",
@@ -3419,20 +3419,20 @@
         "payment_status": {
           "list_view": {
             "overdue": "Pago vencido",
-            "due": "Pago vencido {{date}}",
-            "due_today": "El pago vence hoy",
-            "due_without_date": "Pago vencido",
+            "due": "Pago debido {{date}}",
+            "due_today": "Pago debido hoy",
+            "due_without_date": "Pago debido",
             "due_on_fulfillment": "Pago debido al cumplimiento",
             "pay_to_confirm": "Pagar para confirmar",
             "payment_not_due": "Pago aún no vencido"
           },
           "table_view": {
             "overdue": "Atrasado",
-            "due": "Pendiente {{date}}",
-            "due_today": "Vencimiento hoy",
+            "due": "Vence el {{date}}",
+            "due_today": "Para hoy",
             "paid": "Pagado",
-            "due_without_date": "Pendiente",
-            "due_on_fulfillment": "Vencimiento al cumplimiento",
+            "due_without_date": "Debido",
+            "due_on_fulfillment": "Debido al cumplimiento",
             "pay_to_confirm": "Pagar para confirmar",
             "payment_not_due": "Aún no vencido"
           }
@@ -3441,11 +3441,11 @@
         "sort_hide_options_accessibility_label": "Ocultar opciones de ordenación para pedidos confirmados.",
         "sort_show_options_accessibility_label": "Mostrar opciones de ordenación para pedidos confirmados.",
         "sort_currently_sorted_by_accessibility_label": "Actualmente ordenado por: {{option}}",
-        "sort_title": "Clasificar",
+        "sort_title": "Ordenar",
         "sort": {
           "date": {
-            "newest": "Del más nuevo al más antiguo",
-            "oldest": "Del más antiguo al más nuevo"
+            "newest": "De más nuevo a más antiguo",
+            "oldest": "De más antiguo a más nuevo"
           },
           "location": {
             "ascending": "Ubicación (A-Z)",
@@ -3483,7 +3483,8 @@
           "all_location": "Todas las ubicaciones",
           "current_location": "Ubicación actual",
           "switch_view": "Cambiar vista"
-        }
+        },
+        "empty_state_with_location_title": "No hay pedidos para {{locationName}}"
       },
       "order_status": {
         "attempted_delivery_label": "Intento de entrega",
