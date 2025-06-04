@@ -3169,15 +3169,15 @@
         },
         "no_longer_track": {
           "status_html": "<b>Ya no rastreamos ninguna apertura de correo electrónico.</b>",
-          "privacy_policy": "Después de que se envió este correo electrónico, actualizamos nuestra política de privacidad y ya no rastreamos las aperturas."
+          "privacy_policy": "Después de que se envió este correo electrónico, actualizamos nuestra política de privacidad y ya no rastreamos aperturas."
         },
         "track": {
-          "status_html": "<b>Se informa el seguimiento de apertura de correos electrónicos.</b>",
-          "visibility": "Solo veremos si has abierto el correo electrónico, como parte de la tasa total de apertura de correos electrónicos."
+          "status_html": "<b>Se informa la apertura del correo electrónico.</b>",
+          "visibility": "Solo veremos si has abierto el correo electrónico, como parte de la tasa total de apertura de correos."
         },
         "updated_policy": {
-          "status_html": "<b>Se informa el seguimiento de apertura de correos electrónicos.</b>",
-          "visibility": "Hemos actualizado nuestra política y ahora rastreamos las aperturas de correos electrónicos. Las tasas de apertura de correos electrónicos se reportarán de forma anónima. Solo veremos si has abierto un correo electrónico como parte de la tasa total de apertura de correos.",
+          "status_html": "<b>Se informa la apertura del correo electrónico.</b>",
+          "visibility": "Hemos actualizado nuestra política y ahora rastreamos las aperturas de correos electrónicos. Las tasas de apertura de correos electrónicos se informarán de forma anónima. Solo veremos si has abierto un correo electrónico como parte de la tasa total de apertura de correos.",
           "opt_out_html": "Si no desea compartir esta información, puede <a style='text-decoration:underline;' href='%{link}'>darse de baja.</a>"
         }
       }
@@ -3195,9 +3195,9 @@
       }
     },
     "search": {
-      "error": "Hubo un problema al cargar los resultados de búsqueda. Por favor, actualice la página o intente de nuevo más tarde.",
+      "error": "Hubo un problema al cargar los resultados de tu búsqueda. Por favor, actualiza la página o intenta de nuevo más tarde.",
       "sorting": {
-        "relevance": "Pertinencia",
+        "relevance": "Relevancia",
         "price_ascending": "Precio, de menor a mayor",
         "price_descending": "Precio, de mayor a menor"
       }
@@ -3205,9 +3205,9 @@
     "page_titles": {
       "blog_or_article_with_error": "Error - %{title}",
       "products": "Productos",
-      "shopping_cart": "Su carrito de compras",
+      "shopping_cart": "Tu Carrito de Compras",
       "account": "Cuenta",
-      "create_account": "Crear una cuenta",
+      "create_account": "Crear cuenta",
       "reset_account": "Restablecer cuenta",
       "addresses": "Direcciones",
       "order": "Orden %{name}",
@@ -3217,40 +3217,40 @@
         "other": "Buscar: %{count} resultados encontrados para \"%{terms}\""
       },
       "collections": "Colecciones",
-      "not_found": "404 No encontrado",
+      "not_found": "404 No Encontrado",
       "challenge": "Desafío",
-      "checkpoint": "Control"
+      "checkpoint": "Punto de control"
     },
     "cart": {
-      "discounts_with_count": "%{count} se han aplicado descuentos"
+      "discounts_with_count": "Se han aplicado %{count} descuentos"
     },
     "challenge": {
       "message": "Para continuar, déjanos saber que no eres un robot.",
       "error": "Tu respuesta no fue correcta, por favor intenta de nuevo.",
-      "submit_button_text": "Entregar"
+      "submit_button_text": "Enviar"
     },
     "checkpoint": {
       "message": "Resuelve el Captcha para continuar",
-      "error": "La validación de Captcha falló",
-      "submit_button_text": "Entregar"
+      "error": "La validación del captcha falló",
+      "submit_button_text": "Enviar"
     },
     "store_availability": {
       "pick_up_time": {
         "one_hour": "Normalmente listo en 1 hora",
-        "two_hours": "Normalmente listo en 2 horas",
-        "four_hours": "Normalmente listo en 4 horas",
-        "twenty_four_hours": "Normalmente listo en 24 horas",
-        "two_to_four_days": "Normalmente listo en 2-4 días",
+        "two_hours": "Usualmente listo en 2 horas",
+        "four_hours": "Usualmente listo en 4 horas",
+        "twenty_four_hours": "Usualmente listo en 24 horas",
+        "two_to_four_days": "Usualmente listo en 2-4 días",
         "five_or_more_days": "Normalmente listo en más de 5 días",
-        "zero_to_two_hours": "Normalmente listo en 2 horas",
-        "two_to_four_hours": "Normalmente listo en 4 horas",
+        "zero_to_two_hours": "Usualmente listo en 2 horas",
+        "two_to_four_hours": "Usualmente listo en 4 horas",
         "immediately": "Listo para recoger ahora",
         "next_day": "Listo para recoger al día siguiente"
       }
     },
     "subscriptions": {
-      "buyer_consent_product": "Este artículo es una compra recurrente o diferida. Al continuar, acepto la %{cancellationPolicyLink} y autorizo que se cargue mi método de pago a los precios, frecuencia y fechas indicadas en esta página hasta que mi pedido se complete o cancele, si está permitido.",
-      "buyer_consent_cart": "Uno o más de los artículos en su carrito son compras recurrentes o diferidas. Al continuar, acepto la %{cancellationPolicyLink} y le autorizo a cargar mi método de pago con los precios, frecuencia y fechas indicados en esta página hasta que mi pedido sea completado o lo cancele, si está permitido.",
+      "buyer_consent_product": "Este artículo es una compra recurrente o diferida. Al continuar, acepto la %{cancellationPolicyLink} y autorizo que se cargue mi método de pago a los precios, frecuencia y fechas indicados en esta página hasta que mi pedido sea cumplido o cancele, si está permitido.",
+      "buyer_consent_cart": "Uno o más de los artículos en su carrito son una compra recurrente o diferida. Al continuar, acepto la %{cancellationPolicyLink} y autorizo que se cargue mi método de pago según los precios, frecuencia y fechas indicadas en esta página hasta que se cumpla mi pedido o cancele, si está permitido.",
       "cancellation_policy": "política de cancelación"
     }
   },
@@ -3258,55 +3258,55 @@
     "date": {
       "range": "{{startDate}}–{{endDate}}",
       "humanize": {
-        "lessThanOneYearAgo": "{{date}} en {{time}}",
+        "lessThanOneYearAgo": "{{date}} a las {{time}}",
         "lessThanOneHourAgo": {
-          "one": "{{count}} hace un minuto",
-          "other": "{{count}} hace minutos"
+          "one": "hace {{count}} minuto",
+          "other": "hace {{count}} minutos"
         },
-        "lessThanOneMinuteAgo": "En este momento",
-        "lessThanOneWeekAgo": "{{weekday}} en {{time}}",
+        "lessThanOneMinuteAgo": "Justo ahora",
+        "lessThanOneWeekAgo": "{{weekday}} a las {{time}}",
         "yesterday": "Ayer a las {{time}}",
         "today": "Hoy a las {{time}}",
         "tomorrow": "Mañana a las {{time}}",
-        "lessThanOneWeekAway": "{{weekday}} en {{time}}",
-        "lessThanOneYearAway": "{{date}} en {{time}}"
+        "lessThanOneWeekAway": "{{weekday}} a las {{time}}",
+        "lessThanOneYearAway": "{{date}} a las {{time}}"
       }
     },
-    "enable_javascript": "Para ver su cuenta, habilite JavaScript en la configuración de su navegador o inicie sesión con otro navegador.",
+    "enable_javascript": "Para ver su cuenta, active JavaScript en la configuración de su navegador o inicie sesión con otro navegador.",
     "navigation_and_structure": {
       "account_menu": {
-        "hide_accessibility_label": "Ocultar el menú de la cuenta",
+        "hide_accessibility_label": "Ocultar menú de cuenta",
         "label": "Cuenta",
-        "show_accessibility_label": "Mostrar el menú de cuenta",
+        "show_accessibility_label": "Mostrar menú de cuenta",
         "nav_accessibility_label": "Navegación de la cuenta",
-        "open_menu_accessibility_label": "Navegación de Abrir Cuenta",
+        "open_menu_accessibility_label": "Navegación de apertura de cuenta",
         "close_menu_accessibility_label": "Cerrar navegación de cuenta",
         "loading_message": "Cargando navegación de la cuenta"
       },
       "action_menu_accessibility_label": "Más acciones",
       "close_menu_accessibility_label": "Cerrar navegación principal",
       "contact_email_subject": "Contacto desde la tienda en línea {{shopName}}",
-      "contact_link": "Información del contacto",
+      "contact_link": "Información de contacto",
       "delete_confirmation": {
         "cancel": "Cancelar",
-        "delete": "Borrar"
+        "delete": "Eliminar"
       },
-      "dismiss_toast": "Despedir",
+      "dismiss_toast": "Descartar",
       "document_title": "{{sectionName}} - {{shopName}} - Cuenta",
       "generic_accessibility_label": "{{label}}: {{value}}",
       "go_to_store_link": "Ir a la tienda",
       "loading_message": "Cargando",
-      "log_out_link": "Finalizar la sesión",
+      "log_out_link": "Cerrar sesión",
       "logout_overlay_label": "Cerrando tu sesión...",
       "nav_label_accessibility_label": "Navegación principal",
-      "navigation_accessibility_message": "Has navegado a {{sectionName}}",
+      "navigation_accessibility_message": "Navegaste a {{sectionName}}",
       "open_menu_accessibility_label": "Abrir navegación principal",
       "orders_link_label": "Pedidos",
-      "shop_logo_accessibility_label": "{{shopName}} logo",
+      "shop_logo_accessibility_label": "logo de {{shopName}}",
       "subscriptions_link_label": "Suscripciones",
-      "settings_link": "Ajustes",
+      "settings_link": "Configuración",
       "country_switcher_toast_message": "País cambiado a {{countryName}}",
-      "switch_country": "Cambiar de país",
+      "switch_country": "Cambiar país",
       "location_switcher_toast_message": "Ubicación cambiada a {{locationName}}",
       "switch_location": "Cambiar ubicación",
       "view_details": "Ver detalles",
