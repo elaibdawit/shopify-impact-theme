@@ -1637,16 +1637,16 @@
         "simulated_checkout": "Vista previa próximamente",
         "simulated_express_checkout": "Las carteras no están disponibles en la vista previa del editor debido a tu región o navegador",
         "vaulting_agreement_label": "Guarda mi información de pago con %{company} para un pago más rápido.",
-        "business_customer_vaulting_payment_label": "Guarde esta tarjeta al pagar y autorice a %{company} a cargarla para compras futuras en esta ubicación. Todos los contactos asignados a esta ubicación pueden usar la tarjeta.",
-        "purchase_options_and_vaulting_agreement_label": "Uno o más artículos en su carrito son una compra diferida o por suscripción. Al continuar con su pago, usted acepta que su método de pago será cargado automáticamente al precio y frecuencia indicados en esta página hasta que finalice o usted cancele. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
+        "business_customer_vaulting_payment_label": "Guarde esta tarjeta al pagar y autorice a %{company} a cargarla para futuras compras en esta ubicación. Todos los contactos asignados a esta ubicación pueden usar la tarjeta.",
+        "purchase_options_and_vaulting_agreement_label": "Uno o más artículos en su carrito son una compra diferida o por suscripción. Al continuar con su pago, usted acepta que su método de pago será cargado automáticamente al precio y frecuencia indicados en esta página hasta que finalice o cancele. Todas las cancelaciones están sujetas a la %{cancellation_policy_label}.",
         "purchase_options_cancellation_policy_label": "política de cancelación",
-        "use_different_credit_card_label": "Usar una tarjeta diferente",
+        "use_different_credit_card_label": "Usa una tarjeta diferente",
         "saved_credit_card": "Tu tarjeta de crédito guardada",
         "saved_credit_card_info": "Últimos cuatro dígitos",
         "saved_credit_card_cvv_verification": "Para fines de verificación, por favor ingrese el código de seguridad de su tarjeta.",
         "saved_credit_card_actions": {
           "edit": "Editar",
-          "delete": "Borrar"
+          "delete": "Eliminar"
         },
         "saved_credit_cards_modal": {
           "view_all_label": "Ver todas las tarjetas guardadas",
@@ -1654,15 +1654,15 @@
           "cancel": "Cancelar"
         },
         "add_credit_card_modal": {
-          "title": "Añadir tarjeta",
-          "save": "Ahorrar",
+          "title": "Agregar tarjeta",
+          "save": "Guardar",
           "cancel": "Cancelar"
         },
         "delete_credit_card_modal": {
           "title": "Eliminar tarjeta",
           "confirmation": "¿Está seguro de que desea eliminar el {{brandName}} que termina en {{lastDigits}}?",
           "cancel": "Cancelar",
-          "delete": "Borrar"
+          "delete": "Eliminar"
         },
         "edit_credit_card_modal": {
           "title": "Editar tarjeta",
@@ -1672,25 +1672,25 @@
           "fields": {
             "default": "Establecer como predeterminado",
             "card_number": "Número de tarjeta",
-            "expiry": "Fecha de expiración",
+            "expiry": "Fecha de vencimiento",
             "security_code": "Código de seguridad",
             "name": "Nombre en la tarjeta",
-            "billing": "Cobrar a"
+            "billing": "Facturar a"
           }
         },
         "expired_cards_info": {
-          "one": "Hay %{count} tarjeta expirada, que puedes ver y editar en tu cuenta.",
+          "one": "Hay %{count} tarjeta caducada, que puedes ver y editar en tu cuenta.",
           "other": "Hay %{count} tarjetas vencidas, que puedes ver y editar en tu cuenta."
         },
         "local_payment_method_receiver_notice": "Después de realizar su pedido, recibirá los detalles de pago. Realice el pago en un cajero automático o en línea dentro de {{dueDays}} días.",
         "order_edit_banner_title": "Se necesita el pago de {{amount_owed}}",
         "order_edit_banner_subtitle": "Su pedido {{order_number}} fue actualizado. Revise estos cambios y luego pague para confirmar su pedido.",
         "order_edit_banner_items_added": {
-          "one": "Agregado",
-          "other": "Agregado %{count}"
+          "one": "Añadido",
+          "other": "Añadido %{count}"
         },
         "order_edit_banner_items_removed": {
-          "in_full": "Remoto",
+          "in_full": "Eliminado",
           "with_quantities": "Eliminado {{delta}} de {{quantity}}"
         },
         "order_edit_banner_items_returned": {
@@ -1701,35 +1701,35 @@
           "in_full": "Eliminado de la devolución",
           "with_quantities": "Eliminado {{delta}} de la devolución"
         },
-        "order_edit_banner_single_item_added": "Agregado",
-        "order_edit_banner_multiple_items_added": "Agregado {{amount}}",
-        "order_edit_banner_single_item_removed": "Remoto",
-        "order_edit_banner_multiple_items_removed": "Remoto {{amount}}",
+        "order_edit_banner_single_item_added": "Añadido",
+        "order_edit_banner_multiple_items_added": "Añadido {{amount}}",
+        "order_edit_banner_single_item_removed": "Eliminado",
+        "order_edit_banner_multiple_items_removed": "Eliminado {{amount}}",
         "order_edit_banner_single_item_returned": "Devuelto",
         "order_edit_banner_multiple_items_returned": "Devuelto {{amount}}",
         "order_edit_banner_single_item_return_line_item_removed": "Eliminado de la devolución",
-        "order_edit_banner_multiple_items_return_line_item_removed": "Se eliminaron {{amount}} de la devolución",
-        "order_edit_banner_updated_order_label": "Orden actualizada",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Eliminado {{amount}} de la devolución",
+        "order_edit_banner_updated_order_label": "Pedido actualizado",
         "gift_card_wrapper": {
           "heading": "Tarjeta de regalo",
-          "apply_gift_card_label": "Solicitar una tarjeta de regalo",
+          "apply_gift_card_label": "Aplicar una tarjeta de regalo",
           "apply_another_gift_card_label": "Aplicar otra tarjeta de regalo",
           "gift_card_label": "Tarjeta de regalo %{identifier}",
           "payment_tag": "Tarjeta de regalo",
-          "add_label": "Añadir una tarjeta de regalo",
-          "manage_label": "Administrar tarjetas de regalo"
+          "add_label": "Agregar una tarjeta de regalo",
+          "manage_label": "Gestionar tarjetas de regalo"
         },
         "gift_card_store_credit": {
           "add_label": "Agregar una tarjeta de regalo o crédito en tienda",
           "manage_label": "Gestionar tarjetas de regalo o crédito en tienda"
         },
-        "gift_card_checkbox_label": "Solicitar tarjeta de regalo",
+        "gift_card_checkbox_label": "Aplicar tarjeta de regalo",
         "custom_onsite_payment_method_modal": {
           "title": "Confirmación personalizada de pago en el sitio"
         },
-        "markets_pro_disclaimer_label": "Al hacer clic abajo y completar su pedido, usted acepta comprar su(s) artículo(s) a Global-e como comerciante registrado para esta transacción, bajo los %{markets_pro_terms} y la %{privacy_policy} de Global-e. Global-e es un proveedor internacional de servicios de cumplimiento para %{shop_name}.",
+        "markets_pro_disclaimer_label": "Al hacer clic abajo y completar su pedido, usted acepta comprar su(s) artículo(s) a Global-e como comerciante registrado para esta transacción, bajo los %{markets_pro_terms} y %{privacy_policy} de Global-e. Global-e es un proveedor internacional de servicios de cumplimiento para %{shop_name}.",
         "markets_pro_disclaimer_terms_and_conditions": "Términos y Condiciones",
-        "markets_pro_disclaimer_privacy_policy": "política de privacidad",
+        "markets_pro_disclaimer_privacy_policy": "Política de Privacidad",
         "markets_pro_disclaimer_terms_and_conditions_title": "Términos y Condiciones del Comerciante Registrado",
         "markets_pro_disclaimer_privacy_policy_title": "Política de Privacidad del Comerciante Registrado",
         "purchase_order_number": {
@@ -1738,30 +1738,30 @@
         },
         "alternative_payment_currency_total_notice": "Nota: se le cobrará %{amount_due}.",
         "alternative_payment_currency_total_manual_payment_notice": "Nota: el total convertido es %{amount_due}.",
-        "waiting_on_taxes_message": "Si tus impuestos no se calculan en los próximos segundos, actualiza la página.",
-        "waiting_on_taxes_notice": "Cálculo de impuestos",
+        "waiting_on_taxes_message": "Si sus impuestos no se calculan en los próximos segundos, actualice la página.",
+        "waiting_on_taxes_notice": "Calculando impuestos",
         "payment_method": "Método de pago",
         "expired_payment_method": "El método de pago seleccionado ha expirado",
         "payment_method_update_failed": "Actualización del método de pago fallida.",
         "payment_method_incompatible_with_payment_terms": "El método de pago es incompatible con los términos de pago.",
         "proposed_gateway_unavailable": "La pasarela de pago propuesta no está disponible",
         "pay_in_installments_split_pay_short": "4 pagos de %{amount}",
-        "gift_cards_unavailable": "Tu tarjeta de regalo ya no se puede aplicar a este pedido y ha sido eliminada",
-        "payment_flexibility_terms_id_mismatch": "Incompatibilidad de ID en los términos de flexibilidad de pago"
+        "gift_cards_unavailable": "Su tarjeta de regalo ya no se puede aplicar a este pedido y ha sido eliminada",
+        "payment_flexibility_terms_id_mismatch": "Incompatibilidad en el ID de términos de flexibilidad de pago"
       },
       "billing": {
-        "billing_address_title": "Cobrar a",
+        "billing_address_title": "Facturar a",
         "same_as_shipping": "Igual que la dirección de envío",
         "add_address": "Usar una dirección diferente",
         "edit": "Editar",
-        "delete": "Borrar",
+        "delete": "Eliminar",
         "address_more": "Más acciones para esta dirección",
         "address_edit": "Editar dirección",
         "address_delete": "Eliminar dirección",
-        "address_confirm": "¿Estás seguro de que deseas eliminar esta dirección de tu cuenta?",
+        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?",
         "address_form": {
           "add_address": "Agregar dirección",
-          "save": "Ahorrar",
+          "save": "Guardar",
           "cancel": "Cancelar"
         }
       },
@@ -1770,18 +1770,18 @@
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Saldo actual %{amount}",
-        "credit_card_expires_on_notice": "Caduca el %{month}/%{year}",
-        "express_payment_gateway_label": "Expresar",
+        "credit_card_expires_on_notice": "Expira en %{month}/%{year}",
+        "express_payment_gateway_label": "Exprés",
         "manual_payment_gateway_label": "Manual",
-        "billing_address_title": "Dirección de Envio",
+        "billing_address_title": "Dirección de facturación",
         "free_label": "Gratis"
       },
       "field_errors": {
         "handle_phone_invalid": "Ingrese un número de teléfono válido",
-        "handle_email_invalid": "Introduzca un correo electrónico válido",
-        "email_invalid": "Introduzca un correo electrónico válido",
+        "handle_email_invalid": "Introduce un correo electrónico válido",
+        "email_invalid": "Introduce un correo electrónico válido",
         "email_or_phone_blank": "Introduce un correo electrónico o número de teléfono",
-        "email_or_phone_invalid": "Introduce un correo electrónico válido o un número de teléfono móvil",
+        "email_or_phone_invalid": "Ingrese un correo electrónico válido o un número de teléfono móvil",
         "address_first_name_blank": "Introduzca un nombre",
         "address_first_name_too_long": "El nombre es demasiado largo (el máximo es de 255 caracteres)",
         "address_first_name_contains_emojis": "El nombre no puede contener emojis",
@@ -1804,16 +1804,16 @@
         "address_address2_contains_emojis": "Address2 no puede contener emojis",
         "address_address2_contains_html_tags": "Address2 no puede contener etiquetas HTML.",
         "address_address2_contains_mathematical_symbols": "La segunda línea de dirección no puede contener símbolos matemáticos",
-        "address_city_blank": "Introduzca una ciudad",
+        "address_city_blank": "Ingrese una ciudad",
         "address_city_too_long": "La ciudad es demasiado larga (el máximo es de 255 caracteres)",
         "address_city_contains_emojis": "La ciudad no puede contener emojis",
         "address_city_contains_html_tags": "La ciudad no puede contener etiquetas HTML.",
         "address_city_contains_mathematical_symbols": "La ciudad no puede contener símbolos matemáticos",
-        "address_country_blank": "Selecciona un país/región",
+        "address_country_blank": "Seleccione un país/región",
         "address_country_not_supported": "No realizamos envíos a este país o región. Introduzca una nueva dirección de envío y vuelva a intentarlo.",
         "address_province_blank": "Seleccione un estado / provincia",
         "address_province_invalid": "Seleccione un estado / provincia válido",
-        "address_company_blank": "Introduzca un nombre de empresa",
+        "address_company_blank": "Ingrese un nombre de empresa",
         "address_company_too_long": "El nombre de la empresa es demasiado largo (el máximo es de 255 caracteres)",
         "address_company_contains_emojis": "La empresa no puede contener emojis",
         "address_company_contains_html_tags": "La empresa no puede contener etiquetas HTML.",
@@ -1823,7 +1823,7 @@
         "address_phone_invalid": "Ingrese un número de teléfono válido",
         "address_zip_blank": "Introduzca un código postal / ZIP",
         "address_zip_blocked_address": "Esta ubicación no está soportada",
-        "address_zip_too_long": "El código ZIP / postal es demasiado largo (el máximo es de 255 caracteres)",
+        "address_zip_too_long": "El código postal es demasiado largo (el máximo es de 255 caracteres)",
         "address_zip_not_supported": "Esta ubicación no está soportada",
         "address_zip_invalid_for_country": "Ingrese un código postal válido para %{country}",
         "address_zip_invalid_for_province": "Ingrese un código postal válido para %{province}",
