@@ -2758,26 +2758,28 @@
             "billing_address1": "Introduzca una dirección de facturación",
             "address2": "Ingrese un apartamento, suite, etc.",
             "billing_address2": "Ingrese un apartamento, suite, etc. para la dirección de facturación.",
-            "city": "Introduzca una ciudad",
+            "city": "Ingrese una ciudad",
             "billing_city": "Ingrese una ciudad de dirección de facturación",
             "province": "Seleccione un estado / provincia",
             "billing_province": "Seleccione un estado / provincia para la dirección de facturación",
-            "country": "Selecciona un país/región",
+            "country": "Seleccione un país/región",
             "zip": "Introduzca un código postal / ZIP",
-            "billing_zip": "Introduzca un código postal / ZIP de la dirección de facturación",
-            "phone": "Introduzca un número de teléfono"
+            "billing_zip": "Ingrese un código postal / ZIP de dirección de facturación",
+            "phone": "Introduzca un número de teléfono",
+            "contact_info": "Introduzca la información de contacto"
           },
           "formatting": {
             "name_contains_emojis": "Eliminar emoji de tu nombre",
             "postal_code_contains_emoji": "Eliminar emoji de tu código postal",
             "first_name_too_long": "El nombre contiene demasiadas letras",
-            "last_name_too_long": "El apellido contiene demasiadas letras"
+            "last_name_too_long": "El apellido contiene demasiadas letras",
+            "address_too_long": "La línea de dirección es demasiado larga"
           },
           "select_different_shipping_address_to_resolve_errors": "Su dirección de envío no es válida. Seleccione una dirección diferente o use una nueva."
         },
         "scrim": {
-          "continue_purchase_in_window": "Continúa tu compra en la ventana {{walletName}}",
-          "and_return_to_checkout": "y volver a la Caja",
+          "continue_purchase_in_window": "Continúa tu compra en la ventana de {{walletName}}",
+          "and_return_to_checkout": "y volver a la caja",
           "cancel": "Cancelar"
         }
       },
@@ -2795,26 +2797,26 @@
       },
       "units": {
         "milligram": "mg",
-        "gram": "gramo",
-        "kilogram": "kilogramo",
+        "gram": "g",
+        "kilogram": "kg",
         "milliliter": "ml",
         "centiliter": "cl",
-        "liter": "Yo",
-        "cubic_meter": "metros cúbicos",
+        "liter": "L",
+        "cubic_meter": "m³",
         "millimeter": "mm",
-        "centimeter": "centímetro",
-        "meter": "metro",
+        "centimeter": "cm",
+        "meter": "m",
         "square_meter": "m²",
-        "ounce": "onz",
-        "pound": "libra",
-        "fluid_ounce": "onzas líquidas",
-        "pint": "es",
-        "quart": "cuarto de galón",
-        "gallon": "galón",
+        "ounce": "oz",
+        "pound": "lb",
+        "fluid_ounce": "fl oz",
+        "pint": "pt",
+        "quart": "qt",
+        "gallon": "chica",
         "inch": "en",
-        "foot": "pie",
-        "yard": "yarda",
-        "square_foot": "pies cuadrados",
+        "foot": "ft",
+        "yard": "yd",
+        "square_foot": "ft²",
         "item": "artículo"
       },
       "shop_policies": {
@@ -2896,11 +2898,11 @@
     },
     "pagination": {
       "previous": "Anterior",
-      "next": "Próximo"
+      "next": "Siguiente"
     },
     "links": {
-      "powered_by_shopify": "Desarrollado por Shopify",
-      "learn_more": "Más información"
+      "powered_by_shopify": "Impulsado por Shopify",
+      "learn_more": "Aprende más"
     },
     "feed": {
       "more": "Más"
@@ -2909,16 +2911,16 @@
       "email": "correo electrónico",
       "password": "contraseña",
       "password_confirmation": "La confirmación de la contraseña",
-      "first_name": "nombre de pila",
+      "first_name": "nombre",
       "last_name": "apellido",
       "body": "cuerpo",
-      "signature": "DIRECCIÓN"
+      "signature": "Dirección"
     },
     "addresses": {
       "zip_code": "Código postal",
-      "postal_code": "Código Postal",
+      "postal_code": "Código postal",
       "postcode": "Código postal",
-      "pincode": "Código PIN",
+      "pincode": "Código postal",
       "region": "Región",
       "prefecture": "Prefectura",
       "province": "Provincia",
@@ -2931,18 +2933,18 @@
     },
     "collections": {
       "sorting": {
-        "manual": "Presentado",
-        "best_selling": "Los más vendidos",
-        "az": "Alfabéticamente, A-Z",
+        "manual": "Destacado",
+        "best_selling": "Más vendido",
+        "az": "Alfabéticamente, de la A a la Z",
         "za": "Alfabéticamente, Z-A",
         "price_ascending": "Precio, de menor a mayor",
         "price_descending": "Precio, de mayor a menor",
-        "date_ascending": "Fecha, de antigua a nueva",
-        "date_descending": "Fecha, de nueva a antigua"
+        "date_ascending": "Fecha, de antiguo a nuevo",
+        "date_descending": "Fecha, de nuevo a antiguo"
       }
     },
     "errors": {
-      "blank": "no puede estar en blanco",
+      "blank": "no puede estar vacío",
       "blocked_address": "Esta ubicación no está soportada",
       "credit_card_session_expired": "La autorización de la tarjeta de crédito ha expirado, por favor ingrese su información de pago nuevamente. Su tarjeta no ha sido cargada.",
       "empty": "no puede estar vacío",
@@ -2952,13 +2954,13 @@
       "discount_limit_reached": "Este descuento ha alcanzado su límite de uso",
       "discount_not_found": "No se pudo encontrar un descuento válido que coincida con el código ingresado",
       "customer_already_used_once_per_customer_discount_notice": "Este descuento ha alcanzado su límite de uso",
-      "gift_card_already_applied": "El código ya ha sido aplicado a tu pago",
+      "gift_card_already_applied": "El código ya ha sido aplicado a tu compra",
       "gift_card_code_invalid": "El código no es válido",
-      "gift_card_currency_mismatch": "Tu tarjeta de regalo está en %{gift_card_currency}. Contáctanos para que sea reemitida en %{checkout_currency}.",
+      "gift_card_currency_mismatch": "Su tarjeta de regalo está en %{gift_card_currency}. Contáctenos para que se la reemitan en %{checkout_currency}.",
       "gift_card_depleted": "No quedan fondos en esta tarjeta de regalo",
       "gift_card_disabled": "La tarjeta de regalo está deshabilitada",
       "gift_card_expired": "La tarjeta de regalo ha expirado",
-      "invalid": "no es válido",
+      "invalid": "es inválido",
       "bad_domain": "contiene un nombre de dominio no válido",
       "taken": "ya ha sido tomado",
       "contains_html_tags": "no puede contener etiquetas HTML",
@@ -2972,14 +2974,14 @@
       "invalid_province_in_country": "no es una provincia válida en %{country}",
       "invalid_state_in_country": "no es un estado válido en %{country}",
       "invalid_region_in_country": "no es una región válida en %{country}",
-      "less_than_or_equal_to": "debe ser menor o igual que %{count}",
+      "less_than_or_equal_to": "debe ser menor o igual a %{count}",
       "not_supported": "no es compatible",
       "full_name_required": "Ingrese un nombre y un apellido",
       "invalid_for_card_type": "no es válido",
       "invalid_type": "lo siento, no aceptamos tarjetas de este tipo",
-      "invalid_format": "El formato no es válido",
+      "invalid_format": "el formato no es válido",
       "expired": "ha expirado",
-      "invalid_start_date_or_issue_number_for_debit": "se requiere una fecha de inicio válida o un número de emisión",
+      "invalid_start_date_or_issue_number_for_debit": "se requiere una fecha de inicio válida o número de emisión",
       "invalid_expiry_year": "no es un año de expiración válido",
       "reset_password_html": "Esta dirección de correo electrónico ya está asociada con una cuenta. Si esta cuenta es tuya, puedes <a href=\"/account/login#recover\">restablecer tu contraseña</a>",
       "verify_email": "Hemos enviado un correo electrónico a %{customer_email}, por favor haga clic en el enlace incluido para verificar su dirección de correo electrónico.",
@@ -2993,21 +2995,21 @@
         },
         "links": {
           "explore_other_stores": "Explorar otras tiendas",
-          "start_free_trial": "Comience una prueba gratuita"
+          "start_free_trial": "Comienza una prueba gratuita"
         },
         "owner_ctas": {
           "header": "¿Eres el dueño de la tienda?",
           "fix_domain": "Termina de configurar tu nueva dirección web, ve a %{domain_settings_link}. Haz clic en “Conectar dominio” e ingresa: %{domain}.<br>Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
           "fix_domain_link_text": "tus configuraciones de dominio",
-          "forgot_your_store_link_text": "Olvidé mi tienda",
+          "forgot_your_store_link_text": "olvidaste tu tienda",
           "add_storefront": "Puedes configurar tu sitio web agregando el canal de Tienda Online en tu %{admin_link}. Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
-          "admin_link_text": "administración"
+          "admin_link_text": "administrador"
         },
         "ctas": {
           "sell_in_person": {
             "header": "Vender en persona",
-            "caption": "Obtén las funciones que necesitas para gestionar tu tienda minorista, ya sea que estés comenzando o expandiéndote.",
-            "link_text": "Comience una prueba gratuita"
+            "caption": "Obtén las funciones que necesitas para administrar tu tienda minorista, ya sea que estés comenzando o expandiéndote.",
+            "link_text": "Comenzar prueba gratuita"
           },
           "open_a_store": {
             "header": "Abre una nueva tienda Shopify",
@@ -3016,8 +3018,8 @@
           },
           "editions": {
             "header": "Consulta Shopify Editions",
-            "caption": "Con más de 100 actualizaciones de productos, puedes ser más productivo y creativo, y más poderoso en el comercio de lo que jamás imaginaste.",
-            "link_text": "Explorar las últimas Ediciones"
+            "caption": "Con más de 100 actualizaciones de productos, puedes ser más productivo y creativo, y poderoso en el comercio de lo que jamás imaginaste.",
+            "link_text": "Explorar las últimas ediciones"
           },
           "store_owner": {
             "header": "¿Eres el dueño de la tienda?",
