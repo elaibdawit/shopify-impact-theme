@@ -3728,31 +3728,31 @@
           "show_all": "Mostrar todo",
           "show_less": "Mostrar menos",
           "details": "Detalles",
-          "payment_details": "Detalles del pago"
+          "payment_details": "Detalles de Pago"
         },
         "emv_details": {
-          "auth": "AUTORIZACIÓN:",
-          "aid": "AYUDA:",
+          "auth": "AUTENTICACIÓN:",
+          "aid": "AID:",
           "source": "FUENTE:"
         }
       },
       "paid_with_shop_pay_installments_card": {
         "paid_with_shop_pay_installments": "Pagado con Cuotas de Shop Pay",
-        "description": "Mantente al día con tu calendario de pagos con recordatorios en la app Shop.",
+        "description": "Mantente al tanto de tu calendario de pagos con recordatorios en la aplicación Shop.",
         "payment_reminders_button": "Recibir recordatorios de pago",
         "desktop_qr_code_content": {
-          "title": "Escanear para recordatorios",
+          "title": "Buscar recordatorios",
           "description": "Recibe recordatorios de tus cuotas con Shop."
         }
       },
-      "refunded_amount": "Reintegrado",
+      "refunded_amount": "Reembolsado",
       "request_return_failed": "Hubo un problema al procesar su solicitud. Por favor, inténtelo de nuevo.",
       "login_card": {
         "login_or_resend_link": "{{loginAction}} o {{resendLinkAction}}",
-        "log_in": "Acceso",
+        "log_in": "Iniciar sesión",
         "resend_link_with_login": "enviar nuevo enlace",
         "resend_link_without_login": "Enviar nuevo enlace",
-        "link_expired": "Enlace expirado",
+        "link_expired": "Enlace caducado",
         "resend_link_and_login": "Para ver los detalles de su pedido, inicie sesión o envíe un nuevo enlace al correo electrónico o número de teléfono utilizado en la compra.",
         "resend_link_only": "Para ver los detalles de su pedido, envíe un nuevo enlace al correo electrónico o número de teléfono utilizado en la compra.",
         "resend_link": "Enviar nuevo enlace"
@@ -3760,16 +3760,16 @@
       "remaining_amount": "Restante",
       "marketing_section_title": "Noticias y ofertas",
       "marketing_description": "Recibirás correos electrónicos de marketing. Puedes darte de baja en cualquier momento.",
-      "marketing_checkbox_label": "Envíame un correo electrónico con noticias y ofertas",
+      "marketing_checkbox_label": "Envíame correos con noticias y ofertas",
       "marketing_checkmark_label": "Estás suscrito para recibir noticias y ofertas por correo electrónico",
       "returns": {
         "expand_events_label": "Mostrar detalles",
         "hide_events_label": "Ocultar detalles",
-        "ineligible_return_message": "No hay artículos en este pedido que sean elegibles para devolución.",
+        "ineligible_return_message": "Ningún artículo en este pedido es elegible para devolución.",
         "ineligible_return_message_when_returned": "No hay artículos adicionales en este pedido que sean elegibles para devolución.",
         "print_shipping_label": "Imprimir etiqueta de envío",
         "return_and_refund_modal_header": "Política de reembolso",
-        "tracking_number": "El número de rastreo:"
+        "tracking_number": "Número de seguimiento:"
       },
       "shipping": {
         "address": "Dirección de envío",
@@ -3777,12 +3777,12 @@
         "method": "Método de envío",
         "summary": "Envío",
         "free": "Gratis",
-        "free_shipping_discount": "Envío gratis",
+        "free_shipping_discount": "Envío Gratis",
         "one_time": "Envío único",
-        "subscription": "Envío por suscripción"
+        "subscription": "Envío de suscripción"
       },
       "pickup": {
-        "pickup": "Levantar",
+        "pickup": "Recoger",
         "pickup_location": "Lugar de recogida",
         "pickup_point": "Punto de recogida"
       },
@@ -3790,21 +3790,21 @@
       "show_order_summary": "Mostrar resumen del pedido",
       "hide_order_summary": "Ocultar resumen del pedido",
       "subtitle": "Confirmado {{date}}",
-      "subtotal": "Total parcial",
-      "summary_list_title_accessibility_label": "Pedir artículos",
+      "subtotal": "Subtotal",
+      "summary_list_title_accessibility_label": "Artículos del pedido",
       "summary_title": "Resumen del pedido",
-      "summary_totals_title_accessibility_label": "Totales de pedidos",
+      "summary_totals_title_accessibility_label": "Totales del pedido",
       "shop_order_tracking": {
         "download_shop_to_track": "Descargar Shop para rastrear el paquete",
         "track_order_with_shop": "Rastrear pedido con Shop",
         "title_header": "Escanea con tu teléfono",
-        "real_time_delivery_updates": "La tienda te enviará actualizaciones en tiempo real sobre la entrega una vez que tu pedido haya sido enviado."
+        "real_time_delivery_updates": "La tienda te enviará actualizaciones de entrega en tiempo real una vez que tu pedido sea enviado."
       },
       "edit_summary": {
-        "added": "Agregado",
-        "added_with_quantity": "Agregado {{quantity}}",
-        "removed": "Remoto",
-        "removed_with_quantity": "Remoto {{quantity}}",
+        "added": "Añadido",
+        "added_with_quantity": "Añadido {{quantity}}",
+        "removed": "Eliminado",
+        "removed_with_quantity": "Eliminado {{quantity}}",
         "updated_at": "Su pedido fue actualizado el {{date}}",
         "returned": "Devuelto",
         "returned_with_quantities": "Devuelto {{delta}} de {{total}}",
@@ -3814,14 +3814,14 @@
       },
       "shop_pay": {
         "order_completed_with": "Pedido completado con",
-        "learn_more": "Más información"
+        "learn_more": "Aprende más"
       },
       "taxes": "Impuestos",
       "taxes_included": "Incluyendo {{amount}} en impuestos",
       "duties_and_taxes_included": "El total incluye aranceles e impuestos. No hay cargos adicionales en la entrega.",
       "duties": "Deberes",
       "ok_duties_tooltip": "Este pedido se está enviando desde otro país, por lo que se han añadido aranceles al total de su pedido.",
-      "error_duties_tooltip": "Este pedido se está enviando desde otro país, por lo que es posible que se cobren aranceles e impuestos al momento de la entrega.",
+      "error_duties_tooltip": "Este pedido se está enviando desde otro país, por lo que pueden aplicarse aranceles e impuestos en la entrega.",
       "zero_duties_tooltip": "Este pedido se está enviando desde otro país. No se cobran aranceles en pedidos de este valor.",
       "tip": "Consejo",
       "title": "Orden {{name}}",
@@ -3829,11 +3829,11 @@
       "unit_price": "{{price}}/cada uno",
       "pagination": {
         "load_more": "Cargar más",
-        "load_more_accessibility_label": "Cargar más artículos",
-        "loading_accessibility_label": "Cargando artículos"
+        "load_more_accessibility_label": "Cargar más elementos",
+        "loading_accessibility_label": "Cargando elementos"
       },
-      "login_to_view_all_order_details": "Inicia sesión para ver todos los detalles del pedido.",
-      "log_in": "Acceso",
+      "login_to_view_all_order_details": "Inicie sesión para ver todos los detalles del pedido.",
+      "log_in": "Iniciar sesión",
       "logged_in_account_no_permission_to_order": "Has iniciado sesión como {{email}}. Esta cuenta no tiene permiso para gestionar este pedido.",
       "log_in_to_a_different_account": "Iniciar sesión en una cuenta diferente",
       "fees": {
@@ -3841,10 +3841,10 @@
         "return_shipping_fee": "Envío de devolución"
       },
       "vat_invoices": {
-        "title": "facturas de IVA"
+        "title": "Facturas de IVA"
       },
       "link_sent": "Enlace enviado",
-      "cash_rounding": "Redondeo de efectivo",
+      "cash_rounding": "Redondeo en efectivo",
       "adjusted_payment": "Pago ajustado",
       "adjusted_total": "Total ajustado"
     },
@@ -3855,11 +3855,11 @@
       "back_button": "Atrás",
       "back_button_accessibility_label": "Volver a editar la dirección {{address}}",
       "add_address_banner": "Agregar direcciones para usar en la compra",
-      "no_addresses_banner": "No hay direcciones añadidas",
+      "no_addresses_banner": "No se añadieron direcciones",
       "address_deleted_notification": "Dirección eliminada",
-      "cancel_adding_address_accessibility_label": "Cancelar agregar dirección",
+      "cancel_adding_address_accessibility_label": "Cancelar añadir dirección",
       "cancel_deletion_button": "Cancelar",
-      "cancel_deletion_button_accessibility_label": "Cancelar la eliminación {{address}}",
+      "cancel_deletion_button_accessibility_label": "Cancelar la eliminación de {{address}}",
       "default_address": {
         "title": "Dirección predeterminada",
         "title_accessibility_label": "Dirección predeterminada: {{address}}"
