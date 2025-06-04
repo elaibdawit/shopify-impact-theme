@@ -4140,10 +4140,10 @@
       "load_orders_error": {
         "title": "No se pueden cargar los pedidos",
         "description": "Reintentar o volver más tarde.",
-        "retry_button": "Rever"
+        "retry_button": "Reintentar"
       },
       "load_paypal_error": {
-        "description": "Hay un problema al cargar PayPal. Por favor, inténtalo de nuevo."
+        "description": "Hay un problema al cargar PayPal. Por favor, inténtelo de nuevo."
       },
       "logout_everywhere": {
         "description": "Algo salió mal durante el cierre de sesión. Por favor, inténtalo de nuevo."
@@ -4162,14 +4162,14 @@
       "profile_update_error": {
         "description": "Hubo un problema al actualizar tu perfil. Intenta actualizar esta página o verifica tu conexión a internet."
       },
-      "retry_action_label": "Rever",
+      "retry_action_label": "Reintentar",
       "resend_link": {
         "too_many_requests": "Demasiadas solicitudes. Inténtalo de nuevo más tarde.",
         "generic": "Solicitud fallida"
       },
       "load_extension_error": {
         "title": "Error",
-        "description": "Actualiza esta página o inténtalo de nuevo en unos minutos.",
+        "description": "Actualice esta página o intente de nuevo en unos minutos.",
         "refresh_button": "Actualizar página"
       }
     },
@@ -4177,23 +4177,23 @@
       "store_credit": {
         "details_modal": {
           "expirable_balance_info": "Parte de su saldo expirará en una fecha futura",
-          "expirable_amount_label": "Cantidad total que expira",
-          "expirable_amounts_info": "Las cantidades que expiran antes se aplican primero en la caja",
-          "expirable_amounts_button": "Vista",
+          "expirable_amount_label": "Cantidad total expirable",
+          "expirable_amounts_info": "Los montos que expiran antes se aplican primero en la caja",
+          "expirable_amounts_button": "Ver",
           "expired_amounts_button": "Ver montos vencidos",
           "pagination": {
             "load_more_label": "Cargar más",
             "load_more_accessibility_label": "Cargar más cantidades expirables"
           },
-          "title": "Crédito de tienda con fecha de caducidad",
-          "balance_label": "Balance",
-          "expiration_date_label": "Fecha de expiración",
+          "title": "Crédito de tienda con fecha de vencimiento",
+          "balance_label": "Saldo",
+          "expiration_date_label": "Fecha de vencimiento",
           "amount_label": "Cantidad",
           "date_label": "Fecha",
           "event_label": "Evento",
           "events": {
             "adjustment": "Ajuste",
-            "order_payment": "Pago de pedidos",
+            "order_payment": "Pago del pedido",
             "order_refund": "Reembolso del pedido",
             "payment_failure": "Fallo de pago",
             "payment_returned": "Pago devuelto",
@@ -4201,28 +4201,28 @@
             "tax_finalization": "Finalización de impuestos"
           }
         },
-        "label": "Crédito de la tienda",
-        "accesibility_label": "Crédito de la tienda - {{formattedBalance}}",
+        "label": "Crédito en tienda",
+        "accesibility_label": "Crédito en tienda - {{formattedBalance}}",
         "expirable_amounts_button": "Ver cantidades que expiran",
-        "expirable_amounts_label": "Montos vencidos"
+        "expirable_amounts_label": "Cantidades expirables"
       },
       "payment_details": {
         "title": "Detalles del método de pago",
         "credit_card_details_accessibility_label": "terminando en {{lastDigits}}",
-        "billing_title": "Dirección de Envio",
+        "billing_title": "Dirección de facturación",
         "card_info_title": "Información de la tarjeta",
         "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
-        "payment_method_expiring_on": "Expirando el {{expiryDate}}",
-        "payment_method_expired_on": "Caducó el {{expiryDate}}",
+        "payment_method_expiring_on": "Expira el {{expiryDate}}",
+        "payment_method_expired_on": "Expirado el {{expiryDate}}",
         "preauthorized_payments": "Pagos preautorizados",
-        "close_payment_modal": "Cerca",
-        "close_payment_modal_accessibility_label": "Cerrar el modal de detalles del método de pago",
+        "close_payment_modal": "Cerrar",
+        "close_payment_modal_accessibility_label": "Cerrar modal de detalles del método de pago",
         "payment_method_not_found_error": "No se puede encontrar el método de pago",
         "payment_details_loading": "Cargando detalles del método de pago",
         "pre_authorized_payments": "Pagos preautorizados",
         "total_amount_of_subscription_line_items_left": "y {{total}} más",
         "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artículos en total, mostrando {{totalItemsToDisplay}} artículos.",
-        "next_payment_due": "Próximo pago vence {{dueDateInMonthDayYear}}",
+        "next_payment_due": "Próximo pago vence el {{dueDateInMonthDayYear}}",
         "edit_payment_method_button": "Editar",
         "edit_payment_method_button_accessibility_label": "Editar método de pago que termina en {{lastDigits}}",
         "loading_shop_pay": "Cargando Shop Pay",
@@ -4235,7 +4235,7 @@
       },
       "edit_payment_method": {
         "title": "Editar método de pago",
-        "save_payment_method_button": "Ahorrar",
+        "save_payment_method_button": "Guardar",
         "cancel_edit_payment_method_button": "Cancelar",
         "payment_method_updated_toast": "Método de pago actualizado",
         "billing_address": "Dirección de Envio",
@@ -4314,23 +4314,23 @@
         "title": "3D Secure"
       },
       "title": "Métodos de pago",
-      "add_payment_method_button": "Añadir método de pago",
+      "add_payment_method_button": "Agregar método de pago",
       "add_payment_method_banner": "Agregar método de pago para un pago más rápido o servicios preautorizados",
       "no_payment_methods_banner": "No se han añadido métodos de pago",
       "edit_payment_method_button_accessibility_label": "Editar {{paymentMethodName}} que termina en {{lastDigits}}",
       "edit_payment_method_brand_button_accessibility_label": "Editar {{paymentMethodName}}",
-      "delete_payment_method_button": "Borrar",
-      "delete_payment_method_button_accessibility_label": "Borrar {{paymentMethodName}}",
+      "delete_payment_method_button": "Eliminar",
+      "delete_payment_method_button_accessibility_label": "Eliminar {{paymentMethodName}}",
       "back_button": "Atrás",
       "back_button_accessibility_label": "Volver a {{paymentMethodStepTitle}}",
-      "default": "Por defecto",
+      "default": "Predeterminado",
       "generic_card": "Tarjeta",
       "expiration_warning_button_accessibility_label": "Mostrar advertencia de expiración para {{paymentMethodName}} que termina en {{lastDigits}}",
-      "expires_soon": "Esta tarjeta está a punto de expirar",
-      "expired": "Esta tarjeta ha expirado",
-      "card_update_consent": "Este método de pago se guardará para futuras compras.",
-      "card_update_consent_subscriptions": "Este método de pago se guardará para futuras compras y podrá ser utilizado para cualquier compra recurrente o diferida.",
-      "digital_wallet_title": "Billetera digital",
+      "expires_soon": "Esta tarjeta está por expirar pronto",
+      "expired": "Esta tarjeta está vencida",
+      "card_update_consent": "Este método de pago se guardará para compras futuras.",
+      "card_update_consent_subscriptions": "Este método de pago se guardará para futuras compras y podrá usarse para cualquier compra recurrente o diferida.",
+      "digital_wallet_title": "Cartera Digital",
       "credit_or_debit_card_title": "Tarjeta de crédito o débito",
       "google_pay": {
         "iframe_title_accessibility_label": "Agregar método de pago Google Pay",
@@ -4348,7 +4348,7 @@
       "apple_pay": {
         "loading": "Cargando Apple Pay",
         "errors": {
-          "generic": "Hubo un problema con Apple Pay. Intenta de nuevo o utiliza un método de pago diferente.",
+          "generic": "Hubo un problema con Apple Pay. Intenta de nuevo o usa un método de pago diferente.",
           "not_available": "Apple Pay no está disponible en este dispositivo.",
           "missing_billing_address": "Apple Pay requiere una dirección de facturación. Por favor, añade una a tu cuenta."
         }
