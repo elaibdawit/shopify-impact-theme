@@ -212,15 +212,15 @@
       "addresses": "Direcciones",
       "logout": "Cerrar sesión",
       "no_orders": "Aún no has realizado ningún pedido.",
-      "continue_shopping": "Seguir comprando"
+      "continue_shopping": "Continuar comprando"
     },
     "login": {
-      "title": "Acceso",
+      "title": "Iniciar sesión",
       "email": "Correo electrónico",
       "password": "Contraseña",
-      "submit": "Acceso",
+      "submit": "Iniciar sesión",
       "forgot_password": "¿Olvidaste tu contraseña?",
-      "sign_up": "Inscribirse"
+      "sign_up": "Regístrate"
     },
     "recover_password": {
       "title": "Recuperar contraseña",
@@ -230,14 +230,14 @@
       "success_message": "Se ha enviado un correo electrónico a su dirección con instrucciones para restablecer su contraseña."
     },
     "register": {
-      "title": "Inscribirse",
-      "first_name": "Nombre de pila",
+      "title": "Regístrate",
+      "first_name": "Nombre",
       "last_name": "Apellido",
       "email": "Correo electrónico",
       "password": "Contraseña",
       "accepts_marketing": "Regístrate en nuestro boletín",
-      "submit": "Crear una cuenta",
-      "login": "Acceso"
+      "submit": "Crear cuenta",
+      "login": "Iniciar sesión"
     },
     "activate_account": {
       "title": "Activar cuenta",
@@ -251,7 +251,7 @@
       "title": "Restablecer contraseña",
       "password": "Contraseña",
       "password_confirmation": "Confirmación de contraseña",
-      "submit": "Reiniciar"
+      "submit": "Restablecer"
     },
     "order": {
       "order": "Orden",
@@ -266,17 +266,17 @@
       "quantity": "Cantidad",
       "fulfillment_with_number": "Su pedido ha sido enviado el {{date}}. Rastree el envío con el número {{tracking_number}}.",
       "fulfillment": "Su pedido ha sido enviado el {{date}}.",
-      "track_shipment": "Seguimiento del envío",
-      "subtotal": "Total parcial",
+      "track_shipment": "Rastrear envío",
+      "subtotal": "Subtotal",
       "discount": "Descuento",
       "shipping": "Envío",
       "taxes_included": "Impuestos incluidos",
       "taxes_excluded": "Impuestos excluidos",
       "total_duties": "Deberes",
-      "refunded_amount": "Importe reembolsado",
+      "refunded_amount": "Cantidad reembolsada",
       "total": "Total",
       "shipping_address": "Dirección de envío",
-      "billing_address": "Dirección de Envio"
+      "billing_address": "Dirección de facturación"
     },
     "addresses": {
       "no_addresses": "Aún no has guardado ninguna dirección.",
@@ -284,14 +284,14 @@
       "edit_address": "Editar dirección",
       "save_address": "Guardar dirección",
       "edit": "Editar",
-      "delete": "Borrar",
+      "delete": "Eliminar",
       "default_address": "Dirección predeterminada",
-      "address_title": "DIRECCIÓN {{ position }}",
+      "address_title": "Dirección {{ position }}",
       "delete_confirm": "¿Eliminar esta dirección? Una vez confirmado, esta acción no se puede deshacer.",
       "fill_form": "Por favor, complete la información a continuación:",
-      "first_name": "Nombre de pila",
+      "first_name": "Nombre",
       "last_name": "Apellido",
-      "company": "Compañía",
+      "company": "Empresa",
       "phone": "Número de teléfono",
       "address1": "Dirección 1",
       "address2": "Dirección 2",
@@ -304,22 +304,22 @@
   },
   "cart": {
     "general": {
-      "title": "Carro",
-      "empty": "Su carrito está vacío",
-      "continue_shopping": "Seguir comprando",
+      "title": "Carrito",
+      "empty": "Tu carrito está vacío",
+      "continue_shopping": "Continuar comprando",
       "weight": "Peso",
-      "subtotal": "Total parcial",
+      "subtotal": "Subtotal",
       "total": "Total",
       "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\" class=\"link\">envío</a> calculados al finalizar la compra",
       "taxes_included_but_shipping_at_checkout": "Impuestos incluidos y envío calculado al finalizar la compra",
       "taxes_included_and_shipping_policy_html": "Impuestos incluidos. <a href=\"{{ link }}\" class=\"link\">Envío</a> calculado al finalizar la compra.",
       "taxes_and_shipping_at_checkout": "Impuestos y envío calculados al finalizar la compra",
-      "add_order_note": "Añadir nota de pedido",
-      "edit_order_note": "Editar nota de pedido",
+      "add_order_note": "Agregar nota de pedido",
+      "edit_order_note": "Editar nota del pedido",
       "order_note": "Nota de pedido",
-      "save_note": "Ahorrar",
+      "save_note": "Guardar",
       "view_cart": "Ver carrito",
-      "checkout": "Verificar",
+      "checkout": "Pagar",
       "we_accept": "Aceptamos"
     },
     "order": {
@@ -327,7 +327,7 @@
       "total": "Total",
       "quantity": "Cantidad",
       "change_quantity": "Cambiar cantidad",
-      "increase_quantity": "Aumentar la cantidad",
+      "increase_quantity": "Aumentar cantidad",
       "decrease_quantity": "Disminuir la cantidad",
       "remove": "Eliminar"
     },
