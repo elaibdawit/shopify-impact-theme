@@ -3594,30 +3594,30 @@
             "modal_accessibility_button_label": "Detalles de la promesa de entrega",
             "download_shop_app_button_label": "Descargar Shop para rastrear",
             "track_with_shop_button_label": "Rastrear con Shop",
-            "claim_shop_cash_button_label": "Reclamar efectivo de la tienda"
+            "claim_shop_cash_button_label": "Reclamar efectivo en tienda"
           },
           "details_modal": {
             "title": "Garantía de entrega",
-            "active_delivery_guarantee_label": "Entrega por {{date}}",
+            "active_delivery_guarantee_label": "Entrega para {{date}}",
             "expired_delivery_guarantee_description": "La garantía de 30 días de la Promesa de Compra de este pedido ha expirado.",
-            "expired_badge_label": "Venció",
-            "order_includes_guarantees_label": "Tu pedido incluye {{deliveryAgreementsCount}} garantías",
+            "expired_badge_label": "Caducado",
+            "order_includes_guarantees_label": "Su pedido incluye {{deliveryAgreementsCount}} garantías",
             "order_includes_guarantees_description": "Shop Promise garantiza una entrega rápida y confiable. Reclama Shop Cash si tu pedido llega después de {{date}}.",
             "delivered_after_label": "Entregado después de {{date}}",
             "delivered_after_description": "Debido a que su pedido llegó tarde, usted es elegible para reclamar {{amount}} Shop Cash.",
             "claimed_shop_cash_description": "Debido a que este pedido llegó tarde, reclamaste {{amount}} Shop Cash.",
             "eligible_to_claim_shop_cash_description": "Debido a que su pedido llegó tarde, usted es elegible para reclamar {{amount}} Shop Cash.",
-            "learn_more_button_label": "Más información",
-            "claim_shop_cash_button_label": "Reclamar efectivo de la tienda",
-            "view_balance_in_shop_button_label": "Ver saldo en Shop",
-            "scan_to_claim_shop_cash_label": "Escanea para reclamar {{amount}} Dinero de la Tienda"
+            "learn_more_button_label": "Aprende más",
+            "claim_shop_cash_button_label": "Reclamar efectivo en tienda",
+            "view_balance_in_shop_button_label": "Ver saldo en la tienda",
+            "scan_to_claim_shop_cash_label": "Escanee para reclamar {{amount}} Dinero de la Tienda"
           }
         },
         "delivery_promise": {
           "promise_line": {
             "single_brand_label": "Entrega respaldada por",
             "mixed_brands_label": "Entrega garantizada",
-            "not_delivered_by_label": "No entregado por {{date}}",
+            "not_delivered_by_label": "No entregado para {{date}}",
             "modal_accessibility_button_label": "Detalles de la promesa de entrega"
           },
           "claim_shop_cash_cta": {
@@ -3629,8 +3629,8 @@
             "title": "Entrega respaldada por",
             "modal_accessiblity_label": "Detalles de la promesa de entrega",
             "delivery_guarantee_label": "Garantía de entrega",
-            "delivery_by_label": "Entrega por {{date}}",
-            "delivery_guaranteed_by_label": "Entrega garantizada por {{date}}",
+            "delivery_by_label": "Entrega para {{date}}",
+            "delivery_guaranteed_by_label": "Entrega garantizada para el {{date}}",
             "shop_cash_claim": {
               "may_be_eligible_label": "Shop Promise garantiza una entrega rápida y confiable. Reclama Shop Cash si tu pedido llega tarde.",
               "may_be_eligible_not_authorized_label": "Es posible que seas elegible para reclamar Shop Cash porque este pedido llegó tarde. Inicia sesión para ver los detalles.",
@@ -3647,8 +3647,8 @@
       "status_mark_as_delivered": "Marcar como entregado",
       "fulfillment_status_title": "Estado de cumplimiento: {{status}}",
       "buy_again": "Comprar de nuevo",
-      "buy_again_accessibility_label": "Comprar de nuevo para realizar el pedido {{orderId}}",
-      "manage": "Administrar",
+      "buy_again_accessibility_label": "Comprar de nuevo para el pedido {{orderId}}",
+      "manage": "Gestionar",
       "manage_accessiblity_label": "Gestionar pedido {{orderId}}"
     },
     "order_details": {
@@ -3660,18 +3660,18 @@
       },
       "addresses_section_title": "Facturación y envío",
       "order_details": "Detalles del pedido",
-      "order_details_skeleton_accessibility_label": "Inicia sesión para ver todos los detalles del pedido.",
-      "billing_address": "Dirección de Envio",
+      "order_details_skeleton_accessibility_label": "Inicie sesión para ver todos los detalles del pedido.",
+      "billing_address": "Dirección de facturación",
       "card_ending_with": "terminando con {{lastDigits}}",
       "contact": "Contacto",
-      "contact_information": "Información del contacto",
-      "company": "Compañía",
-      "fully_refunded_label": "REINTEGRADO",
+      "contact_information": "Información de contacto",
+      "company": "Empresa",
+      "fully_refunded_label": "REEMBOLSADO",
       "group_title_label": "Parte de: {{groupTitle}}",
       "grouped_view_components": {
         "expand_line_items": "Mostrar {{count}} artículos",
-        "collapse_line_items": "Ocultar {{count}} elementos",
-        "line_item_summary": "{{refundableQuantity}} incógnita {{productTitle}}",
+        "collapse_line_items": "Ocultar {{count}} artículos",
+        "line_item_summary": "{{refundableQuantity}} x {{productTitle}}",
         "line_item_summary_accessibility_label": "{{productTitle}}, Cantidad: {{refundableQuantity}}",
         "line_item_summary_list_accessibility_label": "Artículos en el paquete de {{productTitle}}"
       },
@@ -3681,8 +3681,8 @@
       "loading_finished_accessibility_message": "Los detalles del pedido han sido cargados",
       "location": "Ubicación",
       "image_gallery": {
-        "product_name_and_quantity": "{{productName}} cantidad {{quantity}}",
-        "next": "Mostrar los siguientes elementos",
+        "product_name_and_quantity": "Cantidad de {{productName}} {{quantity}}",
+        "next": "Mostrar siguientes elementos",
         "previous": "Mostrar elementos anteriores",
         "load_more_items": {
           "one": "Cargar {{count}} artículos más",
@@ -3695,17 +3695,17 @@
       },
       "no_data": "Ninguno",
       "no_data_provided_accessibility_label": "{{fieldName}} está vacío",
-      "not_applicable": "N / A",
+      "not_applicable": "N/A",
       "paid_amount": "Pagado",
       "partially_refunded_label": "PARCIALMENTE REEMBOLSADO",
       "payment": {
         "status_in_review": "Pago debido después de la revisión",
-        "status_unpaid": "Pago vence el {{date}}",
+        "status_unpaid": "Pago debido el {{date}}",
         "title": "Pago",
         "card_payment_short_details": "{{paymentTypeLabel}} •••• {{lastDigits}}",
         "payment_type": {
           "gift_card": "Tarjeta de regalo",
-          "store_credit": "Crédito de la tienda",
+          "store_credit": "Crédito en tienda",
           "money_order": "Giro postal",
           "cash_on_delivery": "Pago contra reembolso (COD)",
           "bank_deposit": "Depósito bancario",
@@ -3713,15 +3713,15 @@
         },
         "card_payment_details": "terminando con {{lastDigits}} - {{formattedTransactionAmount}}",
         "gift_card_payment_details": "terminando con {{lastDigits}} - {{formattedTransactionAmount}}",
-        "store_credit_payment_details": "Crédito de la tienda - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Crédito en tienda - {{formattedTransactionAmount}}",
         "shop_pay_installments": {
           "paid_in_installments": "Pagado con cuotas de Shop Pay",
           "view_schedule": "Ver horario"
         },
         "manual_payment_methods": {
           "money_order": "Giro postal - {{formattedTransactionAmount}}",
-          "cash_on_delivery": "Pago contra reembolso (COD) - {{formattedTransactionAmount}}",
-          "bank_deposit": "Depósito bancario - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Pago contra entrega (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Depósito Bancario - {{formattedTransactionAmount}}",
           "manual": "Manual - {{formattedTransactionAmount}}"
         },
         "transactions": {
