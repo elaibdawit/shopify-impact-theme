@@ -2542,7 +2542,7 @@
         "title": "Punto de recogida",
         "or": "o",
         "search_button": "Buscar",
-        "address_label": "DIRECCIÓN",
+        "address_label": "Dirección",
         "selector_tabs": "Selector de punto de recogida",
         "selector_tab_map": "Mapa",
         "selector_tab_list": "Lista",
@@ -2588,7 +2588,7 @@
       "error_page": {
         "terminal": {
           "title": "Hubo un problema con nuestro proceso de pago",
-          "message": "Actualiza esta página o inténtalo de nuevo en unos minutos",
+          "message": "Actualice esta página o intente de nuevo en unos minutos",
           "action": {
             "cta": "Actualizar página"
           },
@@ -2597,41 +2597,46 @@
       },
       "notice_banner": {
         "return_to_cart_link_text": "Volver al carrito",
-        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} actualizar las cantidades",
-        "subscription_changed": "Uno de tus suscripciones ha cambiado.",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} para actualizar las cantidades",
+        "subscription_changed": "Una de tus suscripciones ha cambiado.",
         "company_location_changed": "Tu carrito ha sido actualizado. Revisa tu pedido antes de enviarlo.",
         "company_location_changed_product_removed": "Tu carrito ha sido actualizado porque algunos productos no están disponibles en esta ubicación. Revisa tu pedido antes de enviarlo.",
         "violations_title": "{{violation}} falta o es inválido",
         "individual_violations_title": {
           "DeliveryViolations": "Dirección de envío",
-          "PaymentViolations": "Dirección de Envio",
+          "PaymentViolations": "Dirección de facturación",
           "OtherViolations": "Información del pedido",
           "UnhandledViolations": "Información del pedido"
         },
-        "all_violations_content": "Llámanos o {{emailLink}} para actualizar esta información y completar tu pedido:",
+        "all_violations_content": "Llame o {{emailLink}} para actualizar esta información y completar su pedido:",
         "all_violations_email_link": "correo electrónico",
         "editable_shipping_address_violations_message_title": "Agrega esta información para completar tu pedido:",
         "editable_shipping_address_violations_message_footer": "Para actualizar permanentemente la dirección de esta ubicación, {{emailLink}}.",
-        "editable_shipping_address_violations_email_link": "Contáctanos",
+        "editable_shipping_address_violations_email_link": "contáctanos",
         "shipping_address_incomplete_title": "La dirección de envío está incompleta",
         "calculating_shipping": "El envío aún se está calculando. Inténtalo de nuevo en unos segundos. No se te ha cobrado.",
         "calculating_taxes": "Los impuestos aún se están calculando. Inténtalo de nuevo en unos segundos. No se te ha cobrado.",
         "generic_processing_error": {
           "title": "Hubo un problema al procesar su pedido",
-          "body": "No se te ha cobrado. Intenta de nuevo o utiliza un método de pago diferente."
+          "body": "No se le ha cobrado. Intente de nuevo o use un método de pago diferente."
+        },
+        "contact_information": {
+          "title": "La información de contacto no es válida",
+          "header": "Para actualizar su información, {{emailLink}}.",
+          "email_link": "contáctanos"
         }
       },
       "marketplaces": {
         "legal_notice": {
-          "legal_text": "Revisar",
-          "link_label": "{{partnerDisplayName}} Términos y Condiciones"
+          "legal_text": "Reseña",
+          "link_label": "Términos y Condiciones de {{partnerDisplayName}}"
         }
       },
       "online_store_chat": {
         "title": "¿Preguntas? Chatea con nosotros"
       },
       "local_pickup": {
-        "location_address_search_label": "DIRECCIÓN",
+        "location_address_search_label": "Dirección",
         "location_information": {
           "one": "Hay %{count} tienda con stock cerca de %{address}",
           "other": "Hay %{count} tiendas con stock cerca de %{address}"
@@ -2640,12 +2645,12 @@
         "or": "O",
         "cancel": "Cancelar",
         "your_location": "tu ubicación",
-        "search_button": "Encuentra tiendas",
+        "search_button": "Encontrar tiendas",
         "no_stores_found": "No se encontraron tiendas",
         "all_stores_far_away": {
           "title": "Las tiendas más cercanas están a más de %{distance} de distancia",
           "description": "Seleccione una tienda o %{ship_to_address_link} en su lugar.",
-          "ship_to_address_link": "enviar a dirección"
+          "ship_to_address_link": "enviar a la dirección"
         },
         "could_not_resolve_address": "No se pudo localizar su dirección. Inténtelo de nuevo o use una dirección diferente",
         "paginator": {
@@ -2670,15 +2675,15 @@
       },
       "clipboard": {
         "copied": "Copiado",
-        "failed_to_copy": "No se pudo copiar"
+        "failed_to_copy": "Error al copiar"
       },
       "discount_errors": {
-        "generic_error": "No se pudo procesar su pedido porque su código de descuento ya no está disponible. Revise el total de su pedido y vuelva a intentarlo."
+        "generic_error": "Su pedido no pudo ser procesado porque su código de descuento ya no está disponible. Revise el total de su pedido e intente de nuevo."
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Ya no tienes permiso para realizar pedidos B2B. %{logout_url} para realizar un pedido personal en su lugar.",
-        "log_out_link_text": "Finalizar la sesión",
-        "lost_permissions_subtitle": "Ya no tienes permiso para realizar pedidos B2B, cierra sesión para realizar un pedido personal.",
+        "log_out_link_text": "Cerrar sesión",
+        "lost_permissions_subtitle": "Ya no tienes permiso para realizar pedidos B2B, cierra sesión para hacer un pedido personal.",
         "lost_permissions_title": "Sin permisos de ubicación"
       },
       "shop_pay_external": {
