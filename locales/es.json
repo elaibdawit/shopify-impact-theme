@@ -408,7 +408,7 @@
     "storefront_access": {
       "enter_password": "Ingresar usando contraseña",
       "store_access": "Acceso a la tienda",
-      "instructions": "Introduce la contraseña abajo para acceder a la tienda",
+      "instructions": "Ingrese la contraseña abajo para acceder a la tienda",
       "password": "Contraseña",
       "enter_store": "Entrar a la tienda"
     }
