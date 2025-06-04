@@ -2128,7 +2128,7 @@
         },
         "fulfillment": {
           "fulfilled_table_title": "Artículos en este envío",
-          "unfulfilled_table_title": "Artículos en preparación para el envío",
+          "unfulfilled_table_title": "Artículos preparando para el envío",
           "product_image_label": "Imagen del producto",
           "description_label": "Descripción",
           "quantity_label": "Cantidad"
@@ -2137,14 +2137,14 @@
         "order_updates_subscribe_to_email_notifications": "Recibe actualizaciones de envío por correo electrónico",
         "order_updates_subscribe_to_email_or_phone_notifications": "Recibe actualizaciones de envío por correo electrónico o mensaje de texto",
         "order_updates_subscribe_to_phone_notifications": "Recibe actualizaciones de envío por mensaje de texto",
-        "order_updates_submit_subscription": "Enviar",
-        "track_shipment": "Rastrear envío",
+        "order_updates_submit_subscription": "Entregar",
+        "track_shipment": "Seguimiento del envío",
         "other_options": "Otras opciones",
         "delivery_information_label": "Información de entrega:",
         "gift_card_sent_confirmation": "Tarjetas de regalo enviadas",
         "qr_code": {
           "send_link_to_phone": "O envía un enlace a tu teléfono",
-          "title": "Rastrea en tu teléfono"
+          "title": "Seguimiento en tu teléfono"
         },
         "shop_qr_with_sms_upsell": {
           "qr_code": {
@@ -2160,7 +2160,7 @@
         "breadcrumbs_confirmed": "Confirmado",
         "missing_shipping_address_banner": {
           "title": "El pedido no tiene una dirección de envío",
-          "text_html": "%{contact_us} para agregar su dirección",
+          "text_html": "%{contact_us} para agregar tu dirección",
           "contact_us": "Contáctanos"
         },
         "first_payment_complete": "Primer pago completado",
@@ -2168,14 +2168,14 @@
         "location_title": "Ubicación",
         "thank_you_ready_for_picked_up": "Su pedido fue recogido en %{address}.",
         "ready_for_delivery": "Listo para entrega",
-        "order_updates_subscribe_to_email_notifications_failed": "No podemos almacenar este correo electrónico para actualizaciones. Por favor, inténtelo de nuevo o use otro correo electrónico.",
+        "order_updates_subscribe_to_email_notifications_failed": "No podemos almacenar este correo electrónico para actualizaciones. Por favor, inténtalo de nuevo o usa otro correo electrónico.",
         "order_updates_subscribe_to_email_notifications_email_already_exists": "El correo electrónico que ingresaste ya existe.",
         "subscriptions_management": {
           "title": "Suscripción",
           "description": "Continúa a tu cuenta para ver y gestionar tus suscripciones.",
           "button_label": "Gestiona tu suscripción"
         },
-        "manage_order_label": "Gestiona tu pedido",
+        "manage_order_label": "Gestionar tu pedido",
         "gift_card_confirmation_by_text_typ": {
           "one": "Recibirás un mensaje de texto con tu tarjeta de regalo en unos minutos.",
           "other": "Recibirás un mensaje de texto con tus tarjetas de regalo en unos minutos."
@@ -2200,14 +2200,14 @@
         },
         "gift_card_resend_failure": {
           "one": "Hubo un problema al reenviar su tarjeta de regalo. Inténtelo de nuevo o contáctenos.",
-          "other": "Hubo un problema al reenviar tus tarjetas de regalo. Intenta de nuevo o contáctanos."
+          "other": "Hubo un problema al reenviar tus tarjetas de regalo. Inténtalo de nuevo o contáctanos."
         },
         "vat_invoices": {
-          "title": "Facturas de IVA"
+          "title": "facturas de IVA"
         },
         "verify_shop_account_title": "Verifica tu cuenta de Shop",
         "verify_shop_account_message": "Tu información fue guardada con Shop, verifica tu cuenta para usarla automáticamente en millones de tiendas.",
-        "verify_shop_account_cta": "Verifica tu cuenta",
+        "verify_shop_account_cta": "Verificar su cuenta",
         "verify_shop_account_confirmation": "Detalles de pago guardados",
         "thank_you_confirmed_order_with_email_payment": "Has realizado un pago en tu pedido %{date}.",
         "thank_you_confirmed_order_with_phone_payment": "Has realizado un pago en tu pedido %{date}.",
@@ -2367,7 +2367,7 @@
         "change_button": "Cambiar"
       },
       "review": {
-        "title": "Reseña",
+        "title": "Revisar",
         "review_title": "Revisar y pagar",
         "review_and_confirm_title": "Revisar y confirmar",
         "checkout_as_guest": "Pagar como invitado",
@@ -2375,7 +2375,7 @@
         "blocks": {
           "contact_method_title": "Contacto",
           "billing_address_title": "Facturación",
-          "shipping_address_title": "Enviar a",
+          "shipping_address_title": "Envie a",
           "shipping_method_title": "Método de envío",
           "payment_method_title": "Método de pago",
           "change_link_label": "Cambiar",
@@ -2384,18 +2384,18 @@
           "change_shipping_address_link_label": "Cambiar dirección de envío",
           "change_shipping_method_link_label": "Cambiar método de envío",
           "change_payment_method_link_label": "Cambiar método de pago",
-          "pick_up_in_store_shipping_method_html": "Recoger en tienda · %{location_name}",
+          "pick_up_in_store_shipping_method_html": "Recogida en tienda · %{location_name}",
           "purchase_order_number_title": "Número de orden de compra",
-          "change_purchase_order_number_label": "Cambiar número de PO",
+          "change_purchase_order_number_label": "Cambiar el número de orden de compra",
           "change_delivery_method_link_label": "Cambiar método de entrega",
           "no_address": "(Sin dirección)",
-          "no_purchase_order_number": "(Sin número de PO)",
+          "no_purchase_order_number": "(Sin número de orden de compra)",
           "due_after_order_reviewed_html": "Debido después de que se revise el pedido",
-          "review_title_free_order": "Revise y complete su pedido",
+          "review_title_free_order": "Revisa y completa tu pedido",
           "payment_method_saved_company_location": "Guardar tarjeta para esta ubicación",
           "company_location": "Ubicación de la empresa"
         },
-        "block_title": "Revise su información",
+        "block_title": "Revisa tu información",
         "item_header": {
           "change_value": "Cambiar valor",
           "section": "Sección",
@@ -2403,18 +2403,18 @@
         }
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Envíame correos con noticias y ofertas",
+        "accept_marketing_checkbox_label": "Envíame un correo electrónico con noticias y ofertas",
         "post_accept_marketing_checkbox_label": "Estás suscrito para recibir noticias y ofertas por correo electrónico",
         "pending_accept_marketing_checkbox_label": "Revisa tu correo electrónico para confirmar tu suscripción a noticias y ofertas",
         "accept_sms_checkbox_label": "Envíame mensajes con noticias y ofertas",
         "disclaimer": {
-          "privacy_policy": "Política de Privacidad",
-          "terms_of_service": "Términos de Servicio"
+          "privacy_policy": "política de privacidad",
+          "terms_of_service": "Condiciones de servicio"
         },
         "sms": {
           "disclaimer": {
-            "privacy_policy": "Política de Privacidad",
-            "terms_of_service": "Términos de Servicio",
+            "privacy_policy": "política de privacidad",
+            "terms_of_service": "Condiciones de servicio",
             "description_html": "Al registrarte por mensaje de texto, aceptas recibir mensajes automatizados de marketing recurrentes, incluidos recordatorios de carrito, al número de teléfono proporcionado. El consentimiento no es una condición para la compra. Responde STOP para darte de baja. Responde HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas por mensajes y datos. Consulta nuestra %{privacy_policy_link} y %{terms_of_service_link}.",
             "description_transactional_html": "Puede recibir mensajes de texto relacionados con la confirmación del pedido y actualizaciones de envío. Responda STOP para darse de baja. Responda HELP para obtener ayuda. La frecuencia de los mensajes varía. Pueden aplicarse tarifas por mensajes y datos. Consulte nuestra %{privacy_policy_modal_link} y %{terms_of_service_modal_link}."
           },
