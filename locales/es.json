@@ -1184,9 +1184,9 @@
         "may_be_charged_on_delivery": "Puede cobrarse a la entrega",
         "total_updated_label_with_price": "Precio total actualizado: %{totalPrice}",
         "updated_shipping_method": "Método de envío actualizado: %{shipping_method}",
-        "recurring_payments": "Pagos recurrentes",
-        "recurring_total_multiple_label": "Este pedido tiene un cargo recurrente por múltiples artículos.",
-        "deferred_total_due_date_label": "Total adeudado {{date}}",
+        "recurring_payments": "Pagos Recurrentes",
+        "recurring_total_multiple_label": "Este pedido tiene un cargo recurrente por varios artículos.",
+        "deferred_total_due_date_label": "Total a pagar {{date}}",
         "full_price": "Precio completo: %{price}",
         "custom_discount": "Descuento personalizado",
         "expand_component_information": {
@@ -1194,18 +1194,18 @@
           "other": "Mostrar %{count} artículos"
         },
         "collapse_component_information": {
-          "one": "Ocultar %{count} artículo",
+          "one": "Ocultar %{count} elemento",
           "other": "Ocultar %{count} elementos"
         },
         "component_quantity_title": "%{quantity} × %{product_title}",
         "discount_discovery": {
-          "add_code": "Añadir descuento",
+          "add_code": "Agregar descuento",
           "merchandise_quantity_label": {
             "one": "%{count} artículo",
-            "other": "%{count} elementos"
+            "other": "%{count} artículos"
           }
         },
-        "alternative_payment_currency_total": "Acusado como %{amount_due}",
+        "alternative_payment_currency_total": "Cargado como %{amount_due}",
         "discount_code_allocations_mismatch": "Tu código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong> ha cambiado. Revisa tu carrito y vuelve a intentarlo."
       },
       "shipping": {
@@ -1222,17 +1222,17 @@
           "one": "Envío recurrente",
           "other": "Envíos recurrentes"
         },
-        "subscription_shipping": "Envío por suscripción",
+        "subscription_shipping": "Envío de suscripción",
         "subscription_local_delivery": "Entrega local de suscripción",
-        "subscription_pickup": "Recogida de suscripciones",
+        "subscription_pickup": "Recogida de suscripción",
         "waiting_on_rate_notice": "Obteniendo tarifas de envío disponibles…",
         "waiting_on_pickup_location_notice": "Obteniendo ubicaciones disponibles para recoger…",
         "no_rates_for_cart_or_destination_notice": "No hay métodos de envío disponibles para su carrito o dirección",
-        "no_pickup_location_notice": "Al menos uno de tus productos no está disponible para recoger",
+        "no_pickup_location_notice": "Al menos uno de sus productos no está disponible para recoger",
         "no_rates_for_country_notice": "No se encontraron tarifas de envío para esta dirección.",
         "no_rates_contact_notice": "Contáctanos para más información",
         "free_rate_label": "Gratis",
-        "cheapest_rate_label": "El más barato",
+        "cheapest_rate_label": "Más barato",
         "please_enter_your_shipping_information_notice": "Por favor, introduzca su información de envío.",
         "estimated_delivery_date": {
           "one": "%{count} día hábil",
@@ -1263,7 +1263,7 @@
           "one": "%{count} otro método disponible en",
           "other": "%{count} otros métodos disponibles a partir de"
         },
-        "shipping_rate_discounted_amount": "Era: %{original_amount}. Ahora: %{amount}",
+        "shipping_rate_discounted_amount": "Antes: %{original_amount}. Ahora: %{amount}",
         "local_delivery": "Entrega local",
         "subscription_delivery_description": {
           "free_shipping_cycles": {
@@ -1276,18 +1276,18 @@
           },
           "first_n_order_free_with_cycle": {
             "one": "Envío gratis por %{count} entregas más, luego %{recurring_order_shipping_price}",
-            "other": "Envío gratis para %{count} entregas más, luego %{recurring_order_shipping_price}"
+            "other": "Envío gratis por %{count} entregas más, luego %{recurring_order_shipping_price}"
           },
           "first_n_order_free_with_cycle_delivery_not_included": {
             "one": "Envío gratis para %{count} entregas, luego %{recurring_order_shipping_price}",
             "other": "Envío gratis para %{count} entregas, luego %{recurring_order_shipping_price}"
           },
           "max_cycles_base_shipping": {
-            "one": "%{count} Más entrega para %{shipping_price}",
+            "one": "%{count} entregas más por %{shipping_price}",
             "other": "%{count} entregas más por %{shipping_price} cada una"
           },
           "max_cycles_base_shipping_delivery_not_included": {
-            "one": "%{count} entrega para %{shipping_price}",
+            "one": "%{count} entrega por %{shipping_price}",
             "other": "%{count} entregas más por %{shipping_price} cada una"
           },
           "prepaid_free_shipping_with_cycles": {
@@ -1303,12 +1303,12 @@
             "other": "%{shipping_price} por %{count} entregas (%{per_delivery_cost})"
           },
           "prepaid_order_no_cycle": {
-            "one": "%{shipping_price} por %{count} entregas más, seguido de %{recurring_order_shipping_price}",
+            "one": "%{shipping_price} por %{count} entregas adicionales, seguido de %{recurring_order_shipping_price}",
             "other": "%{shipping_price} por %{count} entregas más (%{per_delivery_cost}), seguido por %{recurring_order_shipping_price}"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
             "one": "%{shipping_price} por %{count} entrega, seguido de %{recurring_order_shipping_price}",
-            "other": "%{shipping_price} por %{count} entregas (%{per_delivery_cost}), seguido por %{recurring_order_shipping_price}"
+            "other": "%{shipping_price} por %{count} entregas (%{per_delivery_cost}), seguido de %{recurring_order_shipping_price}"
           },
           "subscription_free_with_frequency_label": "Envío gratis %{delivery_frequency}",
           "prepaid_delivery_frequency": {
