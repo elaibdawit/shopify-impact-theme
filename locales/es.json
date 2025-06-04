@@ -59,36 +59,36 @@
       "blog_post_category": "Categoría",
       "blog_post_title": "Artículo",
       "blog_post_excerpt": "Escribe texto sobre tu publicación de blog.",
-      "product_vendor": "Proveedor",
+      "product_vendor": "Vendedor",
       "product_title": "Producto",
       "product_description": "Escribe texto sobre tu producto.",
-      "collection_title": "Recopilación"
+      "collection_title": "Colección"
     }
   },
   "header": {
     "general": {
       "account": "Cuenta",
       "open_menu": "Abrir menú de navegación",
-      "open_search": "Abrir búsqueda",
+      "open_search": "Búsqueda abierta",
       "open_account": "Abrir página de cuenta",
-      "open_cart": "Carrito abierto"
+      "open_cart": "Abrir carrito"
     }
   },
   "product": {
     "general": {
       "description": "Descripción",
       "view_product": "Ver producto",
-      "quick_add": "+ Adición rápida",
-      "add_to_cart_short": "+ Agregar",
-      "add_to_cart_button": "Añadir a la cesta",
-      "pre_order_button": "Hacer un pedido",
+      "quick_add": "+ Añadir rápido",
+      "add_to_cart_short": "+ Añadir",
+      "add_to_cart_button": "Añadir al carrito",
+      "pre_order_button": "Preordenar",
       "sold_out_button": "Agotado",
-      "unavailable_button": "Indisponible",
+      "unavailable_button": "No disponible",
       "added_to_cart": "¡Añadido a tu carrito!",
       "sold_out_badge": "Agotado",
-      "on_sale_badge": "En venta",
-      "discount_badge_html": "Ahorrar {{ savings }}",
-      "sku": "Código:",
+      "on_sale_badge": "En oferta",
+      "discount_badge_html": "Guardar {{ savings }}",
+      "sku": "SKU:",
       "variant": "Variante",
       "view_in_space": "Ver en tu espacio",
       "taxes_included": "Impuesto incluido.",
@@ -96,7 +96,7 @@
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Envío calculado</a> al finalizar la compra",
       "size_chart": "Tabla de tallas",
       "available_colors_count": {
-        "one": "{{ count }} colores disponibles",
+        "one": "{{ count }} color disponible",
         "other": "{{ count }} colores disponibles"
       }
     },
@@ -108,22 +108,22 @@
     "price": {
       "regular_price": "Precio regular",
       "sale_price": "Precio de venta",
-      "from_price_html": "De {{ price_min }}"
+      "from_price_html": "Desde {{ price_min }}"
     },
     "quantity": {
       "label": "Cantidad",
-      "increase_quantity": "Aumentar la cantidad",
-      "decrease_quantity": "Disminuir la cantidad"
+      "increase_quantity": "Aumentar cantidad",
+      "decrease_quantity": "Disminuir cantidad"
     },
     "rating_count": {
       "zero": "Sin reseñas",
-      "one": "{{ count }} revisar",
+      "one": "{{ count }} reseña",
       "other": "{{ count }} reseñas"
     },
     "inventory": {
       "in_stock": "En stock",
-      "oversell_stock": "Reposición de existencias próximamente",
-      "incoming_stock": "Reposición de existencias {{ next_incoming_date }}",
+      "oversell_stock": "Reabastecimiento pronto",
+      "incoming_stock": "Reabastecimiento el {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
         "one": "Solo queda {{count}} unidad",
         "other": "Solo quedan {{count}} unidades"
@@ -131,7 +131,7 @@
     },
     "store_availability": {
       "view_store_info": "Ver información de la tienda",
-      "check_other_stores": "Comprobar disponibilidad en otras tiendas",
+      "check_other_stores": "Verificar disponibilidad en otras tiendas",
       "pick_up_available": "Recogida disponible",
       "pick_up_currently_unavailable": "Recogida actualmente no disponible",
       "pick_up_available_at": "Recogida disponible en {{ location_name }}",
@@ -143,7 +143,7 @@
       "empty_collection": "Esta colección está vacía",
       "all_collections": "Todas las colecciones",
       "no_collections": "Esta tienda no contiene ninguna colección.",
-      "continue_shopping": "Seguir comprando"
+      "continue_shopping": "Continuar comprando"
     },
     "products_count": {
       "zero": "0 productos",
@@ -153,11 +153,11 @@
     "faceting": {
       "filters": "Filtros",
       "filter_and_sort": "Filtrar y ordenar",
-      "filter_button": "Filtrar",
+      "filter_button": "Filtro",
       "clear_filters": "Borrar todo",
       "apply_filters": "Aplicar",
       "sort_by": "Ordenar por",
-      "remove_filter": "Quitar filtro \"{{ name }}\"",
+      "remove_filter": "Eliminar filtro \"{{ name }}\"",
       "no_results": "No hay productos que coincidan con esos filtros.",
       "price_range_to": "a",
       "price_filter_from": "Desde el precio",
@@ -169,15 +169,15 @@
   "blog": {
     "general": {
       "empty_blog": "Este blog está vacío",
-      "back_to_home": "De vuelta a casa",
-      "view": "Vista",
+      "back_to_home": "Volver a inicio",
+      "view": "Ver",
       "all_posts": "Todas las publicaciones"
     },
     "post": {
       "written_by": "Por {{ author }}",
       "share": "Compartir",
       "tags": "Etiquetas",
-      "continue_reading": "Leyendo a continuación"
+      "continue_reading": "Leyendo siguiente"
     },
     "comments": {
       "leave_comment": "Deja un comentario",
@@ -185,7 +185,7 @@
       "name": "Nombre",
       "email": "Correo electrónico",
       "message": "Mensaje",
-      "submit": "Entregar",
+      "submit": "Enviar",
       "comment_sent": "Tu comentario ha sido enviado. Lo publicaremos en un momento, ya que nuestro blog está moderado.",
       "comment_published": "Tu comentario ha sido publicado.",
       "count": {
