@@ -938,11 +938,11 @@
             "one": "Este artículo será eliminado de tu carrito porque no hay métodos de entrega disponibles para tu dirección.",
             "other": "Estos artículos serán eliminados de tu carrito porque no hay métodos de entrega disponibles para tu dirección."
           },
-          "status_column_header": "No hay entrega"
+          "status_column_header": "Sin entrega"
         },
         "price_update": {
           "title": "Actualización de precios",
-          "description": "Los precios de estos artículos han cambiado y se han actualizado en tu carrito."
+          "description": "Los precios de estos artículos han cambiado y se han actualizado en su carrito."
         },
         "price_and_quantity_update": {
           "title": "Actualización de precio y cantidad",
@@ -966,20 +966,20 @@
           "one": "Este producto no está disponible en su país/región.",
           "other": "Estos productos no están disponibles en su país/región."
         },
-        "unavailable_label": "Indisponible"
+        "unavailable_label": "No disponible"
       },
       "merchandise_unavailable_in_buyer_location": {
         "banner_title": {
-          "some_products_one": "Este producto no está disponible para entrega a %{location_name}.",
-          "some_products_other": "Estos productos no están disponibles para entrega a %{location_name}.",
-          "all_products_one": "El producto en su carrito no está disponible para entrega a %{location_name}.",
-          "all_products_other": "Los productos en su carrito no están disponibles para entrega a %{location_name}."
+          "some_products_one": "Este producto no está disponible para entrega en %{location_name}.",
+          "some_products_other": "Estos productos no están disponibles para entrega en %{location_name}.",
+          "all_products_one": "El producto en su carrito no está disponible para entrega en %{location_name}.",
+          "all_products_other": "Los productos en su carrito no están disponibles para entrega en %{location_name}."
         },
         "missing_country_fallback": "tu país",
         "indeterminate_location_fallback": "tu ubicación",
         "cart_updated": "Tu carrito ha sido actualizado.",
         "change_address_only": "Cambiar la dirección de entrega para continuar.",
-        "change_address_or_remove": "Cambiar dirección de entrega o %{remove_action}.",
+        "change_address_or_remove": "Cambiar la dirección de entrega o %{remove_action}.",
         "remove_items_action": {
           "one": "eliminar artículo no disponible",
           "other": "eliminar artículos no disponibles"
@@ -997,7 +997,7 @@
             "one": "Este artículo será eliminado de tu carrito porque no hay métodos de entrega disponibles para tu dirección.",
             "other": "Estos artículos serán eliminados de tu carrito porque no hay métodos de entrega disponibles para tu dirección."
           },
-          "label": "No hay entrega"
+          "label": "Sin entrega"
         }
       },
       "order_summary": {
@@ -1005,7 +1005,7 @@
         "group_title_label": "Parte de \"%{group_title}\"",
         "number_items": {
           "one": "%{count} artículo",
-          "other": "%{count} elementos"
+          "other": "%{count} artículos"
         },
         "view_all_items": {
           "one": "Ver %{count} artículo",
@@ -1014,11 +1014,11 @@
         "more_items_modal": {
           "search_item": "Buscar",
           "clear_search": "Borrar búsqueda",
-          "empty_results": "No se encontraron resultados para \"%{searchText}\". Verifica la ortografía o usa una palabra o frase diferente.",
+          "empty_results": "No se encontraron resultados para \"%{searchText}\". Verifique la ortografía o use una palabra o frase diferente.",
           "number_items_shown": "%{shownNumber} de %{totalNumber} artículos"
         },
         "order_name_label": "Orden %{name}",
-        "shopping_cart_label": "Carro de la compra",
+        "shopping_cart_label": "Carrito de compras",
         "discount_title": "Descuento",
         "discount_title_stacking": {
           "one": "Descuento",
@@ -1040,27 +1040,27 @@
         "gift_card_and_discount_title": "Código de descuento o tarjeta de regalo",
         "gift_card_and_discount_label": "Código de descuento o tarjeta de regalo",
         "gift_card_and_discount_placeholder": "Código de descuento o tarjeta de regalo",
-        "remove_gift_card_label": "Tarjeta de regalo transparente",
+        "remove_gift_card_label": "Borrar tarjeta de regalo",
         "remove_discount_label": "Eliminar descuento",
         "return_restocking_fee_label": "Tarifa de reposición",
         "return_shipping_fee_label": "Envío de devolución",
         "free_shipping_discount_label": "Envío gratis",
         "applied_free_shipping_discount_label": "Aplicado",
         "apply_discount_button_label": "Aplicar",
-        "applied_discount_message": "%{amount} descuento sobre el precio total del pedido",
+        "applied_discount_message": "%{amount} de descuento en el precio total del pedido",
         "discount_has_been_applied": "Descuento aplicado",
-        "discount_has_been_removed": "Descuento ha sido eliminado",
-        "gift_card_has_been_applied": "Tarjeta de regalo aplicada",
+        "discount_has_been_removed": "El descuento ha sido eliminado",
+        "gift_card_has_been_applied": "La tarjeta de regalo ha sido aplicada",
         "gift_card_has_been_removed": "La tarjeta de regalo ha sido eliminada",
         "gift_card_subscriptions_notice": "Las tarjetas de regalo solo se aplicarán a tu primer pago",
         "discount_already_applied": "Se ha aplicado un descuento a este pedido. No puedes añadir otro descuento.",
         "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> el código de descuento no es válido para los artículos en tu carrito",
-        "discount_requires_customer_notice": "Ingrese su información de envío para aplicar el <strong style=\"text-transform:uppercase\">%{code}</strong> código de descuento",
-        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> el código de descuento no está disponible para ti en este momento",
-        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> el código de descuento requiere un cliente elegible",
-        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> el código de descuento no está disponible para su dirección de envío",
-        "customer_already_used_once_per_customer_discount_notice": "El <strong style=\"text-transform:uppercase\">%{code}</strong> el código de descuento ya ha sido utilizado",
-        "subtotal_label": "Total parcial",
+        "discount_requires_customer_notice": "Ingrese su información de envío para aplicar el código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> código de descuento no está disponible para ti en este momento",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> código de descuento requiere cliente elegible",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> código de descuento no está disponible para su dirección de envío",
+        "customer_already_used_once_per_customer_discount_notice": "El código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong> ya ha sido utilizado",
+        "subtotal_label": "Subtotal",
         "subtotal_label_with_quantity": {
           "one": "Subtotal · %{count} artículo",
           "other": "Subtotal · %{count} artículos"
@@ -1206,7 +1206,7 @@
           }
         },
         "alternative_payment_currency_total": "Acusado como %{amount_due}",
-        "discount_code_allocations_mismatch": "Su <strong style=\"text-transform:uppercase\">%{code}</strong> El código de descuento ha cambiado. Revisa tu carrito y vuelve a intentarlo."
+        "discount_code_allocations_mismatch": "Tu código de descuento <strong style=\"text-transform:uppercase\">%{code}</strong> ha cambiado. Revisa tu carrito y vuelve a intentarlo."
       },
       "shipping": {
         "title": "Envío",
