@@ -10,7 +10,7 @@
 {
   "general": {
     "page": "Página {{ page }}",
-    "home": "Hogar",
+    "home": "Inicio",
     "accessibility": {
       "skip_to_content": "Saltar al contenido",
       "pagination": "Navegación de paginación",
@@ -18,19 +18,19 @@
       "go_to_item": "Ir al artículo {{ index }}",
       "item_nth_of_count": "Artículo {{ index }} de {{ count }}",
       "drag": "Arrastrar",
-      "close": "Cerca",
-      "next": "Próximo",
+      "close": "Cerrar",
+      "next": "Siguiente",
       "previous": "Anterior",
-      "play_video": "Reproducir vídeo",
+      "play_video": "Reproducir video",
       "read_more": "Leer más"
     },
     "label": {
-      "color": "Color, color",
+      "color": "Color,Color",
       "white": "Blanco",
       "size": "Tamaño"
     },
     "social": {
-      "follow_on": "Seguir en {{ social_media }}",
+      "follow_on": "Sigue en {{ social_media }}",
       "share": "Compartir",
       "share_on": "Compartir en {{ social_media }}",
       "share_email": "Compartir por correo electrónico"
@@ -40,8 +40,8 @@
     },
     "newsletter": {
       "email": "Correo electrónico",
-      "subscribe": "Suscribir",
-      "notify_me": "Notificarme",
+      "subscribe": "Suscribirse",
+      "notify_me": "Notifícame",
       "subscribed_successfully": "Has sido suscrito a nuestro boletín."
     },
     "localization": {
@@ -4408,7 +4408,7 @@
       "june": "junio",
       "july": "julio",
       "august": "Agosto",
-      "september": "Septiembre",
+      "september": "septiembre",
       "october": "Octubre",
       "november": "Noviembre",
       "december": "Diciembre",
@@ -4419,52 +4419,52 @@
       "friday": "Viernes",
       "saturday": "Sábado",
       "sunday": "Domingo",
-      "mondayAbbreviation": "Mes",
+      "mondayAbbreviation": "Mo",
       "tuesdayAbbreviation": "Tu",
       "wednesdayAbbreviation": "Nosotros",
-      "thursdayAbbreviation": "El",
-      "fridayAbbreviation": "Es",
-      "saturdayAbbreviation": "Sá",
+      "thursdayAbbreviation": "Th",
+      "fridayAbbreviation": "Fr",
+      "saturdayAbbreviation": "Sa",
       "sundayAbbreviation": "Su",
       "showNextMonth": "Mostrar el próximo mes, {{month}} {{year}}",
       "showPreviousMonth": "Mostrar mes anterior, {{month}} {{year}}",
-      "rangeStart": "Inicio de rango",
-      "inRange": "Dentro del alcance",
+      "rangeStart": "Inicio del rango",
+      "inRange": "En rango",
       "rangeEnd": "Fin del rango",
       "autocompleteOptionsAvailable": {
         "one": "{{count}} artículo disponible",
         "other": "{{count}} artículos disponibles"
       },
       "removeItem": "Eliminar {{label}}",
-      "removeTag": "Quitar etiqueta",
+      "removeTag": "Eliminar etiqueta",
       "month": {
         "one": "mes",
         "other": "meses"
       },
       "mapClusterTitle": {
-        "one": "Grupo de {{number}} marcador",
-        "other": "Conjunto de {{number}} marcadores"
+        "one": "Conjunto de {{number}} marcador",
+        "other": "Grupo de {{number}} marcadores"
       },
       "expandSheet": "Expandir",
       "qrCode": "Código QR",
       "addFile": "Agregar archivo",
       "dropzoneInvalidFileType": "Tipo de archivo no soportado",
-      "dropzoneDraggedOver": "Suelte el archivo para cargarlo"
+      "dropzoneDraggedOver": "Suelta el archivo para subirlo"
     },
     "profile_preview_bar": {
       "customize_button": "Personalizar",
       "hide_bar": "Ocultar barra",
-      "navigate_to_admin": "Ir a administración",
+      "navigate_to_admin": "Navegar a admin",
       "close_preview": "Cerrar vista previa",
       "previewing": "Estás previsualizando:",
-      "saved_at": "Guardado {{date}} a las {{time}}",
+      "saved_at": "Guardado el {{date}} a las {{time}}",
       "viewing": "Estás viendo:",
       "not_available": "Datos del perfil no disponibles",
-      "actions_button": "Comportamiento"
+      "actions_button": "Acciones"
     },
     "active_inspector": {
       "extension": {
-        "select": "Selecciona la extensión llamada {{extensionName}}",
+        "select": "Seleccione la extensión llamada {{extensionName}}",
         "unselect": "Deseleccione la extensión llamada {{extensionName}}",
         "move_down": "Mover la extensión a la siguiente posición",
         "move_up": "Mover la extensión a la posición anterior",
@@ -4478,7 +4478,7 @@
       "link_new_tab_confirmation": "Este enlace no se puede abrir dentro del editor. Se abrirá en una nueva ventana ({{resolved_to_link}}). Haga clic en Aceptar para continuar."
     },
     "settings": {
-      "title": "Ajustes",
+      "title": "Configuración",
       "loading_accessibility_message": "Cargando página de configuración",
       "log_out_everywhere": {
         "title": "Cerrar sesión en todas partes",
@@ -4490,9 +4490,9 @@
     "shop_ads": {
       "title": "Ofertas exclusivas de Shop",
       "subtitle": "Disponible por tiempo limitado",
-      "button": "Explorar en la tienda",
+      "button": "Explorar en Shop",
       "previous_button": "Anterior",
-      "next_button": "Próximo"
+      "next_button": "Siguiente"
     },
     "knowledge_base": {
       "self_serve_returns": {
