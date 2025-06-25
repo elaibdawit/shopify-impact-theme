@@ -17,7 +17,7 @@
       "settings": {},
       "blocks": {
         "price": {
-          "disabled": false,
+          "disabled": true,
           "settings": {}
         },
         "liquid_UgVcGw": {
