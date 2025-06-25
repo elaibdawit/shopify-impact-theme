@@ -8,19 +8,9 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "product.json",
+  "parent": "header-group.json",
   "context": {
-    "market": "uk"
+    "market": "usa"
   },
-  "sections": {
-    "main": {
-      "settings": {},
-      "blocks": {
-        "price": {
-          "disabled": false,
-          "settings": {}
-        }
-      }
-    }
-  }
+  "sections": {}
 }
