@@ -12,5 +12,15 @@
   "context": {
     "market": "uk"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "price": {
+          "disabled": false,
+          "settings": {}
+        }
+      }
+    }
+  }
 }
