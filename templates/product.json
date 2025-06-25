@@ -30,7 +30,6 @@
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
@@ -99,7 +98,7 @@
         "liquid_UgVcGw": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"display: flex; justify-content: center; align-items: center; background-color: #f5f5f5; padding: 12px 16px; border-radius: 8px; font-weight: bold; font-size: 16px; text-align: center;\">\n  🌍 <span style=\"margin-left: 8px;\">| FAST SHIPPING</span>\n</div>"
+            "liquid": "<div style=\"display: flex; justify-content: center; align-items: center; background-color: #f5f5f5; padding: 12px 16px; border-radius: 8px; font-weight: bold; font-size: 16px; text-align: center;\">\n  🌍 <span style=\"margin-left: 8px;\">| FREE UK SHIPPING</span>\n</div>"
           }
         },
         "liquid_hN6KYt": {
