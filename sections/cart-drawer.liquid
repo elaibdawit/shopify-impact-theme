@@ -97,14 +97,15 @@
         {% endfor %}
 
         <div class="h-stack gap-4 justify-between">
-          <span class="h5">{{ 'cart.general.total' | t }}</span>
-          <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
+          <span style="font-weight: 600; color: #000;">{{ 'cart.general.total' | t }}</span>
+          <span style="font-weight: 600; color: #000;">{{ cart.total_price | money_with_currency }}</span>
         </div>
-        
+
         <div class="h-stack gap-4 justify-between">
-          <span class="h5">Shipping</span>
-          <span class="h5">FREE</span>
+          <span style="font-weight: 600; color: #000;">Shipping</span>
+          <span style="font-weight: 600; color: #000;">FREE</span>
         </div>
+
 
         {%- if section.settings.show_shipping_text -%}
           {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
