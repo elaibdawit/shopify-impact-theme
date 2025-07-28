@@ -83,6 +83,13 @@
           "disabled": true,
           "settings": {}
         },
+        "pumper_bundles_app_block_bundle_dBmgiT": {
+          "type": "shopify://apps/pumper-bundles/blocks/app-block-bundle/0856870d-2aca-4b1e-a662-cf1797f61270",
+          "settings": {
+            "selected_product": "{{product}}",
+            "using_page_builder": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -141,6 +148,7 @@
         "description",
         "variant_picker",
         "quantity_selector",
+        "pumper_bundles_app_block_bundle_dBmgiT",
         "buy_buttons",
         "liquid_UgVcGw",
         "liquid_hN6KYt",
