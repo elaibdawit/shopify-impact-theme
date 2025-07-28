@@ -100,6 +100,11 @@
           <span class="h5">{{ 'cart.general.total' | t }}</span>
           <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
         </div>
+        
+        <div class="h-stack gap-4 justify-between">
+          <span class="text-subdued">Shipping</span>
+          <span class="text-subdued">FREE</span>
+        </div>
 
         {%- if section.settings.show_shipping_text -%}
           {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
