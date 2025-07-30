@@ -73,6 +73,11 @@
         "type": "shopify://apps/pumper-bundles/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
         "disabled": false,
         "settings": {}
+      },
+      "12793297677437526120": {
+        "type": "shopify://apps/t-lab-ai-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
