@@ -3167,13 +3167,13 @@
         "digital_product_not_available_for_company_locations": "Cet article ne peut pas être ajouté à une commande B2B",
         "buyer_cannot_purchase_for_company_locations": "Vous ne pouvez pas acheter pour cet emplacement",
         "selling_plan_not_applicable": "Impossible d'appliquer le plan de vente à la variante",
-        "shipping_address_not_required": "Ce panier ne nécessite pas de livraison",
-        "shipping_address_invalid": "Il y a eu un problème lors du calcul de vos frais de livraison. Continuez vers la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
+        "shipping_address_not_required": "Ce panier ne nécessite pas d'expédition",
+        "shipping_address_invalid": "Un problème est survenu lors du calcul de vos frais de livraison. Continuez vers la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
         "bundle_requires_components": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_with_components_not_supported": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_price_must_be_greater_than_zero": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_recipient_validation_error": "Le destinataire de la carte cadeau spécifié est invalide",
-        "view_lines_limit_reached": "Les lignes doivent être inférieures à %{limit}",
+        "view_lines_limit_reached": "Les lignes doivent contenir moins de %{limit}",
         "cart_too_large": "Le panier est trop grand.",
         "cart_attributes_error": "Les attributs du panier contiennent des données invalides.",
         "merchandise_line_transformers": {
@@ -3186,8 +3186,8 @@
       "tags": {
         "add_articles": "Restreindre la recherche aux articles ayant également le tag %{tag}",
         "add_products": "Restreindre la sélection aux produits correspondant à l'étiquette %{tag}",
-        "remove_articles": "Élargir la recherche aux articles non étiquetés %{tag}",
-        "remove_products": "Supprimer l'étiquette %{tag}"
+        "remove_articles": "Élargir la recherche aux articles qui ne sont pas étiquetés %{tag}",
+        "remove_products": "Supprimer la balise %{tag}"
       }
     },
     "email_marketing": {
@@ -3205,13 +3205,13 @@
         "opt_in": {
           "opted_in_html": "<b>Vous avez choisi de suivre l'ouverture des e-mails.</b>",
           "visibility": "Les taux d'ouverture des e-mails seront rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre d'un taux d'ouverture agrégé.",
-          "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi d'ouverture des e-mails si vous ne souhaitez pas partager cette information.",
+          "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi des ouvertures d'e-mails si vous ne souhaitez pas partager cette information.",
           "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils accepteront le suivi d'ouverture des e-mails."
         },
         "opt_out": {
           "opted_out_html": "<b>Vous avez choisi de ne pas activer le suivi d'ouverture des e-mails.</b>",
           "visibility": "Nous ne saurons pas si vous avez ouvert nos e-mails.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Accepter</a> le suivi d'ouverture des e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Optez pour</a> le suivi des ouvertures d'e-mails.",
           "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils choisiront de ne pas activer le suivi d'ouverture des e-mails."
         },
         "no_longer_track": {
@@ -3225,7 +3225,7 @@
         "updated_policy": {
           "status_html": "<b>Le suivi d'ouverture des e-mails est signalé.</b>",
           "visibility": "Nous avons mis à jour notre politique et suivons désormais l'ouverture des e-mails. Les taux d'ouverture des e-mails seront rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre du taux total d'ouverture des e-mails.",
-          "opt_out_html": "Si vous ne souhaitez pas partager ces informations, vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désabonner.</a>"
+          "opt_out_html": "Si vous ne souhaitez pas partager cette information, vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire.</a>"
         }
       }
     },
@@ -3242,7 +3242,7 @@
       }
     },
     "search": {
-      "error": "Il y a eu un problème lors du chargement de vos résultats de recherche. Veuillez actualiser la page ou réessayer plus tard.",
+      "error": "Un problème est survenu lors du chargement de vos résultats de recherche. Veuillez actualiser la page ou réessayer plus tard.",
       "sorting": {
         "relevance": "Pertinence",
         "price_ascending": "Prix, du plus bas au plus élevé",
@@ -3257,22 +3257,22 @@
       "create_account": "Créer un compte",
       "reset_account": "Réinitialiser le compte",
       "addresses": "Adresses",
-      "order": "Commande %{name}",
+      "order": "Commander %{name}",
       "search": "Recherche",
       "search_results": {
-        "one": "Recherche : %{count} résultat trouvé pour « %{terms} »",
-        "other": "Recherche : %{count} résultats trouvés pour « %{terms} »"
+        "one": "Recherche : %{count} résultat trouvé pour \"%{terms}\"",
+        "other": "Recherche : %{count} résultats trouvés pour \"%{terms}\""
       },
       "collections": "Collections",
-      "not_found": "404 non trouvé",
+      "not_found": "404 Non Trouvé",
       "challenge": "Défi",
       "checkpoint": "Point de contrôle"
     },
     "cart": {
-      "discounts_with_count": "%{count} des remises ont été appliquées"
+      "discounts_with_count": "%{count} réductions ont été appliquées"
     },
     "challenge": {
-      "message": "Pour continuer, veuillez nous confirmer que vous n'êtes pas un robot.",
+      "message": "Pour continuer, veuillez nous indiquer que vous n'êtes pas un robot.",
       "error": "Votre réponse n'était pas correcte, veuillez réessayer.",
       "submit_button_text": "Soumettre"
     },
@@ -3283,13 +3283,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Habituellement prêt en 1 heure",
-        "two_hours": "Habituellement prêt en 2 heures",
+        "one_hour": "Généralement prêt en 1 heure",
+        "two_hours": "Généralement prêt en 2 heures",
         "four_hours": "Généralement prêt en 4 heures",
         "twenty_four_hours": "Généralement prêt en 24 heures",
-        "two_to_four_days": "Généralement prêt en 2 à 4 jours",
+        "two_to_four_days": "Généralement prêt en 2-4 jours",
         "five_or_more_days": "Généralement prêt en plus de 5 jours",
-        "zero_to_two_hours": "Habituellement prêt en 2 heures",
+        "zero_to_two_hours": "Généralement prêt en 2 heures",
         "two_to_four_hours": "Généralement prêt en 4 heures",
         "immediately": "Prêt à être récupéré maintenant",
         "next_day": "Prêt pour le retrait le lendemain"
@@ -3298,7 +3298,7 @@
     "subscriptions": {
       "buyer_consent_product": "Cet article est un achat récurrent ou différé. En continuant, j'accepte la %{cancellationPolicyLink} et vous autorise à débiter mon mode de paiement aux prix, fréquences et dates indiqués sur cette page jusqu'à ce que ma commande soit exécutée ou que j'annule, si cela est permis.",
       "buyer_consent_cart": "Un ou plusieurs articles dans votre panier sont des achats récurrents ou différés. En continuant, j'accepte la %{cancellationPolicyLink} et vous autorise à débiter ma méthode de paiement aux prix, fréquences et dates indiqués sur cette page jusqu'à ce que ma commande soit exécutée ou que j'annule, si cela est permis.",
-      "cancellation_policy": "politique d'annulation"
+      "cancellation_policy": "%{subscription_policy}"
     }
   },
   "customer_accounts": {
@@ -4493,10 +4493,10 @@
       "humanize": {
         "lessThanOneYearAgo": "{{date}} à {{time}}",
         "lessThanOneHourAgo": {
-          "one": "{{count}} il y a une minute",
-          "other": "{{count}} il y a quelques minutes"
+          "one": "il y a {{count}} minute",
+          "other": "il y a {{count}} minutes"
         },
-        "lessThanOneMinuteAgo": "Tout à l' heure",
+        "lessThanOneMinuteAgo": "À l'instant",
         "lessThanOneWeekAgo": "{{weekday}} à {{time}}",
         "yesterday": "Hier à {{time}}",
         "today": "Aujourd'hui à {{time}}",
