@@ -2811,7 +2811,7 @@
         "return_to_checkout": "Retour à la caisse",
         "redirect_hint": "Vous serez invité à vous connecter avec {{walletName}}.",
         "logged_in": "Connecté à {{email}}",
-        "shipping_line_label": "Expédition",
+        "shipping_line_label": "Livraison",
         "connect_shipping_methods": "{{method1}} et {{method2}}",
         "payment_in_progress_title": "Paiement en cours",
         "payment_in_progress_body": "Votre paiement est en cours de traitement. Votre commande sera bientôt terminée.",
@@ -2819,9 +2819,9 @@
         "redirection_notice": "Après avoir cliqué sur \"{{buttonLabel}}\", vous serez redirigé vers {{walletName}} pour finaliser votre achat en toute sécurité.",
         "errors": {
           "unavailable": {
-            "title": "{{walletName}} pas disponible",
+            "title": "{{walletName}} non disponible",
             "description": "{{walletName}} n'était pas disponible. Utilisez un autre mode de paiement ou réessayez plus tard.",
-            "instructions": "Il y a eu un problème avec {{walletName}}. Retournez au magasin pour réessayer ou choisissez une autre méthode de paiement.",
+            "instructions": "Il y a eu un problème avec {{walletName}}. Retournez au magasin pour réessayer ou choisissez un autre mode de paiement.",
             "unavailable_for_country": "{{walletName}} n'est pas disponible en {{countryName}}. Sélectionnez un autre mode de paiement pour compléter votre achat"
           },
           "unavailable_terminal": {
@@ -2834,7 +2834,7 @@
             "stock_problems": "Certains articles ne sont plus disponibles. Fermez {{walletName}} et réessayez.",
             "price_change": "Certains prix des articles ont changé. Fermez {{walletName}} pour revoir votre commande et réessayez.",
             "queue": "Vous avez été placé dans une file d'attente pour le paiement. Fermez {{walletName}} pour continuer.",
-            "currency_change": "Vous ne pouvez pas utiliser une adresse différente avec {{walletName}}. Utilisez l'adresse d'origine, ou essayez un autre mode de paiement."
+            "currency_change": "Vous ne pouvez pas utiliser une adresse différente avec {{walletName}}. Utilisez l'adresse originale, ou essayez un autre mode de paiement."
           },
           "unsupported": {
             "address": "Le commerçant ne peut pas livrer à cette adresse",
@@ -2849,7 +2849,7 @@
             "shipping_address": "Entrez une adresse de livraison valide",
             "billing_address": "Entrez une adresse de facturation valide",
             "shipping_option": "Choisissez une option de livraison valide",
-            "email": "Entrez une adresse e-mail valide",
+            "email": "Entrez un e-mail valide",
             "zone": "Entrez un état / une province valide",
             "billing_zone": "Entrez un état / une province de facturation valide",
             "emirate": "Entrez un émirat valide",
