@@ -3979,12 +3979,12 @@
       },
       "orders": {
         "draft_order_list": {
-          "hide_all": "Masquer tout",
-          "show_all": "Tout afficher",
+          "hide_all": "Tout cacher",
+          "show_all": "Afficher tout",
           "hide_all_accessibility_label": "Masquer toutes les commandes en cours de révision",
           "show_all_accessibility_label": "Afficher toutes les commandes en cours de révision",
           "show_all_orders_in_review": "Afficher toutes les commandes en cours de révision",
-          "show_less_orders_in_review": "Afficher moins de commandes en cours de révision",
+          "show_less_orders_in_review": "Afficher moins de commandes en cours d'examen",
           "title": "En attente",
           "pending_tab_accessibility_label": {
             "no_pending_orders": "Vous n'avez aucune commande en attente",
@@ -4000,12 +4000,12 @@
           }
         },
         "order_list_column_headers_location": "Emplacement",
-        "order_list_column_headers_contact": "Contact",
+        "order_list_column_headers_contact": "Contactez",
         "order_list_column_headers_status": "Statut",
         "removed_company_contact_tooltip": "Retiré de l'entreprise"
       },
       "draft_order_details": {
-        "draft_order_subtitle": "Confirmé {{date}} de la commande {{draftOrderName}}",
+        "draft_order_subtitle": "Confirmé le {{date}} de la commande {{draftOrderName}}",
         "loading": "Chargement des détails de la commande",
         "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
         "payment_status": {
@@ -4034,10 +4034,10 @@
           },
           "draft": {
             "description": "Les détails de paiement sont décidés lorsque la commande est confirmée.",
-            "title": "Paiement non encore dû",
+            "title": "Paiement pas encore dû",
             "in_review": {
               "description": "Les détails de paiement sont décidés lorsque la commande est confirmée.",
-              "title": "Paiement non encore dû"
+              "title": "Paiement pas encore dû"
             },
             "submitted": {
               "description": "Soumettez le paiement pour confirmer cette commande.",
@@ -4051,7 +4051,7 @@
               }
             },
             "deposit": {
-              "due_later": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera selon les conditions {{translatedName}}.",
+              "due_later": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera selon les conditions de {{translatedName}}.",
               "due_on_fulfillment": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera dû lorsque la commande sera exécutée.",
               "due_on_receipt": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera dû plus tard.",
               "due_on_date": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera dû le {{dueDate}}."
@@ -4075,7 +4075,7 @@
           },
           "pay_now": "Payer maintenant",
           "pay_now_accessibility_label": "Payer maintenant pour la commande {{orderName}}",
-          "title": "Statut de paiement"
+          "title": "Statut du paiement"
         },
         "order_timeline": {
           "expand_events_label": "Afficher les détails",
@@ -4083,33 +4083,33 @@
           "hide_events_label": "Masquer les détails",
           "hide_events_accessibility_label": "Masquer les détails de la commande provisoire"
         },
-        "subtitle": "Soumis {{date}}",
+        "subtitle": "Soumis le {{date}}",
         "title": "Commande {{name}}"
       },
       "payment_methods": {
         "payment_delete": {
           "description_without_replacement": "Cette méthode de paiement ne sera plus disponible pour les achats futurs à cet endroit.",
-          "description_with_replacement": "La suppression de ce mode de paiement affectera les paiements préautorisés pour ce lieu. Remplacez-le par un autre mode de paiement pour continuer à recevoir les commandes à venir."
+          "description_with_replacement": "La suppression de ce mode de paiement affectera les paiements préautorisés pour cet emplacement. Remplacez-le par un autre mode de paiement pour continuer à recevoir les commandes à venir."
         },
         "payment_details": {
           "order_label": "Commande {{name}}",
-          "draft_label": "Projet d'ordonnance {{name}}"
+          "draft_label": "Brouillon de commande {{name}}"
         }
       },
       "purchase_order_number": {
-        "add_accessibility_label": "Ajouter un numéro de bon de commande",
-        "add_modal_title": "Ajouter un numéro de bon de commande",
+        "add_accessibility_label": "Ajouter le numéro de bon de commande",
+        "add_modal_title": "Ajouter le numéro de bon de commande",
         "cancel": "Annuler",
-        "close_modal_accessibility_label": "Fermer la fenêtre modale du numéro de PO",
+        "close_modal_accessibility_label": "Fermer la fenêtre du numéro de bon de commande",
         "discard": "Jeter",
-        "discard_changes_modal_title": "Annuler les modifications ?",
-        "edit_accessibility_label": "Modifier le numéro de bon de commande",
-        "edit_modal_title": "Modifier le numéro de bon de commande",
-        "empty_state": "Pas de numéro de commande",
+        "discard_changes_modal_title": "Ignorer les modifications ?",
+        "edit_accessibility_label": "Modifier le numéro de PO",
+        "edit_modal_title": "Modifier le numéro de PO",
+        "empty_state": "Pas de numéro de bon de commande",
         "modal_po_number_input_label": "Numéro de bon de commande",
         "modal_po_number_input_max_length_error": "Les numéros de bon de commande ont un maximum de {{maxLength}} caractères.",
-        "save": "Sauvegarder",
-        "title": "Numéro de bon de commande{{poNumber}}"
+        "save": "Enregistrer",
+        "title": "Bon de commande #{{poNumber}}"
       }
     },
     "errors": {
@@ -4119,7 +4119,7 @@
         "title": "Erreur"
       },
       "address_deletion_error": {
-        "description": "Il y a eu un problème lors de la suppression de cette adresse. Essayez à nouveau ou actualisez la page."
+        "description": "Il y a eu un problème lors de la suppression de cette adresse. Essayez de nouveau ou actualisez la page."
       },
       "addresses_loading_issue": {
         "description": "Erreur de connexion. Vérifiez votre connexion internet et réessayez."
