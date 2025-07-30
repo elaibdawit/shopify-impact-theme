@@ -127,8 +127,8 @@
         "collapsible_text_8LkTXF": {
           "type": "collapsible_text",
           "settings": {
-            "title": "30-Day Money Back Guarantee",
-            "content": "<p>We want you to love your purchase! That’s why we offer a<strong>30-day hassle-free return policy.Eligibility:</strong>Items must be returned within 30 days of delivery in their original condition and packaging.<br/><br/><strong>Process:</strong>Simply contact our customer support team, and we’ll guide you through the easy return process.<br/><strong>Refunds:</strong>Once your return is received and inspected, we’ll process your refund to your original payment method.<br/><br/><em><strong>Your satisfaction is our priority!</strong></em></p>"
+            "title": "Garantie de remboursement de 30 jours",
+            "content": "<p>Nous voulons que vous soyez satisfait de votre achat ! C'est pourquoi nous proposons une politique de retour sans tracas de 30 jours. Conditions : Les articles doivent être retournés dans les 30 jours suivant la livraison, dans leur état et emballage d'origine. Procédure : Contactez simplement notre service client et nous vous guiderons tout au long de la procédure de retour. Remboursements : Une fois votre retour reçu et inspecté, nous procéderons au remboursement sur votre mode de paiement initial. Votre satisfaction est notre priorité !</p>"
           }
         }
       },
@@ -195,7 +195,7 @@
             "rating": 5,
             "author": "Tiana F.",
             "title": "",
-            "content": "<p>“I was honestly surprised by the quality—it exceeded my expectations. It’s rare to find something this good. Definitely worth it!”</p>"
+            "content": "<p>« J'ai été vraiment surpris par la qualité ; elle a dépassé mes attentes. C'est rare de trouver quelque chose d'aussi bon. Ça vaut vraiment le coup ! »</p>"
           }
         },
         "testimonial_PYLJP9": {
@@ -207,7 +207,7 @@
             "rating": 5,
             "author": "Gaby R.",
             "title": "",
-            "content": "<p>“Shipping was super fast and the product was exactly as described. I’ve already recommended it to a few friends. Love it!”</p>"
+            "content": "<p>La livraison a été super rapide et le produit était exactement comme décrit. Je l'ai déjà recommandé à quelques amis. J'adore !</p>"
           }
         },
         "testimonial_rjgg3e": {
@@ -219,7 +219,7 @@
             "rating": 5,
             "author": "Emily D.",
             "title": "",
-            "content": "<p>\"Honestly, I didn’t expect the quality to be this good. Super comfortable, stylish, and it arrived earlier than I thought. I’ll definitely be buying more!\"</p>"
+            "content": "<p>Honnêtement, je ne m'attendais pas à une telle qualité. Super confortable, stylé, et il est arrivé plus tôt que prévu. J'en achèterai certainement d'autres !</p>"
           }
         },
         "testimonial_bkcY8W": {
@@ -231,7 +231,7 @@
             "rating": 5,
             "author": "Sophia M.",
             "title": "",
-            "content": "<p>\"So glad I found this store. Everything I’ve ordered so far has looked just like the photos and feels amazing. Love the attention to detail!\"</p>"
+            "content": "<p>« Je suis ravie d'avoir trouvé cette boutique. Tout ce que j'ai commandé jusqu'à présent est exactement comme sur les photos et est vraiment parfait. J'adore le souci du détail ! »</p>"
           }
         },
         "testimonial_gDmNmM": {
@@ -243,7 +243,7 @@
             "rating": 5,
             "author": "Chloe S.",
             "title": "",
-            "content": "<p>\"Such a clean and modern look — I’ve gotten so many compliments. Definitely feels like a premium brand without the crazy price tag.\"</p>"
+            "content": "<p>« Un look épuré et moderne ! J'ai reçu tellement de compliments. On a vraiment l'impression d'être dans une marque haut de gamme, sans le prix exorbitant. »</p>"
           }
         }
       },
@@ -260,7 +260,7 @@
         "full_width": true,
         "stack_testimonials": false,
         "subheading": "",
-        "title": "Honest Reviews About Our Products!",
+        "title": "Avis honnêtes sur nos produits !",
         "content": "",
         "link_url": "",
         "link_text": "",
