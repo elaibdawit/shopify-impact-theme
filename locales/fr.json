@@ -93,7 +93,7 @@
       "view_in_space": "Vue dans votre espace",
       "taxes_included": "Taxes incluses.",
       "taxes_excluded": "Hors taxes.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais de livraison calculés</a> à la caisse",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Expédition calculée</a> au moment du paiement",
       "size_chart": "Tableau des tailles",
       "available_colors_count": {
         "one": "{{ count }} couleur disponible",
@@ -107,8 +107,8 @@
     },
     "price": {
       "regular_price": "Prix régulier",
-      "sale_price": "Prix de vente",
-      "from_price_html": "Depuis {{ price_min }}"
+      "sale_price": "Prix Solde",
+      "from_price_html": "À partir de {{ price_min }}"
     },
     "quantity": {
       "label": "Quantité",
@@ -116,16 +116,16 @@
       "decrease_quantity": "Diminuer la quantité"
     },
     "rating_count": {
-      "zero": "Aucun avis",
-      "one": "{{ count }} revoir",
+      "zero": "Pas d'avis",
+      "one": "{{ count }} avis",
       "other": "{{ count }} avis"
     },
     "inventory": {
       "in_stock": "En stock",
       "oversell_stock": "Réapprovisionnement bientôt",
-      "incoming_stock": "Réapprovisionnement sur {{ next_incoming_date }}",
+      "incoming_stock": "Réapprovisionnement le {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
-        "one": "Il ne reste plus qu'une seule unité {{count}}",
+        "one": "Il ne reste plus que {{count}} unité",
         "other": "Il ne reste que {{count}} unités"
       }
     },
@@ -153,23 +153,23 @@
     "faceting": {
       "filters": "Filtres",
       "filter_and_sort": "Filtrer et trier",
-      "filter_button": "Filtre",
+      "filter_button": "Filtrer",
       "clear_filters": "Tout effacer",
       "apply_filters": "Appliquer",
       "sort_by": "Trier par",
-      "remove_filter": "Supprimer le filtre \"{{ name }}\"",
+      "remove_filter": "Supprimer le filtre « {{ name }} »",
       "no_results": "Aucun produit ne correspond à ces filtres.",
       "price_range_to": "à",
       "price_filter_from": "À partir du prix",
-      "price_filter_to": "Évaluer le prix",
+      "price_filter_to": "À prix",
       "price_filter": "{{ min_price }} - {{ max_price }}",
-      "availability_label": "En stock seulement"
+      "availability_label": "En stock uniquement"
     }
   },
   "blog": {
     "general": {
       "empty_blog": "Ce blog est vide",
-      "back_to_home": "Retour à la maison",
+      "back_to_home": "Retour à l'accueil",
       "view": "Voir",
       "all_posts": "Tous les articles"
     },
@@ -4207,14 +4207,14 @@
       "apple_pay": {
         "loading": "Chargement d'Apple Pay",
         "errors": {
-          "generic": "Il y a eu un problème avec Apple Pay. Essayez de nouveau ou utilisez un autre mode de paiement.",
+          "generic": "Il y a eu un problème avec Apple Pay. Essayez à nouveau ou utilisez un autre mode de paiement.",
           "not_available": "Apple Pay n'est pas disponible sur cet appareil.",
           "missing_billing_address": "Apple Pay nécessite une adresse de facturation. Veuillez en ajouter une à votre compte."
         }
       },
       "store_credit": {
         "label": "Crédit en magasin",
-        "accesibility_label": "Crédit en magasin - {{formattedBalance}}",
+        "accesibility_label": "Crédit magasin - {{formattedBalance}}",
         "expirable_amounts_button": "Voir les montants expirables",
         "expirable_amounts_label": "Montants expirables",
         "details_modal": {
@@ -4225,17 +4225,17 @@
           "date_label": "Date",
           "event_label": "Événement",
           "events": {
-            "adjustment": "Réglage",
+            "adjustment": "Ajustement",
             "order_payment": "Paiement de la commande",
-            "order_refund": "Remboursement de commande",
-            "payment_failure": "Échec du paiement",
+            "order_refund": "Remboursement de la commande",
+            "payment_failure": "Échec de paiement",
             "payment_returned": "Paiement retourné",
             "order_cancellation": "Annulation de commande",
             "tax_finalization": "Finalisation fiscale"
           },
           "expirable_balance_info": "Une partie de votre solde expirera à une date ultérieure",
-          "expirable_amount_label": "Montant total expirant",
-          "expirable_amounts_info": "Les montants expirant plus tôt sont appliqués en premier lors du paiement",
+          "expirable_amount_label": "Montant total expiré",
+          "expirable_amounts_info": "Les montants expirant plus tôt sont appliqués en premier lors du passage à la caisse",
           "expirable_amounts_button": "Voir",
           "expired_amounts_button": "Voir les montants expirés",
           "pagination": {
@@ -4260,10 +4260,10 @@
         "pre_authorized_payments": "Paiements préautorisés",
         "total_amount_of_subscription_line_items_left": "et {{total}} de plus",
         "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} articles au total, affichage de {{totalItemsToDisplay}} articles.",
-        "next_payment_due": "Prochain paiement dû le {{dueDateInMonthDayYear}}",
+        "next_payment_due": "Prochain paiement dû {{dueDateInMonthDayYear}}",
         "edit_payment_method_button": "Modifier",
         "edit_payment_method_button_accessibility_label": "Modifier le mode de paiement se terminant par {{lastDigits}}",
-        "loading_shop_pay": "Chargement de Shop Pay",
+        "loading_shop_pay": "Chargement de la boutique Pay",
         "invalid_payment_method": "Méthode de paiement invalide",
         "invalid_payment_method_message": "Utilisez une nouvelle carte de crédit pour continuer à recevoir les commandes à venir.",
         "replace_payment_method": "Remplacer le mode de paiement",
@@ -4398,14 +4398,14 @@
       "decrease": "Diminuer {{type}}",
       "minimumReached": "Minimum de {{value}} atteint",
       "maximumReached": "Maximum de {{value}} atteint",
-      "january": "janvier",
+      "january": "Janvier",
       "february": "Février",
-      "march": "mars",
+      "march": "Mars",
       "april": "Avril",
-      "may": "Mai",
-      "june": "juin",
-      "july": "juillet",
-      "august": "août",
+      "may": "Peut",
+      "june": "Juin",
+      "july": "Juillet",
+      "august": "Août",
       "september": "Septembre",
       "october": "Octobre",
       "november": "Novembre",
@@ -4417,44 +4417,44 @@
       "friday": "Vendredi",
       "saturday": "Samedi",
       "sunday": "Dimanche",
-      "mondayAbbreviation": "Mo",
-      "tuesdayAbbreviation": "Toi",
+      "mondayAbbreviation": "Moi",
+      "tuesdayAbbreviation": "Tu",
       "wednesdayAbbreviation": "Nous",
-      "thursdayAbbreviation": "a",
-      "fridayAbbreviation": "Bonjour, comment puis-je vous aider aujourd'hui ?",
+      "thursdayAbbreviation": "Ème",
+      "fridayAbbreviation": "Fr",
       "saturdayAbbreviation": "Sa",
       "sundayAbbreviation": "Su",
       "showNextMonth": "Afficher le mois prochain, {{month}} {{year}}",
       "showPreviousMonth": "Afficher le mois précédent, {{month}} {{year}}",
       "rangeStart": "Début de la plage",
       "inRange": "À portée",
-      "rangeEnd": "Fin de la plage",
+      "rangeEnd": "Fin de gamme",
       "autocompleteOptionsAvailable": {
         "one": "{{count}} article disponible",
         "other": "{{count}} articles disponibles"
       },
-      "removeItem": "Supprimer {{label}}",
-      "removeTag": "Supprimer la balise",
+      "removeItem": "Retirer {{label}}",
+      "removeTag": "Supprimer l'étiquette",
       "month": {
         "one": "mois",
         "other": "mois"
       },
       "mapClusterTitle": {
-        "one": "Groupe de {{number}} marqueur",
+        "one": "Groupe de {{number}} marqueurs",
         "other": "Groupe de {{number}} marqueurs"
       },
       "expandSheet": "Développer",
-      "qrCode": "Code QR",
+      "qrCode": "code QR",
       "addFile": "Ajouter un fichier",
       "dropzoneInvalidFileType": "Type de fichier non pris en charge",
-      "dropzoneDraggedOver": "Déposez le fichier pour le télécharger"
+      "dropzoneDraggedOver": "Déposez le fichier à télécharger"
     },
     "profile_preview_bar": {
       "customize_button": "Personnaliser",
-      "hide_bar": "Cacher la barre",
-      "navigate_to_admin": "Naviguer vers admin",
+      "hide_bar": "Masquer la barre",
+      "navigate_to_admin": "Accéder à l'administration",
       "close_preview": "Fermer l'aperçu",
-      "previewing": "Vous prévisualisez :",
+      "previewing": "Vous prévisualisez :",
       "saved_at": "Enregistré le {{date}} à {{time}}",
       "viewing": "Vous regardez :",
       "not_available": "Données de profil non disponibles",
