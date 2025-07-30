@@ -2608,7 +2608,7 @@
           }
         },
         "title": "File d'attente",
-        "time_to_checkout_title": "Il est temps de vérifier - {{shopName}}",
+        "time_to_checkout_title": "Heure de régler la note - {{shopName}}",
         "estimated_wait_time": {
           "calculating": "Calcul du temps d'attente estimé",
           "less_than_one": "Temps d'attente estimé : moins d'une minute",
@@ -2618,7 +2618,7 @@
         "last_checked": "(Dernière vérification : {{time}})",
         "footer": {
           "heading": "Ne rafraîchissez pas cette page, elle se mettra à jour automatiquement.",
-          "body": "Les articles dans votre panier ne sont pas réservés tant que vous n'avez pas terminé le paiement."
+          "body": "Les articles dans votre panier ne sont pas réservés tant que vous n'avez pas finalisé votre commande."
         }
       },
       "cart_checkout_validation": {
@@ -2628,7 +2628,7 @@
         "title": "Emplacement sans adresse",
         "header": "Vous n'avez pas d'adresse de livraison pour cet emplacement",
         "alt_header": "Adresse de livraison manquante",
-        "message": "Contactez-nous pour ajouter une adresse pour cet emplacement afin de finaliser le paiement.",
+        "message": "Contactez-nous pour ajouter une adresse pour cet emplacement afin de compléter le paiement.",
         "email_us_button_label": "Envoyez-nous un e-mail"
       },
       "order_errors": {
@@ -2645,7 +2645,7 @@
       },
       "pickup_point": {
         "location_is_currently_closed": "Fermé",
-        "business_hours": "Horaires d'ouverture",
+        "business_hours": "Heures d'ouverture",
         "no_business_hours": "Aucun horaire d'ouverture disponible",
         "open_twenty_four_hours": "Ouvert 24h/24 et 7j/7",
         "title": "Point de retrait",
@@ -2655,7 +2655,7 @@
         "selector_tabs": "Sélecteur de point de retrait",
         "selector_tab_map": "Carte",
         "selector_tab_list": "Liste",
-        "could_not_resolve_address": "Votre adresse n'a pas pu être localisée. Essayez de nouveau ou utilisez une adresse différente",
+        "could_not_resolve_address": "Votre adresse n'a pas pu être localisée. Essayez de nouveau ou utilisez une autre adresse",
         "no_pickup_points_near_you": "Aucun point de retrait trouvé près de l'adresse sélectionnée",
         "no_pickup_points_near_location": "Aucun point de retrait trouvé près de votre emplacement",
         "pickup_unavailable_banner_title": {
@@ -2667,46 +2667,46 @@
           "next_accessibility_label": "Page suivante",
           "previous_accessibility_label": "Page précédente",
           "header": {
-            "one": "Affichage de %{first} - %{last} sur %{count} point",
-            "other": "Affichage de %{first} - %{last} sur %{count} points"
+            "one": "Affichage de %{first} à %{last} sur %{count} point",
+            "other": "Affichage de %{first} à %{last} sur %{count} points"
           },
           "selected_pickup_point_label": {
-            "one": "%{pickup_point_index} sur %{count} point",
+            "one": "%{pickup_point_index} de %{count} point",
             "other": "%{pickup_point_index} sur %{count} points"
           },
           "selected_page": {
-            "one": "%{first} - %{last} sur %{count} point",
+            "one": "%{first} - %{last} de %{count} point",
             "other": "%{first} - %{last} sur %{count} points"
           }
         },
         "number_of_pickup_points_near_location": {
-          "one": "%{count} point de retrait près de votre emplacement",
-          "other": "%{count} points de retrait près de votre emplacement"
+          "one": "%{count} point de collecte près de votre emplacement",
+          "other": "%{count} points de collecte près de votre emplacement"
         },
-        "change": "Changer de lieu",
-        "waiting_on_pickup_point_location_notice": "Recherche des points de retrait...",
+        "change": "Changer d'emplacement",
+        "waiting_on_pickup_point_location_notice": "Recherche de points de retrait...",
         "geolocation": {
           "shared_location_button": "Utiliser ma position",
           "errors": {
-            "unsuported_by_browser": "La géolocalisation n'est pas prise en charge par votre navigateur. Essayez à nouveau ou utilisez un autre navigateur.",
+            "unsuported_by_browser": "L'obtention de la géolocalisation n'est pas prise en charge par votre navigateur. Essayez à nouveau ou utilisez un navigateur différent.",
             "permission_not_allowed": "Autoriser le partage de votre position.",
-            "permission_denied": "Impossible d'obtenir votre position. Veuillez réessayer."
+            "permission_denied": "Impossible d'obtenir votre position. Réessayez."
           }
         }
       },
       "error_page": {
         "terminal": {
-          "title": "Il y a eu un problème avec notre paiement",
+          "title": "Il y a eu un problème avec notre passage en caisse",
           "message": "Actualisez cette page ou réessayez dans quelques minutes",
           "action": {
             "cta": "Actualiser la page"
           },
-          "request_id": "ID de la demande : {{requestId}}"
+          "request_id": "ID de la demande : {{requestId}}"
         }
       },
       "notice_banner": {
         "return_to_cart_link_text": "Retour au panier",
-        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} mettre à jour les quantités",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} pour mettre à jour les quantités",
         "subscription_changed": "Un de vos abonnements a changé.",
         "company_location_changed": "Votre panier a été mis à jour. Vérifiez votre commande avant de la soumettre.",
         "company_location_changed_product_removed": "Votre panier a été mis à jour car certains produits ne sont pas disponibles à cet endroit. Veuillez vérifier votre commande avant de la soumettre.",
@@ -2717,17 +2717,23 @@
           "OtherViolations": "Informations sur la commande",
           "UnhandledViolations": "Informations sur la commande"
         },
-        "all_violations_content": "Appelez-nous ou {{emailLink}} pour mettre à jour ces informations et finaliser votre commande :",
-        "all_violations_email_link": "e-mail",
+        "all_violations_content": "Appelez-nous ou {{emailLink}} pour mettre à jour ces informations et compléter votre commande :",
+        "all_violations_email_link": "email",
         "editable_shipping_address_violations_message_title": "Ajoutez ces informations pour compléter votre commande :",
         "editable_shipping_address_violations_message_footer": "Pour mettre à jour définitivement l'adresse de cet emplacement, {{emailLink}}.",
-        "editable_shipping_address_violations_email_link": "Contactez-nous",
+        "editable_shipping_address_violations_email_link": "contactez-nous",
         "shipping_address_incomplete_title": "L'adresse de livraison est incomplète",
         "calculating_shipping": "La livraison est toujours en cours de calcul. Réessayez dans quelques secondes. Vous n'avez pas été facturé.",
-        "calculating_taxes": "Les taxes sont toujours en cours de calcul. Réessayez dans quelques secondes. Vous n'avez pas été facturé.",
+        "calculating_taxes": "Les taxes sont encore en cours de calcul. Réessayez dans quelques secondes. Vous n'avez pas été facturé.",
         "generic_processing_error": {
           "title": "Il y a eu un problème lors du traitement de votre commande",
-          "body": "Vous n'avez pas été facturé. Essayez à nouveau ou utilisez un autre mode de paiement."
+          "body": "Vous n'avez pas été facturé. Essayez de nouveau ou utilisez un autre mode de paiement."
+        },
+        "payment_method_not_available_with_payment_terms": "La méthode de paiement que vous avez sélectionnée n'est plus disponible car le paiement de cette commande est désormais soumis aux conditions {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "La méthode de paiement que vous avez sélectionnée n'est plus disponible car le paiement de cette commande est désormais dû à la réalisation.",
+        "payment_method_not_available_with_fixed_terms": "La méthode de paiement que vous avez sélectionnée n'est plus disponible car le paiement de cette commande est dû ultérieurement",
+        "contact_information": {
+          "title": "Les informations de contact sont invalides"
         }
       },
       "marketplaces": {
@@ -2927,6 +2933,13 @@
       "editor": {
         "navigation": {
           "store_logo_accessibility_label": "Naviguer vers la boutique en ligne"
+        }
+      },
+      "review_address_modal": {
+        "title": "Vérifier l'adresse",
+        "subtitle": {
+          "one": "Cette commande sera expédiée à l'adresse fournie par {{merchant}}.",
+          "other": "Cette commande sera expédiée à une adresse fournie par {{merchant}}. Sélectionnez une adresse de livraison."
         }
       }
     },
