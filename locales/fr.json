@@ -981,8 +981,8 @@
         "missing_country_fallback": "votre pays",
         "indeterminate_location_fallback": "votre emplacement",
         "cart_updated": "Votre panier a été mis à jour.",
-        "change_address_only": "Modifier l'adresse de livraison pour continuer.",
-        "change_address_or_remove": "Changer l'adresse de livraison ou %{remove_action}.",
+        "change_address_only": "Changez l'adresse de livraison pour continuer.",
+        "change_address_or_remove": "Modifier l'adresse de livraison ou %{remove_action}.",
         "remove_items_action": {
           "one": "supprimer l'article indisponible",
           "other": "supprimer les articles indisponibles"
@@ -1005,7 +1005,7 @@
       },
       "order_summary": {
         "title": "Résumé de la commande",
-        "group_title_label": "Une partie de \"%{group_title}\"",
+        "group_title_label": "Fait partie de \"%{group_title}\"",
         "number_items": {
           "one": "%{count} article",
           "other": "%{count} articles"
@@ -1020,16 +1020,16 @@
           "empty_results": "Aucun résultat trouvé pour \"%{searchText}\". Vérifiez l'orthographe ou utilisez un mot ou une expression différente.",
           "number_items_shown": "%{shownNumber} sur %{totalNumber} articles"
         },
-        "order_name_label": "Commande %{name}",
+        "order_name_label": "Commander %{name}",
         "shopping_cart_label": "Panier",
-        "discount_title": "Rabais",
+        "discount_title": "Remise",
         "discount_title_stacking": {
-          "one": "Rabais",
+          "one": "Remise",
           "other": "Réductions"
         },
         "discount_order_stacking": {
-          "one": "Remise sur commande",
-          "other": "Remises sur les commandes"
+          "one": "Remise sur la commande",
+          "other": "Remises sur la commande"
         },
         "discount_label": "Code de réduction",
         "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
@@ -1037,38 +1037,38 @@
         "discount_code_applied": "Code de réduction appliqué",
         "gift_card_applied": "Carte cadeau appliquée",
         "enter_shipping_address": "Saisir l'adresse de livraison",
-        "gift_card_title": "Carte cadeau",
-        "gift_card_label": "Carte cadeau",
-        "gift_card_placeholder": "Carte cadeau",
+        "gift_card_title": "Carte-cadeau",
+        "gift_card_label": "Carte-cadeau",
+        "gift_card_placeholder": "Carte-cadeau",
         "gift_card_and_discount_title": "Code de réduction ou carte cadeau",
         "gift_card_and_discount_label": "Code de réduction ou carte cadeau",
         "gift_card_and_discount_placeholder": "Code de réduction ou carte cadeau",
-        "remove_gift_card_label": "Carte cadeau transparente",
+        "remove_gift_card_label": "Effacer la carte cadeau",
         "remove_discount_label": "Supprimer la remise",
         "return_restocking_fee_label": "Frais de réapprovisionnement",
-        "return_shipping_fee_label": "Expédition de retour",
+        "return_shipping_fee_label": "Retour d'expédition",
         "free_shipping_discount_label": "Livraison gratuite",
         "applied_free_shipping_discount_label": "Appliqué",
         "apply_discount_button_label": "Appliquer",
-        "applied_discount_message": "%{amount} réduction sur le prix total de la commande",
+        "applied_discount_message": "%{amount} de réduction sur le prix total de la commande",
         "discount_has_been_applied": "La remise a été appliquée",
         "discount_has_been_removed": "La remise a été supprimée",
         "gift_card_has_been_applied": "La carte cadeau a été appliquée",
         "gift_card_has_been_removed": "La carte cadeau a été supprimée",
         "gift_card_subscriptions_notice": "Les cartes-cadeaux ne s'appliqueront qu'à votre premier paiement",
         "discount_already_applied": "Une remise a été appliquée à cette commande. Vous ne pouvez pas ajouter une autre remise.",
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> le code de réduction n'est pas valide pour les articles dans votre panier",
-        "discount_requires_customer_notice": "Entrez vos informations de livraison pour appliquer le <strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction",
-        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> le code de réduction n'est pas disponible pour vous en ce moment",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n'est pas valide pour les articles dans votre panier",
+        "discount_requires_customer_notice": "Entrez vos informations de livraison pour appliquer le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n'est pas disponible pour vous en ce moment",
         "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction nécessite un client éligible",
-        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> le code de réduction n'est pas disponible pour votre adresse de livraison",
-        "customer_already_used_once_per_customer_discount_notice": "Le <strong style=\"text-transform:uppercase\">%{code}</strong> le code de réduction a déjà été utilisé",
-        "subtotal_label": "Total",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n'est pas disponible pour votre adresse de livraison",
+        "customer_already_used_once_per_customer_discount_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a déjà été utilisé",
+        "subtotal_label": "Sous-total",
         "subtotal_label_with_quantity": {
           "one": "Sous-total · %{count} article",
           "other": "Sous-total · %{count} articles"
         },
-        "shipping_label": "Expédition",
+        "shipping_label": "Livraison",
         "pickup_label": "Retrait en magasin",
         "no_pickup_location": "Il n'y a aucun point de retrait disponible.",
         "pickup_unavailable_banner_title": {
@@ -1076,8 +1076,8 @@
           "other": "Aucun magasin disponible avec vos articles"
         },
         "pickup_unavailable_banner_body": {
-          "ship_to_address": "Adresse de livraison",
-          "ship_to_address_instead_html": "%{link} plutôt"
+          "ship_to_address": "Expédier à l'adresse",
+          "ship_to_address_instead_html": "%{link} à la place"
         },
         "tip_label": "Conseil",
         "calculating_shipping": "Calculateur…",
@@ -1209,7 +1209,7 @@
           }
         },
         "alternative_payment_currency_total": "Accusé comme %{amount_due}",
-        "discount_code_allocations_mismatch": "Ton <strong style=\"text-transform:uppercase\">%{code}</strong> le code de réduction a changé. Vérifiez votre panier et réessayez."
+        "discount_code_allocations_mismatch": "Votre code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a changé. Vérifiez votre panier et réessayez."
       },
       "shipping": {
         "title": "Expédition",
