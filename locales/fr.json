@@ -3651,48 +3651,48 @@
       "order_details_skeleton_accessibility_label": "Connectez-vous pour voir tous les détails de la commande.",
       "billing_address": "Adresse de facturation",
       "card_ending_with": "se terminant par {{lastDigits}}",
-      "contact": "Contact",
-      "contact_information": "Coordonnées",
-      "company": "Entreprise",
+      "contact": "Contactez",
+      "contact_information": "Informations de contact",
+      "company": "Société",
       "fully_refunded_label": "REMBOURSÉ",
-      "group_title_label": "Une partie de: {{groupTitle}}",
+      "group_title_label": "Fait partie de : {{groupTitle}}",
       "grouped_view_components": {
-        "expand_line_items": "Afficher {{count}} articles",
+        "expand_line_items": "Afficher {{count}} éléments",
         "collapse_line_items": "Masquer {{count}} éléments",
         "line_item_summary": "{{refundableQuantity}} x {{productTitle}}",
-        "line_item_summary_accessibility_label": "{{productTitle}}, Quantité: {{refundableQuantity}}",
-        "line_item_summary_list_accessibility_label": "Articles dans le pack {{productTitle}}"
+        "line_item_summary_accessibility_label": "{{productTitle}}, Quantité : {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Articles dans le lot {{productTitle}}"
       },
-      "discount": "Rabais",
+      "discount": "Remise",
       "hide_items": "Masquer les éléments",
       "loading": "Chargement des détails de la commande",
       "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
       "location": "Emplacement",
       "image_gallery": {
-        "product_name_and_quantity": "{{productName}} quantité {{quantity}}",
+        "product_name_and_quantity": "quantité de {{productName}} {{quantity}}",
         "next": "Afficher les éléments suivants",
         "previous": "Afficher les éléments précédents",
         "load_more_items": {
           "one": "Charger {{count}} articles de plus",
-          "other": "Charger {{count}} éléments de plus"
+          "other": "Charger {{count}} articles de plus"
         }
       },
       "mobile_summary_toggle_button": {
         "open": "Afficher le résumé de la commande",
         "closed": "Masquer le résumé de la commande"
       },
-      "no_data": "Aucun",
+      "no_data": "None",
       "no_data_provided_accessibility_label": "{{fieldName}} est vide",
-      "not_applicable": "N / A",
+      "not_applicable": "N/A",
       "paid_amount": "Payé",
-      "partially_refunded_label": "PARTIELLEMENT REMBOURSÉ",
+      "partially_refunded_label": "REMBOURSÉ PARTIELLEMENT",
       "payment": {
         "status_in_review": "Paiement dû après examen",
         "status_unpaid": "Paiement dû le {{date}}",
         "title": "Paiement",
         "card_payment_short_details": "{{paymentTypeLabel}} •••• {{lastDigits}}",
         "payment_type": {
-          "gift_card": "Carte cadeau",
+          "gift_card": "Carte-cadeau",
           "store_credit": "Crédit en magasin",
           "money_order": "Mandat postal",
           "cash_on_delivery": "Paiement à la livraison (COD)",
@@ -3701,10 +3701,10 @@
         },
         "card_payment_details": "se terminant par {{lastDigits}} - {{formattedTransactionAmount}}",
         "gift_card_payment_details": "se terminant par {{lastDigits}} - {{formattedTransactionAmount}}",
-        "store_credit_payment_details": "Crédit magasin - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Crédit en magasin - {{formattedTransactionAmount}}",
         "shop_pay_installments": {
           "paid_in_installments": "Payé avec des versements Shop Pay",
-          "view_schedule": "Voir le calendrier"
+          "view_schedule": "Voir le planning"
         },
         "manual_payment_methods": {
           "money_order": "Mandat postal - {{formattedTransactionAmount}}",
@@ -3713,15 +3713,15 @@
           "manual": "Manuel - {{formattedTransactionAmount}}"
         },
         "transactions": {
-          "show_all": "Tout afficher",
+          "show_all": "Afficher tout",
           "show_less": "Afficher moins",
           "details": "Détails",
-          "payment_details": "Détails de paiement"
+          "payment_details": "Détails du paiement"
         },
         "emv_details": {
-          "auth": "AUTH:",
-          "aid": "AIDE:",
-          "source": "SOURCE:"
+          "auth": "AUTH :",
+          "aid": "AIDE :",
+          "source": "SOURCE :"
         }
       },
       "paid_with_shop_pay_installments_card": {
@@ -3734,7 +3734,7 @@
         }
       },
       "refunded_amount": "Remboursé",
-      "request_return_failed": "Un problème est survenu lors du traitement de votre demande. Veuillez réessayer.",
+      "request_return_failed": "Il y a eu un problème lors du traitement de votre demande. Veuillez réessayer.",
       "login_card": {
         "login_or_resend_link": "{{loginAction}} ou {{resendLinkAction}}",
         "log_in": "Se connecter",
@@ -3746,7 +3746,7 @@
         "resend_link": "Envoyer un nouveau lien"
       },
       "remaining_amount": "Restant",
-      "marketing_section_title": "Actualités et offres",
+      "marketing_section_title": "Nouvelles et offres",
       "marketing_description": "Vous recevrez des e-mails marketing. Vous pouvez vous désabonner à tout moment.",
       "marketing_checkbox_label": "Envoyez-moi des e-mails avec des nouvelles et des offres",
       "marketing_checkmark_label": "Vous êtes abonné pour recevoir des actualités et des offres par e-mail",
@@ -3757,29 +3757,31 @@
         "ineligible_return_message_when_returned": "Aucun article supplémentaire dans cette commande n'est éligible au retour.",
         "print_shipping_label": "Imprimer l'étiquette d'expédition",
         "return_and_refund_modal_header": "Politique de remboursement",
-        "tracking_number": "Numéro de suivi :"
+        "tracking_number": "Numéro de suivi :",
+        "exchange_header": "Échanger des articles",
+        "exchange_subheader": "Les articles d'échange seront ajoutés à la commande une fois le retour terminé."
       },
       "shipping": {
         "address": "Adresse de livraison",
         "address_map_marker": "Adresse de livraison",
         "method": "Méthode d'expédition",
-        "summary": "Expédition",
+        "summary": "Livraison",
         "free": "Gratuit",
         "free_shipping_discount": "Livraison gratuite",
         "one_time": "Expédition unique",
         "subscription": "Expédition par abonnement"
       },
       "pickup": {
-        "pickup": "Ramasser",
-        "pickup_location": "Lieu de prise en charge",
+        "pickup": "Retrait",
+        "pickup_location": "Lieu de retrait",
         "pickup_point": "Point de retrait"
       },
-      "show_items": "Afficher les éléments",
+      "show_items": "Afficher les articles",
       "show_order_summary": "Afficher le résumé de la commande",
       "hide_order_summary": "Masquer le résumé de la commande",
       "subtitle": "Confirmé {{date}}",
-      "subtotal": "Total",
-      "summary_list_title_accessibility_label": "Commander des articles",
+      "subtotal": "Sous-total",
+      "summary_list_title_accessibility_label": "Articles de commande",
       "summary_title": "Résumé de la commande",
       "summary_totals_title_accessibility_label": "Totaux de commande",
       "shop_order_tracking": {
