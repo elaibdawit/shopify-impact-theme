@@ -1896,28 +1896,28 @@
         "gift_card_depleted": "Cette carte cadeau n'a plus de fonds",
         "gift_card_currency_mismatch": "Seules les cartes-cadeaux en %{checkout_currency} peuvent être utilisées avec cette commande",
         "gift_cards_not_supported_with_deferred_purchase_options": "Les cartes-cadeaux ne sont pas prises en charge avec les options d'achat différé.",
-        "gift_card_buying_gift_card": "Vous ne pouvez pas utiliser une carte cadeau pour en acheter une autre.",
+        "gift_card_buying_gift_card": "Vous ne pouvez pas utiliser une carte cadeau pour en acheter une autre",
         "payment_gateway_missing": "Choisissez un mode de paiement.",
         "payment_gateway_needs_paid_plan_error": "Cette méthode de paiement n'est pas disponible dans la boutique pour le moment",
         "payment_gateway_not_in_test_mode": "n'est pas configuré pour tester les commandes. Ce magasin ne peut pas accepter de vraies commandes ni de vrais paiements.",
-        "payment_gateway_incompatible_with_multi_currency": "Pour finaliser ce paiement dans votre devise locale, vous devez payer par carte de crédit.",
+        "payment_gateway_incompatible_with_multi_currency": "Pour compléter ce paiement dans votre devise locale, vous devez payer par carte de crédit.",
         "payment_gateway_unsupported_for_subscriptions": "Cette méthode de paiement n'est pas disponible pour les commandes d'abonnement.",
         "payment_gateway_unsupported_for_deferred_purchase_options": "Cette méthode de paiement n'est pas disponible pour les options d'achat différé.",
         "payment_gateway_unsupported_for_country": "Cette méthode de paiement n'est pas disponible pour votre pays de livraison.",
-        "payment_gateway_unsupported_for_development_store_html": "Pour passer une commande de test, vous devrez utiliser une passerelle de paiement de test. En savoir plus sur <a href=\"%{docs_link}\">les tests de commandes dans les boutiques en développement</a>.",
-        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Vous avez atteint la limite des commandes de boutique de développement avec ce processeur de paiement. Pour passer une autre commande, vous devrez utiliser une passerelle de paiement de test. En savoir plus sur <a href=\"%{docs_link}\">les tests de commandes dans les boutiques de développement</a>.",
+        "payment_gateway_unsupported_for_development_store_html": "Pour passer une commande de test, vous devrez utiliser une passerelle de paiement de test. En savoir plus sur <a href=\"%{docs_link}\">les commandes de test dans les magasins de développement</a>.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Vous avez atteint la limite des commandes de magasin de développement avec ce processeur de paiement. Pour passer une autre commande, vous devrez utiliser une passerelle de paiement de test. En savoir plus sur <a href=\"%{docs_link}\">les commandes de test dans les magasins de développement</a>.",
         "purchase_options_agreement_blank": "Pour continuer votre achat, acceptez les conditions d'achat différé ou récurrent.",
-        "physical_gift_card_invalid_quantity": "Les articles de carte-cadeau physique doivent avoir une quantité correspondant au nombre de codes de carte-cadeau.",
-        "physical_gift_card_duplicate_code": "L'article de carte-cadeau physique contient un code en double.",
+        "physical_gift_card_invalid_quantity": "Les articles de carte cadeau physique doivent avoir une quantité correspondant au nombre de codes de carte cadeau.",
+        "physical_gift_card_duplicate_code": "L'article de carte cadeau physique contient un code en double.",
         "physical_gift_card_invalid_code": "Le code de la carte cadeau physique est invalide.",
-        "email_blank": "Entrez une adresse e-mail",
+        "email_blank": "Entrez un e-mail",
         "phone_blank": "Entrez un numéro de téléphone",
         "address_country_invalid": "Sélectionnez un pays/région dans la liste",
         "address_zip_invalid": "Entrez un code postal / ZIP valide",
-        "gift_card_invalid": "La carte cadeau \"••••%{last_four_characters}\" n'est plus valide",
+        "gift_card_invalid": "La carte-cadeau \"••••%{last_four_characters}\" n'est plus valide",
         "vaulting_agreement_blank": "Votre carte doit être enregistrée car le paiement du solde de cette commande est dû ultérieurement.",
         "sms_marketing_phone_invalid": "Entrez un numéro de téléphone valide",
-        "address_suggestion_did_you_mean_html": "Vouliez-vous dire %{html}?",
+        "address_suggestion_did_you_mean_html": "Vouliez-vous dire %{html} ?",
         "split_cart_international_shipping_not_supported": "Tous les articles doivent utiliser la même méthode de livraison lors de l'expédition internationale. Mettez à jour la méthode de livraison ou créez plusieurs commandes.",
         "invalid_delivery_address_reference_handle": "La référence de l'adresse de livraison n'a pas pu être associée à une adresse de livraison disponible."
       },
@@ -1935,14 +1935,17 @@
           "generic": "La carte cadeau n'a pas pu être ajoutée au paiement",
           "throttle_limit_exceeded": "Vous avez dépassé le nombre maximum de tentatives. Réessayez plus tard.",
           "no_longer_available": "Cette carte cadeau ne peut plus être utilisée avec ce paiement"
+        },
+        "shop_cash": {
+          "currency_mismatch": "La devise a changé. Veuillez vérifier votre Shop Cash et votre offre."
         }
       },
       "merchant_instruction_errors": {
         "empty_stable_id": "L'instruction de marchandises %{position} %{name} contient un ID stable vide.",
-        "invalid_stable_id_target": "L'instruction de marchandisage %{position} %{name} fait référence à l'ID stable %{stable_id}, mais cet ID stable ne figure pas dans les lignes de marchandisage.",
-        "duplicate_variant_id": "L'instruction de marchandisage %{position} %{name} contient un ID de variante en double %{variant_id}.",
+        "invalid_stable_id_target": "L'instruction de marchandises %{position} %{name} fait référence à l'ID stable %{stable_id}, mais cet ID stable ne figure pas dans les lignes de marchandises.",
+        "duplicate_variant_id": "L'instruction de marchandises %{position} %{name} contient un ID de variante en double %{variant_id}.",
         "invalid_variant_id_target": "L'instruction de marchandises %{name} fait référence à l'ID de variante %{variant_id}, mais cette variante ne figure pas dans les lignes de marchandises.",
-        "invalid_price_override_target": "L'instruction de remplacement de prix pour l'article de ligne %{stable_id} est invalide car il s'agit d'un composant de lot."
+        "invalid_price_override_target": "L'instruction de remplacement de prix pour l'article %{stable_id} est invalide car il s'agit d'un composant de lot."
       },
       "payment_errors": {
         "amount_too_small": "Le montant minimum du paiement doit être supérieur à 0,50 $ USD. Veuillez réessayer avec un montant plus élevé.",
