@@ -2965,7 +2965,7 @@
     },
     "addresses": {
       "zip_code": "Code postal",
-      "postal_code": "Code postal",
+      "postal_code": "Code Postal",
       "postcode": "Code postal",
       "pincode": "Code PIN",
       "region": "Région",
@@ -2981,13 +2981,13 @@
     "collections": {
       "sorting": {
         "manual": "En vedette",
-        "best_selling": "Meilleure vente",
+        "best_selling": "Meilleures ventes",
         "az": "Par ordre alphabétique, de A à Z",
         "za": "Par ordre alphabétique, Z-A",
         "price_ascending": "Prix, du plus bas au plus élevé",
         "price_descending": "Prix, du plus élevé au plus bas",
-        "date_ascending": "Date, ancien au nouveau",
-        "date_descending": "Date, du plus récent au plus ancien"
+        "date_ascending": "Date, de l'ancien au nouveau",
+        "date_descending": "Date, du nouveau à l'ancien"
       }
     },
     "errors": {
@@ -3002,9 +3002,9 @@
       "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
       "customer_already_used_once_per_customer_discount_notice": "Cette remise a atteint sa limite d'utilisation",
       "gift_card_already_applied": "Le code a déjà été appliqué à votre paiement",
-      "gift_card_code_invalid": "Le code est invalide",
+      "gift_card_code_invalid": "Le code n'est pas valide",
       "gift_card_currency_mismatch": "Votre carte cadeau est en %{gift_card_currency}. Contactez-nous pour la faire réémettre en %{checkout_currency}.",
-      "gift_card_depleted": "Il ne reste plus de fonds sur cette carte cadeau",
+      "gift_card_depleted": "Il n'y a plus de fonds sur cette carte cadeau",
       "gift_card_disabled": "La carte cadeau est désactivée",
       "gift_card_expired": "La carte cadeau est expirée",
       "invalid": "est invalide",
@@ -3016,9 +3016,9 @@
       "password_mismatch": "doit correspondre au mot de passe fourni",
       "contains_spaces": "commence ou se termine par des espaces.",
       "email_domain_invalid": "le fournisseur n'est pas pris en charge",
-      "invalid_for_country": "n'est pas valide pour %{country}",
+      "invalid_for_country": "n'est pas valable pour %{country}",
       "invalid_for_country_and_province": "n'est pas valide pour %{province} et %{country}",
-      "invalid_province_in_country": "n'est pas une province valide en %{country}",
+      "invalid_province_in_country": "n'est pas une province valide dans %{country}",
       "invalid_state_in_country": "n'est pas un état valide dans %{country}",
       "invalid_region_in_country": "n'est pas une région valide dans %{country}",
       "less_than_or_equal_to": "doit être inférieur ou égal à %{count}",
@@ -3034,7 +3034,7 @@
       "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien inclus pour vérifier votre adresse e-mail.",
       "product_not_available": "le produit n'est pas publié pour ce client.",
       "shop_404": {
-        "title": "Créez un site Ecommerce et vendez en ligne ! Logiciel Ecommerce par Shopify",
+        "title": "Créez un site Ecommerce et vendez en ligne ! Logiciel Ecommerce par Shopify",
         "heros": {
           "store_unavailable": "Désolé, ce magasin est actuellement indisponible.",
           "store_not_exist": "Ce magasin n'existe pas.",
@@ -3046,32 +3046,32 @@
         },
         "owner_ctas": {
           "header": "Êtes-vous le propriétaire du magasin ?",
-          "fix_domain": "Terminez la configuration de votre nouvelle adresse web, allez à %{domain_settings_link}. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous avez des difficultés à accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
+          "fix_domain": "Terminez la configuration de votre nouvelle adresse web, allez à %{domain_settings_link}. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous avez du mal à accéder à votre magasin, essayez la page %{forgot_your_store_link}.",
           "fix_domain_link_text": "vos paramètres de domaine",
-          "forgot_your_store_link_text": "oublié votre magasin",
+          "forgot_your_store_link_text": "j'ai oublié ton magasin",
           "add_storefront": "Vous pouvez configurer votre site web en ajoutant le canal Boutique en ligne dans votre %{admin_link}. Si vous avez des difficultés à accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
           "admin_link_text": "administrateur"
         },
         "ctas": {
           "sell_in_person": {
             "header": "Vendre en personne",
-            "caption": "Obtenez les fonctionnalités dont vous avez besoin pour gérer votre magasin de détail, que vous débutiez ou que vous soyez en pleine expansion.",
-            "link_text": "Commencer l'essai gratuit"
+            "caption": "Obtenez les fonctionnalités dont vous avez besoin pour gérer votre magasin de détail, que vous débutiez ou que vous soyez en phase d'expansion.",
+            "link_text": "Démarrer l'essai gratuit"
           },
           "open_a_store": {
             "header": "Ouvrir une nouvelle boutique Shopify",
-            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $ par mois pendant les 3 prochains mois.",
+            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $ par mois pendant les 3 mois suivants.",
             "link_text": "Inscrivez-vous maintenant"
           },
           "editions": {
             "header": "Découvrez Shopify Editions",
-            "caption": "Avec plus de 100 mises à jour de produits, vous pouvez être plus productif et créatif, et puissant dans le commerce comme vous ne l'avez jamais imaginé.",
+            "caption": "Avec plus de 100 mises à jour de produits, vous pouvez être plus productif et créatif, et plus puissant dans le commerce que vous ne l'avez jamais imaginé.",
             "link_text": "Explorez les dernières éditions"
           },
           "store_owner": {
             "header": "Êtes-vous le propriétaire du magasin ?",
             "caption": "Avez-vous des difficultés à accéder à votre boutique ? Essayez la fonctionnalité %{forgot_your_store_link}. Si vous souhaitez réactiver votre boutique, contactez %{shopify_support_link}.",
-            "shopify_support_link_text": "Support Shopify"
+            "shopify_support_link_text": "Assistance Shopify"
           }
         }
       }
@@ -3099,7 +3099,7 @@
           "add_variant": "Ajouté %{delta}",
           "increment_item": "Ajouté %{delta}",
           "decrement_item": "Supprimé %{delta} de %{total}",
-          "decrement_fulfilled_line_item": "Restitué %{delta} de %{total}",
+          "decrement_fulfilled_line_item": "Rendu %{delta} sur %{total}",
           "decrement_return_line_item": "Retiré %{delta} du retour"
         }
       },
@@ -3109,7 +3109,7 @@
           "authorized": "Autorisé",
           "pending": "En attente",
           "paid": "Payé",
-          "unpaid": "Impayé",
+          "unpaid": "Non rémunéré",
           "voided": "Annulé",
           "partially_paid": "Partiellement payé",
           "partially_refunded": "Partiellement remboursé",
@@ -3117,10 +3117,10 @@
           "expired": "Expiré"
         },
         "fulfillment_status": {
-          "fulfilled": "Rempli",
+          "fulfilled": "Accompli",
           "complete": "Complet",
           "partial": "Partiel",
-          "unfulfilled": "Non réalisé",
+          "unfulfilled": "Insatisfait",
           "restocked": "Réapprovisionné"
         },
         "transaction_status": {
@@ -3142,17 +3142,17 @@
       "cart": {
         "only_n_items_available": "Vous ne pouvez ajouter que %{count} %{name} au panier.",
         "too_many_items_in_cart": "Vous ne pouvez pas ajouter plus de %{name} au panier.",
-        "only_one_added_to_cart": "Un seul article a été ajouté à votre panier en raison de la disponibilité.",
+        "only_one_added_to_cart": "Seulement 1 article a été ajouté à votre panier en raison de la disponibilité.",
         "only_n_added_to_cart": "Seulement %{quantity} articles ont été ajoutés à votre panier en raison de la disponibilité.",
         "maximum_available_quantity_reached": "La quantité maximale de cet article est déjà dans votre panier.",
         "less_than_minimum": "Cet article a un minimum de %{min}.",
         "more_than_maximum": "Cet article a un maximum de %{max}.",
-        "not_respect_step": "Vous ne pouvez ajouter cet article que par incréments de %{step}.",
+        "not_respect_step": "Vous ne pouvez ajouter cet article qu'en incréments de %{step}.",
         "all_items_in_cart": "Tous les %{count} %{name} sont dans votre panier.",
-        "empty_update": "impossible de mettre à jour le panier vide",
+        "empty_update": "impossible de mettre à jour un panier vide",
         "missing_parameters": "pas d'identifiant ou de paramètre de ligne valide",
         "generic_error": "Erreur de panier",
-        "invalid_input": "Le paramètre %{parameter} est invalide.",
+        "invalid_input": "%{parameter} le paramètre est invalide.",
         "product_not_available": "Produit non disponible",
         "too_many_line_items_error": "Votre panier ne peut pas contenir plus de %{max} articles.",
         "link_expired": "Lien expiré",
@@ -3167,13 +3167,13 @@
         "digital_product_not_available_for_company_locations": "Cet article ne peut pas être ajouté à une commande B2B",
         "buyer_cannot_purchase_for_company_locations": "Vous ne pouvez pas acheter pour cet emplacement",
         "selling_plan_not_applicable": "Impossible d'appliquer le plan de vente à la variante",
-        "shipping_address_not_required": "Ce panier ne nécessite pas d'expédition",
-        "shipping_address_invalid": "Un problème est survenu lors du calcul de vos frais de livraison. Continuez vers la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
+        "shipping_address_not_required": "Ce panier ne nécessite pas de livraison",
+        "shipping_address_invalid": "Il y a eu un problème lors du calcul de vos frais de livraison. Continuez vers la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
         "bundle_requires_components": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_with_components_not_supported": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_price_must_be_greater_than_zero": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_recipient_validation_error": "Le destinataire de la carte cadeau spécifié est invalide",
-        "view_lines_limit_reached": "Les lignes doivent contenir moins de %{limit}",
+        "view_lines_limit_reached": "Les lignes doivent être inférieures à %{limit}",
         "cart_too_large": "Le panier est trop grand.",
         "cart_attributes_error": "Les attributs du panier contiennent des données invalides.",
         "merchandise_line_transformers": {
@@ -3186,8 +3186,8 @@
       "tags": {
         "add_articles": "Restreindre la recherche aux articles ayant également le tag %{tag}",
         "add_products": "Restreindre la sélection aux produits correspondant à l'étiquette %{tag}",
-        "remove_articles": "Élargir la recherche aux articles qui ne sont pas étiquetés %{tag}",
-        "remove_products": "Supprimer la balise %{tag}"
+        "remove_articles": "Élargir la recherche aux articles non étiquetés %{tag}",
+        "remove_products": "Supprimer l'étiquette %{tag}"
       }
     },
     "email_marketing": {
@@ -3205,13 +3205,13 @@
         "opt_in": {
           "opted_in_html": "<b>Vous avez choisi de suivre l'ouverture des e-mails.</b>",
           "visibility": "Les taux d'ouverture des e-mails seront rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre d'un taux d'ouverture agrégé.",
-          "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi des ouvertures d'e-mails si vous ne souhaitez pas partager cette information.",
+          "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi d'ouverture des e-mails si vous ne souhaitez pas partager cette information.",
           "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils accepteront le suivi d'ouverture des e-mails."
         },
         "opt_out": {
           "opted_out_html": "<b>Vous avez choisi de ne pas activer le suivi d'ouverture des e-mails.</b>",
           "visibility": "Nous ne saurons pas si vous avez ouvert nos e-mails.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Optez pour</a> le suivi des ouvertures d'e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Accepter</a> le suivi d'ouverture des e-mails.",
           "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils choisiront de ne pas activer le suivi d'ouverture des e-mails."
         },
         "no_longer_track": {
@@ -3225,7 +3225,7 @@
         "updated_policy": {
           "status_html": "<b>Le suivi d'ouverture des e-mails est signalé.</b>",
           "visibility": "Nous avons mis à jour notre politique et suivons désormais l'ouverture des e-mails. Les taux d'ouverture des e-mails seront rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre du taux total d'ouverture des e-mails.",
-          "opt_out_html": "Si vous ne souhaitez pas partager cette information, vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire.</a>"
+          "opt_out_html": "Si vous ne souhaitez pas partager ces informations, vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désabonner.</a>"
         }
       }
     },
@@ -3242,7 +3242,7 @@
       }
     },
     "search": {
-      "error": "Un problème est survenu lors du chargement de vos résultats de recherche. Veuillez actualiser la page ou réessayer plus tard.",
+      "error": "Il y a eu un problème lors du chargement de vos résultats de recherche. Veuillez actualiser la page ou réessayer plus tard.",
       "sorting": {
         "relevance": "Pertinence",
         "price_ascending": "Prix, du plus bas au plus élevé",
@@ -3257,22 +3257,22 @@
       "create_account": "Créer un compte",
       "reset_account": "Réinitialiser le compte",
       "addresses": "Adresses",
-      "order": "Commander %{name}",
+      "order": "Commande %{name}",
       "search": "Recherche",
       "search_results": {
-        "one": "Recherche : %{count} résultat trouvé pour \"%{terms}\"",
-        "other": "Recherche : %{count} résultats trouvés pour \"%{terms}\""
+        "one": "Recherche : %{count} résultat trouvé pour « %{terms} »",
+        "other": "Recherche : %{count} résultats trouvés pour « %{terms} »"
       },
       "collections": "Collections",
-      "not_found": "404 Non Trouvé",
+      "not_found": "404 non trouvé",
       "challenge": "Défi",
       "checkpoint": "Point de contrôle"
     },
     "cart": {
-      "discounts_with_count": "%{count} réductions ont été appliquées"
+      "discounts_with_count": "%{count} des remises ont été appliquées"
     },
     "challenge": {
-      "message": "Pour continuer, veuillez nous indiquer que vous n'êtes pas un robot.",
+      "message": "Pour continuer, veuillez nous confirmer que vous n'êtes pas un robot.",
       "error": "Votre réponse n'était pas correcte, veuillez réessayer.",
       "submit_button_text": "Soumettre"
     },
@@ -3283,13 +3283,13 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Généralement prêt en 1 heure",
-        "two_hours": "Généralement prêt en 2 heures",
+        "one_hour": "Habituellement prêt en 1 heure",
+        "two_hours": "Habituellement prêt en 2 heures",
         "four_hours": "Généralement prêt en 4 heures",
         "twenty_four_hours": "Généralement prêt en 24 heures",
-        "two_to_four_days": "Généralement prêt en 2-4 jours",
+        "two_to_four_days": "Généralement prêt en 2 à 4 jours",
         "five_or_more_days": "Généralement prêt en plus de 5 jours",
-        "zero_to_two_hours": "Généralement prêt en 2 heures",
+        "zero_to_two_hours": "Habituellement prêt en 2 heures",
         "two_to_four_hours": "Généralement prêt en 4 heures",
         "immediately": "Prêt à être récupéré maintenant",
         "next_day": "Prêt pour le retrait le lendemain"
@@ -3298,7 +3298,7 @@
     "subscriptions": {
       "buyer_consent_product": "Cet article est un achat récurrent ou différé. En continuant, j'accepte la %{cancellationPolicyLink} et vous autorise à débiter mon mode de paiement aux prix, fréquences et dates indiqués sur cette page jusqu'à ce que ma commande soit exécutée ou que j'annule, si cela est permis.",
       "buyer_consent_cart": "Un ou plusieurs articles dans votre panier sont des achats récurrents ou différés. En continuant, j'accepte la %{cancellationPolicyLink} et vous autorise à débiter ma méthode de paiement aux prix, fréquences et dates indiqués sur cette page jusqu'à ce que ma commande soit exécutée ou que j'annule, si cela est permis.",
-      "cancellation_policy": "%{subscription_policy}"
+      "cancellation_policy": "politique d'annulation"
     }
   },
   "customer_accounts": {
@@ -3320,15 +3320,14 @@
         "cancel_accessibility_label": "Annuler la modification du profil",
         "edit": "Modifier",
         "edit_accessibility_label": "Modifier le profil",
-        "email_help_text": "L'email utilisé pour la connexion ne peut pas être modifié",
+        "email_help_text": "L'adresse e-mail utilisée pour la connexion ne peut pas être modifiée",
         "first_name": "Prénom",
         "last_name": "Nom de famille",
         "no_name_provided_accessibility_label": "Aucun nom ajouté",
         "phone_number_help_text": "Le numéro de téléphone utilisé pour la connexion ne peut pas être modifié",
         "save": "Sauvegarder",
         "save_accessibility_label": "Enregistrer le profil",
-        "title": "Profil",
-        "email": "Email"
+        "title": "Profil"
       }
     },
     "orders": {
@@ -4494,10 +4493,10 @@
       "humanize": {
         "lessThanOneYearAgo": "{{date}} à {{time}}",
         "lessThanOneHourAgo": {
-          "one": "il y a {{count}} minute",
-          "other": "il y a {{count}} minutes"
+          "one": "{{count}} il y a une minute",
+          "other": "{{count}} il y a quelques minutes"
         },
-        "lessThanOneMinuteAgo": "À l'instant",
+        "lessThanOneMinuteAgo": "Tout à l' heure",
         "lessThanOneWeekAgo": "{{weekday}} à {{time}}",
         "yesterday": "Hier à {{time}}",
         "today": "Aujourd'hui à {{time}}",
@@ -4506,47 +4505,46 @@
         "lessThanOneYearAway": "{{date}} à {{time}}"
       }
     },
-    "enable_javascript": "Pour voir votre compte, activez JavaScript dans les paramètres de votre navigateur ou connectez-vous avec un autre navigateur.",
+    "enable_javascript": "Pour consulter votre compte, activez JavaScript dans les paramètres de votre navigateur ou connectez-vous avec un autre navigateur.",
     "navigation_and_structure": {
       "account_menu": {
         "hide_accessibility_label": "Masquer le menu du compte",
         "label": "Compte",
         "show_accessibility_label": "Afficher le menu du compte",
         "nav_accessibility_label": "Navigation du compte",
-        "open_menu_accessibility_label": "Navigation du compte ouvert",
+        "open_menu_accessibility_label": "Navigation Ouvrir un compte",
         "close_menu_accessibility_label": "Fermer la navigation du compte",
         "loading_message": "Chargement de la navigation du compte"
       },
       "action_menu_accessibility_label": "Plus d'actions",
       "close_menu_accessibility_label": "Fermer la navigation principale",
       "contact_email_subject": "Contact du magasin en ligne {{shopName}}",
-      "contact_link": "Informations de contact",
+      "contact_link": "Coordonnées",
       "delete_confirmation": {
         "cancel": "Annuler",
         "delete": "Supprimer"
       },
-      "dismiss_toast": "Ignorer",
+      "dismiss_toast": "Rejeter",
       "document_title": "{{sectionName}} - {{shopName}} - Compte",
       "generic_accessibility_label": "{{label}}: {{value}}",
       "go_to_store_link": "Aller au magasin",
       "loading_message": "Chargement",
       "log_out_link": "Se déconnecter",
-      "logout_overlay_label": "Déconnexion en cours...",
+      "logout_overlay_label": "Vous déconnectez...",
       "nav_label_accessibility_label": "Navigation principale",
       "navigation_accessibility_message": "Vous avez navigué vers {{sectionName}}",
       "open_menu_accessibility_label": "Ouvrir la navigation principale",
-      "orders_link_label": "Commandes",
-      "shop_logo_accessibility_label": "logo de {{shopName}}",
+      "orders_link_label": "Ordres",
+      "shop_logo_accessibility_label": "{{shopName}} logo",
       "subscriptions_link_label": "Abonnements",
       "settings_link": "Paramètres",
-      "country_switcher_toast_message": "Pays changé en {{countryName}}",
+      "country_switcher_toast_message": "Pays changé pour {{countryName}}",
       "switch_country": "Changer de pays",
       "location_switcher_toast_message": "Emplacement changé en {{locationName}}",
-      "switch_location": "Emplacement de l'interrupteur",
+      "switch_location": "Emplacement du commutateur",
       "view_details": "Voir les détails",
-      "company_location": "Emplacement de l'entreprise",
-      "search": "Recherche",
-      "try_new_search": "Essayez une nouvelle recherche"
+      "company_location": "Localisation de l'entreprise",
+      "search": "Recherche"
     },
     "knowledge_base": {
       "self_serve_returns": {
