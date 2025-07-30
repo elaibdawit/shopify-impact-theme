@@ -426,15 +426,15 @@
   },
   "shopify": {
     "sentence": {
-      "two_words_connector": " et ",
-      "last_word_connector": ", et "
+      "two_words_connector": "et",
+      "last_word_connector": ", et"
     },
     "checkout": {
       "address_management": {
-        "confirm_address_deletion": "Êtes-vous sûr de vouloir supprimer l'adresse {{address}}?"
+        "confirm_address_deletion": "Êtes-vous sûr de vouloir supprimer l'adresse {{address}} ?"
       },
       "general": {
-        "page_title": "Vérifier",
+        "page_title": "Passer à la caisse",
         "error_page_title": "Erreur",
         "skip_to_content": "Passer au contenu",
         "breadcrumb": "Fil d'Ariane",
@@ -451,19 +451,19 @@
         "expand_notice_label": "Voir plus",
         "continue_to_shipping_method": "Continuer vers la livraison",
         "continue_to_payment_method": "Continuer vers le paiement",
-        "continue_to_review": "Réviser la commande",
+        "continue_to_review": "Vérifier la commande",
         "back_to_cart": "Retour au panier",
         "back_to_contact_information": "Retour à l'information",
         "back_to_shipping_method": "Retour à l'expédition",
         "back_to_payment_method": "Retour au paiement",
-        "choose_shipping_method": "Choisissez un mode de livraison",
+        "choose_shipping_method": "Choisissez un mode d'expédition",
         "choose_payment_method": "Choisissez un mode de paiement",
         "choose_billing_address": "Choisissez une adresse de facturation",
         "contact_us_html": "Contactez-nous pour plus d'informations",
         "autocomplete_title": "Suggestions",
         "autocomplete_single_item": "1 article disponible",
         "autocomplete_multi_item": "{{number}} articles disponibles",
-        "autocomplete_selection": "{{number}} de {{total}}",
+        "autocomplete_selection": "{{number}} sur {{total}}",
         "autocomplete_close": "Fermer les suggestions",
         "forwarding_indicator": {
           "new_window": "S'ouvre dans une nouvelle fenêtre.",
@@ -471,10 +471,10 @@
           "external_and_new_window": "Ouvre un site web externe dans une nouvelle fenêtre."
         },
         "checkout_context": {
-          "step_one": "%{shop_name} - Vérifier"
+          "step_one": "%{shop_name} - Caisse"
         },
         "tooltip_accessibility_label": "Plus d'informations",
-        "qr_code": "code QR",
+        "qr_code": "Code QR",
         "errors": {
           "only_empty_terms_accepted": "Cette politique n'accepte que des termes vides.",
           "session_identifier_not_unique_error": "Quelque chose s'est mal passé avec votre commande, veuillez réessayer de passer à la caisse.",
@@ -487,9 +487,9 @@
             "merchandise_not_applicable": "La variante du produit ne peut pas être achetée.",
             "mixed_currencies": "Le panier contient des articles avec différentes devises.",
             "bundle_products_not_supported_for_b2b": "Les articles groupés ne peuvent pas être ajoutés aux commandes B2B pour cet emplacement.",
-            "gift_card_quantity_mismatch": "Lors de la spécification des codes de carte-cadeau, la quantité de l'article et le nombre de codes de carte-cadeau doivent correspondre.",
+            "gift_card_quantity_mismatch": "Lors de la spécification des codes de carte cadeau, la quantité de l'article et le nombre de codes de carte cadeau doivent correspondre.",
             "gift_card_not_supported": "Les cartes-cadeaux ne sont pas prises en charge lors de ce paiement.",
-            "gift_card_not_unique": "Carte cadeau avec le code {{code}} apparaît plus d'une fois dans ce passage en caisse. Les codes sont formatés avant comparaison.",
+            "gift_card_not_unique": "La carte cadeau avec le code {{code}} apparaît plus d'une fois dans ce paiement. Les codes sont formatés avant la comparaison.",
             "gift_card_used": "Le code de la carte cadeau {{code}} est déjà attribué à une carte cadeau. Les codes sont formatés avant la comparaison.",
             "gift_card_invalid": "Le code de la carte cadeau {{code}} est invalide.",
             "gift_card_code_changed": "Le code de la carte cadeau {{proposed_code}} a été modifié en {{formatted_code}} pour se conformer aux règles de formatage.",
@@ -499,11 +499,11 @@
             "selling_plan_not_supported": "Les abonnements ne sont pas pris en charge.",
             "selling_plan_not_supported_b2b": "Les abonnements ne sont pas pris en charge pour le paiement B2B.",
             "price_mismatch": "Le prix précédemment proposé pour cette marchandise était invalide et a été mis à jour.",
-            "inventory_not_found": "Aucun inventaire trouvé pour cette marchandise.",
+            "inventory_not_found": "Aucun stock trouvé pour cette marchandise.",
             "product_not_published": "Le produit n'est pas publié.",
             "product_not_published_in_buyer_location": "Le produit n'est pas publié dans la localisation de l'acheteur.",
-            "duplicated_stable_id": "Cette ligne de marchandises a le même stable-ID qu'une autre ligne.",
-            "minimum_quantity_not_met": "La quantité de certains articles ne répond pas au minimum requis.",
+            "duplicated_stable_id": "Cette ligne de marchandises a le même ID stable qu'une autre ligne.",
+            "minimum_quantity_not_met": "La quantité de certains articles ne respecte pas le minimum requis.",
             "maximum_quantity_exceeded": "La quantité de certains articles dépasse le maximum autorisé.",
             "quantity_increment_not_met": "La quantité de certains articles ne respecte pas les limites de commande.",
             "quantity_rules_not_met": "La quantité de certains articles ne respecte pas les limites de commande.",
@@ -523,9 +523,9 @@
             "email_required": "Un e-mail est requis lorsque la marchandise est achetée via un abonnement.",
             "email_domain_is_invalid": "Ce domaine spécifié ne peut pas être résolu.",
             "missing_contact_method": "Méthode de contact valide manquante.",
-            "checkout_completion_target_is_missing": "La cible de finalisation du paiement est manquante.",
+            "checkout_completion_target_is_missing": "La cible d'achèvement du paiement est manquante.",
             "invalid_customer_profile": "Un profil client invalide a été fourni.",
-            "customer_profile_access_restricted": "Le processus de paiement n'a pas la permission d'accéder au profil client.",
+            "customer_profile_access_restricted": "Le paiement n'a pas la permission d'accéder au profil client.",
             "checkout_completion_target_is_invalid_proc": "Cible de finalisation de paiement invalide.",
             "buyer_identity_presentment_currency_does_not_match": "Il y a eu un problème lors du traitement de votre commande. Veuillez réessayer dans quelques minutes."
           },
@@ -536,10 +536,10 @@
             "options_instructions_invalid": "Les instructions spécifiées ne correspondent pas au modèle attendu.",
             "destination_address_required": "Une adresse de destination est requise pour continuer.",
             "pickup_points_unavailable": "Les points de retrait ne sont actuellement pas disponibles.",
-            "local_pickup_delivery_line_detail_changed": "La stratégie actuelle de livraison en retrait local doit être modifiée afin de pouvoir continuer.",
+            "local_pickup_delivery_line_detail_changed": "La stratégie actuelle de livraison en retrait local doit être modifiée afin de continuer.",
             "local_pickup_no_delivery_strategy_available": "Aucune stratégie de livraison en retrait local disponible trouvée.",
             "origin_location_id_required": "Un identifiant de lieu d'origine est requis lorsque la méthode de livraison RETAIL est demandée.",
-            "invalid_origin_location_id": "Impossible de trouver un emplacement correspondant à l'ID d'emplacement d'origine.",
+            "invalid_origin_location_id": "Impossible de trouver un emplacement correspondant à l'ID de l'emplacement d'origine.",
             "origin_location_id_not_allowed": "Les méthodes de livraison demandées ne prennent pas en charge un ID de lieu d'origine.",
             "auto_fulfill_not_allowed": "Cette session n'est pas autorisée à outrepasser le comportement d'exécution.",
             "auto_fulfill_required": "La réalisation automatique est requise lorsque la méthode de livraison RETAIL est demandée.",
@@ -549,7 +549,8 @@
             "must_fulfill_from_same_location_constraint_not_satisfied": "Les contraintes de réalisation ne sont pas satisfaites car les articles ne peuvent pas être expédiés depuis le même emplacement.",
             "delivery_strategy_conditions_not_satisfied": "Des stratégies de livraison sont disponibles pour cet emplacement, mais leurs conditions ne sont pas remplies.",
             "out_of_stock_at_origin_location": "Pas de stock à l'emplacement d'origine.",
-            "invalid_signature": "Signature de remise invalide."
+            "invalid_signature": "Signature de remise invalide.",
+            "selected_pickup_option_no_longer_available": "L'option de ramassage précédemment sélectionnée n'est plus disponible."
           },
           "discount": {
             "discounts_not_allowed_for_b2b": "Les remises ne sont pas autorisées dans les magasins B2B.",
