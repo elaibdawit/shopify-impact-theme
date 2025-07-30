@@ -3016,9 +3016,9 @@
       "password_mismatch": "doit correspondre au mot de passe fourni",
       "contains_spaces": "commence ou se termine par des espaces.",
       "email_domain_invalid": "le fournisseur n'est pas pris en charge",
-      "invalid_for_country": "n'est pas valable pour %{country}",
+      "invalid_for_country": "n'est pas valide pour %{country}",
       "invalid_for_country_and_province": "n'est pas valide pour %{province} et %{country}",
-      "invalid_province_in_country": "n'est pas une province valide dans %{country}",
+      "invalid_province_in_country": "n'est pas une province valide en %{country}",
       "invalid_state_in_country": "n'est pas un état valide dans %{country}",
       "invalid_region_in_country": "n'est pas une région valide dans %{country}",
       "less_than_or_equal_to": "doit être inférieur ou égal à %{count}",
@@ -3034,7 +3034,7 @@
       "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien inclus pour vérifier votre adresse e-mail.",
       "product_not_available": "le produit n'est pas publié pour ce client.",
       "shop_404": {
-        "title": "Créez un site Ecommerce et vendez en ligne ! Logiciel Ecommerce par Shopify",
+        "title": "Créez un site Ecommerce et vendez en ligne ! Logiciel Ecommerce par Shopify",
         "heros": {
           "store_unavailable": "Désolé, ce magasin est actuellement indisponible.",
           "store_not_exist": "Ce magasin n'existe pas.",
@@ -3046,32 +3046,32 @@
         },
         "owner_ctas": {
           "header": "Êtes-vous le propriétaire du magasin ?",
-          "fix_domain": "Terminez la configuration de votre nouvelle adresse web, allez à %{domain_settings_link}. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous avez du mal à accéder à votre magasin, essayez la page %{forgot_your_store_link}.",
+          "fix_domain": "Terminez la configuration de votre nouvelle adresse web, allez à %{domain_settings_link}. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous avez des difficultés à accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
           "fix_domain_link_text": "vos paramètres de domaine",
-          "forgot_your_store_link_text": "j'ai oublié ton magasin",
+          "forgot_your_store_link_text": "oublié votre magasin",
           "add_storefront": "Vous pouvez configurer votre site web en ajoutant le canal Boutique en ligne dans votre %{admin_link}. Si vous avez des difficultés à accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
           "admin_link_text": "administrateur"
         },
         "ctas": {
           "sell_in_person": {
             "header": "Vendre en personne",
-            "caption": "Obtenez les fonctionnalités dont vous avez besoin pour gérer votre magasin de détail, que vous débutiez ou que vous soyez en phase d'expansion.",
-            "link_text": "Démarrer l'essai gratuit"
+            "caption": "Obtenez les fonctionnalités dont vous avez besoin pour gérer votre magasin de détail, que vous débutiez ou que vous soyez en pleine expansion.",
+            "link_text": "Commencer l'essai gratuit"
           },
           "open_a_store": {
             "header": "Ouvrir une nouvelle boutique Shopify",
-            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $ par mois pendant les 3 mois suivants.",
+            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $ par mois pendant les 3 prochains mois.",
             "link_text": "Inscrivez-vous maintenant"
           },
           "editions": {
             "header": "Découvrez Shopify Editions",
-            "caption": "Avec plus de 100 mises à jour de produits, vous pouvez être plus productif et créatif, et plus puissant dans le commerce que vous ne l'avez jamais imaginé.",
+            "caption": "Avec plus de 100 mises à jour de produits, vous pouvez être plus productif et créatif, et puissant dans le commerce comme vous ne l'avez jamais imaginé.",
             "link_text": "Explorez les dernières éditions"
           },
           "store_owner": {
             "header": "Êtes-vous le propriétaire du magasin ?",
             "caption": "Avez-vous des difficultés à accéder à votre boutique ? Essayez la fonctionnalité %{forgot_your_store_link}. Si vous souhaitez réactiver votre boutique, contactez %{shopify_support_link}.",
-            "shopify_support_link_text": "Assistance Shopify"
+            "shopify_support_link_text": "Support Shopify"
           }
         }
       }
@@ -3099,7 +3099,7 @@
           "add_variant": "Ajouté %{delta}",
           "increment_item": "Ajouté %{delta}",
           "decrement_item": "Supprimé %{delta} de %{total}",
-          "decrement_fulfilled_line_item": "Rendu %{delta} sur %{total}",
+          "decrement_fulfilled_line_item": "Restitué %{delta} de %{total}",
           "decrement_return_line_item": "Retiré %{delta} du retour"
         }
       },
@@ -3109,7 +3109,7 @@
           "authorized": "Autorisé",
           "pending": "En attente",
           "paid": "Payé",
-          "unpaid": "Non rémunéré",
+          "unpaid": "Impayé",
           "voided": "Annulé",
           "partially_paid": "Partiellement payé",
           "partially_refunded": "Partiellement remboursé",
@@ -3117,10 +3117,10 @@
           "expired": "Expiré"
         },
         "fulfillment_status": {
-          "fulfilled": "Accompli",
+          "fulfilled": "Rempli",
           "complete": "Complet",
           "partial": "Partiel",
-          "unfulfilled": "Insatisfait",
+          "unfulfilled": "Non réalisé",
           "restocked": "Réapprovisionné"
         },
         "transaction_status": {
@@ -3142,17 +3142,17 @@
       "cart": {
         "only_n_items_available": "Vous ne pouvez ajouter que %{count} %{name} au panier.",
         "too_many_items_in_cart": "Vous ne pouvez pas ajouter plus de %{name} au panier.",
-        "only_one_added_to_cart": "Seulement 1 article a été ajouté à votre panier en raison de la disponibilité.",
+        "only_one_added_to_cart": "Un seul article a été ajouté à votre panier en raison de la disponibilité.",
         "only_n_added_to_cart": "Seulement %{quantity} articles ont été ajoutés à votre panier en raison de la disponibilité.",
         "maximum_available_quantity_reached": "La quantité maximale de cet article est déjà dans votre panier.",
         "less_than_minimum": "Cet article a un minimum de %{min}.",
         "more_than_maximum": "Cet article a un maximum de %{max}.",
-        "not_respect_step": "Vous ne pouvez ajouter cet article qu'en incréments de %{step}.",
+        "not_respect_step": "Vous ne pouvez ajouter cet article que par incréments de %{step}.",
         "all_items_in_cart": "Tous les %{count} %{name} sont dans votre panier.",
-        "empty_update": "impossible de mettre à jour un panier vide",
+        "empty_update": "impossible de mettre à jour le panier vide",
         "missing_parameters": "pas d'identifiant ou de paramètre de ligne valide",
         "generic_error": "Erreur de panier",
-        "invalid_input": "%{parameter} le paramètre est invalide.",
+        "invalid_input": "Le paramètre %{parameter} est invalide.",
         "product_not_available": "Produit non disponible",
         "too_many_line_items_error": "Votre panier ne peut pas contenir plus de %{max} articles.",
         "link_expired": "Lien expiré",
