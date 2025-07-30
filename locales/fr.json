@@ -3320,14 +3320,15 @@
         "cancel_accessibility_label": "Annuler la modification du profil",
         "edit": "Modifier",
         "edit_accessibility_label": "Modifier le profil",
-        "email_help_text": "L'adresse e-mail utilisée pour la connexion ne peut pas être modifiée",
+        "email_help_text": "L'email utilisé pour la connexion ne peut pas être modifié",
         "first_name": "Prénom",
         "last_name": "Nom de famille",
         "no_name_provided_accessibility_label": "Aucun nom ajouté",
         "phone_number_help_text": "Le numéro de téléphone utilisé pour la connexion ne peut pas être modifié",
         "save": "Sauvegarder",
         "save_accessibility_label": "Enregistrer le profil",
-        "title": "Profil"
+        "title": "Profil",
+        "email": "Email"
       }
     },
     "orders": {
@@ -4505,46 +4506,47 @@
         "lessThanOneYearAway": "{{date}} à {{time}}"
       }
     },
-    "enable_javascript": "Pour consulter votre compte, activez JavaScript dans les paramètres de votre navigateur ou connectez-vous avec un autre navigateur.",
+    "enable_javascript": "Pour voir votre compte, activez JavaScript dans les paramètres de votre navigateur ou connectez-vous avec un autre navigateur.",
     "navigation_and_structure": {
       "account_menu": {
         "hide_accessibility_label": "Masquer le menu du compte",
         "label": "Compte",
         "show_accessibility_label": "Afficher le menu du compte",
         "nav_accessibility_label": "Navigation du compte",
-        "open_menu_accessibility_label": "Navigation Ouvrir un compte",
+        "open_menu_accessibility_label": "Navigation du compte ouvert",
         "close_menu_accessibility_label": "Fermer la navigation du compte",
         "loading_message": "Chargement de la navigation du compte"
       },
       "action_menu_accessibility_label": "Plus d'actions",
       "close_menu_accessibility_label": "Fermer la navigation principale",
       "contact_email_subject": "Contact du magasin en ligne {{shopName}}",
-      "contact_link": "Coordonnées",
+      "contact_link": "Informations de contact",
       "delete_confirmation": {
         "cancel": "Annuler",
         "delete": "Supprimer"
       },
-      "dismiss_toast": "Rejeter",
+      "dismiss_toast": "Ignorer",
       "document_title": "{{sectionName}} - {{shopName}} - Compte",
       "generic_accessibility_label": "{{label}}: {{value}}",
       "go_to_store_link": "Aller au magasin",
       "loading_message": "Chargement",
       "log_out_link": "Se déconnecter",
-      "logout_overlay_label": "Vous déconnectez...",
+      "logout_overlay_label": "Déconnexion en cours...",
       "nav_label_accessibility_label": "Navigation principale",
       "navigation_accessibility_message": "Vous avez navigué vers {{sectionName}}",
       "open_menu_accessibility_label": "Ouvrir la navigation principale",
-      "orders_link_label": "Ordres",
-      "shop_logo_accessibility_label": "{{shopName}} logo",
+      "orders_link_label": "Commandes",
+      "shop_logo_accessibility_label": "logo de {{shopName}}",
       "subscriptions_link_label": "Abonnements",
       "settings_link": "Paramètres",
-      "country_switcher_toast_message": "Pays changé pour {{countryName}}",
+      "country_switcher_toast_message": "Pays changé en {{countryName}}",
       "switch_country": "Changer de pays",
       "location_switcher_toast_message": "Emplacement changé en {{locationName}}",
-      "switch_location": "Emplacement du commutateur",
+      "switch_location": "Emplacement de l'interrupteur",
       "view_details": "Voir les détails",
-      "company_location": "Localisation de l'entreprise",
-      "search": "Recherche"
+      "company_location": "Emplacement de l'entreprise",
+      "search": "Recherche",
+      "try_new_search": "Essayez une nouvelle recherche"
     },
     "knowledge_base": {
       "self_serve_returns": {
