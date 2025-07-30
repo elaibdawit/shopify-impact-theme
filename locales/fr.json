@@ -256,10 +256,10 @@
     "order": {
       "order": "Commande",
       "order_name": "Commande {{name}}",
-      "view_details": "Afficher les détails de la commande",
-      "back": "Dos",
+      "view_details": "Voir les détails de la commande",
+      "back": "Retour",
       "date": "Date",
-      "payment_status": "Statut de paiement",
+      "payment_status": "Statut du paiement",
       "fulfillment_status": "Statut d'exécution",
       "cancelled_on": "Annulé le {{date}}. Raison : {{reason}}",
       "product": "Produit",
@@ -267,12 +267,12 @@
       "fulfillment_with_number": "Votre commande a été envoyée le {{date}}. Suivez l'expédition avec le numéro {{tracking_number}}.",
       "fulfillment": "Votre commande a été envoyée le {{date}}.",
       "track_shipment": "Suivre l'expédition",
-      "subtotal": "Total",
-      "discount": "Rabais",
-      "shipping": "Expédition",
+      "subtotal": "Sous-total",
+      "discount": "Remise",
+      "shipping": "Livraison",
       "taxes_included": "Taxes incluses",
       "taxes_excluded": "Taxes exclues",
-      "total_duties": "Devoirs",
+      "total_duties": "Droits de douane",
       "refunded_amount": "Montant remboursé",
       "total": "Total",
       "shipping_address": "Adresse de livraison",
@@ -291,7 +291,7 @@
       "fill_form": "Veuillez remplir les informations ci-dessous :",
       "first_name": "Prénom",
       "last_name": "Nom de famille",
-      "company": "Entreprise",
+      "company": "Société",
       "phone": "Numéro de téléphone",
       "address1": "Adresse 1",
       "address2": "Adresse 2",
@@ -308,41 +308,41 @@
       "empty": "Votre panier est vide",
       "continue_shopping": "Continuer vos achats",
       "weight": "Poids",
-      "subtotal": "Total",
+      "subtotal": "Sous-total",
       "total": "Total",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\" class=\"link\">frais de livraison</a> calculés lors du paiement",
-      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de port calculés lors du paiement",
-      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"{{ link }}\" class=\"link\">Expédition</a> calculée lors du paiement.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\" class=\"link\">expédition</a> calculées au moment du paiement",
+      "taxes_included_but_shipping_at_checkout": "Taxe incluse et frais de port calculés lors du paiement",
+      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"{{ link }}\" class=\"link\">Expédition</a> calculée à la caisse.",
       "taxes_and_shipping_at_checkout": "Taxes et frais de livraison calculés lors du paiement",
       "add_order_note": "Ajouter une note de commande",
       "edit_order_note": "Modifier la note de commande",
-      "order_note": "Bon de commande",
-      "save_note": "Sauvegarder",
+      "order_note": "Note de commande",
+      "save_note": "Enregistrer",
       "view_cart": "Voir le panier",
-      "checkout": "Vérifier",
+      "checkout": "Passer à la caisse",
       "we_accept": "Nous acceptons"
     },
     "order": {
       "product": "Produit",
       "total": "Total",
       "quantity": "Quantité",
-      "change_quantity": "Changer la quantité",
+      "change_quantity": "Modifier la quantité",
       "increase_quantity": "Augmenter la quantité",
       "decrease_quantity": "Diminuer la quantité",
-      "remove": "Retirer"
+      "remove": "Supprimer"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Dépensez {{ remaining_amount }} de plus et bénéficiez de la livraison gratuite !",
+      "limit_unreached_html": "Dépensez encore {{ remaining_amount }} et bénéficiez de la livraison gratuite !",
       "limit_reached_html": "Vous êtes éligible à la livraison gratuite."
     },
     "shipping_estimator": {
-      "estimate_shipping": "Estimer les frais de livraison",
+      "estimate_shipping": "Estimer la livraison",
       "country": "Pays",
       "province": "Province",
       "zip": "Code postal",
       "estimate": "Estimation",
       "no_results": "Désolé, nous ne livrons pas à votre adresse.",
-      "one_result": "Il y a un seul tarif d'expédition pour votre adresse :",
+      "one_result": "Il y a un tarif d'expédition pour votre adresse :",
       "multiple_results": "Il existe plusieurs tarifs d'expédition pour votre adresse :",
       "error": "Une ou plusieurs erreurs se sont produites lors de la récupération des tarifs d'expédition :"
     }
@@ -363,28 +363,28 @@
       "collections": "Collections",
       "posts": "Articles de blog",
       "pages": "Pages",
-      "clear": "Clair",
-      "view_all": "Tout voir",
+      "clear": "Effacer",
+      "view_all": "Voir tout",
       "view_all_results": "Voir tous les résultats",
       "no_results": "Aucun résultat n'a pu être trouvé."
     },
     "results_count": {
       "zero": "0 résultats pour \"{{ terms }}\"",
       "one": "1 résultat pour \"{{ terms }}\"",
-      "other": "{{ count }} résultats pour \"{{ terms }}\""
+      "other": "{{ count }} résultats pour « {{ terms }} »"
     }
   },
   "gift_card": {
     "general": {
       "title": "Voici votre carte cadeau",
-      "copy": "Copie",
+      "copy": "Copier",
       "print": "Imprimer",
       "scan": "ou scannez ce code QR",
       "back_to_store": "Retour au magasin"
     },
     "issued": {
       "remaining_amount": "Montant restant",
-      "out_of_html": "de {{ initial_value }}",
+      "out_of_html": "sur {{ initial_value }}",
       "redeem_instructions": "Utilisez ce code pour échanger votre carte cadeau lors du paiement :",
       "code": "Code de carte cadeau",
       "expires_on": "Expire le : {{ expires_on }}",
@@ -393,9 +393,9 @@
     },
     "recipient": {
       "checkbox": "Je veux envoyer ceci comme cadeau",
-      "email_label": "E-mail du destinataire",
+      "email_label": "Email du destinataire",
       "name_label": "Nom du destinataire (optionnel)",
-      "message_label": "Message (facultatif)"
+      "message_label": "Message (optionnel)"
     }
   },
   "password": {
@@ -403,14 +403,14 @@
       "follow_us": "Suivez-nous",
       "powered_by": "Cette boutique est propulsée par",
       "store_owner": "Propriétaire du magasin ?",
-      "login": "Se connecter"
+      "login": "Connexion"
     },
     "storefront_access": {
-      "enter_password": "Entrer avec mot de passe",
+      "enter_password": "Entrez en utilisant le mot de passe",
       "store_access": "Accès au magasin",
       "instructions": "Entrez le mot de passe ci-dessous pour accéder au magasin",
       "password": "Mot de passe",
-      "enter_store": "Entrez dans le magasin"
+      "enter_store": "Entrer dans le magasin"
     }
   },
   "apps": {
