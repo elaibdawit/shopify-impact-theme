@@ -1196,12 +1196,12 @@
         "full_price": "Prix plein : %{price}",
         "custom_discount": "Remise personnalisée",
         "expand_component_information": {
-          "one": "Afficher %{count} article",
-          "other": "Afficher %{count} articles"
+          "one": "Afficher %{count} élément",
+          "other": "Afficher %{count} éléments"
         },
         "collapse_component_information": {
-          "one": "Masquer %{count} article",
-          "other": "Masquer %{count} articles"
+          "one": "Masquer %{count} élément",
+          "other": "Masquer %{count} éléments"
         },
         "component_quantity_title": "%{quantity} × %{product_title}",
         "discount_discovery": {
@@ -1211,12 +1211,12 @@
             "other": "%{count} articles"
           }
         },
-        "alternative_payment_currency_total": "Accusé comme %{amount_due}",
+        "alternative_payment_currency_total": "Facturé %{amount_due}",
         "discount_code_allocations_mismatch": "Votre code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a changé. Vérifiez votre panier et réessayez.",
         "deferred_total_due_date_label_next": "Dû %{date}"
       },
       "shipping": {
-        "title": "Expédition",
+        "title": "Livraison",
         "delivery_title": "Livraison",
         "shipping_method_title": "Méthode d'expédition",
         "shipping_method_one_time_purchase_group_title": "Achat unique",
@@ -1231,16 +1231,16 @@
         },
         "subscription_shipping": "Expédition par abonnement",
         "subscription_local_delivery": "Livraison locale par abonnement",
-        "subscription_pickup": "Retrait de l'abonnement",
+        "subscription_pickup": "Retrait d'abonnement",
         "waiting_on_rate_notice": "Obtention des tarifs d'expédition disponibles…",
-        "waiting_on_pickup_location_notice": "Récupération des points de retrait disponibles…",
-        "no_rates_for_cart_or_destination_notice": "Il n'y a pas de méthodes d'expédition disponibles pour votre panier ou votre adresse",
+        "waiting_on_pickup_location_notice": "Obtention des points de retrait disponibles…",
+        "no_rates_for_cart_or_destination_notice": "Aucun mode de livraison n'est disponible pour votre panier ou votre adresse",
         "no_pickup_location_notice": "Au moins un de vos produits n'est pas disponible pour le retrait",
         "no_rates_for_country_notice": "Aucun tarif d'expédition trouvé pour cette adresse.",
         "no_rates_contact_notice": "Contactez-nous pour plus d'informations",
         "free_rate_label": "Gratuit",
         "cheapest_rate_label": "Le moins cher",
-        "please_enter_your_shipping_information_notice": "Veuillez saisir vos informations de livraison.",
+        "please_enter_your_shipping_information_notice": "Veuillez entrer vos informations de livraison.",
         "estimated_delivery_date": {
           "one": "%{count} jour ouvrable",
           "other": "%{count} jours ouvrables"
@@ -1253,18 +1253,18 @@
         "delivery_tomorrow": "Livraison le lendemain %{time}",
         "two_day_delivery": "Livraison en 2 jours %{time}",
         "delivery": "Livraison %{time}",
-        "arrives_time": "Arrive %{time}",
+        "arrives_time": "Arrive à %{time}",
         "arrives_time_range": "Arrive entre %{min_time} et %{max_time}",
         "estimated_time": "Estimé %{time}",
-        "estimated_time_range": "Estimé %{min_time}–%{max_time}",
+        "estimated_time_range": "Estimé entre %{min_time} et %{max_time}",
         "default_description": "Expédié en 1 jour ouvrable",
-        "unbranded_default_description": "Prêt à être expédié",
+        "unbranded_default_description": "Prêt à expédier",
         "shipping_line_phone_label": "Numéro de téléphone mobile (obligatoire)",
         "shipping_line_phone": "Votre coursier peut utiliser ce numéro pour vous contacter.",
-        "shipping_line_delivery_phone_label": "Numéro de téléphone portable",
-        "shipping_line_delivery_phone": "Vous pourriez être contacté avec des mises à jour concernant votre livraison.",
-        "optional_shipping_line_delivery_instructions_label": "Instructions de livraison (optionnel)",
-        "shipping_line_delivery_instructions": "Entrez les informations nécessaires telles que les codes de porte ou les instructions de dépôt.",
+        "shipping_line_delivery_phone_label": "Numéro de téléphone mobile",
+        "shipping_line_delivery_phone": "Vous pourriez être contacté avec des mises à jour sur votre livraison.",
+        "optional_shipping_line_delivery_instructions_label": "Instructions de livraison (facultatif)",
+        "shipping_line_delivery_instructions": "Entrez les informations nécessaires comme les codes de porte ou les instructions de dépôt.",
         "other_method": {
           "zero": "Aucune autre méthode disponible",
           "one": "%{count} autre méthode disponible à",
@@ -1274,7 +1274,7 @@
         "local_delivery": "Livraison locale",
         "subscription_delivery_description": {
           "free_shipping_cycles": {
-            "one": "Livraison gratuite pour %{count} livraisons supplémentaires",
+            "one": "Livraison gratuite pour %{count} livraison supplémentaire",
             "other": "Livraison gratuite pour %{count} livraisons supplémentaires"
           },
           "free_shipping_cycles_delivery_not_included": {
@@ -1290,7 +1290,7 @@
             "other": "Livraison gratuite pour %{count} livraisons, puis %{recurring_order_shipping_price}"
           },
           "max_cycles_base_shipping": {
-            "one": "%{count} plus de livraison pour %{shipping_price}",
+            "one": "%{count} livraison supplémentaire pour %{shipping_price}",
             "other": "%{count} livraisons supplémentaires pour %{shipping_price} chacune"
           },
           "max_cycles_base_shipping_delivery_not_included": {
@@ -1310,11 +1310,11 @@
             "other": "%{shipping_price} pour %{count} livraisons (%{per_delivery_cost})"
           },
           "prepaid_order_no_cycle": {
-            "one": "%{shipping_price} pour %{count} livraisons supplémentaires, suivi de %{recurring_order_shipping_price}",
+            "one": "%{shipping_price} pour %{count} livraison supplémentaire, suivi de %{recurring_order_shipping_price}",
             "other": "%{shipping_price} pour %{count} livraisons supplémentaires (%{per_delivery_cost}), suivi de %{recurring_order_shipping_price}"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
-            "one": "%{shipping_price} pour %{count} livraison, suivie de %{recurring_order_shipping_price}",
+            "one": "%{shipping_price} pour %{count} livraison, suivi de %{recurring_order_shipping_price}",
             "other": "%{shipping_price} pour %{count} livraisons (%{per_delivery_cost}), suivi de %{recurring_order_shipping_price}"
           },
           "subscription_free_with_frequency_label": "Livraison gratuite %{delivery_frequency}",
@@ -1324,7 +1324,7 @@
           },
           "subscription_delivery_frequency": {
             "day": {
-              "one": "tous les jours",
+              "one": "chaque jour",
               "other": "tous les %{count} jours"
             },
             "week": {
@@ -1342,12 +1342,12 @@
           },
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} par livraison",
           "prepaid_shipping_price_label": "%{shipping_price} par livraison x %{delivery_interval_count}",
-          "initial_order_discounted": "Coût d'expédition initial %{discounted_shipping_cost}, puis %{frequency_description}",
-          "prepaid_initial_order_discounted": "Premiers frais d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}",
-          "prepaid_initial_order_discounted_with_per_delivery_price": "Premiers frais d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "initial_order_discounted": "D'abord le coût d'expédition %{discounted_shipping_cost}, puis %{frequency_description}",
+          "prepaid_initial_order_discounted": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
           "prepaid_initial_order_discounted_with_renewal": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}, puis %{shipping_price} %{billing_cycle}",
-          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), puis %{shipping_price} %{billing_cycle}",
-          "shipping_price_included": "Compris",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Coût d'expédition initial %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), puis %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inclus",
           "recurring_order_shipping_price": "suivi de %{recurring_order_shipping_price}",
           "first_order_shipping_price_included": "Première commande incluse, suivie de %{recurring_order_shipping_price}",
           "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} par livraison), suivi de %{recurring_order_shipping_price}",
@@ -1428,7 +1428,10 @@
         "split_shipping_option_lowest_price": "Prix le plus bas",
         "split_shipping_option_fastest": "Le plus rapide",
         "split_shipping_option_recommended": "Recommandé",
-        "split_shipping_option_custom": "Coutume"
+        "split_shipping_option_custom": "Coutume",
+        "prime_not_available": {
+          "default": "La livraison Prime n'est pas disponible pour votre commande. Vos options de livraison ont été mises à jour."
+        }
       },
       "localized_fields": {
         "additional_information": {
