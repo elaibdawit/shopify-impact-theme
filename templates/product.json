@@ -111,6 +111,7 @@
         },
         "collapsible_text_k9f9j3": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "Description",
             "content": "<p>Crafted with attention to detail, this piece is designed for effortless style and everyday wear. The clean lines and timeless silhouette make it a seamless addition to any wardrobe, perfect for dressing up or keeping it casual. Made from high-quality materials, it offers both comfort and durability—ideal for all-day wear.</p><p>The understated elegance ensures it pairs easily with your favorite pieces, while the thoughtful construction guarantees a flattering fit.</p><p>A must-have for those who appreciate refined simplicity and lasting versatility.</p>"
@@ -119,8 +120,8 @@
         "collapsible_text_q37zHB": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Shipping",
-            "content": "<p>We are committed to getting your order to you as quickly as possible. Here's how our shipping works:</p><p></p><p><strong>Processing time</strong>: Due to high demand is 2-4 business days.</p><p><strong>Shipping time:</strong> Once shipped, orders typically arrive within 5-12 business days depending on your location. You will receive a tracking number as soon as your order is on its way.</p><p><strong>Thank you for your patience and understanding.</strong></p><p><em><strong>It's worth the wait!</strong></em></p>"
+            "title": "Expédition",
+            "content": "<p>Nous nous engageons à vous faire parvenir votre commande le plus rapidement possible. Voici comment fonctionne notre expédition : Délai de traitement : En raison d'une forte demande, il est de 2 à 4 jours ouvrables. Délai de livraison : Une fois expédiées, les commandes arrivent généralement dans les 5 à 12 jours ouvrables selon votre emplacement. Vous recevrez un numéro de suivi dès que votre commande sera en route. Merci de votre patience et de votre compréhension. L'attente en vaut la peine !</p>"
           }
         },
         "collapsible_text_8LkTXF": {
