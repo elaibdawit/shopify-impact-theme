@@ -2285,8 +2285,8 @@
         "picked_up_title": "Votre commande a été récupérée",
         "picked_up_description_html": "Votre commande a été récupérée à %{location_name} le %{date}.",
         "contact_us": "Contactez-nous",
-        "contact_us_lowercase": "Contactez-nous",
-        "contact_us_html": "Besoin d'aide? %{contact_us}",
+        "contact_us_lowercase": "contactez-nous",
+        "contact_us_html": "Besoin d'aide ? %{contact_us}",
         "updated_time": "Mis à jour il y a %{time_ago}",
         "failure": "Non livré",
         "failed_title": "Votre commande n'a pas pu être livrée",
@@ -2317,7 +2317,7 @@
         },
         "pick_up_in_store_marker": {
           "current": "Emplacement actuel de l'expédition",
-          "shipping": "Lieu de prise en charge"
+          "shipping": "Lieu de retrait"
         },
         "fulfillment": {
           "fulfilled_table_title": "Articles dans cet envoi",
@@ -2326,17 +2326,17 @@
           "description_label": "Description",
           "quantity_label": "Quantité"
         },
-        "order_updates_description_missing": "Vous ne recevez pas de mises à jour sur la livraison.",
+        "order_updates_description_missing": "Vous ne recevez pas de mises à jour d'expédition.",
         "order_updates_subscribe_to_email_notifications": "Recevez les mises à jour d'expédition par e-mail",
-        "order_updates_subscribe_to_email_or_phone_notifications": "Recevez des mises à jour sur la livraison par e-mail ou SMS",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Recevez des mises à jour d'expédition par e-mail ou SMS",
         "order_updates_subscribe_to_phone_notifications": "Recevez des mises à jour d'expédition par SMS",
         "order_updates_submit_subscription": "Soumettre",
         "track_shipment": "Suivre l'expédition",
         "other_options": "Autres options",
         "delivery_information_label": "Informations de livraison :",
-        "gift_card_sent_confirmation": "Cartes cadeaux envoyées",
+        "gift_card_sent_confirmation": "Cartes-cadeaux envoyées",
         "qr_code": {
-          "send_link_to_phone": "Ou envoyez un lien sur votre téléphone",
+          "send_link_to_phone": "Ou envoyez un lien à votre téléphone",
           "title": "Suivez sur votre téléphone"
         },
         "shop_qr_with_sms_upsell": {
@@ -2344,12 +2344,12 @@
             "title": "Scannez avec votre téléphone"
           },
           "sms": {
-            "title": "Ou envoyez un lien sur votre téléphone"
+            "title": "Ou envoyez un lien à votre téléphone"
           }
         },
         "view_business_customer_account": "Voir le compte",
         "breadcrumbs_submitted": "Soumis",
-        "breadcrumbs_in_review": "En revue",
+        "breadcrumbs_in_review": "En cours d'examen",
         "breadcrumbs_confirmed": "Confirmé",
         "missing_shipping_address_banner": {
           "title": "La commande n'a pas d'adresse de livraison",
@@ -2360,18 +2360,18 @@
         "in_store_purchase": "Achat en magasin",
         "location_title": "Emplacement",
         "thank_you_ready_for_picked_up": "Votre commande a été récupérée à %{address}.",
-        "ready_for_delivery": "Prêt à être livré",
+        "ready_for_delivery": "Prêt pour la livraison",
         "order_updates_subscribe_to_email_notifications_failed": "Nous ne pouvons pas enregistrer cet e-mail pour les mises à jour. Veuillez réessayer ou utiliser un autre e-mail.",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'adresse e-mail que vous avez saisie existe déjà.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'email que vous avez saisi existe déjà.",
         "subscriptions_management": {
           "title": "Abonnement",
-          "description": "Continuez vers votre compte pour consulter et gérer vos abonnements.",
+          "description": "Continuez vers votre compte pour voir et gérer vos abonnements.",
           "button_label": "Gérez votre abonnement"
         },
         "manage_order_label": "Gérez votre commande",
         "gift_card_confirmation_by_text_typ": {
-          "one": "Vous recevrez un SMS avec votre carte cadeau dans quelques minutes.",
-          "other": "Vous recevrez un SMS avec vos cartes-cadeaux dans quelques minutes."
+          "one": "Vous recevrez un texto avec votre carte cadeau dans quelques minutes.",
+          "other": "Vous recevrez un texto avec vos cartes-cadeaux dans quelques minutes."
         },
         "gift_card_confirmation_by_email_typ": {
           "one": "Vous recevrez un e-mail avec votre carte cadeau dans quelques minutes.",
@@ -2385,18 +2385,18 @@
           "one": "La carte cadeau a été envoyée par message texte",
           "other": "Les cartes-cadeaux ont été envoyées par message texte"
         },
-        "resend_gift_cards_by_email": "Renvoyer l'e-mail",
+        "resend_gift_cards_by_email": "Renvoyer l'email",
         "resend_gift_cards_by_text": "Renvoyer le message texte",
         "gift_card_resent_confirmation": {
           "one": "La carte cadeau a été renvoyée.",
           "other": "Les cartes-cadeaux ont été renvoyées."
         },
         "gift_card_resend_failure": {
-          "one": "Il y a eu un problème lors de la réexpédition de votre carte cadeau. Essayez à nouveau ou contactez-nous.",
-          "other": "Il y a eu un problème lors de la réexpédition de vos cartes cadeaux. Essayez à nouveau ou contactez-nous."
+          "one": "Un problème est survenu lors de la réexpédition de votre carte cadeau. Essayez de nouveau ou contactez-nous.",
+          "other": "Il y a eu un problème lors de la réexpédition de vos cartes cadeaux. Essayez de nouveau ou contactez-nous."
         },
         "vat_invoices": {
-          "title": "factures avec TVA"
+          "title": "Factures de TVA"
         },
         "verify_shop_account_title": "Vérifiez votre compte Shop",
         "verify_shop_account_message": "Vos informations ont été enregistrées avec Shop, vérifiez votre compte pour l'utiliser automatiquement dans des millions de magasins.",
@@ -2404,21 +2404,21 @@
         "verify_shop_account_confirmation": "Détails de paiement enregistrés"
       },
       "vaulted": {
-        "change_button": "Changement"
+        "change_button": "Modifier"
       },
       "review": {
-        "title": "Revoir",
-        "review_title": "Réviser et payer",
-        "review_and_confirm_title": "Réviser et confirmer",
-        "checkout_as_guest": "Commander en tant qu'invité",
-        "checkout_a_different_way": "Payer d'une autre manière",
+        "title": "Revue",
+        "review_title": "Complétez votre commande",
+        "review_and_confirm_title": "Vérifier et confirmer",
+        "checkout_as_guest": "Vérifiez en tant qu'invité",
+        "checkout_a_different_way": "Découvrez une manière différente",
         "blocks": {
-          "contact_method_title": "Contact",
+          "contact_method_title": "Contactez",
           "billing_address_title": "Facturation",
-          "shipping_address_title": "Envoyez à",
+          "shipping_address_title": "Livrer à",
           "shipping_method_title": "Méthode d'expédition",
-          "payment_method_title": "Mode de paiement",
-          "change_link_label": "Changement",
+          "payment_method_title": "Méthode de paiement",
+          "change_link_label": "Modifier",
           "change_contact_method_link_label": "Modifier les informations de contact",
           "change_billing_address_link_label": "Modifier l'adresse de facturation",
           "change_shipping_address_link_label": "Modifier l'adresse de livraison",
@@ -2440,7 +2440,8 @@
           "change_value": "Changer la valeur",
           "section": "Section",
           "value": "Valeur"
-        }
+        },
+        "account_more_actions": "Plus d'actions pour ce compte"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Envoyez-moi des e-mails avec des nouvelles et des offres",
