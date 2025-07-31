@@ -60,7 +60,6 @@
         },
         "separator": {
           "type": "separator",
-          "disabled": true,
           "settings": {}
         },
         "description": {
@@ -72,7 +71,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "stack_blocks": true,
