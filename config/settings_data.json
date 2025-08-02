@@ -64,19 +64,14 @@
         "disabled": false,
         "settings": {}
       },
-      "7421546185640437913": {
-        "type": "shopify://apps/tixel-multi-pixels/blocks/app-embed/b273c4b8-95ba-409d-a87c-c46907e02629",
-        "disabled": false,
-        "settings": {}
-      },
-      "12793297677437526120": {
-        "type": "shopify://apps/t-lab-ai-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
-        "disabled": false,
-        "settings": {}
-      },
       "6544682535036668446": {
         "type": "shopify://apps/pumper-bundles/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
         "disabled": false,
+        "settings": {}
+      },
+      "7421546185640437913": {
+        "type": "shopify://apps/tixel-multi-pixels/blocks/app-embed/b273c4b8-95ba-409d-a87c-c46907e02629",
+        "disabled": true,
         "settings": {}
       }
     }
