@@ -23,8 +23,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "FAST SHIPPING",
-            "content": "<p>We offer fast shipping on all orders.</p>"
+            "title": "EXPÉDITION RAPIDE",
+            "content": "<p>Nous offrons une expédition rapide sur toutes les commandes.</p>"
           }
         },
         "customer-support": {
@@ -36,8 +36,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Need help?",
-            "content": "<p>Our customer service team is here to help you.</p>"
+            "title": "Besoin d'aide ?",
+            "content": "<p>Notre équipe du service client est là pour vous aider.</p>"
           }
         },
         "payment": {
@@ -49,8 +49,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Pay securely with Apple Pay, credit card, ShopPay, AfterPay and more</p>"
+            "title": "Paiement sécurisé",
+            "content": "<p>Payez en toute sécurité avec Apple Pay, carte de crédit, ShopPay, PayPal et plus encore</p>"
           }
         }
       },
@@ -79,7 +79,7 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
+            "title": "Inscrivez-vous pour de nouvelles histoires et des offres personnelles",
             "content": ""
           }
         },

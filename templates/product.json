@@ -117,15 +117,15 @@
         "collapsible_text_q37zHB": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Shipping",
-            "content": "<p>We are committed to getting your order to you as quickly as possible. Here's how our shipping works: Processing time: Due to high demand, it is 2-4 business days. Delivery time: Once shipped, orders typically arrive within 5-12 business days depending on your location. You will receive a tracking number as soon as your order is on its way. Thank you for your patience and understanding. It's worth the wait!</p>"
+            "title": "Expédition",
+            "content": "<p>Nous nous engageons à vous livrer votre commande le plus rapidement possible. Voici comment fonctionne notre service d'expédition : Délai de traitement : En raison d'une forte demande, le délai est de 2 à 4 jours ouvrés. Délai de livraison : Une fois expédiées, les commandes arrivent généralement sous 5 à 12 jours ouvrés, selon votre localisation. Vous recevrez un numéro de suivi dès que votre commande sera en route. Merci de votre patience et de votre compréhension. L'attente en vaut la peine !</p>"
           }
         },
         "collapsible_text_8LkTXF": {
           "type": "collapsible_text",
           "settings": {
-            "title": "30-day money back guarantee",
-            "content": "<p>We want you to be happy with your purchase! That's why we offer a 30-day, hassle-free return policy. Conditions: Items must be returned within 30 days of delivery in their original condition and packaging. Procedure: Simply contact our customer service team and we'll guide you through the return process. Refunds: Once your return is received and inspected, we'll issue a refund to your original payment method. Your satisfaction is our priority!</p>"
+            "title": "Garantie de 30 jours",
+            "content": "<p>Nous voulons que vous soyez satisfait de votre achat ! C'est pourquoi nous offrons une politique de retour sans tracas de 30 jours. Conditions : Les articles doivent être retournés dans les 30 jours suivant la livraison, dans leur état et emballage d'origine. Procédure : Contactez simplement notre service client et nous vous guiderons tout au long du processus de retour. Remboursements : Une fois votre retour reçu et inspecté, nous vous rembourserons sur votre moyen de paiement initial. Votre satisfaction est notre priorité !</p>"
           }
         }
       },
@@ -192,7 +192,7 @@
             "rating": 5,
             "author": "Tiana F.",
             "title": "",
-            "content": "<p>“I was really surprised by the quality; it exceeded my expectations. It's rare to find something this good. It's definitely worth it!”</p>"
+            "content": "<p>« J'ai été vraiment surpris par la qualité ; elle a dépassé mes attentes. C'est rare de trouver quelque chose d'aussi bon. Ça vaut vraiment le coup ! »</p>"
           }
         },
         "testimonial_PYLJP9": {
@@ -204,7 +204,7 @@
             "rating": 5,
             "author": "Gaby R.",
             "title": "",
-            "content": "<p>Delivery was super fast and the product was exactly as described. I've already recommended it to a few friends. Love it!</p>"
+            "content": "<p>La livraison a été ultra rapide et le produit était exactement comme décrit. Je l'ai déjà recommandé à quelques amis. J'adore !</p>"
           }
         },
         "testimonial_rjgg3e": {
@@ -216,7 +216,7 @@
             "rating": 5,
             "author": "Emily D.",
             "title": "",
-            "content": "<p>Honestly, I didn't expect such quality. Super comfortable, stylish, and it arrived earlier than expected. I will definitely be buying more!</p>"
+            "content": "<p>Honnêtement, je ne m'attendais pas à une telle qualité. Super confortable, stylé, et arrivé plus tôt que prévu. J'en achèterai certainement d'autres !</p>"
           }
         },
         "testimonial_bkcY8W": {
@@ -228,7 +228,7 @@
             "rating": 5,
             "author": "Sophia M.",
             "title": "",
-            "content": "<p>“I'm so glad I found this shop. Everything I've ordered so far is exactly as pictured and is truly perfect. I love the attention to detail!”</p>"
+            "content": "<p>« Je suis ravie d'avoir trouvé cette boutique. Tout ce que j'ai commandé jusqu'à présent est exactement comme sur la photo et vraiment parfait. J'adore le souci du détail ! »</p>"
           }
         },
         "testimonial_gDmNmM": {
@@ -240,7 +240,7 @@
             "rating": 5,
             "author": "Chloe S.",
             "title": "",
-            "content": "<p>“A clean, modern look! I've received so many compliments. It really feels like a high-end brand, without the exorbitant price tag.”</p>"
+            "content": "<p>« Un look épuré et moderne ! J'ai reçu tellement de compliments. On dirait vraiment une marque haut de gamme, sans le prix exorbitant. »</p>"
           }
         }
       },
@@ -257,7 +257,7 @@
         "full_width": true,
         "stack_testimonials": false,
         "subheading": "",
-        "title": "Honest reviews of our products!",
+        "title": "Des critiques honnêtes de nos produits !",
         "content": "",
         "link_url": "",
         "link_text": "",
