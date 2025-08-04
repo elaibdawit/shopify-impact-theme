@@ -94,6 +94,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_9KDYi7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"payment-icons-row\">\n  <img src=\"https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/visa.svg\" alt=\"Visa\">\n  <img src=\"https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/mastercard.svg\" alt=\"Mastercard\">\n  <img class=\"paypal-icon\" src=\"https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/paypal.svg\" alt=\"PayPal\">\n  <img class=\"smaller-icon\" src=\"https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/american-express.svg\" alt=\"American Express\">\n  <img class=\"smaller-icon\" src=\"https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/wallets/apple-pay.svg\" alt=\"Apple Pay\">\n  <img class=\"smaller-icon\" src=\"https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/discover.svg\" alt=\"Discover\">\n  <img src=\"https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/wallets/google-pay.svg\" alt=\"Google Pay\">\n</div>\n\n<style>\n.payment-icons-row {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 6px;\n  flex-wrap: nowrap;\n  padding-top: 0.25rem;\n}\n.payment-icons-row img {\n  height: 30px;\n  width: auto;\n  object-fit: contain;\n  margin: 0;\n  padding: 0;\n}\n.payment-icons-row img.smaller-icon {\n  height: 26px;\n}\n.payment-icons-row img.paypal-icon {\n  height: 34px;\n}\n</style>"
+          }
+        },
         "liquid_UgVcGw": {
           "type": "liquid",
           "settings": {
@@ -143,6 +149,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "liquid_9KDYi7",
         "liquid_UgVcGw",
         "liquid_hN6KYt",
         "collapsible_text_k9f9j3",
