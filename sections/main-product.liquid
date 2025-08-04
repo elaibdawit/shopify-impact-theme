@@ -64,10 +64,9 @@
     {%- assign image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
 
     <div class="product-quick-add__variant {% if image == blank %}no-image{% endif %} hidden sm:grid">
-      above image
       {%- if image != blank -%}
         <variant-media widths="80,160" form="{{ product_form_id }}">
-          {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'rounded-xs' -}}
+          {{- image | image_url: width: image.width | image_tag: loading: 'eager', sizes: '80px', widths: '80,160', class: 'rounded-xs' -}}
         </variant-media>
       {%- endif -%}
 
@@ -100,10 +99,10 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
   <div class="quick-buy-drawer__variant text-start h-stack gap-6" slot="header">
     {%- assign image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
-    above image
+
     {%- if image != blank -%}
       <variant-media widths="80,160" form="{{ product_form_id }}">
-        {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'quick-buy-drawer__media rounded-xs' -}}
+        {{- image | image_url: width: image.width | image_tag: loading: 'eager', sizes: '80px', widths: '80,160', class: 'quick-buy-drawer__media rounded-xs' -}}
       </variant-media>
     {%- endif -%}
 
