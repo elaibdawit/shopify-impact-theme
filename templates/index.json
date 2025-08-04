@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fashion-model-in-pink.jpg",
-            "mobile_image": "shopify://shop_images/fashion-model-in-pink.jpg",
+            "image": "shopify://shop_images/fashion-model-in-pink.webp",
+            "mobile_image": "shopify://shop_images/fashion-model-in-pink.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -57,7 +57,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"text-align: center; padding: 0;\">\n  <h3 class=\"as-seen-heading\" style=\"text-transform: uppercase; color: #333; letter-spacing: 1px; margin: 10px 0;\">\n    COMME VU DANS\n  </h3>\n  <div class=\"as-seen-logos\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/instyle_medium_30afe5fc-0bea-4255-82f7-457fee3253ff.jpg?v=1745952869\" alt=\"InStyle\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/vogue_medium_cf392499-e386-4ef5-83cd-b6024f82c93c.jpg?v=1745952876\" alt=\"Vogue\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/daily_medium_28679c4b-17e6-430c-ae67-bd80852739c6.jpg?v=1745952882\" alt=\"Daily\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/forbes_medium_4feedd6c-9b2b-433c-9d55-27502868fa54.jpg?v=1745952888\" alt=\"Forbes\">\n  </div>\n</div>\n\n<style>\n  .as-seen-heading {\n    font-size: 18px;\n  }\n\n  .as-seen-logos {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: nowrap;\n    gap: 10px;\n    max-width: 100%;\n    padding: 0 10px;\n  }\n\n  .as-seen-logos img {\n    height: auto;\n    max-height: 35px;\n    width: 24%;\n    object-fit: contain;\n  }\n\n  @media (min-width: 768px) {\n    .as-seen-heading {\n      font-size: 22px;\n    }\n\n    .as-seen-logos img {\n      width: auto;\n      max-height: 55px;\n    }\n\n    .as-seen-logos {\n      justify-content: space-evenly;\n      gap: 30px;\n    }\n  }\n</style>",
+        "liquid": "<div style=\"text-align: center; padding: 0;\">\n  <h3 class=\"as-seen-heading\" style=\"text-transform: uppercase; color: #333; letter-spacing: 1px; margin: 10px 0;\">\n    COMME VU DANS\n  </h3>\n  <div class=\"as-seen-logos\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/instyle_medium_30afe5fc-0bea-4255-82f7-457fee3253ff.jpg?v=1745952869\" alt=\"InStyle\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/vogue_medium_cf392499-e386-4ef5-83cd-b6024f82c93c.jpg?v=1745952876\" alt=\"Vogue\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/daily_medium_28679c4b-17e6-430c-ae67-bd80852739c6.jpg?v=1745952882\" alt=\"Daily\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0920/2312/8356/files/forbes_medium_4feedd6c-9b2b-433c-9d55-27502868fa54.webp?v=1745952888\" alt=\"Forbes\">\n  </div>\n</div>\n\n<style>\n  .as-seen-heading {\n    font-size: 18px;\n  }\n\n  .as-seen-logos {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: nowrap;\n    gap: 10px;\n    max-width: 100%;\n    padding: 0 10px;\n  }\n\n  .as-seen-logos img {\n    height: auto;\n    max-height: 35px;\n    width: 24%;\n    object-fit: contain;\n  }\n\n  @media (min-width: 768px) {\n    .as-seen-heading {\n      font-size: 22px;\n    }\n\n    .as-seen-logos img {\n      width: auto;\n      max-height: 55px;\n    }\n\n    .as-seen-logos {\n      justify-content: space-evenly;\n      gap: 30px;\n    }\n  }\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -70,7 +70,7 @@
           "type": "collection",
           "settings": {
             "collection": "dresses",
-            "image": "shopify://shop_images/maliyah-maxi-dress-plum-brown-dress-babyboo-fashion-1122207132_400x_6f6a4fbf-e43a-4ade-a4b8-9197a9bc633f.jpg",
+            "image": "shopify://shop_images/maliyah-maxi-dress-plum-brown-dress-babyboo-fashion-1122207132_400x_6f6a4fbf-e43a-4ade-a4b8-9197a9bc633f.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -85,7 +85,7 @@
           "type": "collection",
           "settings": {
             "collection": "tops",
-            "image": "shopify://shop_images/174677569293e6bea9bc3e3477028e8c454eda4563_thumbnail_720x_d0a4a2ae-4d05-41f8-ba4e-085e76d4893b.jpg",
+            "image": "shopify://shop_images/174677569293e6bea9bc3e3477028e8c454eda4563_thumbnail_720x_d0a4a2ae-4d05-41f8-ba4e-085e76d4893b.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -100,7 +100,7 @@
           "type": "collection",
           "settings": {
             "collection": "set",
-            "image": "shopify://shop_images/943F0EDD-7B05-4797-8417-095F6F2B678E.jpg",
+            "image": "shopify://shop_images/943F0EDD-7B05-4797-8417-095F6F2B678E.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -141,7 +141,7 @@
         "item_N8TtFY": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.jpg",
+            "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -153,7 +153,7 @@
         "item_GVmyQc": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.jpg",
+            "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -165,7 +165,7 @@
         "item_pC8WYy": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.jpg",
+            "image": "shopify://shop_images/maliyah-maxi-dress-navy-dress-babyboo-fashion-1161172642_400x_90939226-2717-4a5e-b3e6-66a05c0d355e.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Body Positivity",
