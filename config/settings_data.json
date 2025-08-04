@@ -59,11 +59,6 @@
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
     "blocks": {
-      "10431957531522714341": {
-        "type": "shopify://apps/seoant-page-speed/blocks/pagespeed-preloading/b6edaf80-ee08-4404-951c-d8f577b5c1b1",
-        "disabled": false,
-        "settings": {}
-      },
       "7421546185640437913": {
         "type": "shopify://apps/tixel-multi-pixels/blocks/app-embed/b273c4b8-95ba-409d-a87c-c46907e02629",
         "disabled": false,
@@ -79,10 +74,12 @@
         "disabled": false,
         "settings": {}
       },
-      "6987625696575125306": {
-        "type": "shopify://apps/weglot-translate-your-store/blocks/weglot/3097482a-fafe-42ff-bc33-ea19e35c4a20",
+      "13951170544780599758": {
+        "type": "shopify://apps/tapita-seo-speed/blocks/app-embed/cd37ca7a-40ad-4fdc-afd3-768701482209",
         "disabled": false,
-        "settings": {}
+        "settings": {
+          "hide_price": false
+        }
       }
     }
   },
