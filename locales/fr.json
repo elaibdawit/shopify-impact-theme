@@ -1213,7 +1213,8 @@
         },
         "alternative_payment_currency_total": "Facturé %{amount_due}",
         "discount_code_allocations_mismatch": "Votre code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a changé. Vérifiez votre panier et réessayez.",
-        "deferred_total_due_date_label_next": "Dû %{date}"
+        "deferred_total_due_date_label_next": "Dû %{date}",
+        "for_add_on": "Pour : %{group_title}"
       },
       "shipping": {
         "title": "Livraison",
